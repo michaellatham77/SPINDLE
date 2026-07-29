@@ -1,0 +1,12 @@
+#training logs
+training_scripts/logs
+
+#training plots
+models/*/learning_curves_model_*.png
+
+#Validation and Calibration data
+training_scripts/calibration/*/*.npz
+training_scripts/calibration/*/*.txt
+
+#Training data
+training_data/*0

@@ -1,0 +1,2166 @@
+data_26714
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             26714
+   _Entry.Title
+;
+Relaxation and model-free data from human beta-2-microglobulin
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2015-12-05
+   _Entry.Accession_date                 2015-12-05
+   _Entry.Last_release_date              2015-12-22
+   _Entry.Original_release_date          2015-12-22
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Details                        'Relaxation and model-free data from human beta-2-microglobulin free in solution.'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Martin    Ballaschk          .   .   .   .   26714
+      2   Barbara   Uchanska-Ziegler   .   .   .   .   26714
+      3   Andreas   Ziegler            .   .   .   .   26714
+      4   Anne      Diehl              .   .   .   .   26714
+      5   Peter     Schmieder          .   .   .   .   26714
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      heteronucl_NOEs    2   26714
+      order_parameters   1   26714
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      'General relaxation values'          248   26714
+      'chemical shift anisotropy values'   62    26714
+      'heteronuclear NOE values'           124   26714
+      'order parameters'                   62    26714
+      tensors                              62    26714
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2015-12-22   .   original   BMRB   .   26714
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   19099   '1H, 13C and 15N chemical shifts of human beta-2-microglobulin in solution'                                                         26714
+      BMRB   26710   'Relaxation and model-free data from beta-2-microglobulin and the heavy chain of HLA-B*27:05 in complex with the peptide pVIPR'     26714
+      BMRB   26711   'Relaxation and model-free data from beta-2-microglobulin and the heavy chain of HLA-B*27:05 in complex with the peptide TIS'       26714
+      BMRB   26712   'Relaxation and model-free data from beta-2-microglobulin and the heavy chain of HLA-B*B*27:09 in complex with the peptide pVIPR'   26714
+      BMRB   26713   'Relaxation and model-free data from beta-2-microglobulin and the heavy chain of HLA-B*B*27:09 in complex with the peptide TIS'     26714
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_entry_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation_1
+   _Citation.Entry_ID                     26714
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1007/s10858-007-9214-2
+   _Citation.PubMed_ID                    18085410
+   _Citation.Full_citation
+;
+d'Auvergne, E. J. and Gooley, P. R. (2008). 
+Optimisation of NMR dynamic models I. Minimisation algorithms and their performance within the model-free and Brownian rotational diffusion spaces. 
+J. Biomol. NMR, 40(2), 107-119.
+;
+   _Citation.Title
+;
+Optimisation of NMR dynamic models I. Minimisation algorithms and their performance within the model-free and Brownian rotational diffusion spaces.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Biomol. NMR'
+   _Citation.Journal_name_full            'Journal of Biomolecular NMR'
+   _Citation.Journal_volume               40
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   107
+   _Citation.Page_last                    119
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Edward   d'Auvergne   E.   J.   .   .   26714   1
+      2   Paul     Gooley       P.   R.   .   .   26714   1
+   stop_
+save_
+
+save_entry_citation_2
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation_2
+   _Citation.Entry_ID                     26714
+   _Citation.ID                           2
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1007/s10858-007-9213-3
+   _Citation.PubMed_ID                    18085411
+   _Citation.Full_citation
+;
+d'Auvergne, E. J. and Gooley, P. R. (2008). Optimisation of NMR dynamic models II. A new methodology for the dual optimisation of the model-free parameters and the Brownian rotational diffusion tensor. J. Biomol. NMR, 40(2), 121-133.
+;
+   _Citation.Title
+;
+Optimisation of NMR dynamic models II. A new methodology for the dual optimisation of the model-free parameters and the Brownian rotational diffusion tensor.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Biomol. NMR'
+   _Citation.Journal_name_full            'Journal of Biomolecular NMR'
+   _Citation.Journal_volume               40
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   121
+   _Citation.Page_last                    133
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Edward   d'Auvergne   E.   J.   .   .   26714   2
+      2   Paul     Gooley       P.   R.   .   .   26714   2
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          26714
+   _Assembly.ID                                1
+   _Assembly.Name                              b2m
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   b2m   1   $1lds-hkc_mol1   A   .   yes   native   no   no   .   .   .   26714   1
+   stop_
+
+   loop_
+      _Bond.ID
+      _Bond.Type
+      _Bond.Value_order
+      _Bond.Assembly_atom_ID_1
+      _Bond.Entity_assembly_ID_1
+      _Bond.Entity_assembly_name_1
+      _Bond.Entity_ID_1
+      _Bond.Comp_ID_1
+      _Bond.Comp_index_ID_1
+      _Bond.Seq_ID_1
+      _Bond.Atom_ID_1
+      _Bond.Assembly_atom_ID_2
+      _Bond.Entity_assembly_ID_2
+      _Bond.Entity_assembly_name_2
+      _Bond.Entity_ID_2
+      _Bond.Comp_ID_2
+      _Bond.Comp_index_ID_2
+      _Bond.Seq_ID_2
+      _Bond.Atom_ID_2
+      _Bond.Auth_entity_assembly_ID_1
+      _Bond.Auth_entity_assembly_name_1
+      _Bond.Auth_seq_ID_1
+      _Bond.Auth_comp_ID_1
+      _Bond.Auth_atom_ID_1
+      _Bond.Auth_entity_assembly_ID_2
+      _Bond.Auth_entity_assembly_name_2
+      _Bond.Auth_seq_ID_2
+      _Bond.Auth_comp_ID_2
+      _Bond.Auth_atom_ID_2
+      _Bond.Entry_ID
+      _Bond.Assembly_ID
+
+      1   disulfide   single   .   1   .   1   CYS   26   26   SG   .   1   .   1   CYS   81   81   SG   .   .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes   PDB   1LDS   .   .   X-ray   1.8   .   .   26714   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_1lds-hkc_mol1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      1lds-hkc_mol1
+   _Entity.Entry_ID                          26714
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              1lds-hkc_mol1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MIQRTPKIQVYSRHPAENGK
+SNFLNCYVSGFHPSDIEVDL
+LKNGERIEKVEHSDLSFSKD
+WSFYLLYYTEFTPTEKDEYA
+CRVNHVTLSQPKIVKWDRDM
+
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq
+;
+0, M   
+1, I   
+2, Q   
+.....
+97, R   
+98, D   
+99, M
+;
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                100
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'all disulfide bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          'beta-2 microglobulin monomer'
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     0    MET   .   26714   1
+      2     1    ILE   .   26714   1
+      3     2    GLN   .   26714   1
+      4     3    ARG   .   26714   1
+      5     4    THR   .   26714   1
+      6     5    PRO   .   26714   1
+      7     6    LYS   .   26714   1
+      8     7    ILE   .   26714   1
+      9     8    GLN   .   26714   1
+      10    9    VAL   .   26714   1
+      11    10   TYR   .   26714   1
+      12    11   SER   .   26714   1
+      13    12   ARG   .   26714   1
+      14    13   HIS   .   26714   1
+      15    14   PRO   .   26714   1
+      16    15   ALA   .   26714   1
+      17    16   GLU   .   26714   1
+      18    17   ASN   .   26714   1
+      19    18   GLY   .   26714   1
+      20    19   LYS   .   26714   1
+      21    20   SER   .   26714   1
+      22    21   ASN   .   26714   1
+      23    22   PHE   .   26714   1
+      24    23   LEU   .   26714   1
+      25    24   ASN   .   26714   1
+      26    25   CYS   .   26714   1
+      27    26   TYR   .   26714   1
+      28    27   VAL   .   26714   1
+      29    28   SER   .   26714   1
+      30    29   GLY   .   26714   1
+      31    30   PHE   .   26714   1
+      32    31   HIS   .   26714   1
+      33    32   PRO   .   26714   1
+      34    33   SER   .   26714   1
+      35    34   ASP   .   26714   1
+      36    35   ILE   .   26714   1
+      37    36   GLU   .   26714   1
+      38    37   VAL   .   26714   1
+      39    38   ASP   .   26714   1
+      40    39   LEU   .   26714   1
+      41    40   LEU   .   26714   1
+      42    41   LYS   .   26714   1
+      43    42   ASN   .   26714   1
+      44    43   GLY   .   26714   1
+      45    44   GLU   .   26714   1
+      46    45   ARG   .   26714   1
+      47    46   ILE   .   26714   1
+      48    47   GLU   .   26714   1
+      49    48   LYS   .   26714   1
+      50    49   VAL   .   26714   1
+      51    50   GLU   .   26714   1
+      52    51   HIS   .   26714   1
+      53    52   SER   .   26714   1
+      54    53   ASP   .   26714   1
+      55    54   LEU   .   26714   1
+      56    55   SER   .   26714   1
+      57    56   PHE   .   26714   1
+      58    57   SER   .   26714   1
+      59    58   LYS   .   26714   1
+      60    59   ASP   .   26714   1
+      61    60   TRP   .   26714   1
+      62    61   SER   .   26714   1
+      63    62   PHE   .   26714   1
+      64    63   TYR   .   26714   1
+      65    64   LEU   .   26714   1
+      66    65   LEU   .   26714   1
+      67    66   TYR   .   26714   1
+      68    67   TYR   .   26714   1
+      69    68   THR   .   26714   1
+      70    69   GLU   .   26714   1
+      71    70   PHE   .   26714   1
+      72    71   THR   .   26714   1
+      73    72   PRO   .   26714   1
+      74    73   THR   .   26714   1
+      75    74   GLU   .   26714   1
+      76    75   LYS   .   26714   1
+      77    76   ASP   .   26714   1
+      78    77   GLU   .   26714   1
+      79    78   TYR   .   26714   1
+      80    79   ALA   .   26714   1
+      81    80   CYS   .   26714   1
+      82    81   ARG   .   26714   1
+      83    82   VAL   .   26714   1
+      84    83   ASN   .   26714   1
+      85    84   HIS   .   26714   1
+      86    85   VAL   .   26714   1
+      87    86   THR   .   26714   1
+      88    87   LEU   .   26714   1
+      89    88   SER   .   26714   1
+      90    89   GLN   .   26714   1
+      91    90   PRO   .   26714   1
+      92    91   LYS   .   26714   1
+      93    92   ILE   .   26714   1
+      94    93   VAL   .   26714   1
+      95    94   LYS   .   26714   1
+      96    95   TRP   .   26714   1
+      97    96   ASP   .   26714   1
+      98    97   ARG   .   26714   1
+      99    98   ASP   .   26714   1
+      100   99   MET   .   26714   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     26714   1
+      .   ILE   2     2     26714   1
+      .   GLN   3     3     26714   1
+      .   ARG   4     4     26714   1
+      .   THR   5     5     26714   1
+      .   PRO   6     6     26714   1
+      .   LYS   7     7     26714   1
+      .   ILE   8     8     26714   1
+      .   GLN   9     9     26714   1
+      .   VAL   10    10    26714   1
+      .   TYR   11    11    26714   1
+      .   SER   12    12    26714   1
+      .   ARG   13    13    26714   1
+      .   HIS   14    14    26714   1
+      .   PRO   15    15    26714   1
+      .   ALA   16    16    26714   1
+      .   GLU   17    17    26714   1
+      .   ASN   18    18    26714   1
+      .   GLY   19    19    26714   1
+      .   LYS   20    20    26714   1
+      .   SER   21    21    26714   1
+      .   ASN   22    22    26714   1
+      .   PHE   23    23    26714   1
+      .   LEU   24    24    26714   1
+      .   ASN   25    25    26714   1
+      .   CYS   26    26    26714   1
+      .   TYR   27    27    26714   1
+      .   VAL   28    28    26714   1
+      .   SER   29    29    26714   1
+      .   GLY   30    30    26714   1
+      .   PHE   31    31    26714   1
+      .   HIS   32    32    26714   1
+      .   PRO   33    33    26714   1
+      .   SER   34    34    26714   1
+      .   ASP   35    35    26714   1
+      .   ILE   36    36    26714   1
+      .   GLU   37    37    26714   1
+      .   VAL   38    38    26714   1
+      .   ASP   39    39    26714   1
+      .   LEU   40    40    26714   1
+      .   LEU   41    41    26714   1
+      .   LYS   42    42    26714   1
+      .   ASN   43    43    26714   1
+      .   GLY   44    44    26714   1
+      .   GLU   45    45    26714   1
+      .   ARG   46    46    26714   1
+      .   ILE   47    47    26714   1
+      .   GLU   48    48    26714   1
+      .   LYS   49    49    26714   1
+      .   VAL   50    50    26714   1
+      .   GLU   51    51    26714   1
+      .   HIS   52    52    26714   1
+      .   SER   53    53    26714   1
+      .   ASP   54    54    26714   1
+      .   LEU   55    55    26714   1
+      .   SER   56    56    26714   1
+      .   PHE   57    57    26714   1
+      .   SER   58    58    26714   1
+      .   LYS   59    59    26714   1
+      .   ASP   60    60    26714   1
+      .   TRP   61    61    26714   1
+      .   SER   62    62    26714   1
+      .   PHE   63    63    26714   1
+      .   TYR   64    64    26714   1
+      .   LEU   65    65    26714   1
+      .   LEU   66    66    26714   1
+      .   TYR   67    67    26714   1
+      .   TYR   68    68    26714   1
+      .   THR   69    69    26714   1
+      .   GLU   70    70    26714   1
+      .   PHE   71    71    26714   1
+      .   THR   72    72    26714   1
+      .   PRO   73    73    26714   1
+      .   THR   74    74    26714   1
+      .   GLU   75    75    26714   1
+      .   LYS   76    76    26714   1
+      .   ASP   77    77    26714   1
+      .   GLU   78    78    26714   1
+      .   TYR   79    79    26714   1
+      .   ALA   80    80    26714   1
+      .   CYS   81    81    26714   1
+      .   ARG   82    82    26714   1
+      .   VAL   83    83    26714   1
+      .   ASN   84    84    26714   1
+      .   HIS   85    85    26714   1
+      .   VAL   86    86    26714   1
+      .   THR   87    87    26714   1
+      .   LEU   88    88    26714   1
+      .   SER   89    89    26714   1
+      .   GLN   90    90    26714   1
+      .   PRO   91    91    26714   1
+      .   LYS   92    92    26714   1
+      .   ILE   93    93    26714   1
+      .   VAL   94    94    26714   1
+      .   LYS   95    95    26714   1
+      .   TRP   96    96    26714   1
+      .   ASP   97    97    26714   1
+      .   ARG   98    98    26714   1
+      .   ASP   99    99    26714   1
+      .   MET   100   100   26714   1
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       26714
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $1lds-hkc_mol1   .   9606   organism   .   'Homo sapiens'   Human   .   .   Eukaryota   Metazoa   Homo   sapiens   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       26714
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $1lds-hkc_mol1   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   Xa90   .   .   .   .   .   pHN1   .   .   .   26714   1
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         26714
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   1lds-hkc_mol1        [U-15N]               .   .   1   $1lds-hkc_mol1   .   .   0.43   .   .   mM   .   .   .   .   26714   1
+      2   D2O                  [U-2H]                .   .   .   .                .   .   10     .   .   %    .   .   .   .   26714   1
+      3   H2O                  'natural abundance'   .   .   .   .                .   .   90     .   .   %    .   .   .   .   26714   1
+      4   'sodium chloride'    'natural abundance'   .   .   .   .                .   .   150    .   .   mM   .   .   .   .   26714   1
+      5   'sodium phosphate'   'natural abundance'   .   .   .   .                .   .   10     .   .   mM   .   .   .   .   26714   1
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       26714
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.160   .   M     26714   1
+      pH                 7.5     .   pH    26714   1
+      pressure           1       .   atm   26714   1
+      temperature        310     .   K     26714   1
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_relax
+   _Software.Sf_category    software
+   _Software.Sf_framecode   relax
+   _Software.Entry_ID       26714
+   _Software.ID             1
+   _Software.Name           relax
+   _Software.Version        'repository checkout'
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'The relax development team'   .   http://www.nmr-relax.com   26714   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data processing'   26714   1
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         26714
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          600
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    600
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         26714
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          750
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    750
+   _NMR_spectrometer.Field_strength   750
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       26714
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Bruker   Avance   600   600   600   .   .   26714   1
+      2   spectrometer_2   Bruker   Avance   750   750   750   .   .   26714   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       26714
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '600.133 MHz R1'                 yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      2   '600.133 MHz R2'                 yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      3   '600.133 MHz steady-state NOE'   yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      4   '750.46 MHz R1'                  yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      5   '750.46 MHz R2'                  yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      6   '750.46 MHz steady-state NOE'    yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+    ###############################
+    #  Chemical shift anisotropy  #
+    ###############################
+
+
+
+save_chem_shift_anisotropy_list_1
+   _Chem_shift_anisotropy.Sf_category                   chem_shift_anisotropy
+   _Chem_shift_anisotropy.Sf_framecode                  chem_shift_anisotropy_list_1
+   _Chem_shift_anisotropy.Entry_ID                      26714
+   _Chem_shift_anisotropy.ID                            1
+   _Chem_shift_anisotropy.Sample_condition_list_ID      1
+   _Chem_shift_anisotropy.Sample_condition_list_label   $sample_conditions_1
+   _Chem_shift_anisotropy.Spectrometer_frequency_1H     .
+   _Chem_shift_anisotropy.Val_units                     ppm
+   _Chem_shift_anisotropy.Details                       .
+   _Chem_shift_anisotropy.Text_data_format              .
+   _Chem_shift_anisotropy.Text_data                     .
+
+   loop_
+      _CS_anisotropy_experiment.Experiment_ID
+      _CS_anisotropy_experiment.Experiment_name
+      _CS_anisotropy_experiment.Sample_ID
+      _CS_anisotropy_experiment.Sample_label
+      _CS_anisotropy_experiment.Sample_state
+      _CS_anisotropy_experiment.Entry_ID
+      _CS_anisotropy_experiment.Chem_shift_anisotropy_ID
+
+      1   '600.133 MHz R1'                 1   $sample_1   .   26714   1
+      2   '600.133 MHz R2'                 1   $sample_1   .   26714   1
+      3   '600.133 MHz steady-state NOE'   1   $sample_1   .   26714   1
+      4   '750.46 MHz R1'                  1   $sample_1   .   26714   1
+      5   '750.46 MHz R2'                  1   $sample_1   .   26714   1
+      6   '750.46 MHz steady-state NOE'    1   $sample_1   .   26714   1
+   stop_
+
+   loop_
+      _CS_anisotropy_software.Software_ID
+      _CS_anisotropy_software.Software_label
+      _CS_anisotropy_software.Method_ID
+      _CS_anisotropy_software.Method_label
+      _CS_anisotropy_software.Entry_ID
+      _CS_anisotropy_software.Chem_shift_anisotropy_ID
+
+      1   $relax   .   .   26714   1
+   stop_
+
+   loop_
+      _CS_anisotropy.ID
+      _CS_anisotropy.Assembly_atom_ID
+      _CS_anisotropy.Entity_assembly_ID
+      _CS_anisotropy.Entity_ID
+      _CS_anisotropy.Comp_index_ID
+      _CS_anisotropy.Seq_ID
+      _CS_anisotropy.Comp_ID
+      _CS_anisotropy.Atom_ID
+      _CS_anisotropy.Atom_type
+      _CS_anisotropy.Atom_isotope_number
+      _CS_anisotropy.Val
+      _CS_anisotropy.Val_err
+      _CS_anisotropy.Principal_value_sigma_11_val
+      _CS_anisotropy.Principal_value_sigma_22_val
+      _CS_anisotropy.Principal_value_sigma_33_val
+      _CS_anisotropy.Principal_Euler_angle_alpha_val
+      _CS_anisotropy.Principal_Euler_angle_beta_val
+      _CS_anisotropy.Principal_Euler_angle_gamma_val
+      _CS_anisotropy.Bond_length
+      _CS_anisotropy.Resonance_ID
+      _CS_anisotropy.Auth_entity_assembly_ID
+      _CS_anisotropy.Auth_seq_ID
+      _CS_anisotropy.Auth_comp_ID
+      _CS_anisotropy.Auth_atom_ID
+      _CS_anisotropy.Entry_ID
+      _CS_anisotropy.Chem_shift_anisotropy_ID
+
+      1    .   1   1   3    3    GLN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      2    .   1   1   4    4    ARG   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      3    .   1   1   7    7    LYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      4    .   1   1   10   10   VAL   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      5    .   1   1   11   11   TYR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      6    .   1   1   12   12   SER   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      7    .   1   1   14   14   HIS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      8    .   1   1   17   17   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      9    .   1   1   18   18   ASN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      10   .   1   1   19   19   GLY   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      11   .   1   1   20   20   LYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      12   .   1   1   21   21   SER   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      13   .   1   1   22   22   ASN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      14   .   1   1   23   23   PHE   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      15   .   1   1   25   25   ASN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      16   .   1   1   26   26   CYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      17   .   1   1   27   27   TYR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      18   .   1   1   28   28   VAL   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      19   .   1   1   29   29   SER   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      20   .   1   1   30   30   GLY   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      21   .   1   1   35   35   ASP   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      22   .   1   1   36   36   ILE   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      23   .   1   1   40   40   LEU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      24   .   1   1   41   41   LEU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      25   .   1   1   43   43   ASN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      26   .   1   1   44   44   GLY   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      27   .   1   1   45   45   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      28   .   1   1   46   46   ARG   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      29   .   1   1   47   47   ILE   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      30   .   1   1   48   48   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      31   .   1   1   49   49   LYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      32   .   1   1   50   50   VAL   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      33   .   1   1   51   51   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      34   .   1   1   52   52   HIS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      35   .   1   1   53   53   SER   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      36   .   1   1   61   61   TRP   NE1   N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      37   .   1   1   65   65   LEU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      38   .   1   1   66   66   LEU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      39   .   1   1   67   67   TYR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      40   .   1   1   68   68   TYR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      41   .   1   1   69   69   THR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      42   .   1   1   70   70   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      43   .   1   1   72   72   THR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      44   .   1   1   74   74   THR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      45   .   1   1   75   75   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      46   .   1   1   76   76   LYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      47   .   1   1   77   77   ASP   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      48   .   1   1   78   78   GLU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      49   .   1   1   79   79   TYR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      50   .   1   1   81   81   CYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      51   .   1   1   82   82   ARG   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      52   .   1   1   83   83   VAL   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      53   .   1   1   84   84   ASN   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      54   .   1   1   85   85   HIS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      55   .   1   1   87   87   THR   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      56   .   1   1   88   88   LEU   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      57   .   1   1   93   93   ILE   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      58   .   1   1   94   94   VAL   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      59   .   1   1   95   95   LYS   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      60   .   1   1   96   96   TRP   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      61   .   1   1   96   96   TRP   NE1   N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+      62   .   1   1   97   97   ASP   N     N   15   -172.0   .   .   .   .   .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+
+
+save_600.133_MHz_heteronuclear_NOE_1
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  600.133_MHz_heteronuclear_NOE_1
+   _Heteronucl_NOE_list.Entry_ID                      26714
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label   $sample_conditions_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     600.133
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type    height
+   _Heteronucl_NOE_list.NOE_ref_val                   0
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      3   '600.133 MHz steady-state NOE'   1   $sample_1   .   26714   1
+   stop_
+
+   loop_
+      _Heteronucl_NOE_software.Software_ID
+      _Heteronucl_NOE_software.Software_label
+      _Heteronucl_NOE_software.Method_ID
+      _Heteronucl_NOE_software.Method_label
+      _Heteronucl_NOE_software.Entry_ID
+      _Heteronucl_NOE_software.Heteronucl_NOE_list_ID
+
+      1   $relax   .   .   26714   1
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+      1    .   1   1   3    3    GLN   N     N   15   .   1   1   3    3    GLN   H     H   1   0.421732543389   0.0312130000871   .   .   .   .   .   .   .   .   .   .   26714   1
+      2    .   1   1   4    4    ARG   N     N   15   .   1   1   4    4    ARG   H     H   1   0.817667007403   0.0416283381546   .   .   .   .   .   .   .   .   .   .   26714   1
+      3    .   1   1   7    7    LYS   N     N   15   .   1   1   7    7    LYS   H     H   1   0.821968413082   0.0284492917411   .   .   .   .   .   .   .   .   .   .   26714   1
+      4    .   1   1   10   10   VAL   N     N   15   .   1   1   10   10   VAL   H     H   1   0.799180742467   0.0253160174091   .   .   .   .   .   .   .   .   .   .   26714   1
+      5    .   1   1   11   11   TYR   N     N   15   .   1   1   11   11   TYR   H     H   1   0.759693198939   0.0196729698775   .   .   .   .   .   .   .   .   .   .   26714   1
+      6    .   1   1   12   12   SER   N     N   15   .   1   1   12   12   SER   H     H   1   0.826238276201   0.0303279986503   .   .   .   .   .   .   .   .   .   .   26714   1
+      7    .   1   1   14   14   HIS   N     N   15   .   1   1   14   14   HIS   H     H   1   0.858287074409   0.0288893954745   .   .   .   .   .   .   .   .   .   .   26714   1
+      8    .   1   1   17   17   GLU   N     N   15   .   1   1   17   17   GLU   H     H   1   0.737983242513   0.0339315717046   .   .   .   .   .   .   .   .   .   .   26714   1
+      9    .   1   1   18   18   ASN   N     N   15   .   1   1   18   18   ASN   H     H   1   0.757085623805   0.0808485869916   .   .   .   .   .   .   .   .   .   .   26714   1
+      10   .   1   1   19   19   GLY   N     N   15   .   1   1   19   19   GLY   H     H   1   0.878779826189   0.0426658564526   .   .   .   .   .   .   .   .   .   .   26714   1
+      11   .   1   1   20   20   LYS   N     N   15   .   1   1   20   20   LYS   H     H   1   0.788278459999   0.0235302792193   .   .   .   .   .   .   .   .   .   .   26714   1
+      12   .   1   1   21   21   SER   N     N   15   .   1   1   21   21   SER   H     H   1   0.832924856043   0.0241143762324   .   .   .   .   .   .   .   .   .   .   26714   1
+      13   .   1   1   22   22   ASN   N     N   15   .   1   1   22   22   ASN   H     H   1   0.778595553886   0.0296521724216   .   .   .   .   .   .   .   .   .   .   26714   1
+      14   .   1   1   23   23   PHE   N     N   15   .   1   1   23   23   PHE   H     H   1   0.844407222944   0.0336273492948   .   .   .   .   .   .   .   .   .   .   26714   1
+      15   .   1   1   25   25   ASN   N     N   15   .   1   1   25   25   ASN   H     H   1   0.61108669615    0.0195305566253   .   .   .   .   .   .   .   .   .   .   26714   1
+      16   .   1   1   26   26   CYS   N     N   15   .   1   1   26   26   CYS   H     H   1   0.804496025751   0.0215290437299   .   .   .   .   .   .   .   .   .   .   26714   1
+      17   .   1   1   27   27   TYR   N     N   15   .   1   1   27   27   TYR   H     H   1   0.823381660735   0.0254134737856   .   .   .   .   .   .   .   .   .   .   26714   1
+      18   .   1   1   28   28   VAL   N     N   15   .   1   1   28   28   VAL   H     H   1   0.81245299205    0.0290588688629   .   .   .   .   .   .   .   .   .   .   26714   1
+      19   .   1   1   29   29   SER   N     N   15   .   1   1   29   29   SER   H     H   1   0.794421831099   0.0278984647311   .   .   .   .   .   .   .   .   .   .   26714   1
+      20   .   1   1   30   30   GLY   N     N   15   .   1   1   30   30   GLY   H     H   1   0.754449855529   0.0507954243188   .   .   .   .   .   .   .   .   .   .   26714   1
+      21   .   1   1   35   35   ASP   N     N   15   .   1   1   35   35   ASP   H     H   1   0.83992817487    0.0221280083748   .   .   .   .   .   .   .   .   .   .   26714   1
+      22   .   1   1   36   36   ILE   N     N   15   .   1   1   36   36   ILE   H     H   1   0.82346610603    0.018611149571    .   .   .   .   .   .   .   .   .   .   26714   1
+      23   .   1   1   40   40   LEU   N     N   15   .   1   1   40   40   LEU   H     H   1   0.79746922103    0.0273251295691   .   .   .   .   .   .   .   .   .   .   26714   1
+      24   .   1   1   41   41   LEU   N     N   15   .   1   1   41   41   LEU   H     H   1   0.804286236876   0.0289297757968   .   .   .   .   .   .   .   .   .   .   26714   1
+      25   .   1   1   43   43   ASN   N     N   15   .   1   1   43   43   ASN   H     H   1   0.65059866114    0.0155074701791   .   .   .   .   .   .   .   .   .   .   26714   1
+      26   .   1   1   44   44   GLY   N     N   15   .   1   1   44   44   GLY   H     H   1   0.766088545635   0.0433209090047   .   .   .   .   .   .   .   .   .   .   26714   1
+      27   .   1   1   45   45   GLU   N     N   15   .   1   1   45   45   GLU   H     H   1   0.805322370688   0.0194913051409   .   .   .   .   .   .   .   .   .   .   26714   1
+      28   .   1   1   46   46   ARG   N     N   15   .   1   1   46   46   ARG   H     H   1   0.752239442732   0.038402255782    .   .   .   .   .   .   .   .   .   .   26714   1
+      29   .   1   1   47   47   ILE   N     N   15   .   1   1   47   47   ILE   H     H   1   0.815103684891   0.0286721914143   .   .   .   .   .   .   .   .   .   .   26714   1
+      30   .   1   1   48   48   GLU   N     N   15   .   1   1   48   48   GLU   H     H   1   0.855169866063   0.0352870664218   .   .   .   .   .   .   .   .   .   .   26714   1
+      31   .   1   1   49   49   LYS   N     N   15   .   1   1   49   49   LYS   H     H   1   0.662204702835   0.0288107799583   .   .   .   .   .   .   .   .   .   .   26714   1
+      32   .   1   1   50   50   VAL   N     N   15   .   1   1   50   50   VAL   H     H   1   0.767928025772   0.0226924018339   .   .   .   .   .   .   .   .   .   .   26714   1
+      33   .   1   1   51   51   GLU   N     N   15   .   1   1   51   51   GLU   H     H   1   0.625050537156   0.0181531533027   .   .   .   .   .   .   .   .   .   .   26714   1
+      34   .   1   1   52   52   HIS   N     N   15   .   1   1   52   52   HIS   H     H   1   0.79331426788    0.0226887636392   .   .   .   .   .   .   .   .   .   .   26714   1
+      35   .   1   1   53   53   SER   N     N   15   .   1   1   53   53   SER   H     H   1   0.805245743014   0.0252781782447   .   .   .   .   .   .   .   .   .   .   26714   1
+      36   .   1   1   61   61   TRP   NE1   N   15   .   1   1   61   61   TRP   HE1   H   1   0.727497872023   0.11185766622     .   .   .   .   .   .   .   .   .   .   26714   1
+      37   .   1   1   65   65   LEU   N     N   15   .   1   1   65   65   LEU   H     H   1   0.814619009569   0.0232581628356   .   .   .   .   .   .   .   .   .   .   26714   1
+      38   .   1   1   66   66   LEU   N     N   15   .   1   1   66   66   LEU   H     H   1   0.675146061542   0.0234333046342   .   .   .   .   .   .   .   .   .   .   26714   1
+      39   .   1   1   67   67   TYR   N     N   15   .   1   1   67   67   TYR   H     H   1   0.838370930739   0.0245577987944   .   .   .   .   .   .   .   .   .   .   26714   1
+      40   .   1   1   68   68   TYR   N     N   15   .   1   1   68   68   TYR   H     H   1   0.767153690076   0.0231272993323   .   .   .   .   .   .   .   .   .   .   26714   1
+      41   .   1   1   69   69   THR   N     N   15   .   1   1   69   69   THR   H     H   1   0.809173538054   0.0226230659583   .   .   .   .   .   .   .   .   .   .   26714   1
+      42   .   1   1   70   70   GLU   N     N   15   .   1   1   70   70   GLU   H     H   1   0.805154170968   0.0212578816442   .   .   .   .   .   .   .   .   .   .   26714   1
+      43   .   1   1   72   72   THR   N     N   15   .   1   1   72   72   THR   H     H   1   0.89938941194    0.0390801894908   .   .   .   .   .   .   .   .   .   .   26714   1
+      44   .   1   1   74   74   THR   N     N   15   .   1   1   74   74   THR   H     H   1   0.749100508437   0.0269339761508   .   .   .   .   .   .   .   .   .   .   26714   1
+      45   .   1   1   75   75   GLU   N     N   15   .   1   1   75   75   GLU   H     H   1   0.944574542149   0.291000041766    .   .   .   .   .   .   .   .   .   .   26714   1
+      46   .   1   1   76   76   LYS   N     N   15   .   1   1   76   76   LYS   H     H   1   0.774529625905   0.046859015471    .   .   .   .   .   .   .   .   .   .   26714   1
+      47   .   1   1   77   77   ASP   N     N   15   .   1   1   77   77   ASP   H     H   1   0.760018335514   0.0240238691055   .   .   .   .   .   .   .   .   .   .   26714   1
+      48   .   1   1   78   78   GLU   N     N   15   .   1   1   78   78   GLU   H     H   1   0.788787201123   0.0260974620139   .   .   .   .   .   .   .   .   .   .   26714   1
+      49   .   1   1   79   79   TYR   N     N   15   .   1   1   79   79   TYR   H     H   1   0.748381242778   0.0280024465188   .   .   .   .   .   .   .   .   .   .   26714   1
+      50   .   1   1   81   81   CYS   N     N   15   .   1   1   81   81   CYS   H     H   1   0.791221496938   0.0237366449081   .   .   .   .   .   .   .   .   .   .   26714   1
+      51   .   1   1   82   82   ARG   N     N   15   .   1   1   82   82   ARG   H     H   1   0.805839881625   0.0221447782889   .   .   .   .   .   .   .   .   .   .   26714   1
+      52   .   1   1   83   83   VAL   N     N   15   .   1   1   83   83   VAL   H     H   1   0.792025590762   0.022140224115    .   .   .   .   .   .   .   .   .   .   26714   1
+      53   .   1   1   84   84   ASN   N     N   15   .   1   1   84   84   ASN   H     H   1   0.81610248639    0.0223838052587   .   .   .   .   .   .   .   .   .   .   26714   1
+      54   .   1   1   85   85   HIS   N     N   15   .   1   1   85   85   HIS   H     H   1   0.65651165739    0.0160314262222   .   .   .   .   .   .   .   .   .   .   26714   1
+      55   .   1   1   87   87   THR   N     N   15   .   1   1   87   87   THR   H     H   1   0.7818448229     0.0236268946477   .   .   .   .   .   .   .   .   .   .   26714   1
+      56   .   1   1   88   88   LEU   N     N   15   .   1   1   88   88   LEU   H     H   1   0.824801276725   0.0185899567678   .   .   .   .   .   .   .   .   .   .   26714   1
+      57   .   1   1   93   93   ILE   N     N   15   .   1   1   93   93   ILE   H     H   1   0.756354046235   0.0190158606021   .   .   .   .   .   .   .   .   .   .   26714   1
+      58   .   1   1   94   94   VAL   N     N   15   .   1   1   94   94   VAL   H     H   1   0.773905332453   0.0230860297558   .   .   .   .   .   .   .   .   .   .   26714   1
+      59   .   1   1   95   95   LYS   N     N   15   .   1   1   95   95   LYS   H     H   1   0.779808577968   0.0218438517943   .   .   .   .   .   .   .   .   .   .   26714   1
+      60   .   1   1   96   96   TRP   N     N   15   .   1   1   96   96   TRP   H     H   1   0.794036618009   0.0236996183905   .   .   .   .   .   .   .   .   .   .   26714   1
+      61   .   1   1   96   96   TRP   NE1   N   15   .   1   1   96   96   TRP   HE1   H   1   0.759521235856   0.0264232261055   .   .   .   .   .   .   .   .   .   .   26714   1
+      62   .   1   1   97   97   ASP   N     N   15   .   1   1   97   97   ASP   H     H   1   0.747636358661   0.0286366109964   .   .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+save_750.46_MHz_heteronuclear_NOE_2
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  750.46_MHz_heteronuclear_NOE_2
+   _Heteronucl_NOE_list.Entry_ID                      26714
+   _Heteronucl_NOE_list.ID                            2
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label   $sample_conditions_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     750.46
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type    height
+   _Heteronucl_NOE_list.NOE_ref_val                   0
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      6   '750.46 MHz steady-state NOE'   1   $sample_1   .   26714   2
+   stop_
+
+   loop_
+      _Heteronucl_NOE_software.Software_ID
+      _Heteronucl_NOE_software.Software_label
+      _Heteronucl_NOE_software.Method_ID
+      _Heteronucl_NOE_software.Method_label
+      _Heteronucl_NOE_software.Entry_ID
+      _Heteronucl_NOE_software.Heteronucl_NOE_list_ID
+
+      1   $relax   .   .   26714   2
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+      1    .   1   1   3    3    GLN   N     N   15   .   1   1   3    3    GLN   H     H   1   0.584460595384   0.0508291389218   .   .   .   .   .   .   .   .   .   .   26714   2
+      2    .   1   1   4    4    ARG   N     N   15   .   1   1   4    4    ARG   H     H   1   0.76563696733    0.042505544022    .   .   .   .   .   .   .   .   .   .   26714   2
+      3    .   1   1   7    7    LYS   N     N   15   .   1   1   7    7    LYS   H     H   1   0.864259652075   0.0344582563715   .   .   .   .   .   .   .   .   .   .   26714   2
+      4    .   1   1   10   10   VAL   N     N   15   .   1   1   10   10   VAL   H     H   1   0.82377188722    0.0260029106055   .   .   .   .   .   .   .   .   .   .   26714   2
+      5    .   1   1   11   11   TYR   N     N   15   .   1   1   11   11   TYR   H     H   1   0.859151168042   0.0232595905957   .   .   .   .   .   .   .   .   .   .   26714   2
+      6    .   1   1   12   12   SER   N     N   15   .   1   1   12   12   SER   H     H   1   0.868203135006   0.0278255002506   .   .   .   .   .   .   .   .   .   .   26714   2
+      7    .   1   1   14   14   HIS   N     N   15   .   1   1   14   14   HIS   H     H   1   0.870375080195   0.0245734508248   .   .   .   .   .   .   .   .   .   .   26714   2
+      8    .   1   1   17   17   GLU   N     N   15   .   1   1   17   17   GLU   H     H   1   0.781710547409   0.0288618186708   .   .   .   .   .   .   .   .   .   .   26714   2
+      9    .   1   1   18   18   ASN   N     N   15   .   1   1   18   18   ASN   H     H   1   0.787299702114   0.0500303874283   .   .   .   .   .   .   .   .   .   .   26714   2
+      10   .   1   1   19   19   GLY   N     N   15   .   1   1   19   19   GLY   H     H   1   0.881226436814   0.0338053501656   .   .   .   .   .   .   .   .   .   .   26714   2
+      11   .   1   1   20   20   LYS   N     N   15   .   1   1   20   20   LYS   H     H   1   0.877400637769   0.0222399895378   .   .   .   .   .   .   .   .   .   .   26714   2
+      12   .   1   1   21   21   SER   N     N   15   .   1   1   21   21   SER   H     H   1   0.828318424726   0.0222569776837   .   .   .   .   .   .   .   .   .   .   26714   2
+      13   .   1   1   22   22   ASN   N     N   15   .   1   1   22   22   ASN   H     H   1   0.857331320897   0.0277249907362   .   .   .   .   .   .   .   .   .   .   26714   2
+      14   .   1   1   23   23   PHE   N     N   15   .   1   1   23   23   PHE   H     H   1   0.813176575783   0.0324078124701   .   .   .   .   .   .   .   .   .   .   26714   2
+      15   .   1   1   25   25   ASN   N     N   15   .   1   1   25   25   ASN   H     H   1   0.752874619152   0.0207356686597   .   .   .   .   .   .   .   .   .   .   26714   2
+      16   .   1   1   26   26   CYS   N     N   15   .   1   1   26   26   CYS   H     H   1   0.87310852869    0.0241687453079   .   .   .   .   .   .   .   .   .   .   26714   2
+      17   .   1   1   27   27   TYR   N     N   15   .   1   1   27   27   TYR   H     H   1   0.836181477151   0.0277322063762   .   .   .   .   .   .   .   .   .   .   26714   2
+      18   .   1   1   28   28   VAL   N     N   15   .   1   1   28   28   VAL   H     H   1   0.858329900383   0.038646642124    .   .   .   .   .   .   .   .   .   .   26714   2
+      19   .   1   1   29   29   SER   N     N   15   .   1   1   29   29   SER   H     H   1   0.838035000548   0.0323262487378   .   .   .   .   .   .   .   .   .   .   26714   2
+      20   .   1   1   30   30   GLY   N     N   15   .   1   1   30   30   GLY   H     H   1   0.868379153421   0.0650122575585   .   .   .   .   .   .   .   .   .   .   26714   2
+      21   .   1   1   35   35   ASP   N     N   15   .   1   1   35   35   ASP   H     H   1   0.852122113223   0.026735898985    .   .   .   .   .   .   .   .   .   .   26714   2
+      22   .   1   1   36   36   ILE   N     N   15   .   1   1   36   36   ILE   H     H   1   0.871499548162   0.0215214202514   .   .   .   .   .   .   .   .   .   .   26714   2
+      23   .   1   1   40   40   LEU   N     N   15   .   1   1   40   40   LEU   H     H   1   0.811144013325   0.025126043461    .   .   .   .   .   .   .   .   .   .   26714   2
+      24   .   1   1   41   41   LEU   N     N   15   .   1   1   41   41   LEU   H     H   1   0.853073692927   0.0258500530456   .   .   .   .   .   .   .   .   .   .   26714   2
+      25   .   1   1   43   43   ASN   N     N   15   .   1   1   43   43   ASN   H     H   1   0.741619077069   0.0176547686599   .   .   .   .   .   .   .   .   .   .   26714   2
+      26   .   1   1   44   44   GLY   N     N   15   .   1   1   44   44   GLY   H     H   1   0.904465499025   0.0370045033461   .   .   .   .   .   .   .   .   .   .   26714   2
+      27   .   1   1   45   45   GLU   N     N   15   .   1   1   45   45   GLU   H     H   1   0.846249577909   0.0187057479464   .   .   .   .   .   .   .   .   .   .   26714   2
+      28   .   1   1   46   46   ARG   N     N   15   .   1   1   46   46   ARG   H     H   1   0.827835152344   0.0348977595898   .   .   .   .   .   .   .   .   .   .   26714   2
+      29   .   1   1   47   47   ILE   N     N   15   .   1   1   47   47   ILE   H     H   1   0.826531326716   0.0273412582544   .   .   .   .   .   .   .   .   .   .   26714   2
+      30   .   1   1   48   48   GLU   N     N   15   .   1   1   48   48   GLU   H     H   1   0.813666411968   0.0298241208926   .   .   .   .   .   .   .   .   .   .   26714   2
+      31   .   1   1   49   49   LYS   N     N   15   .   1   1   49   49   LYS   H     H   1   0.726415903516   0.0293411068458   .   .   .   .   .   .   .   .   .   .   26714   2
+      32   .   1   1   50   50   VAL   N     N   15   .   1   1   50   50   VAL   H     H   1   0.567388051986   0.0208029301388   .   .   .   .   .   .   .   .   .   .   26714   2
+      33   .   1   1   51   51   GLU   N     N   15   .   1   1   51   51   GLU   H     H   1   0.753472648183   0.0196200070768   .   .   .   .   .   .   .   .   .   .   26714   2
+      34   .   1   1   52   52   HIS   N     N   15   .   1   1   52   52   HIS   H     H   1   0.862279149077   0.024769075213    .   .   .   .   .   .   .   .   .   .   26714   2
+      35   .   1   1   53   53   SER   N     N   15   .   1   1   53   53   SER   H     H   1   0.86021396826    0.0279857090846   .   .   .   .   .   .   .   .   .   .   26714   2
+      36   .   1   1   61   61   TRP   NE1   N   15   .   1   1   61   61   TRP   HE1   H   1   -0.10168311921   0.51170146555     .   .   .   .   .   .   .   .   .   .   26714   2
+      37   .   1   1   65   65   LEU   N     N   15   .   1   1   65   65   LEU   H     H   1   0.875778793933   0.0280245053018   .   .   .   .   .   .   .   .   .   .   26714   2
+      38   .   1   1   66   66   LEU   N     N   15   .   1   1   66   66   LEU   H     H   1   0.793181332776   0.0294405170371   .   .   .   .   .   .   .   .   .   .   26714   2
+      39   .   1   1   67   67   TYR   N     N   15   .   1   1   67   67   TYR   H     H   1   0.841571558372   0.0257728157622   .   .   .   .   .   .   .   .   .   .   26714   2
+      40   .   1   1   68   68   TYR   N     N   15   .   1   1   68   68   TYR   H     H   1   0.828932815478   0.0232772367682   .   .   .   .   .   .   .   .   .   .   26714   2
+      41   .   1   1   69   69   THR   N     N   15   .   1   1   69   69   THR   H     H   1   0.880510496281   0.0220814551523   .   .   .   .   .   .   .   .   .   .   26714   2
+      42   .   1   1   70   70   GLU   N     N   15   .   1   1   70   70   GLU   H     H   1   0.818883113023   0.0220938121531   .   .   .   .   .   .   .   .   .   .   26714   2
+      43   .   1   1   72   72   THR   N     N   15   .   1   1   72   72   THR   H     H   1   0.879131191415   0.0293605158699   .   .   .   .   .   .   .   .   .   .   26714   2
+      44   .   1   1   74   74   THR   N     N   15   .   1   1   74   74   THR   H     H   1   0.838023202113   0.0233785089324   .   .   .   .   .   .   .   .   .   .   26714   2
+      45   .   1   1   75   75   GLU   N     N   15   .   1   1   75   75   GLU   H     H   1   0.83370387915    0.114310191416    .   .   .   .   .   .   .   .   .   .   26714   2
+      46   .   1   1   76   76   LYS   N     N   15   .   1   1   76   76   LYS   H     H   1   0.780938050634   0.0351855017946   .   .   .   .   .   .   .   .   .   .   26714   2
+      47   .   1   1   77   77   ASP   N     N   15   .   1   1   77   77   ASP   H     H   1   0.817865854522   0.0201141550152   .   .   .   .   .   .   .   .   .   .   26714   2
+      48   .   1   1   78   78   GLU   N     N   15   .   1   1   78   78   GLU   H     H   1   0.841343138468   0.0230114886962   .   .   .   .   .   .   .   .   .   .   26714   2
+      49   .   1   1   79   79   TYR   N     N   15   .   1   1   79   79   TYR   H     H   1   0.857651498728   0.0257295449618   .   .   .   .   .   .   .   .   .   .   26714   2
+      50   .   1   1   81   81   CYS   N     N   15   .   1   1   81   81   CYS   H     H   1   0.829906047583   0.0224853508321   .   .   .   .   .   .   .   .   .   .   26714   2
+      51   .   1   1   82   82   ARG   N     N   15   .   1   1   82   82   ARG   H     H   1   0.838919584206   0.0238509798217   .   .   .   .   .   .   .   .   .   .   26714   2
+      52   .   1   1   83   83   VAL   N     N   15   .   1   1   83   83   VAL   H     H   1   0.801742736223   0.024523605684    .   .   .   .   .   .   .   .   .   .   26714   2
+      53   .   1   1   84   84   ASN   N     N   15   .   1   1   84   84   ASN   H     H   1   0.862426664474   0.0252492001109   .   .   .   .   .   .   .   .   .   .   26714   2
+      54   .   1   1   85   85   HIS   N     N   15   .   1   1   85   85   HIS   H     H   1   0.780440330781   0.0187941832371   .   .   .   .   .   .   .   .   .   .   26714   2
+      55   .   1   1   87   87   THR   N     N   15   .   1   1   87   87   THR   H     H   1   0.871833103356   0.02810414086     .   .   .   .   .   .   .   .   .   .   26714   2
+      56   .   1   1   88   88   LEU   N     N   15   .   1   1   88   88   LEU   H     H   1   0.885510176664   0.0219955594905   .   .   .   .   .   .   .   .   .   .   26714   2
+      57   .   1   1   93   93   ILE   N     N   15   .   1   1   93   93   ILE   H     H   1   0.779568704388   0.0211124694679   .   .   .   .   .   .   .   .   .   .   26714   2
+      58   .   1   1   94   94   VAL   N     N   15   .   1   1   94   94   VAL   H     H   1   0.857588699313   0.0262975957211   .   .   .   .   .   .   .   .   .   .   26714   2
+      59   .   1   1   95   95   LYS   N     N   15   .   1   1   95   95   LYS   H     H   1   0.841612010209   0.0242674302925   .   .   .   .   .   .   .   .   .   .   26714   2
+      60   .   1   1   96   96   TRP   N     N   15   .   1   1   96   96   TRP   H     H   1   0.810275847836   0.0217340473406   .   .   .   .   .   .   .   .   .   .   26714   2
+      61   .   1   1   96   96   TRP   NE1   N   15   .   1   1   96   96   TRP   HE1   H   1   0.845290473596   0.0327020202506   .   .   .   .   .   .   .   .   .   .   26714   2
+      62   .   1   1   97   97   ASP   N     N   15   .   1   1   97   97   ASP   H     H   1   0.801477155407   0.0274193442035   .   .   .   .   .   .   .   .   .   .   26714   2
+   stop_
+save_
+
+    ############################
+    #  Auto relaxation values  #
+    ############################
+
+
+
+save_600.133_MHz_R1_relaxation_1
+   _Auto_relaxation_list.Sf_category                   auto_relaxation
+   _Auto_relaxation_list.Sf_framecode                  600.133_MHz_R1_relaxation_1
+   _Auto_relaxation_list.Entry_ID                      26714
+   _Auto_relaxation_list.ID                            1
+   _Auto_relaxation_list.Sample_condition_list_ID      1
+   _Auto_relaxation_list.Sample_condition_list_label   $sample_conditions_1
+   _Auto_relaxation_list.Temp_calibration_method       methanol
+   _Auto_relaxation_list.Temp_control_method           'single fid interleaving'
+   _Auto_relaxation_list.Spectrometer_frequency_1H     600.133
+   _Auto_relaxation_list.Exact_field_strength          600.133
+   _Auto_relaxation_list.Common_relaxation_type_name   R1
+   _Auto_relaxation_list.Relaxation_coherence_type     Iz
+   _Auto_relaxation_list.Relaxation_val_units          s-1
+   _Auto_relaxation_list.Rex_units                     .
+   _Auto_relaxation_list.Rex_field_strength            .
+   _Auto_relaxation_list.Details                       .
+   _Auto_relaxation_list.Text_data_format              .
+   _Auto_relaxation_list.Text_data                     .
+
+   loop_
+      _Auto_relaxation_experiment.Experiment_ID
+      _Auto_relaxation_experiment.Experiment_name
+      _Auto_relaxation_experiment.Sample_ID
+      _Auto_relaxation_experiment.Sample_label
+      _Auto_relaxation_experiment.Sample_state
+      _Auto_relaxation_experiment.Entry_ID
+      _Auto_relaxation_experiment.Auto_relaxation_list_ID
+
+      .   .   1   $sample_1   .   26714   1
+   stop_
+
+   loop_
+      _Auto_relaxation.ID
+      _Auto_relaxation.Assembly_ID
+      _Auto_relaxation.Assembly_atom_ID
+      _Auto_relaxation.Entity_assembly_ID
+      _Auto_relaxation.Entity_ID
+      _Auto_relaxation.Comp_index_ID
+      _Auto_relaxation.Seq_ID
+      _Auto_relaxation.Comp_ID
+      _Auto_relaxation.Atom_ID
+      _Auto_relaxation.Atom_type
+      _Auto_relaxation.Atom_isotope_number
+      _Auto_relaxation.Auto_relaxation_val
+      _Auto_relaxation.Auto_relaxation_val_err
+      _Auto_relaxation.Rex_val
+      _Auto_relaxation.Rex_val_err
+      _Auto_relaxation.Resonance_ID
+      _Auto_relaxation.Auth_entity_assembly_ID
+      _Auto_relaxation.Auth_seq_ID
+      _Auto_relaxation.Auth_comp_ID
+      _Auto_relaxation.Auth_atom_ID
+      _Auto_relaxation.Entry_ID
+      _Auto_relaxation.Auto_relaxation_list_ID
+
+      1    .   .   1   1   3    3    GLN   N     N   15   1.50366236644   0.0504570592482    .   .   .   .   .   .   .   26714   1
+      2    .   .   1   1   4    4    ARG   N     N   15   1.86150955863   0.0664004354557    .   .   .   .   .   .   .   26714   1
+      3    .   .   1   1   7    7    LYS   N     N   15   1.81527796535   0.0454757184778    .   .   .   .   .   .   .   26714   1
+      4    .   .   1   1   10   10   VAL   N     N   15   1.78247998516   0.035063122071     .   .   .   .   .   .   .   26714   1
+      5    .   .   1   1   11   11   TYR   N     N   15   1.83443845795   0.0276198431504    .   .   .   .   .   .   .   26714   1
+      6    .   .   1   1   12   12   SER   N     N   15   1.97013138104   0.0448651086839    .   .   .   .   .   .   .   26714   1
+      7    .   .   1   1   14   14   HIS   N     N   15   1.90092675857   0.0369182057622    .   .   .   .   .   .   .   26714   1
+      8    .   .   1   1   17   17   GLU   N     N   15   1.62660287431   0.0434087961755    .   .   .   .   .   .   .   26714   1
+      9    .   .   1   1   18   18   ASN   N     N   15   1.62482551634   0.120404283894     .   .   .   .   .   .   .   26714   1
+      10   .   .   1   1   19   19   GLY   N     N   15   1.79299005108   0.0579306001485    .   .   .   .   .   .   .   26714   1
+      11   .   .   1   1   20   20   LYS   N     N   15   1.88639004898   0.0283261579707    .   .   .   .   .   .   .   26714   1
+      12   .   .   1   1   21   21   SER   N     N   15   1.64402956291   0.0277218784211    .   .   .   .   .   .   .   26714   1
+      13   .   .   1   1   22   22   ASN   N     N   15   1.83287114306   0.0407206280488    .   .   .   .   .   .   .   26714   1
+      14   .   .   1   1   23   23   PHE   N     N   15   1.7584100539    0.0469733423143    .   .   .   .   .   .   .   26714   1
+      15   .   .   1   1   25   25   ASN   N     N   15   1.52602518908   0.0195184145506    .   .   .   .   .   .   .   26714   1
+      16   .   .   1   1   26   26   CYS   N     N   15   1.81574924088   0.0324040487036    .   .   .   .   .   .   .   26714   1
+      17   .   .   1   1   27   27   TYR   N     N   15   1.85736888254   0.0443435238506    .   .   .   .   .   .   .   26714   1
+      18   .   .   1   1   28   28   VAL   N     N   15   1.88291846265   0.0483455325763    .   .   .   .   .   .   .   26714   1
+      19   .   .   1   1   29   29   SER   N     N   15   1.92146010212   0.0494565368428    .   .   .   .   .   .   .   26714   1
+      20   .   .   1   1   30   30   GLY   N     N   15   1.88734158151   0.1188474702       .   .   .   .   .   .   .   26714   1
+      21   .   .   1   1   35   35   ASP   N     N   15   1.59973342967   0.0267372186342    .   .   .   .   .   .   .   26714   1
+      22   .   .   1   1   36   36   ILE   N     N   15   1.7324442455    0.0227202345872    .   .   .   .   .   .   .   26714   1
+      23   .   .   1   1   40   40   LEU   N     N   15   1.76270059241   0.0355314231555    .   .   .   .   .   .   .   26714   1
+      24   .   .   1   1   41   41   LEU   N     N   15   1.83369190671   0.0405463019341    .   .   .   .   .   .   .   26714   1
+      25   .   .   1   1   43   43   ASN   N     N   15   1.62531477895   0.0210293842401    .   .   .   .   .   .   .   26714   1
+      26   .   .   1   1   44   44   GLY   N     N   15   1.90658790871   0.0662795026814    .   .   .   .   .   .   .   26714   1
+      27   .   .   1   1   45   45   GLU   N     N   15   1.73581961088   0.0221177519715    .   .   .   .   .   .   .   26714   1
+      28   .   .   1   1   46   46   ARG   N     N   15   1.68582469043   0.0513750238525    .   .   .   .   .   .   .   26714   1
+      29   .   .   1   1   47   47   ILE   N     N   15   1.8141083129    0.0420340106483    .   .   .   .   .   .   .   26714   1
+      30   .   .   1   1   48   48   GLU   N     N   15   1.59915425601   0.0367219027547    .   .   .   .   .   .   .   26714   1
+      31   .   .   1   1   49   49   LYS   N     N   15   1.4472579848    0.0258154225856    .   .   .   .   .   .   .   26714   1
+      32   .   .   1   1   50   50   VAL   N     N   15   1.05818601276   0.00952584991023   .   .   .   .   .   .   .   26714   1
+      33   .   .   1   1   51   51   GLU   N     N   15   1.60745747716   0.020582082602     .   .   .   .   .   .   .   26714   1
+      34   .   .   1   1   52   52   HIS   N     N   15   1.83086811065   0.0287141172104    .   .   .   .   .   .   .   26714   1
+      35   .   .   1   1   53   53   SER   N     N   15   1.94811759059   0.0427725704285    .   .   .   .   .   .   .   26714   1
+      36   .   .   1   1   61   61   TRP   NE1   N   15   1.60042898553   0.0984327764018    .   .   .   .   .   .   .   26714   1
+      37   .   .   1   1   65   65   LEU   N     N   15   1.90237318387   0.0372370314504    .   .   .   .   .   .   .   26714   1
+      38   .   .   1   1   66   66   LEU   N     N   15   1.3871558427    0.0176117522252    .   .   .   .   .   .   .   26714   1
+      39   .   .   1   1   67   67   TYR   N     N   15   1.89836850999   0.0410317651584    .   .   .   .   .   .   .   26714   1
+      40   .   .   1   1   68   68   TYR   N     N   15   1.87444640707   0.0360190346121    .   .   .   .   .   .   .   26714   1
+      41   .   .   1   1   69   69   THR   N     N   15   1.88099482366   0.0340568052441    .   .   .   .   .   .   .   26714   1
+      42   .   .   1   1   70   70   GLU   N     N   15   1.80807893123   0.030233573241     .   .   .   .   .   .   .   26714   1
+      43   .   .   1   1   72   72   THR   N     N   15   1.76291489084   0.0471260555607    .   .   .   .   .   .   .   26714   1
+      44   .   .   1   1   74   74   THR   N     N   15   1.65737630641   0.0335100630666    .   .   .   .   .   .   .   26714   1
+      45   .   .   1   1   75   75   GLU   N     N   15   1.57599450274   0.11897470477      .   .   .   .   .   .   .   26714   1
+      46   .   .   1   1   76   76   LYS   N     N   15   1.55537490662   0.0444160780202    .   .   .   .   .   .   .   26714   1
+      47   .   .   1   1   77   77   ASP   N     N   15   1.65997405086   0.0303943508008    .   .   .   .   .   .   .   26714   1
+      48   .   .   1   1   78   78   GLU   N     N   15   1.75797072222   0.0352613386391    .   .   .   .   .   .   .   26714   1
+      49   .   .   1   1   79   79   TYR   N     N   15   1.80218650887   0.0399187678551    .   .   .   .   .   .   .   26714   1
+      50   .   .   1   1   81   81   CYS   N     N   15   1.82156785193   0.0328483277636    .   .   .   .   .   .   .   26714   1
+      51   .   .   1   1   82   82   ARG   N     N   15   1.87622206827   0.0335295218615    .   .   .   .   .   .   .   26714   1
+      52   .   .   1   1   83   83   VAL   N     N   15   1.85140975836   0.0360383339474    .   .   .   .   .   .   .   26714   1
+      53   .   .   1   1   84   84   ASN   N     N   15   1.89545861961   0.0345018145197    .   .   .   .   .   .   .   26714   1
+      54   .   .   1   1   85   85   HIS   N     N   15   1.46938083496   0.016180040771     .   .   .   .   .   .   .   26714   1
+      55   .   .   1   1   87   87   THR   N     N   15   1.95379054373   0.0443563931588    .   .   .   .   .   .   .   26714   1
+      56   .   .   1   1   88   88   LEU   N     N   15   1.91871012853   0.0275162963994    .   .   .   .   .   .   .   26714   1
+      57   .   .   1   1   93   93   ILE   N     N   15   1.75314024704   0.0243638387707    .   .   .   .   .   .   .   26714   1
+      58   .   .   1   1   94   94   VAL   N     N   15   1.83395116153   0.0358454091349    .   .   .   .   .   .   .   26714   1
+      59   .   .   1   1   95   95   LYS   N     N   15   1.83093358818   0.030867377688     .   .   .   .   .   .   .   26714   1
+      60   .   .   1   1   96   96   TRP   N     N   15   1.81309008865   0.0361566818499    .   .   .   .   .   .   .   26714   1
+      61   .   .   1   1   96   96   TRP   NE1   N   15   1.58687658725   0.0359530829328    .   .   .   .   .   .   .   26714   1
+      62   .   .   1   1   97   97   ASP   N     N   15   1.67562121598   0.036244619878     .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+save_600.133_MHz_R2_relaxation_2
+   _Auto_relaxation_list.Sf_category                   auto_relaxation
+   _Auto_relaxation_list.Sf_framecode                  600.133_MHz_R2_relaxation_2
+   _Auto_relaxation_list.Entry_ID                      26714
+   _Auto_relaxation_list.ID                            2
+   _Auto_relaxation_list.Sample_condition_list_ID      1
+   _Auto_relaxation_list.Sample_condition_list_label   $sample_conditions_1
+   _Auto_relaxation_list.Temp_calibration_method       methanol
+   _Auto_relaxation_list.Temp_control_method           'single fid interleaving'
+   _Auto_relaxation_list.Spectrometer_frequency_1H     600.133
+   _Auto_relaxation_list.Exact_field_strength          600.133
+   _Auto_relaxation_list.Common_relaxation_type_name   R2
+   _Auto_relaxation_list.Relaxation_coherence_type     I+
+   _Auto_relaxation_list.Relaxation_val_units          s-1
+   _Auto_relaxation_list.Rex_units                     .
+   _Auto_relaxation_list.Rex_field_strength            .
+   _Auto_relaxation_list.Details                       .
+   _Auto_relaxation_list.Text_data_format              .
+   _Auto_relaxation_list.Text_data                     .
+
+   loop_
+      _Auto_relaxation_experiment.Experiment_ID
+      _Auto_relaxation_experiment.Experiment_name
+      _Auto_relaxation_experiment.Sample_ID
+      _Auto_relaxation_experiment.Sample_label
+      _Auto_relaxation_experiment.Sample_state
+      _Auto_relaxation_experiment.Entry_ID
+      _Auto_relaxation_experiment.Auto_relaxation_list_ID
+
+      .   .   1   $sample_1   .   26714   2
+   stop_
+
+   loop_
+      _Auto_relaxation.ID
+      _Auto_relaxation.Assembly_ID
+      _Auto_relaxation.Assembly_atom_ID
+      _Auto_relaxation.Entity_assembly_ID
+      _Auto_relaxation.Entity_ID
+      _Auto_relaxation.Comp_index_ID
+      _Auto_relaxation.Seq_ID
+      _Auto_relaxation.Comp_ID
+      _Auto_relaxation.Atom_ID
+      _Auto_relaxation.Atom_type
+      _Auto_relaxation.Atom_isotope_number
+      _Auto_relaxation.Auto_relaxation_val
+      _Auto_relaxation.Auto_relaxation_val_err
+      _Auto_relaxation.Rex_val
+      _Auto_relaxation.Rex_val_err
+      _Auto_relaxation.Resonance_ID
+      _Auto_relaxation.Auth_entity_assembly_ID
+      _Auto_relaxation.Auth_seq_ID
+      _Auto_relaxation.Auth_comp_ID
+      _Auto_relaxation.Auth_atom_ID
+      _Auto_relaxation.Entry_ID
+      _Auto_relaxation.Auto_relaxation_list_ID
+
+      1    .   .   1   1   3    3    GLN   N     N   15   11.8948955371   0.694239221035   .   .   .   .   .   .   .   26714   2
+      2    .   .   1   1   4    4    ARG   N     N   15   10.2617953047   0.529849966148   .   .   .   .   .   .   .   26714   2
+      3    .   .   1   1   7    7    LYS   N     N   15   10.111878767    0.356601326741   .   .   .   .   .   .   .   26714   2
+      4    .   .   1   1   10   10   VAL   N     N   15   9.72631588456   0.265417549892   .   .   .   .   .   .   .   26714   2
+      5    .   .   1   1   11   11   TYR   N     N   15   10.5694453063   0.260654115848   .   .   .   .   .   .   .   26714   2
+      6    .   .   1   1   12   12   SER   N     N   15   10.8431169762   0.406899787628   .   .   .   .   .   .   .   26714   2
+      7    .   .   1   1   14   14   HIS   N     N   15   12.1476309204   0.400409462529   .   .   .   .   .   .   .   26714   2
+      8    .   .   1   1   17   17   GLU   N     N   15   9.99192218175   0.358773163131   .   .   .   .   .   .   .   26714   2
+      9    .   .   1   1   18   18   ASN   N     N   15   10.4623997038   0.834324870091   .   .   .   .   .   .   .   26714   2
+      10   .   .   1   1   19   19   GLY   N     N   15   9.74967225362   0.479338232137   .   .   .   .   .   .   .   26714   2
+      11   .   .   1   1   20   20   LYS   N     N   15   10.2947987503   0.235084490967   .   .   .   .   .   .   .   26714   2
+      12   .   .   1   1   21   21   SER   N     N   15   12.5594740595   0.358477958652   .   .   .   .   .   .   .   26714   2
+      13   .   .   1   1   22   22   ASN   N     N   15   10.8328792472   0.367960432368   .   .   .   .   .   .   .   26714   2
+      14   .   .   1   1   23   23   PHE   N     N   15   9.70575781512   0.410834620475   .   .   .   .   .   .   .   26714   2
+      15   .   .   1   1   25   25   ASN   N     N   15   8.57691603189   0.21657106273    .   .   .   .   .   .   .   26714   2
+      16   .   .   1   1   26   26   CYS   N     N   15   9.80135772607   0.281286224259   .   .   .   .   .   .   .   26714   2
+      17   .   .   1   1   27   27   TYR   N     N   15   10.5137124501   0.36704195301    .   .   .   .   .   .   .   26714   2
+      18   .   .   1   1   28   28   VAL   N     N   15   12.519896425    0.494805022144   .   .   .   .   .   .   .   26714   2
+      19   .   .   1   1   29   29   SER   N     N   15   11.0750331317   0.391533382952   .   .   .   .   .   .   .   26714   2
+      20   .   .   1   1   30   30   GLY   N     N   15   8.51944075184   0.531835750731   .   .   .   .   .   .   .   26714   2
+      21   .   .   1   1   35   35   ASP   N     N   15   10.8120800311   0.292780180306   .   .   .   .   .   .   .   26714   2
+      22   .   .   1   1   36   36   ILE   N     N   15   9.83380031534   0.195453051154   .   .   .   .   .   .   .   26714   2
+      23   .   .   1   1   40   40   LEU   N     N   15   9.75199618718   0.314193974381   .   .   .   .   .   .   .   26714   2
+      24   .   .   1   1   41   41   LEU   N     N   15   10.128370334    0.366687206531   .   .   .   .   .   .   .   26714   2
+      25   .   .   1   1   43   43   ASN   N     N   15   8.26988820334   0.169950464951   .   .   .   .   .   .   .   26714   2
+      26   .   .   1   1   44   44   GLY   N     N   15   8.59624990877   0.74085684163    .   .   .   .   .   .   .   26714   2
+      27   .   .   1   1   45   45   GLU   N     N   15   10.7820281223   0.215193609338   .   .   .   .   .   .   .   26714   2
+      28   .   .   1   1   46   46   ARG   N     N   15   9.51752251335   0.560997962631   .   .   .   .   .   .   .   26714   2
+      29   .   .   1   1   47   47   ILE   N     N   15   11.0334409194   0.399600239659   .   .   .   .   .   .   .   26714   2
+      30   .   .   1   1   48   48   GLU   N     N   15   11.4011704124   0.471941381992   .   .   .   .   .   .   .   26714   2
+      31   .   .   1   1   49   49   LYS   N     N   15   9.04081367268   0.300833481828   .   .   .   .   .   .   .   26714   2
+      32   .   .   1   1   50   50   VAL   N     N   15   5.50198467225   0.100408733075   .   .   .   .   .   .   .   26714   2
+      33   .   .   1   1   51   51   GLU   N     N   15   8.40502558377   0.183288041625   .   .   .   .   .   .   .   26714   2
+      34   .   .   1   1   52   52   HIS   N     N   15   15.073995527    0.41720203531    .   .   .   .   .   .   .   26714   2
+      35   .   .   1   1   53   53   SER   N     N   15   10.4593009826   0.301732719731   .   .   .   .   .   .   .   26714   2
+      36   .   .   1   1   61   61   TRP   NE1   N   15   8.56955662627   0.553550186086   .   .   .   .   .   .   .   26714   2
+      37   .   .   1   1   65   65   LEU   N     N   15   13.7043055431   0.439714881847   .   .   .   .   .   .   .   26714   2
+      38   .   .   1   1   66   66   LEU   N     N   15   12.2685456554   0.337112163165   .   .   .   .   .   .   .   26714   2
+      39   .   .   1   1   67   67   TYR   N     N   15   9.99605399216   0.294767183819   .   .   .   .   .   .   .   26714   2
+      40   .   .   1   1   68   68   TYR   N     N   15   10.4575612498   0.313506033113   .   .   .   .   .   .   .   26714   2
+      41   .   .   1   1   69   69   THR   N     N   15   9.85204360544   0.280316602587   .   .   .   .   .   .   .   26714   2
+      42   .   .   1   1   70   70   GLU   N     N   15   9.76154161157   0.226692868941   .   .   .   .   .   .   .   26714   2
+      43   .   .   1   1   72   72   THR   N     N   15   10.5032335284   0.435355800984   .   .   .   .   .   .   .   26714   2
+      44   .   .   1   1   74   74   THR   N     N   15   9.91637862803   0.279135255648   .   .   .   .   .   .   .   26714   2
+      45   .   .   1   1   75   75   GLU   N     N   15   9.52546139515   1.3293072159     .   .   .   .   .   .   .   26714   2
+      46   .   .   1   1   76   76   LYS   N     N   15   7.86409262577   0.44581762495    .   .   .   .   .   .   .   26714   2
+      47   .   .   1   1   77   77   ASP   N     N   15   9.44070353459   0.235970421642   .   .   .   .   .   .   .   26714   2
+      48   .   .   1   1   78   78   GLU   N     N   15   9.59518416391   0.292522493793   .   .   .   .   .   .   .   26714   2
+      49   .   .   1   1   79   79   TYR   N     N   15   9.53555843464   0.319819219504   .   .   .   .   .   .   .   26714   2
+      50   .   .   1   1   81   81   CYS   N     N   15   9.97322386412   0.299407293847   .   .   .   .   .   .   .   26714   2
+      51   .   .   1   1   82   82   ARG   N     N   15   9.7829565913    0.288812210184   .   .   .   .   .   .   .   26714   2
+      52   .   .   1   1   83   83   VAL   N     N   15   9.60742914218   0.282856257787   .   .   .   .   .   .   .   26714   2
+      53   .   .   1   1   84   84   ASN   N     N   15   9.87289582284   0.283291700642   .   .   .   .   .   .   .   26714   2
+      54   .   .   1   1   85   85   HIS   N     N   15   7.4628517968    0.13318618885    .   .   .   .   .   .   .   26714   2
+      55   .   .   1   1   87   87   THR   N     N   15   10.2880853068   0.305573674695   .   .   .   .   .   .   .   26714   2
+      56   .   .   1   1   88   88   LEU   N     N   15   10.2087446257   0.207214976183   .   .   .   .   .   .   .   26714   2
+      57   .   .   1   1   93   93   ILE   N     N   15   9.05709939973   0.178148741396   .   .   .   .   .   .   .   26714   2
+      58   .   .   1   1   94   94   VAL   N     N   15   9.34634859538   0.270151953706   .   .   .   .   .   .   .   26714   2
+      59   .   .   1   1   95   95   LYS   N     N   15   9.6822077131    0.233137039007   .   .   .   .   .   .   .   26714   2
+      60   .   .   1   1   96   96   TRP   N     N   15   9.8785577952    0.276402674306   .   .   .   .   .   .   .   26714   2
+      61   .   .   1   1   96   96   TRP   NE1   N   15   8.97657787259   0.293967396388   .   .   .   .   .   .   .   26714   2
+      62   .   .   1   1   97   97   ASP   N     N   15   10.4225856721   0.328108746768   .   .   .   .   .   .   .   26714   2
+   stop_
+save_
+
+save_750.46_MHz_R1_relaxation_3
+   _Auto_relaxation_list.Sf_category                   auto_relaxation
+   _Auto_relaxation_list.Sf_framecode                  750.46_MHz_R1_relaxation_3
+   _Auto_relaxation_list.Entry_ID                      26714
+   _Auto_relaxation_list.ID                            3
+   _Auto_relaxation_list.Sample_condition_list_ID      1
+   _Auto_relaxation_list.Sample_condition_list_label   $sample_conditions_1
+   _Auto_relaxation_list.Temp_calibration_method       methanol
+   _Auto_relaxation_list.Temp_control_method           'single fid interleaving'
+   _Auto_relaxation_list.Spectrometer_frequency_1H     750.46
+   _Auto_relaxation_list.Exact_field_strength          750.46
+   _Auto_relaxation_list.Common_relaxation_type_name   R1
+   _Auto_relaxation_list.Relaxation_coherence_type     Iz
+   _Auto_relaxation_list.Relaxation_val_units          s-1
+   _Auto_relaxation_list.Rex_units                     .
+   _Auto_relaxation_list.Rex_field_strength            .
+   _Auto_relaxation_list.Details                       .
+   _Auto_relaxation_list.Text_data_format              .
+   _Auto_relaxation_list.Text_data                     .
+
+   loop_
+      _Auto_relaxation_experiment.Experiment_ID
+      _Auto_relaxation_experiment.Experiment_name
+      _Auto_relaxation_experiment.Sample_ID
+      _Auto_relaxation_experiment.Sample_label
+      _Auto_relaxation_experiment.Sample_state
+      _Auto_relaxation_experiment.Entry_ID
+      _Auto_relaxation_experiment.Auto_relaxation_list_ID
+
+      .   .   1   $sample_1   .   26714   3
+   stop_
+
+   loop_
+      _Auto_relaxation.ID
+      _Auto_relaxation.Assembly_ID
+      _Auto_relaxation.Assembly_atom_ID
+      _Auto_relaxation.Entity_assembly_ID
+      _Auto_relaxation.Entity_ID
+      _Auto_relaxation.Comp_index_ID
+      _Auto_relaxation.Seq_ID
+      _Auto_relaxation.Comp_ID
+      _Auto_relaxation.Atom_ID
+      _Auto_relaxation.Atom_type
+      _Auto_relaxation.Atom_isotope_number
+      _Auto_relaxation.Auto_relaxation_val
+      _Auto_relaxation.Auto_relaxation_val_err
+      _Auto_relaxation.Rex_val
+      _Auto_relaxation.Rex_val_err
+      _Auto_relaxation.Resonance_ID
+      _Auto_relaxation.Auth_entity_assembly_ID
+      _Auto_relaxation.Auth_seq_ID
+      _Auto_relaxation.Auth_comp_ID
+      _Auto_relaxation.Auth_atom_ID
+      _Auto_relaxation.Entry_ID
+      _Auto_relaxation.Auto_relaxation_list_ID
+
+      1    .   .   1   1   3    3    GLN   N     N   15   1.35650851954   0.0556897735327   .   .   .   .   .   .   .   26714   3
+      2    .   .   1   1   4    4    ARG   N     N   15   1.48176432428   0.0574629794909   .   .   .   .   .   .   .   26714   3
+      3    .   .   1   1   7    7    LYS   N     N   15   1.46482626264   0.0347328664615   .   .   .   .   .   .   .   26714   3
+      4    .   .   1   1   10   10   VAL   N     N   15   1.48702018502   0.0264967035092   .   .   .   .   .   .   .   26714   3
+      5    .   .   1   1   11   11   TYR   N     N   15   1.58471957648   0.0224977928482   .   .   .   .   .   .   .   26714   3
+      6    .   .   1   1   12   12   SER   N     N   15   1.66143072102   0.0401918768306   .   .   .   .   .   .   .   26714   3
+      7    .   .   1   1   14   14   HIS   N     N   15   1.58692957827   0.0330992819281   .   .   .   .   .   .   .   26714   3
+      8    .   .   1   1   17   17   GLU   N     N   15   1.33177858963   0.034840625381    .   .   .   .   .   .   .   26714   3
+      9    .   .   1   1   18   18   ASN   N     N   15   1.46453791915   0.0633267778193   .   .   .   .   .   .   .   26714   3
+      10   .   .   1   1   19   19   GLY   N     N   15   1.44583169546   0.0451170297621   .   .   .   .   .   .   .   26714   3
+      11   .   .   1   1   20   20   LYS   N     N   15   1.58658365406   0.026075241807    .   .   .   .   .   .   .   26714   3
+      12   .   .   1   1   21   21   SER   N     N   15   1.35753633826   0.0255504532177   .   .   .   .   .   .   .   26714   3
+      13   .   .   1   1   22   22   ASN   N     N   15   1.52789415408   0.0342918747459   .   .   .   .   .   .   .   26714   3
+      14   .   .   1   1   23   23   PHE   N     N   15   1.47550259347   0.0404852374335   .   .   .   .   .   .   .   26714   3
+      15   .   .   1   1   25   25   ASN   N     N   15   1.39458807534   0.0194021785117   .   .   .   .   .   .   .   26714   3
+      16   .   .   1   1   26   26   CYS   N     N   15   1.44668096973   0.0241767997588   .   .   .   .   .   .   .   26714   3
+      17   .   .   1   1   27   27   TYR   N     N   15   1.53528844758   0.0309724420019   .   .   .   .   .   .   .   26714   3
+      18   .   .   1   1   28   28   VAL   N     N   15   1.53961461899   0.0383559072762   .   .   .   .   .   .   .   26714   3
+      19   .   .   1   1   29   29   SER   N     N   15   1.56159520937   0.0360333071931   .   .   .   .   .   .   .   26714   3
+      20   .   .   1   1   30   30   GLY   N     N   15   1.51445378255   0.0728659089283   .   .   .   .   .   .   .   26714   3
+      21   .   .   1   1   35   35   ASP   N     N   15   1.34074136121   0.0204302831519   .   .   .   .   .   .   .   26714   3
+      22   .   .   1   1   36   36   ILE   N     N   15   1.43300007395   0.0185560081031   .   .   .   .   .   .   .   26714   3
+      23   .   .   1   1   40   40   LEU   N     N   15   1.42523249278   0.0288953819506   .   .   .   .   .   .   .   26714   3
+      24   .   .   1   1   41   41   LEU   N     N   15   1.49323787068   0.0317585266099   .   .   .   .   .   .   .   26714   3
+      25   .   .   1   1   43   43   ASN   N     N   15   1.42145384165   0.0208961492324   .   .   .   .   .   .   .   26714   3
+      26   .   .   1   1   44   44   GLY   N     N   15   1.67399336092   0.0616414879444   .   .   .   .   .   .   .   26714   3
+      27   .   .   1   1   45   45   GLU   N     N   15   1.44948516735   0.0183099053365   .   .   .   .   .   .   .   26714   3
+      28   .   .   1   1   46   46   ARG   N     N   15   1.40445310334   0.0431463872212   .   .   .   .   .   .   .   26714   3
+      29   .   .   1   1   47   47   ILE   N     N   15   1.44876916734   0.0287237383262   .   .   .   .   .   .   .   26714   3
+      30   .   .   1   1   48   48   GLU   N     N   15   1.24725799808   0.0340938176402   .   .   .   .   .   .   .   26714   3
+      31   .   .   1   1   49   49   LYS   N     N   15   1.19754785224   0.0259888126192   .   .   .   .   .   .   .   26714   3
+      32   .   .   1   1   50   50   VAL   N     N   15   1.01499550713   0.0118086649951   .   .   .   .   .   .   .   26714   3
+      33   .   .   1   1   51   51   GLU   N     N   15   1.38714164246   0.0166505455481   .   .   .   .   .   .   .   26714   3
+      34   .   .   1   1   52   52   HIS   N     N   15   1.50766170825   0.0251121025276   .   .   .   .   .   .   .   26714   3
+      35   .   .   1   1   53   53   SER   N     N   15   1.62166848956   0.0358351734693   .   .   .   .   .   .   .   26714   3
+      36   .   .   1   1   61   61   TRP   NE1   N   15   1.41875704982   0.120949646693    .   .   .   .   .   .   .   26714   3
+      37   .   .   1   1   65   65   LEU   N     N   15   1.52375177051   0.0294300161671   .   .   .   .   .   .   .   26714   3
+      38   .   .   1   1   66   66   LEU   N     N   15   1.48840573468   0.0318146971024   .   .   .   .   .   .   .   26714   3
+      39   .   .   1   1   67   67   TYR   N     N   15   1.54928861899   0.034373920392    .   .   .   .   .   .   .   26714   3
+      40   .   .   1   1   68   68   TYR   N     N   15   1.51577960252   0.0259404445757   .   .   .   .   .   .   .   26714   3
+      41   .   .   1   1   69   69   THR   N     N   15   1.53629655988   0.024190839464    .   .   .   .   .   .   .   26714   3
+      42   .   .   1   1   70   70   GLU   N     N   15   1.52858730112   0.0223357266895   .   .   .   .   .   .   .   26714   3
+      43   .   .   1   1   72   72   THR   N     N   15   1.43467155104   0.039619798328    .   .   .   .   .   .   .   26714   3
+      44   .   .   1   1   74   74   THR   N     N   15   1.34983555269   0.027676934399    .   .   .   .   .   .   .   26714   3
+      45   .   .   1   1   75   75   GLU   N     N   15   1.28142157277   0.190469145024    .   .   .   .   .   .   .   26714   3
+      46   .   .   1   1   76   76   LYS   N     N   15   1.38926081297   0.0501540092057   .   .   .   .   .   .   .   26714   3
+      47   .   .   1   1   77   77   ASP   N     N   15   1.38297351995   0.0246091004981   .   .   .   .   .   .   .   26714   3
+      48   .   .   1   1   78   78   GLU   N     N   15   1.48679446824   0.0263472211467   .   .   .   .   .   .   .   26714   3
+      49   .   .   1   1   79   79   TYR   N     N   15   1.45600028918   0.0303164649471   .   .   .   .   .   .   .   26714   3
+      50   .   .   1   1   81   81   CYS   N     N   15   1.47864044826   0.0231013454966   .   .   .   .   .   .   .   26714   3
+      51   .   .   1   1   82   82   ARG   N     N   15   1.57093889846   0.0273583712957   .   .   .   .   .   .   .   26714   3
+      52   .   .   1   1   83   83   VAL   N     N   15   1.48631273054   0.0261576590863   .   .   .   .   .   .   .   26714   3
+      53   .   .   1   1   84   84   ASN   N     N   15   1.52749192036   0.0247027179269   .   .   .   .   .   .   .   26714   3
+      54   .   .   1   1   85   85   HIS   N     N   15   1.27294307061   0.0135522923216   .   .   .   .   .   .   .   26714   3
+      55   .   .   1   1   87   87   THR   N     N   15   1.60281561685   0.0280293300588   .   .   .   .   .   .   .   26714   3
+      56   .   .   1   1   88   88   LEU   N     N   15   1.56668989641   0.0215551535501   .   .   .   .   .   .   .   26714   3
+      57   .   .   1   1   93   93   ILE   N     N   15   1.44815040816   0.018206024407    .   .   .   .   .   .   .   26714   3
+      58   .   .   1   1   94   94   VAL   N     N   15   1.50315492481   0.0267981553374   .   .   .   .   .   .   .   26714   3
+      59   .   .   1   1   95   95   LYS   N     N   15   1.50913130088   0.0218672961919   .   .   .   .   .   .   .   26714   3
+      60   .   .   1   1   96   96   TRP   N     N   15   1.48406197996   0.0234147419996   .   .   .   .   .   .   .   26714   3
+      61   .   .   1   1   96   96   TRP   NE1   N   15   1.23648646512   0.0301288942767   .   .   .   .   .   .   .   26714   3
+      62   .   .   1   1   97   97   ASP   N     N   15   1.37891870576   0.0350633971584   .   .   .   .   .   .   .   26714   3
+   stop_
+save_
+
+save_750.46_MHz_R2_relaxation_4
+   _Auto_relaxation_list.Sf_category                   auto_relaxation
+   _Auto_relaxation_list.Sf_framecode                  750.46_MHz_R2_relaxation_4
+   _Auto_relaxation_list.Entry_ID                      26714
+   _Auto_relaxation_list.ID                            4
+   _Auto_relaxation_list.Sample_condition_list_ID      1
+   _Auto_relaxation_list.Sample_condition_list_label   $sample_conditions_1
+   _Auto_relaxation_list.Temp_calibration_method       methanol
+   _Auto_relaxation_list.Temp_control_method           'single fid interleaving'
+   _Auto_relaxation_list.Spectrometer_frequency_1H     750.46
+   _Auto_relaxation_list.Exact_field_strength          750.46
+   _Auto_relaxation_list.Common_relaxation_type_name   R2
+   _Auto_relaxation_list.Relaxation_coherence_type     I+
+   _Auto_relaxation_list.Relaxation_val_units          s-1
+   _Auto_relaxation_list.Rex_units                     .
+   _Auto_relaxation_list.Rex_field_strength            .
+   _Auto_relaxation_list.Details                       .
+   _Auto_relaxation_list.Text_data_format              .
+   _Auto_relaxation_list.Text_data                     .
+
+   loop_
+      _Auto_relaxation_experiment.Experiment_ID
+      _Auto_relaxation_experiment.Experiment_name
+      _Auto_relaxation_experiment.Sample_ID
+      _Auto_relaxation_experiment.Sample_label
+      _Auto_relaxation_experiment.Sample_state
+      _Auto_relaxation_experiment.Entry_ID
+      _Auto_relaxation_experiment.Auto_relaxation_list_ID
+
+      .   .   1   $sample_1   .   26714   4
+   stop_
+
+   loop_
+      _Auto_relaxation.ID
+      _Auto_relaxation.Assembly_ID
+      _Auto_relaxation.Assembly_atom_ID
+      _Auto_relaxation.Entity_assembly_ID
+      _Auto_relaxation.Entity_ID
+      _Auto_relaxation.Comp_index_ID
+      _Auto_relaxation.Seq_ID
+      _Auto_relaxation.Comp_ID
+      _Auto_relaxation.Atom_ID
+      _Auto_relaxation.Atom_type
+      _Auto_relaxation.Atom_isotope_number
+      _Auto_relaxation.Auto_relaxation_val
+      _Auto_relaxation.Auto_relaxation_val_err
+      _Auto_relaxation.Rex_val
+      _Auto_relaxation.Rex_val_err
+      _Auto_relaxation.Resonance_ID
+      _Auto_relaxation.Auth_entity_assembly_ID
+      _Auto_relaxation.Auth_seq_ID
+      _Auto_relaxation.Auth_comp_ID
+      _Auto_relaxation.Auth_atom_ID
+      _Auto_relaxation.Entry_ID
+      _Auto_relaxation.Auto_relaxation_list_ID
+
+      1    .   .   1   1   3    3    GLN   N     N   15   12.7785974518   0.553895831524    .   .   .   .   .   .   .   26714   4
+      2    .   .   1   1   4    4    ARG   N     N   15   10.7385443947   0.451110634753    .   .   .   .   .   .   .   26714   4
+      3    .   .   1   1   7    7    LYS   N     N   15   10.7530457629   0.388622633106    .   .   .   .   .   .   .   26714   4
+      4    .   .   1   1   10   10   VAL   N     N   15   10.2658207592   0.283703452453    .   .   .   .   .   .   .   26714   4
+      5    .   .   1   1   11   11   TYR   N     N   15   11.0057790746   0.261753758813    .   .   .   .   .   .   .   26714   4
+      6    .   .   1   1   12   12   SER   N     N   15   12.0529650442   0.403066026519    .   .   .   .   .   .   .   26714   4
+      7    .   .   1   1   14   14   HIS   N     N   15   14.1450192681   0.425291367935    .   .   .   .   .   .   .   26714   4
+      8    .   .   1   1   17   17   GLU   N     N   15   11.0665866039   0.354982085943    .   .   .   .   .   .   .   26714   4
+      9    .   .   1   1   18   18   ASN   N     N   15   12.371283217    1.09717746734     .   .   .   .   .   .   .   26714   4
+      10   .   .   1   1   19   19   GLY   N     N   15   10.8126030527   0.441270440769    .   .   .   .   .   .   .   26714   4
+      11   .   .   1   1   20   20   LYS   N     N   15   10.6373385833   0.210244584274    .   .   .   .   .   .   .   26714   4
+      12   .   .   1   1   21   21   SER   N     N   15   13.327533101    0.305113552172    .   .   .   .   .   .   .   26714   4
+      13   .   .   1   1   22   22   ASN   N     N   15   12.0711172236   0.380492739333    .   .   .   .   .   .   .   26714   4
+      14   .   .   1   1   23   23   PHE   N     N   15   10.6082943277   0.487134260471    .   .   .   .   .   .   .   26714   4
+      15   .   .   1   1   25   25   ASN   N     N   15   6.96837324132   0.145307649792    .   .   .   .   .   .   .   26714   4
+      16   .   .   1   1   26   26   CYS   N     N   15   10.4176117722   0.316631827354    .   .   .   .   .   .   .   26714   4
+      17   .   .   1   1   27   27   TYR   N     N   15   11.5052289439   0.422428589502    .   .   .   .   .   .   .   26714   4
+      18   .   .   1   1   28   28   VAL   N     N   15   13.6359607667   0.607170357629    .   .   .   .   .   .   .   26714   4
+      19   .   .   1   1   29   29   SER   N     N   15   12.4807955676   0.442123786848    .   .   .   .   .   .   .   26714   4
+      20   .   .   1   1   30   30   GLY   N     N   15   10.2488045985   0.716033678835    .   .   .   .   .   .   .   26714   4
+      21   .   .   1   1   35   35   ASP   N     N   15   12.1779080689   0.278972912364    .   .   .   .   .   .   .   26714   4
+      22   .   .   1   1   36   36   ILE   N     N   15   10.574935362    0.221649653775    .   .   .   .   .   .   .   26714   4
+      23   .   .   1   1   40   40   LEU   N     N   15   10.4394532162   0.325927221786    .   .   .   .   .   .   .   26714   4
+      24   .   .   1   1   41   41   LEU   N     N   15   11.1260775747   0.359411133563    .   .   .   .   .   .   .   26714   4
+      25   .   .   1   1   43   43   ASN   N     N   15   9.14966637545   0.206754955734    .   .   .   .   .   .   .   26714   4
+      26   .   .   1   1   44   44   GLY   N     N   15   10.496610833    0.435564226438    .   .   .   .   .   .   .   26714   4
+      27   .   .   1   1   45   45   GLU   N     N   15   11.4044780199   0.220824683285    .   .   .   .   .   .   .   26714   4
+      28   .   .   1   1   46   46   ARG   N     N   15   10.0942381121   0.328193704712    .   .   .   .   .   .   .   26714   4
+      29   .   .   1   1   47   47   ILE   N     N   15   12.0578508919   0.36845387617     .   .   .   .   .   .   .   26714   4
+      30   .   .   1   1   48   48   GLU   N     N   15   12.4952983369   0.378119008614    .   .   .   .   .   .   .   26714   4
+      31   .   .   1   1   49   49   LYS   N     N   15   9.19516596208   0.224672162312    .   .   .   .   .   .   .   26714   4
+      32   .   .   1   1   50   50   VAL   N     N   15   4.66269586429   0.0739718123439   .   .   .   .   .   .   .   26714   4
+      33   .   .   1   1   51   51   GLU   N     N   15   8.00585964101   0.147167822044    .   .   .   .   .   .   .   26714   4
+      34   .   .   1   1   52   52   HIS   N     N   15   16.2418564815   0.444382987184    .   .   .   .   .   .   .   26714   4
+      35   .   .   1   1   53   53   SER   N     N   15   11.2032549296   0.319220862569    .   .   .   .   .   .   .   26714   4
+      36   .   .   1   1   61   61   TRP   NE1   N   15   8.71362418996   1.02720999625     .   .   .   .   .   .   .   26714   4
+      37   .   .   1   1   65   65   LEU   N     N   15   15.4153450743   0.523554286445    .   .   .   .   .   .   .   26714   4
+      38   .   .   1   1   66   66   LEU   N     N   15   7.53194307442   0.168482801226    .   .   .   .   .   .   .   26714   4
+      39   .   .   1   1   67   67   TYR   N     N   15   11.404873684    0.444955361603    .   .   .   .   .   .   .   26714   4
+      40   .   .   1   1   68   68   TYR   N     N   15   11.5032773829   0.303743162994    .   .   .   .   .   .   .   26714   4
+      41   .   .   1   1   69   69   THR   N     N   15   10.7436596069   0.262880442119    .   .   .   .   .   .   .   26714   4
+      42   .   .   1   1   70   70   GLU   N     N   15   10.7184091621   0.238019146087    .   .   .   .   .   .   .   26714   4
+      43   .   .   1   1   72   72   THR   N     N   15   10.970024562    0.31654049671     .   .   .   .   .   .   .   26714   4
+      44   .   .   1   1   74   74   THR   N     N   15   10.8324516969   0.308681923242    .   .   .   .   .   .   .   26714   4
+      45   .   .   1   1   75   75   GLU   N     N   15   10.7505318258   1.7346474952      .   .   .   .   .   .   .   26714   4
+      46   .   .   1   1   76   76   LYS   N     N   15   8.95765900542   0.358259638456    .   .   .   .   .   .   .   26714   4
+      47   .   .   1   1   77   77   ASP   N     N   15   10.2668199152   0.210195016967    .   .   .   .   .   .   .   26714   4
+      48   .   .   1   1   78   78   GLU   N     N   15   10.4736151368   0.277074525107    .   .   .   .   .   .   .   26714   4
+      49   .   .   1   1   79   79   TYR   N     N   15   9.87997385851   0.313230549495    .   .   .   .   .   .   .   26714   4
+      50   .   .   1   1   81   81   CYS   N     N   15   10.9458203505   0.295283286864    .   .   .   .   .   .   .   26714   4
+      51   .   .   1   1   82   82   ARG   N     N   15   10.8379129374   0.337410314898    .   .   .   .   .   .   .   26714   4
+      52   .   .   1   1   83   83   VAL   N     N   15   10.6388032905   0.346581227182    .   .   .   .   .   .   .   26714   4
+      53   .   .   1   1   84   84   ASN   N     N   15   10.7853427625   0.273874010065    .   .   .   .   .   .   .   26714   4
+      54   .   .   1   1   85   85   HIS   N     N   15   6.5874560207    0.104476419141    .   .   .   .   .   .   .   26714   4
+      55   .   .   1   1   87   87   THR   N     N   15   11.6335556626   0.348232918259    .   .   .   .   .   .   .   26714   4
+      56   .   .   1   1   88   88   LEU   N     N   15   11.1187793477   0.228947730569    .   .   .   .   .   .   .   26714   4
+      57   .   .   1   1   93   93   ILE   N     N   15   9.72102671297   0.192924461544    .   .   .   .   .   .   .   26714   4
+      58   .   .   1   1   94   94   VAL   N     N   15   10.3202197583   0.3047148694      .   .   .   .   .   .   .   26714   4
+      59   .   .   1   1   95   95   LYS   N     N   15   10.7763148665   0.235776990422    .   .   .   .   .   .   .   26714   4
+      60   .   .   1   1   96   96   TRP   N     N   15   11.1029394829   0.272855801443    .   .   .   .   .   .   .   26714   4
+      61   .   .   1   1   96   96   TRP   NE1   N   15   9.47485478233   0.345799483881    .   .   .   .   .   .   .   26714   4
+      62   .   .   1   1   97   97   ASP   N     N   15   10.5403496446   0.401804124012    .   .   .   .   .   .   .   26714   4
+   stop_
+save_
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+
+
+save_order_parameter_list_1
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  order_parameter_list_1
+   _Order_parameter_list.Entry_ID                      26714
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label   $sample_conditions_1
+   _Order_parameter_list.Tau_e_val_units               s
+   _Order_parameter_list.Tau_f_val_units               s
+   _Order_parameter_list.Tau_s_val_units               s
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       'Bond_length_val:  1.02e-10.'
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      1   '600.133 MHz R1'                 1   $sample_1   .   26714   1
+      2   '600.133 MHz R2'                 1   $sample_1   .   26714   1
+      3   '600.133 MHz steady-state NOE'   1   $sample_1   .   26714   1
+      4   '750.46 MHz R1'                  1   $sample_1   .   26714   1
+      5   '750.46 MHz R2'                  1   $sample_1   .   26714   1
+      6   '750.46 MHz steady-state NOE'    1   $sample_1   .   26714   1
+   stop_
+
+   loop_
+      _Order_parameter_software.Software_ID
+      _Order_parameter_software.Software_label
+      _Order_parameter_software.Method_ID
+      _Order_parameter_software.Method_label
+      _Order_parameter_software.Entry_ID
+      _Order_parameter_software.Order_parameter_list_ID
+
+      1   $relax   .   .   26714   1
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+      1    .   1   1   3    3    GLN   N     N   15   0.495117054839   0.116464491592     .                   .                   .                   .                   9.53078172235e-10   3.23185808388e-10   1.44325942283e-37   2.35360731578e-38   .   'S2f, S2, ts, Rex'   0.76185562099    0.0503036076019    0.64752734509    0.120170123688     .   .   .   .   .   .   .   .   .   26714   1
+      2    .   1   1   4    4    ARG   N     N   15   0.935526804967   0.0190265990494    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      3    .   1   1   7    7    LYS   N     N   15   0.908140904102   0.0148231532269    .                   .                   .                   .                   .                   .                   1.48750065405e-38   7.42843224429e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      4    .   1   1   10   10   VAL   N     N   15   0.846849564381   0.0277527486418    .                   .                   .                   .                   2.49200991678e-09   1.52763673145e-09   .                   .                   .   'S2f, S2, ts'        0.919405092491   0.0129191449231    0.936715474223   0.0221387114604    .   .   .   .   .   .   .   .   .   26714   1
+      5    .   1   1   11   11   TYR   N     N   15   0.81997882273    0.0236615568483    .                   .                   .                   .                   2.59285983367e-09   8.32886963573e-10   .                   .                   .   'S2f, S2, ts'        0.970375854909   0.0116061907388    0.876069815996   0.0176259494498    .   .   .   .   .   .   .   .   .   26714   1
+      6    .   1   1   12   12   SER   N     N   15   0.704583651227   0.0479860045356    6.65831825953e-09   1.86061283587e-09   .                   .                   .                   .                   9.1056947919e-39    6.94240877251e-39   .   'S2, te, Rex'        .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      7    .   1   1   14   14   HIS   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   4.52354424042e-38   7.03053412537e-39   .   Rex                  .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      8    .   1   1   17   17   GLU   N     N   15   0.704664155083   0.0250631879002    .                   .                   .                   .                   2.19420173205e-09   5.87423311409e-10   .                   .                   .   'S2f, S2, ts'        0.885470785398   0.0164512719966    0.816448700908   0.0191177856743    .   .   .   .   .   .   .   .   .   26714   1
+      9    .   1   1   18   18   ASN   N     N   15   0.870486775785   0.033573981766     .                   .                   .                   .                   .                   .                   5.22840579128e-38   1.99328976885e-38   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      10   .   1   1   19   19   GLY   N     N   15   0.929157449705   0.0171765093009    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      11   .   1   1   20   20   LYS   N     N   15   0.934437610144   0.00973457837193   .                   .                   .                   .                   .                   .                   1.1768998103e-38    4.39823391343e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      12   .   1   1   21   21   SER   N     N   15   0.808456640358   0.00998601401938   .                   .                   .                   .                   .                   .                   9.88788548609e-38   5.7132321543e-39    .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      13   .   1   1   22   22   ASN   N     N   15   0.939107278187   0.0145906491871    .                   .                   .                   .                   .                   .                   2.91876645852e-38   7.30787679114e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      14   .   1   1   23   23   PHE   N     N   15   0.918031455511   0.0150296952405    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      15   .   1   1   25   25   ASN   N     N   15   0.479242461488   0.0118037920588    .                   .                   .                   .                   1.82895457821e-09   1.07720440864e-10   .                   .                   .   'S2f, S2, ts'        0.764562314215   0.00896591561188   0.656198203872   0.0116827536652    .   .   .   .   .   .   .   .   .   26714   1
+      16   .   1   1   26   26   CYS   N     N   15   0.794610364945   0.035007249979     .                   .                   .                   .                   8.14285392884e-09   2.05704990609e-09   .                   .                   .   'S2f, S2, ts'        0.917752930356   0.0117145591705    0.908961450046   0.0310365899496    .   .   .   .   .   .   .   .   .   26714   1
+      17   .   1   1   27   27   TYR   N     N   15   0.734590778048   0.0442313815225    .                   .                   .                   .                   5.76649353762e-09   1.72610945691e-09   .                   .                   .   'S2f, S2, ts'        0.965466411655   0.0153496116216    0.819964671558   0.0406174608595    .   .   .   .   .   .   .   .   .   26714   1
+      18   .   1   1   28   28   VAL   N     N   15   0.97254276722    0.0156107654815    .                   .                   .                   .                   .                   .                   5.6834433192e-38    1.03604712528e-38   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      19   .   1   1   29   29   SER   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   1.09001091465e-38   6.45736380846e-39   .   Rex                  .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      20   .   1   1   30   30   GLY   N     N   15   0.903324164173   0.0255559950663    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      21   .   1   1   35   35   ASP   N     N   15   0.940879056432   0.0085135277781    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      22   .   1   1   36   36   ILE   N     N   15   0.876853929436   0.0078295373463    .                   .                   .                   .                   .                   .                   1.76802617839e-38   4.11373576519e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      23   .   1   1   40   40   LEU   N     N   15   0.884151744203   0.0130916346019    1.37417531479e-11   9.38007210675e-12   .                   .                   .                   .                   1.06763928744e-38   5.97336359172e-39   .   'S2, te, Rex'        .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      24   .   1   1   41   41   LEU   N     N   15   0.965316690334   0.011988591081     .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      25   .   1   1   43   43   ASN   N     N   15   0.582012048511   0.0666283395093    .                   .                   .                   .                   1.66160528043e-09   2.6972919564e-10    3.25419610824e-38   1.42956176639e-38   .   'S2f, S2, ts, Rex'   0.796500439423   0.0311698469583    0.730112633738   0.0573951609173    .   .   .   .   .   .   .   .   .   26714   1
+      26   .   1   1   44   44   GLY   N     N   15   0.952108536768   0.0203788998077    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      27   .   1   1   45   45   GLU   N     N   15   0.702449689839   0.0257587851914    .                   .                   .                   .                   4.1785170202e-09    1.09198923271e-09   .                   .                   .   'S2f, S2, ts'        0.927427183357   0.0087475166671    0.785946186971   0.0250298380419    .   .   .   .   .   .   .   .   .   26714   1
+      28   .   1   1   46   46   ARG   N     N   15   0.787883180291   0.0373689743653    .                   .                   .                   .                   2.02580294462e-09   1.37742564502e-09   .                   .                   .   'S2f, S2, ts'        0.881891306245   0.0190654660122    0.894273839303   0.0319170576728    .   .   .   .   .   .   .   .   .   26714   1
+      29   .   1   1   47   47   ILE   N     N   15   0.880617645445   0.0133343243034    .                   .                   .                   .                   .                   .                   5.18985323341e-38   7.111242616e-39     .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      30   .   1   1   48   48   GLU   N     N   15   0.819400358556   0.0131929304328    .                   .                   .                   .                   .                   .                   6.20591101139e-38   7.92237588479e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      31   .   1   1   49   49   LYS   N     N   15   0.664261666877   0.0168506708422    .                   .                   .                   .                   1.23366146171e-09   1.59126198622e-10   .                   .                   .   'S2f, S2, ts'        0.804962120229   0.0125794535117    0.848036700767   0.0151782841202    .   .   .   .   .   .   .   .   .   26714   1
+      32   .   1   1   50   50   VAL   N     N   15   0.25343445156    0.00805060182845   .                   .                   6.67230819145e-12   2.42689128017e-12   2.6155662468e-09    4.08005939072e-10   .                   .                   .   'S2f, tf, S2, ts'    0.495233410262   0.00915471079088   0.546641956633   0.0102954874727    .   .   .   .   .   .   .   .   .   26714   1
+      33   .   1   1   51   51   GLU   N     N   15   0.468832288648   0.0102146082193    .                   .                   .                   .                   2.04150295461e-09   1.12953941474e-10   .                   .                   .   'S2f, S2, ts'        0.792191758991   0.0078375019258    0.622684078213   0.00964263596892   .   .   .   .   .   .   .   .   .   26714   1
+      34   .   1   1   52   52   HIS   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   9.20965072799e-38   7.1854387902e-39    .   Rex                  .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      35   .   1   1   53   53   SER   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   .                   .                   .   .                    .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      36   .   1   1   61   61   TRP   NE1   N   15   0.627126623812   0.0591811302658    .                   .                   .                   .                   1.87913181668e-09   1.31890381441e-09   .                   .                   .   'S2f, S2, ts'        0.838129935679   0.0444069601741    0.779988321828   0.0566915004284    .   .   .   .   .   .   .   .   .   26714   1
+      37   .   1   1   65   65   LEU   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   7.68074774466e-38   8.37776660897e-39   .   Rex                  .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      38   .   1   1   66   66   LEU   N     N   15   0.592968838453   0.0799612455611    .                   .                   .                   .                   1.501628567e-09     4.7641842391e-10    1.35625815888e-38   1.4904136269e-38    .   'S2f, S2, ts, Rex'   0.734676776007   0.0350191813095    0.799721432169   0.0784848179172    .   .   .   .   .   .   .   .   .   26714   1
+      39   .   1   1   67   67   TYR   N     N   15   0.981116842528   0.0123815744628    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      40   .   1   1   68   68   TYR   N     N   15   0.940679719036   0.0153313278037    1.33132312483e-09   5.18867641075e-10   .                   .                   .                   .                   .                   .                   .   'S2, te'             .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      41   .   1   1   69   69   THR   N     N   15   0.647553951098   0.0431998139401    .                   .                   .                   .                   8.27509128231e-09   1.73503874484e-09   .                   .                   .   'S2f, S2, ts'        0.941476263281   0.0107783440547    0.750670516762   0.0446035214791    .   .   .   .   .   .   .   .   .   26714   1
+      42   .   1   1   70   70   GLU   N     N   15   0.859044429731   0.0242183297473    .                   .                   .                   .                   2.54411363517e-09   1.63526866096e-09   .                   .                   .   'S2f, S2, ts'        0.940300141701   0.0112783716645    0.930848545416   0.019434040645     .   .   .   .   .   .   .   .   .   26714   1
+      43   .   1   1   72   72   THR   N     N   15   0.932341846708   0.0139006526033    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      44   .   1   1   74   74   THR   N     N   15   0.809621966487   0.0244714208811    .                   .                   .                   .                   2.03726015155e-09   1.11578665642e-09   .                   .                   .   'S2f, S2, ts'        0.896611270775   0.0127721701347    0.903257879281   0.0189286446027    .   .   .   .   .   .   .   .   .   26714   1
+      45   .   1   1   75   75   GLU   N     N   15   0.873278237327   0.0502747130374    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      46   .   1   1   76   76   LYS   N     N   15   0.779884145405   0.0147779518117    1.35101685437e-11   6.55987981522e-12   .                   .                   .                   .                   .                   .                   .   'S2, te'             .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      47   .   1   1   77   77   ASP   N     N   15   0.770148455066   0.0945595746347    .                   .                   .                   .                   1.71636970336e-09   1.60248309747e-09   2.56891048764e-38   1.62935502318e-38   .   'S2f, S2, ts, Rex'   0.836216945772   0.056644220305     0.912607005847   0.078460661809     .   .   .   .   .   .   .   .   .   26714   1
+      48   .   1   1   78   78   GLU   N     N   15   0.834542757917   0.028410027437     .                   .                   .                   .                   2.64451601641e-09   1.50768166798e-09   .                   .                   .   'S2f, S2, ts'        0.916238636413   0.0131714535981    0.916327575808   0.0236156927916    .   .   .   .   .   .   .   .   .   26714   1
+      49   .   1   1   79   79   TYR   N     N   15   0.728246182273   0.0337614331469    .                   .                   .                   .                   3.59926111476e-09   1.54580921057e-09   .                   .                   .   'S2f, S2, ts'        0.893708199442   0.0126025395191    0.840624813318   0.0319722321032    .   .   .   .   .   .   .   .   .   26714   1
+      50   .   1   1   81   81   CYS   N     N   15   0.91310620044    0.0111984097267    .                   .                   .                   .                   .                   .                   1.46331122855e-38   5.62063198776e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      51   .   1   1   82   82   ARG   N     N   15   0.947770087353   0.0103344667691    .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      52   .   1   1   83   83   VAL   N     N   15   0.930141007361   0.0102900085318    3.18257343339e-11   1.57833892348e-11   .                   .                   .                   .                   .                   .                   .   'S2, te'             .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      53   .   1   1   84   84   ASN   N     N   15   0.944254440314   0.00963395794316   .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      54   .   1   1   85   85   HIS   N     N   15   0.598055585039   0.00982322616776   .                   .                   .                   .                   1.32404646669e-09   1.18390845035e-10   .                   .                   .   'S2f, S2, ts'        0.722960263215   0.00628379501497   0.821232404422   0.010765431845     .   .   .   .   .   .   .   .   .   26714   1
+      55   .   1   1   87   87   THR   N     N   15   .                .                  .                   .                   .                   .                   .                   .                   .                   .                   .   .                    .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      56   .   1   1   88   88   LEU   N     N   15   0.984668348136   0.00803802711741   .                   .                   .                   .                   .                   .                   .                   .                   .   S2                   .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      57   .   1   1   93   93   ILE   N     N   15   0.86877806393    0.00713310317436   2.87497611183e-11   7.01720554359e-12   .                   .                   .                   .                   .                   .                   .   'S2, te'             .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      58   .   1   1   94   94   VAL   N     N   15   0.851657644896   0.0301218024034    .                   .                   .                   .                   2.5503416834e-09    1.57467511719e-09   .                   .                   .   'S2f, S2, ts'        0.921211577853   0.0145243982585    0.934476492755   0.0233786340933    .   .   .   .   .   .   .   .   .   26714   1
+      59   .   1   1   95   95   LYS   N     N   15   0.81271011017    0.108983222251     .                   .                   .                   .                   2.62205061087e-09   2.35481288611e-09   3.02134180226e-38   1.70495819266e-38   .   'S2f, S2, ts, Rex'   0.881041526334   0.0478092307792    0.915000171447   0.0889074056236    .   .   .   .   .   .   .   .   .   26714   1
+      60   .   1   1   96   96   TRP   N     N   15   0.887287991974   0.0111333682049    1.47230389205e-11   9.07539594436e-12   .                   .                   .                   .                   2.68444172966e-38   5.80370588734e-39   .   'S2, te, Rex'        .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      61   .   1   1   96   96   TRP   NE1   N   15   0.777895914302   0.0120236773349    .                   .                   .                   .                   .                   .                   2.06895929497e-38   6.25418857942e-39   .   'S2, Rex'            .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+      62   .   1   1   97   97   ASP   N     N   15   0.854948583079   0.0145487253236    2.17498536004e-11   8.3904253649e-12    .                   .                   .                   .                   2.48150454403e-38   7.55798947974e-39   .   'S2, te, Rex'        .                .                  .                .                  .   .   .   .   .   .   .   .   .   26714   1
+   stop_
+save_
+
+save_Tensor_data
+   _Tensor_list.Sf_category               tensor
+   _Tensor_list.Sf_framecode              Tensor_data
+   _Tensor_list.Entry_ID                  26714
+   _Tensor_list.ID                        1
+   _Tensor_list.Tensor_type               diffusion
+   _Tensor_list.Tensor_shape              'prolate spheroid'
+   _Tensor_list.Matrix_val_units          s-1
+   _Tensor_list.Isotropic_val_type        .
+   _Tensor_list.Angle_units               rad
+   _Tensor_list.Isotropic_val_formula     'Diso = 1/(6.tm)'
+   _Tensor_list.Anisotropic_val_formula   'Da = Dpar - Dper'
+   _Tensor_list.Rhombic_val_formula       'Dr = (Dy - Dx)/2Da'
+   _Tensor_list.Euler_angle_type          zyz
+   _Tensor_list.Details                   'Axial_sym_axis_azimuthal_angle:  2.83242127607.'
+
+   loop_
+      _Tensor.ID
+      _Tensor.Interatomic_distance_list_ID
+      _Tensor.Interatomic_dist_set_ID
+      _Tensor.Calc_type_ID
+      _Tensor.Assembly_atom_ID
+      _Tensor.Entity_assembly_ID
+      _Tensor.Entity_ID
+      _Tensor.Comp_index_ID
+      _Tensor.Seq_ID
+      _Tensor.Comp_ID
+      _Tensor.Atom_ID
+      _Tensor.Atom_type
+      _Tensor.Atom_isotope_number
+      _Tensor.Axial_sym_axis_polar_angle
+      _Tensor.Axial_sym_axis_aximuthal_angle
+      _Tensor.Isotropic_val
+      _Tensor.Anisotropic_val
+      _Tensor.Rhombic_val
+      _Tensor.Euler_angle_alpha
+      _Tensor.Euler_angle_beta
+      _Tensor.Euler_angle_gamma
+      _Tensor.Isotropic_comp_1_1_val
+      _Tensor.Isotropic_comp_2_2_val
+      _Tensor.Isotropic_comp_3_3_val
+      _Tensor.Anti_sym_comp_1_2_val
+      _Tensor.Anti_sym_comp_1_3_val
+      _Tensor.Anti_sym_comp_2_3_val
+      _Tensor.Sym_traceless_comp_1_1_val
+      _Tensor.Sym_traceless_comp_1_2_val
+      _Tensor.Sym_traceless_comp_1_3_val
+      _Tensor.Sym_traceless_comp_2_2_val
+      _Tensor.Sym_traceless_comp_2_3_val
+      _Tensor.Reduceable_matrix_1_1_val
+      _Tensor.Reduceable_matrix_1_2_val
+      _Tensor.Reduceable_matrix_1_3_val
+      _Tensor.Reduceable_matrix_2_1_val
+      _Tensor.Reduceable_matrix_2_2_val
+      _Tensor.Reduceable_matrix_2_3_val
+      _Tensor.Reduceable_matrix_3_1_val
+      _Tensor.Reduceable_matrix_3_2_val
+      _Tensor.Reduceable_matrix_3_3_val
+      _Tensor.Auth_entity_assembly_ID
+      _Tensor.Auth_seq_ID
+      _Tensor.Auth_comp_ID
+      _Tensor.Auth_atom_ID
+      _Tensor.Entry_ID
+      _Tensor.Tensor_list_ID
+
+      1    .   .   .   .   1   1   3    3    GLN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      2    .   .   .   .   1   1   4    4    ARG   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      3    .   .   .   .   1   1   7    7    LYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      4    .   .   .   .   1   1   10   10   VAL   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      5    .   .   .   .   1   1   11   11   TYR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      6    .   .   .   .   1   1   12   12   SER   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      7    .   .   .   .   1   1   14   14   HIS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      8    .   .   .   .   1   1   17   17   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      9    .   .   .   .   1   1   18   18   ASN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      10   .   .   .   .   1   1   19   19   GLY   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      11   .   .   .   .   1   1   20   20   LYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      12   .   .   .   .   1   1   21   21   SER   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      13   .   .   .   .   1   1   22   22   ASN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      14   .   .   .   .   1   1   23   23   PHE   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      15   .   .   .   .   1   1   25   25   ASN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      16   .   .   .   .   1   1   26   26   CYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      17   .   .   .   .   1   1   27   27   TYR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      18   .   .   .   .   1   1   28   28   VAL   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      19   .   .   .   .   1   1   29   29   SER   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      20   .   .   .   .   1   1   30   30   GLY   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      21   .   .   .   .   1   1   35   35   ASP   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      22   .   .   .   .   1   1   36   36   ILE   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      23   .   .   .   .   1   1   40   40   LEU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      24   .   .   .   .   1   1   41   41   LEU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      25   .   .   .   .   1   1   43   43   ASN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      26   .   .   .   .   1   1   44   44   GLY   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      27   .   .   .   .   1   1   45   45   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      28   .   .   .   .   1   1   46   46   ARG   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      29   .   .   .   .   1   1   47   47   ILE   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      30   .   .   .   .   1   1   48   48   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      31   .   .   .   .   1   1   49   49   LYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      32   .   .   .   .   1   1   50   50   VAL   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      33   .   .   .   .   1   1   51   51   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      34   .   .   .   .   1   1   52   52   HIS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      35   .   .   .   .   1   1   53   53   SER   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      36   .   .   .   .   1   1   61   61   TRP   NE1   N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      37   .   .   .   .   1   1   65   65   LEU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      38   .   .   .   .   1   1   66   66   LEU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      39   .   .   .   .   1   1   67   67   TYR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      40   .   .   .   .   1   1   68   68   TYR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      41   .   .   .   .   1   1   69   69   THR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      42   .   .   .   .   1   1   70   70   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      43   .   .   .   .   1   1   72   72   THR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      44   .   .   .   .   1   1   74   74   THR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      45   .   .   .   .   1   1   75   75   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      46   .   .   .   .   1   1   76   76   LYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      47   .   .   .   .   1   1   77   77   ASP   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      48   .   .   .   .   1   1   78   78   GLU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      49   .   .   .   .   1   1   79   79   TYR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      50   .   .   .   .   1   1   81   81   CYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      51   .   .   .   .   1   1   82   82   ARG   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      52   .   .   .   .   1   1   83   83   VAL   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      53   .   .   .   .   1   1   84   84   ASN   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      54   .   .   .   .   1   1   85   85   HIS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      55   .   .   .   .   1   1   87   87   THR   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      56   .   .   .   .   1   1   88   88   LEU   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      57   .   .   .   .   1   1   93   93   ILE   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      58   .   .   .   .   1   1   94   94   VAL   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      59   .   .   .   .   1   1   95   95   LYS   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      60   .   .   .   .   1   1   96   96   TRP   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      61   .   .   .   .   1   1   96   96   TRP   NE1   N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+      62   .   .   .   .   1   1   97   97   ASP   N     N   15   2.01394086801   .   24908590.9308   20353010.2384   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33197429.1065   -4814584.60365   -7510236.77249   -4814584.60365   19662100.3933   2398875.52039   -7510236.77249   2398875.52039   21866243.2926   .   .   .   .   26714   1
+   stop_
+save_
+

@@ -1,0 +1,2778 @@
+data_5153
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             5153
+   _Entry.Title                         
+;
+Backbone dynamics of the N-TIMP-1 bound to MMP-3 catalytic domain 
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2001-09-16
+   _Entry.Accession_date                 2001-09-17
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Guanghua        Gao        . .  . 5153 
+      2 Sengodagounder  Arumugam   . .  . 5153 
+      3 Steven         'Van Doren' . R. . 5153 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      order_parameters         1 5153 
+      heteronucl_T1_relaxation 1 5153 
+      heteronucl_T2_relaxation 1 5153 
+      heteronucl_NOEs          1 5153 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      'T1 relaxation values' 85 5153 
+      'T2 relaxation values' 85 5153 
+      'order parameters'     86 5153 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2003-01-29 . update   author 'update of the S2 and rex values' 5153 
+      2 . . 2002-02-04 . original author 'original release'                5153 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 5154 'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1' 5153 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     5153
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Binding of the MMP-3 catalytic domain to N-TIMP-1 is driven by a large gain in 
+entropy that includes modest contributions from the hydrophobic effect and the 
+TIMP-1 backbone
+;
+   _Citation.Status                      'in press'
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Mol. Biol.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Guanghua        Gao         . .  . 5153 1 
+      2 Sengodagounder  Arumugam    . .  . 5153 1 
+      3 Brian           Patton      . .  . 5153 1 
+      4 Valentyna       Semenchenko . .  . 5153 1 
+      5 Keith           Brew        . .  . 5153 1 
+      6 Steven         'Van Doren'  . R. . 5153 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_N-TIMP-1_MMP-3(deltaC)_complex
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_N-TIMP-1_MMP-3(deltaC)_complex
+   _Assembly.Entry_ID                          5153
+   _Assembly.ID                                1
+   _Assembly.Name                             'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1/MatrixMetalloProteinase-3(E202Q)(deltaC) complex'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'all disulfide bound'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                          
+;
+Present system is contains only the N-terminal domain of the Tissue Inhibitor
+of Metalloproteinase where as the related system in the X-ray structure (PDB
+entry 1UEA) has a full length. In addtion, the present system has been studied
+in solution as a complex with a mutant matrix metalloproteinase-3(E202Q).
+;
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      monomer 5153 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'N-TIMP-1, inhibitor'      1 $N-TIMP-1 . . . native . . . . . 5153 1 
+      2 'MMP-3, metalloproteinase' 2 $MMP-3    . . . native . . . . . 5153 1 
+      3 'CALCIUM (II) ION, I'      3 $CA       . . . native . . . . . 5153 1 
+      4 'CALCIUM (II) ION, II'     3 $CA       . . . native . . . . . 5153 1 
+      5 'CALCIUM (II) ION, III'    3 $CA       . . . native . . . . . 5153 1 
+      6 'ZINC (II) ION, I'         4 $ZN       . . . native . . . . . 5153 1 
+      7 'ZINC (II) ION, II'        4 $ZN       . . . native . . . . . 5153 1 
+
+   stop_
+
+   loop_
+      _Bond.ID
+      _Bond.Type
+      _Bond.Value_order
+      _Bond.Assembly_atom_ID_1
+      _Bond.Entity_assembly_ID_1
+      _Bond.Entity_assembly_name_1
+      _Bond.Entity_ID_1
+      _Bond.Comp_ID_1
+      _Bond.Comp_index_ID_1
+      _Bond.Seq_ID_1
+      _Bond.Atom_ID_1
+      _Bond.Assembly_atom_ID_2
+      _Bond.Entity_assembly_ID_2
+      _Bond.Entity_assembly_name_2
+      _Bond.Entity_ID_2
+      _Bond.Comp_ID_2
+      _Bond.Comp_index_ID_2
+      _Bond.Seq_ID_2
+      _Bond.Atom_ID_2
+      _Bond.Auth_entity_assembly_ID_1
+      _Bond.Auth_entity_assembly_name_1
+      _Bond.Auth_seq_ID_1
+      _Bond.Auth_comp_ID_1
+      _Bond.Auth_atom_ID_1
+      _Bond.Auth_entity_assembly_ID_2
+      _Bond.Auth_entity_assembly_name_2
+      _Bond.Auth_seq_ID_2
+      _Bond.Auth_comp_ID_2
+      _Bond.Auth_atom_ID_2
+      _Bond.Entry_ID
+      _Bond.Assembly_ID
+
+      1 disulfide single . 1 . 1 CYS  1  1 SG . 1 . 1 CYS  70  70 SG . . . . . . . . . . 5153 1 
+      2 disulfide single . 1 . 1 CYS  3  3 SG . 1 . 1 CYS  99  99 SG . . . . . . . . . . 5153 1 
+      3 disulfide single . 1 . 1 CYS 13 13 SG . 1 . 1 CYS 124 124 SG . . . . . . . . . . 5153 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes PDB 1UEA . . . . . . 5153 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1/MatrixMetalloProteinase-3(E202Q)(deltaC) complex' system       5153 1 
+      'N-TIMP-1/MMP-3(deltaC) complex'                                                                                 abbreviation 5153 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'N-TIMP-1 inhibits the enzymatic activity of matrix metalloproteinases-1,-2, &-3 with Ki values less than 2.0 nM' 5153 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_N-TIMP-1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      N-TIMP-1
+   _Entity.Entry_ID                          5153
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+CTCVPPHPQTAFCNSDLVIR
+AKFVGTPEVNQTTLYQRYEI
+KMTKMYKGFQALGDAADIRF
+VYTPAMESVCGYFHRSHNRS
+EEFLIAGKLQDGLLHITTCS
+FVAPWNSLSLAQRRGFTKTY
+TVGCEE
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                126
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'all disulfide bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        15120 .  MMP3                                                                                                                             . . . . .  93.06 161  99.38 100.00 1.87e-113 . . . . 5153 1 
+       2 no BMRB        15395 .  MMP3                                                                                                                             . . . . .  93.06 161  98.76  99.38 4.49e-112 . . . . 5153 1 
+       3 no BMRB        15396 .  MMP3                                                                                                                             . . . . .  93.06 161  98.76  99.38 4.49e-112 . . . . 5153 1 
+       4 no BMRB         4173 .  SLN                                                                                                                              . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+       5 no BMRB         4364 .  stromelysin                                                                                                                      . . . . .  95.95 166  98.80  99.40 3.43e-116 . . . . 5153 1 
+       6 no BMRB         4365 .  stromelysin                                                                                                                      . . . . .  95.95 166  98.80  99.40 3.43e-116 . . . . 5153 1 
+       7 no BMRB         4366 .  stromelysin                                                                                                                      . . . . .  95.95 166  98.80  99.40 3.43e-116 . . . . 5153 1 
+       8 no BMRB         5099 .  MMP-3                                                                                                                            . . . . . 100.00 173 100.00 100.00 1.66e-123 . . . . 5153 1 
+       9 no BMRB         5231 .  stromelysin                                                                                                                      . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      10 no PDB  1B3D          .  Stromelysin-1                                                                                                                    . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      11 no PDB  1B8Y          . "X-Ray Structure Of Human Stromelysin Catalytic Domain Complexed With Non-Peptide Inhibitors: Implications For Inhibitor Selecti" . . . . .  96.53 167  99.40 100.00 2.08e-118 . . . . 5153 1 
+      12 no PDB  1BIW          . "Design And Synthesis Of Conformationally-Constrained Mmp Inhibitors"                                                             . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      13 no PDB  1BM6          . "Solution Structure Of The Catalytic Domain Of Human Stromelysin-1 Complexed To A Potent Non-Peptidic Inhibitor, Nmr, 20 Structu" . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      14 no PDB  1BQO          . "Discovery Of Potent, Achiral Matrix Metalloproteinase Inhibitors"                                                                . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      15 no PDB  1C3I          . "Human Stromelysin-1 Catalytic Domain Complexed With Ro-26-2812"                                                                  . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      16 no PDB  1C8T          . "Human Stromelysin-1 (E202q) Catalytic Domain Complexed With Ro-26-2812"                                                          . . . . .  95.95 167 100.00 100.00 5.70e-118 . . . . 5153 1 
+      17 no PDB  1CAQ          . "X-Ray Structure Of Human Stromelysin Catalytic Domain Complexes With Non-Peptide Inhibitors: Implication For Inhibitor Selectiv" . . . . .  97.11 168  99.40 100.00 3.12e-119 . . . . 5153 1 
+      18 no PDB  1CIZ          . "X-ray Structure Of Human Stromelysin Catalytic Domain Complexes With Non-peptide Inhibitors: Implication For Inhibitor Selectiv" . . . . .  97.11 168  99.40 100.00 3.12e-119 . . . . 5153 1 
+      19 no PDB  1CQR          . "Crystal Structure Of The Stromelysin Catalytic Domain At 2.0 A Resolution"                                                       . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      20 no PDB  1D5J          . "Crystal Structure Of Mmp3 Complexed With A Thiazepine Based Inhibitor."                                                          . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      21 no PDB  1D7X          . "Crystal Structure Of Mmp3 Complexed With A Modified Proline Scaffold Based Inhibitor."                                           . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      22 no PDB  1D8F          . "Crystal Structure Of Mmp3 Complexed With A Piperazine Based Inhibitor."                                                          . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      23 no PDB  1D8M          . "Crystal Structure Of Mmp3 Complexed With A Heterocycle- Based Inhibitor"                                                         . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      24 no PDB  1G05          . "Heterocycle-Based Mmp Inhibitor With P2'substituents"                                                                            . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      25 no PDB  1G49          . "A Carboxylic Acid Based Inhibitor In Complex With Mmp3"                                                                          . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      26 no PDB  1G4K          . "X-ray Structure Of A Novel Matrix Metalloproteinase Inhibitor Complexed To Stromelysin"                                          . . . . .  97.11 168  99.40 100.00 3.12e-119 . . . . 5153 1 
+      27 no PDB  1HFS          . "Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With The N-Carboxy-Alkyl Inhibitor L-764," . . . . .  92.49 160  99.38 100.00 1.28e-112 . . . . 5153 1 
+      28 no PDB  1HY7          . "A Carboxylic Acid Based Inhibitor In Complex With Mmp3"                                                                          . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      29 no PDB  1OO9          . "Orientation In Solution Of Mmp-3 Catalytic Domain And N- Timp-1 From Residual Dipolar Couplings"                                 . . . . .  97.11 168  99.40 100.00 3.12e-119 . . . . 5153 1 
+      30 no PDB  1QIA          . "Crystal Structure Of Stromelysin Catalytic Domain"                                                                               . . . . .  93.64 162  99.38 100.00 2.50e-114 . . . . 5153 1 
+      31 no PDB  1QIC          . "Crystal Structure Of Stromelysin Catalytic Domain"                                                                               . . . . .  93.06 161  99.38 100.00 1.58e-113 . . . . 5153 1 
+      32 no PDB  1SLM          . "Crystal Structure Of Fibroblast Stromelysin-1: The C-Truncated Human Proenzyme"                                                  . . . . . 100.00 255  99.42 100.00 5.95e-123 . . . . 5153 1 
+      33 no PDB  1SLN          . "Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With The N-Carboxy-Alkyl Inhibitor L-702," . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      34 no PDB  1UEA          . "Mmp-3TIMP-1 Complex"                                                                                                             . . . . . 100.00 173  98.27  98.84 9.83e-121 . . . . 5153 1 
+      35 no PDB  1UMS          . "Stromelysin-1 Catalytic Domain With Hydrophobic Inhibitor Bound, Ph 7.0, 32oc, 20 Mm Cacl2, 15% Acetonitrile; Nmr Ensemble Of 2" . . . . . 100.00 174  99.42 100.00 8.29e-123 . . . . 5153 1 
+      36 no PDB  1UMT          . "Stromelysin-1 Catalytic Domain With Hydrophobic Inhibitor Bound, Ph 7.0, 32oc, 20 Mm Cacl2, 15% Acetonitrile; Nmr Average Of 20" . . . . . 100.00 174  99.42 100.00 8.29e-123 . . . . 5153 1 
+      37 no PDB  1USN          . "Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With Thiadiazole Inhibitor Pnu-142372"     . . . . .  95.38 165  99.39 100.00 9.12e-117 . . . . 5153 1 
+      38 no PDB  2D1O          . "Stromelysin-1 (Mmp-3) Complexed To A Hydroxamic Acid Inhibitor"                                                                  . . . . .  98.84 171  99.42 100.00 2.05e-121 . . . . 5153 1 
+      39 no PDB  2JNP          . "Solution Structure Of Matrix Metalloproteinase 3 (Mmp-3) In The Presence Of N-Isobutyl-N-[4- Methoxyphenylsulfonyl]glycyl Hydro" . . . . .  93.06 161  99.38 100.00 1.87e-113 . . . . 5153 1 
+      40 no PDB  2JT5          . "Solution Structure Of Matrix Metalloproteinase 3 (mmp-3) In The Presence Of N-hydroxy-2-[n-(2-hydroxyethyl)biphenyl-4- Sulfonam" . . . . .  93.06 161  99.38 100.00 1.87e-113 . . . . 5153 1 
+      41 no PDB  2JT6          . "Solution Structure Of Matrix Metalloproteinase 3 (Mmp-3) In The Presence Of 3-4'-Cyanobyphenyl-4-Yloxy)-N- Hdydroxypropionamide" . . . . .  93.06 161  99.38 100.00 1.87e-113 . . . . 5153 1 
+      42 no PDB  2SRT          . "Catalytic Domain Of Human Stromelysin-1 At Ph 5.5 And 40oc Complexed With Inhibitor"                                             . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      43 no PDB  2USN          . "Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With Thiadiazole Inhibitor Pnu-141803"     . . . . .  95.38 165  99.39 100.00 9.12e-117 . . . . 5153 1 
+      44 no PDB  3OHL          . "Catalytic Domain Of Stromelysin-1 In Complex With N-Hydroxy-2-(4- Methoxy-N-(Pyridine-3-Ylmethyl)phenylsulfonamido)acetamide"    . . . . .  96.53 167  99.40 100.00 2.08e-118 . . . . 5153 1 
+      45 no PDB  3OHO          . "Catalytic Domain Of Stromelysin-1 In Complex With N-Hydroxy-2-(4- Methylphenylsulfonamido)acetamide"                             . . . . .  97.69 169  99.41 100.00 6.83e-120 . . . . 5153 1 
+      46 no PDB  3USN          . "Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With The Thiadiazole Inhibitor Ipnu-107859, Nmr, " . . . . .  97.11 168  99.40 100.00 3.12e-119 . . . . 5153 1 
+      47 no PDB  4DPE          . "Structure Of Mmp3 Complexed With A Platinum-based Inhibitor."                                                                    . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      48 no PDB  4G9L          . "Structure Of Mmp3 Complexed With Nngh Inhibitor"                                                                                 . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      49 no PDB  4JA1          . "Structure Of Mmp3 Complexed With A Platinum-based Inhibitor"                                                                     . . . . . 100.00 173  99.42 100.00 7.58e-123 . . . . 5153 1 
+      50 no DBJ  BAD97003      . "matrix metalloproteinase 3 preproprotein variant [Homo sapiens]"                                                                 . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      51 no DBJ  BAD97011      . "matrix metalloproteinase 3 preproprotein variant [Homo sapiens]"                                                                 . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      52 no DBJ  BAG36115      . "unnamed protein product [Homo sapiens]"                                                                                          . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      53 no EMBL CAA28859      . "preprostromelysin [Homo sapiens]"                                                                                                . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      54 no GB   AAA00036      . "prostromelysin=matrix metalloproteinase [human, Peptide, 477 aa]"                                                                . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      55 no GB   AAA36321      . "matrix metalloproteinase-3 [Homo sapiens]"                                                                                       . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      56 no GB   AAB36942      . "stromelysin [Homo sapiens]"                                                                                                      . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      57 no GB   AAD45887      . "stromelysin catalytic domain [synthetic construct]"                                                                              . . . . . 100.00 174  99.42 100.00 8.29e-123 . . . . 5153 1 
+      58 no GB   AAH69676      . "Matrix metallopeptidase 3 (stromelysin 1, progelatinase) [Homo sapiens]"                                                         . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      59 no REF  NP_002413     . "stromelysin-1 preproprotein [Homo sapiens]"                                                                                      . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+      60 no REF  XP_002822450  . "PREDICTED: stromelysin-1 [Pongo abelii]"                                                                                         . . . . . 100.00 477  98.27 100.00 3.25e-119 . . . . 5153 1 
+      61 no REF  XP_003253099  . "PREDICTED: stromelysin-1 [Nomascus leucogenys]"                                                                                  . . . . . 100.00 477  98.84 100.00 6.18e-120 . . . . 5153 1 
+      62 no REF  XP_003828425  . "PREDICTED: stromelysin-1 [Pan paniscus]"                                                                                         . . . . . 100.00 477  99.42 100.00 5.03e-120 . . . . 5153 1 
+      63 no REF  XP_004052086  . "PREDICTED: stromelysin-1 [Gorilla gorilla gorilla]"                                                                              . . . . . 100.00 477  98.27  99.42 2.67e-118 . . . . 5153 1 
+      64 no SP   P08254        . "RecName: Full=Stromelysin-1; Short=SL-1; AltName: Full=Matrix metalloproteinase-3; Short=MMP-3; AltName: Full=Transin-1; Flags:" . . . . . 100.00 477  99.42 100.00 8.11e-120 . . . . 5153 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1' common       5153 1 
+       N-TIMP-1                                                       abbreviation 5153 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . CYS . 5153 1 
+        2 . THR . 5153 1 
+        3 . CYS . 5153 1 
+        4 . VAL . 5153 1 
+        5 . PRO . 5153 1 
+        6 . PRO . 5153 1 
+        7 . HIS . 5153 1 
+        8 . PRO . 5153 1 
+        9 . GLN . 5153 1 
+       10 . THR . 5153 1 
+       11 . ALA . 5153 1 
+       12 . PHE . 5153 1 
+       13 . CYS . 5153 1 
+       14 . ASN . 5153 1 
+       15 . SER . 5153 1 
+       16 . ASP . 5153 1 
+       17 . LEU . 5153 1 
+       18 . VAL . 5153 1 
+       19 . ILE . 5153 1 
+       20 . ARG . 5153 1 
+       21 . ALA . 5153 1 
+       22 . LYS . 5153 1 
+       23 . PHE . 5153 1 
+       24 . VAL . 5153 1 
+       25 . GLY . 5153 1 
+       26 . THR . 5153 1 
+       27 . PRO . 5153 1 
+       28 . GLU . 5153 1 
+       29 . VAL . 5153 1 
+       30 . ASN . 5153 1 
+       31 . GLN . 5153 1 
+       32 . THR . 5153 1 
+       33 . THR . 5153 1 
+       34 . LEU . 5153 1 
+       35 . TYR . 5153 1 
+       36 . GLN . 5153 1 
+       37 . ARG . 5153 1 
+       38 . TYR . 5153 1 
+       39 . GLU . 5153 1 
+       40 . ILE . 5153 1 
+       41 . LYS . 5153 1 
+       42 . MET . 5153 1 
+       43 . THR . 5153 1 
+       44 . LYS . 5153 1 
+       45 . MET . 5153 1 
+       46 . TYR . 5153 1 
+       47 . LYS . 5153 1 
+       48 . GLY . 5153 1 
+       49 . PHE . 5153 1 
+       50 . GLN . 5153 1 
+       51 . ALA . 5153 1 
+       52 . LEU . 5153 1 
+       53 . GLY . 5153 1 
+       54 . ASP . 5153 1 
+       55 . ALA . 5153 1 
+       56 . ALA . 5153 1 
+       57 . ASP . 5153 1 
+       58 . ILE . 5153 1 
+       59 . ARG . 5153 1 
+       60 . PHE . 5153 1 
+       61 . VAL . 5153 1 
+       62 . TYR . 5153 1 
+       63 . THR . 5153 1 
+       64 . PRO . 5153 1 
+       65 . ALA . 5153 1 
+       66 . MET . 5153 1 
+       67 . GLU . 5153 1 
+       68 . SER . 5153 1 
+       69 . VAL . 5153 1 
+       70 . CYS . 5153 1 
+       71 . GLY . 5153 1 
+       72 . TYR . 5153 1 
+       73 . PHE . 5153 1 
+       74 . HIS . 5153 1 
+       75 . ARG . 5153 1 
+       76 . SER . 5153 1 
+       77 . HIS . 5153 1 
+       78 . ASN . 5153 1 
+       79 . ARG . 5153 1 
+       80 . SER . 5153 1 
+       81 . GLU . 5153 1 
+       82 . GLU . 5153 1 
+       83 . PHE . 5153 1 
+       84 . LEU . 5153 1 
+       85 . ILE . 5153 1 
+       86 . ALA . 5153 1 
+       87 . GLY . 5153 1 
+       88 . LYS . 5153 1 
+       89 . LEU . 5153 1 
+       90 . GLN . 5153 1 
+       91 . ASP . 5153 1 
+       92 . GLY . 5153 1 
+       93 . LEU . 5153 1 
+       94 . LEU . 5153 1 
+       95 . HIS . 5153 1 
+       96 . ILE . 5153 1 
+       97 . THR . 5153 1 
+       98 . THR . 5153 1 
+       99 . CYS . 5153 1 
+      100 . SER . 5153 1 
+      101 . PHE . 5153 1 
+      102 . VAL . 5153 1 
+      103 . ALA . 5153 1 
+      104 . PRO . 5153 1 
+      105 . TRP . 5153 1 
+      106 . ASN . 5153 1 
+      107 . SER . 5153 1 
+      108 . LEU . 5153 1 
+      109 . SER . 5153 1 
+      110 . LEU . 5153 1 
+      111 . ALA . 5153 1 
+      112 . GLN . 5153 1 
+      113 . ARG . 5153 1 
+      114 . ARG . 5153 1 
+      115 . GLY . 5153 1 
+      116 . PHE . 5153 1 
+      117 . THR . 5153 1 
+      118 . LYS . 5153 1 
+      119 . THR . 5153 1 
+      120 . TYR . 5153 1 
+      121 . THR . 5153 1 
+      122 . VAL . 5153 1 
+      123 . GLY . 5153 1 
+      124 . CYS . 5153 1 
+      125 . GLU . 5153 1 
+      126 . GLU . 5153 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . CYS   1   1 5153 1 
+      . THR   2   2 5153 1 
+      . CYS   3   3 5153 1 
+      . VAL   4   4 5153 1 
+      . PRO   5   5 5153 1 
+      . PRO   6   6 5153 1 
+      . HIS   7   7 5153 1 
+      . PRO   8   8 5153 1 
+      . GLN   9   9 5153 1 
+      . THR  10  10 5153 1 
+      . ALA  11  11 5153 1 
+      . PHE  12  12 5153 1 
+      . CYS  13  13 5153 1 
+      . ASN  14  14 5153 1 
+      . SER  15  15 5153 1 
+      . ASP  16  16 5153 1 
+      . LEU  17  17 5153 1 
+      . VAL  18  18 5153 1 
+      . ILE  19  19 5153 1 
+      . ARG  20  20 5153 1 
+      . ALA  21  21 5153 1 
+      . LYS  22  22 5153 1 
+      . PHE  23  23 5153 1 
+      . VAL  24  24 5153 1 
+      . GLY  25  25 5153 1 
+      . THR  26  26 5153 1 
+      . PRO  27  27 5153 1 
+      . GLU  28  28 5153 1 
+      . VAL  29  29 5153 1 
+      . ASN  30  30 5153 1 
+      . GLN  31  31 5153 1 
+      . THR  32  32 5153 1 
+      . THR  33  33 5153 1 
+      . LEU  34  34 5153 1 
+      . TYR  35  35 5153 1 
+      . GLN  36  36 5153 1 
+      . ARG  37  37 5153 1 
+      . TYR  38  38 5153 1 
+      . GLU  39  39 5153 1 
+      . ILE  40  40 5153 1 
+      . LYS  41  41 5153 1 
+      . MET  42  42 5153 1 
+      . THR  43  43 5153 1 
+      . LYS  44  44 5153 1 
+      . MET  45  45 5153 1 
+      . TYR  46  46 5153 1 
+      . LYS  47  47 5153 1 
+      . GLY  48  48 5153 1 
+      . PHE  49  49 5153 1 
+      . GLN  50  50 5153 1 
+      . ALA  51  51 5153 1 
+      . LEU  52  52 5153 1 
+      . GLY  53  53 5153 1 
+      . ASP  54  54 5153 1 
+      . ALA  55  55 5153 1 
+      . ALA  56  56 5153 1 
+      . ASP  57  57 5153 1 
+      . ILE  58  58 5153 1 
+      . ARG  59  59 5153 1 
+      . PHE  60  60 5153 1 
+      . VAL  61  61 5153 1 
+      . TYR  62  62 5153 1 
+      . THR  63  63 5153 1 
+      . PRO  64  64 5153 1 
+      . ALA  65  65 5153 1 
+      . MET  66  66 5153 1 
+      . GLU  67  67 5153 1 
+      . SER  68  68 5153 1 
+      . VAL  69  69 5153 1 
+      . CYS  70  70 5153 1 
+      . GLY  71  71 5153 1 
+      . TYR  72  72 5153 1 
+      . PHE  73  73 5153 1 
+      . HIS  74  74 5153 1 
+      . ARG  75  75 5153 1 
+      . SER  76  76 5153 1 
+      . HIS  77  77 5153 1 
+      . ASN  78  78 5153 1 
+      . ARG  79  79 5153 1 
+      . SER  80  80 5153 1 
+      . GLU  81  81 5153 1 
+      . GLU  82  82 5153 1 
+      . PHE  83  83 5153 1 
+      . LEU  84  84 5153 1 
+      . ILE  85  85 5153 1 
+      . ALA  86  86 5153 1 
+      . GLY  87  87 5153 1 
+      . LYS  88  88 5153 1 
+      . LEU  89  89 5153 1 
+      . GLN  90  90 5153 1 
+      . ASP  91  91 5153 1 
+      . GLY  92  92 5153 1 
+      . LEU  93  93 5153 1 
+      . LEU  94  94 5153 1 
+      . HIS  95  95 5153 1 
+      . ILE  96  96 5153 1 
+      . THR  97  97 5153 1 
+      . THR  98  98 5153 1 
+      . CYS  99  99 5153 1 
+      . SER 100 100 5153 1 
+      . PHE 101 101 5153 1 
+      . VAL 102 102 5153 1 
+      . ALA 103 103 5153 1 
+      . PRO 104 104 5153 1 
+      . TRP 105 105 5153 1 
+      . ASN 106 106 5153 1 
+      . SER 107 107 5153 1 
+      . LEU 108 108 5153 1 
+      . SER 109 109 5153 1 
+      . LEU 110 110 5153 1 
+      . ALA 111 111 5153 1 
+      . GLN 112 112 5153 1 
+      . ARG 113 113 5153 1 
+      . ARG 114 114 5153 1 
+      . GLY 115 115 5153 1 
+      . PHE 116 116 5153 1 
+      . THR 117 117 5153 1 
+      . LYS 118 118 5153 1 
+      . THR 119 119 5153 1 
+      . TYR 120 120 5153 1 
+      . THR 121 121 5153 1 
+      . VAL 122 122 5153 1 
+      . GLY 123 123 5153 1 
+      . CYS 124 124 5153 1 
+      . GLU 125 125 5153 1 
+      . GLU 126 126 5153 1 
+
+   stop_
+
+save_
+
+
+save_MMP-3
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      MMP-3
+   _Entity.Entry_ID                          5153
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'MatrixMetalloProteinases-3(catalytic domain)'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+FRTFPGIPKWRKTHLTYRIV
+NYTPDLPKDAVDSAVEKALK
+VWEEVTPLTFSRLYEGEADI
+MISFAVREHGDFYPFDGPGN
+VLAHAYAPGPGINGDAHFDD
+DEQWTKDTTGTNLFLVAAHQ
+IGHSLGLFHSANTEALMYPL
+YHSLTDLTRFRLSQDDINGI
+QSLYGPPPDSPET
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                173
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     2008-08-19
+   _Entity.DB_query_revised_last_date        2008-08-19
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      . . SWISS-PROT P08254        . 'Stromelysin-1 precursor (SL-1) (Matrix metalloproteinase-3) (MMP-3) (Transin-1)'                                             . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . REF        XP_508723     . 'PREDICTED: matrix metalloproteinase 3 isoform 4 [Pan troglodytes]'                                                           . . . . . 100.00 477  99.42 100.00 3.42e-98 . . . . 5153 2 
+      . . REF        XP_001154004  . 'PREDICTED: matrix metalloproteinase 3 isoform 2 [Pan troglodytes]'                                                           . . . . . 100.00 410  99.42 100.00 4.15e-98 . . . . 5153 2 
+      . . REF        XP_001153941  . 'PREDICTED: matrix metalloproteinase 3 isoform 1 [Pan troglodytes]'                                                           . . . . . 100.00 447  99.42 100.00 7.82e-98 . . . . 5153 2 
+      . . REF        NP_002413     . 'matrix metalloproteinase 3 preproprotein [Homo sapiens]'                                                                     . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . GenBank    AAH69676      . 'Matrix metallopeptidase 3 (stromelysin 1, progelatinase) [Homo sapiens]'                                                     . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . GenBank    AAD45887      . 'stromelysin catalytic domain [synthetic construct]'                                                                          . . . . . 100.00 174  99.42 100.00 5.51e-97 . . . . 5153 2 
+      . . GenBank    AAB36942      . 'stromelysin [Homo sapiens]'                                                                                                  . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . GenBank    AAA36321      . 'matrix metalloproteinase-3'                                                                                                  . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . GenBank    AAA00036      . 'prostromelysin=matrix metalloproteinase [human, Peptide, 477 aa]'                                                            . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . EMBL       CAA28859      . 'preprostromelysin [Homo sapiens]'                                                                                            . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . DBJ        BAG36115      . 'unnamed protein product [Homo sapiens]'                                                                                      . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . DBJ        BAD97011      . 'matrix metalloproteinase 3 preproprotein variant [Homo sapiens]'                                                             . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . DBJ        BAD97003      . 'matrix metalloproteinase 3 preproprotein variant [Homo sapiens]'                                                             . . . . . 100.00 477  99.42 100.00 4.94e-98 . . . . 5153 2 
+      . . PDB        3USN          . 'Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1'                                                         . . . . .  97.11 168  99.40 100.00 3.46e-94 . . . . 5153 2 
+      . . PDB        2USN          . 'Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1 Inhibited With Thiadiazole Inhibitor Pnu-141803' . . . . .  95.38 165  99.39 100.00 2.85e-92 . . . . 5153 2 
+      . . PDB        2SRT          . 'Catalytic Domain Of Human Stromelysin-1 At Ph 5.5 And 40oc Complexed With Inhibitor'                                         . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        2JT6          . 'Solution Structure Of Matrix Metalloproteinase 3 (Mmp-3)'                                                                    . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+      . . PDB        2JT5          . 'Solution Structure Of Matrix Metalloproteinase 3 (Mmp-3)'                                                                    . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+      . . PDB        2JNP          . 'Solution Structure Of Matrix Metalloproteinase 3 (Mmp-3)'                                                                    . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+      . . PDB        2D1O          . 'Stromelysin-1 (Mmp-3) Complexed To A Hydroxamic Acid Inhibitor'                                                              . . . . .  98.84 171  99.42 100.00 6.90e-96 . . . . 5153 2 
+      . . PDB        1USN          . 'Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1'                                                 . . . . .  95.38 165  99.39 100.00 2.85e-92 . . . . 5153 2 
+      . . PDB        1UMT          . 'Stromelysin-1 Catalytic Domain With Hydrophobic Inhibitor Bound, Ph 7.0, 32oc, 20 Mm Cacl2, 15% Acetonitrile'                . . . . . 100.00 174  99.42 100.00 5.51e-97 . . . . 5153 2 
+      . . PDB        1UMS          . 'Stromelysin-1 Catalytic Domain With Hydrophobic Inhibitor Bound, Ph 7.0, 32oc, 20 Mm Cacl2, 15% Acetonitrile'                . . . . . 100.00 174  99.42 100.00 5.51e-97 . . . . 5153 2 
+      . . PDB        1UEA          . 'Mmp-3TIMP-1 Complex'                                                                                                         . . . . . 100.00 173  98.27  98.84 2.16e-95 . . . . 5153 2 
+      . . PDB        1SLN          . 'Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1'                                                 . . . . .  99.42 173  99.42 100.00 2.16e-96 . . . . 5153 2 
+      . . PDB        1SLM          . 'Crystal Structure Of Fibroblast Stromelysin-1: The C- Truncated Human Proenzyme'                                             . . . . . 100.00 255  99.42 100.00 5.02e-98 . . . . 5153 2 
+      . . PDB        1QIC          . 'Crystal Structure Of Stromelysin Catalytic Domain'                                                                           . . . . .  93.06 161  99.38 100.00 9.41e-90 . . . . 5153 2 
+      . . PDB        1QIA          . 'Crystal Structure Of Stromelysin Catalytic Domain'                                                                           . . . . .  93.64 162  99.38 100.00 2.24e-90 . . . . 5153 2 
+      . . PDB        1OO9          . 'Orientation In Solution Of Mmp-3 Catalytic Domain And N- Timp-1 From Residual Dipolar Couplings'                             . . . . .  97.11 168  99.40 100.00 3.46e-94 . . . . 5153 2 
+      . . PDB        1HY7          . 'A Carboxylic Acid Based Inhibitor In Complex With Mmp3'                                                                      . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1HFS          . 'Crystal Structure Of The Catalytic Domain Of Human Fibroblast Stromelysin-1'                                                 . . . . .  92.49 160  99.38 100.00 4.75e-89 . . . . 5153 2 
+      . . PDB        1G4K          . 'X-Ray Structure Of A Novel Matrix Metalloproteinase Inhibitor Complexed To Stromelysin'                                      . . . . .  97.11 168  99.40 100.00 3.46e-94 . . . . 5153 2 
+      . . PDB        1G49          . 'A Carboxylic Acid Based Inhibitor In Complex With Mmp3'                                                                      . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1G05          . 'Heterocycle-Based Mmp Inhibitor With P2'substituents'                                                                        . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1D8M          . 'Crystal Structure Of Mmp3 Complexed With A Heterocycle- Based Inhibitor'                                                     . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1D8F          . 'Crystal Structure Of Mmp3 Complexed With A Piperazine Based Inhibitor.'                                                      . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1D7X          . 'Crystal Structure Of Mmp3 Complexed With A Modified Proline Scaffold Based Inhibitor.'                                       . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1D5J          . 'Crystal Structure Of Mmp3 Complexed With A Thiazepine Based Inhibitor.'                                                      . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1CQR          . 'Crystal Structure Of The Stromelysin Catalytic Domain At 2.0 A Resolution'                                                   . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1CIZ          . 'X-Ray Structure Of Human Stromelysin Catalytic Domain Complexes With Non-Peptide Inhibitors'                                 . . . . .  97.11 168  99.40 100.00 3.46e-94 . . . . 5153 2 
+      . . PDB        1CAQ          . 'X-Ray Structure Of Human Stromelysin Catalytic Domain Complexes With Non-Peptide Inhibitors'                                 . . . . .  97.11 168  99.40 100.00 3.46e-94 . . . . 5153 2 
+      . . PDB        1C8T          . 'Human Stromelysin-1 (E202q) Catalytic Domain Complexed With Ro-26-2812'                                                      . . . . .  95.95 167 100.00 100.00 3.26e-93 . . . . 5153 2 
+      . . PDB        1C3I          . 'Human Stromelysin-1 Catalytic Domain Complexed With Ro-26- 2812'                                                             . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1BQO          . 'Discovery Of Potent, Achiral Matrix Metalloproteinase Inhibitors'                                                            . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1BM6          . 'Solution Structure Of The Catalytic Domain Of Human Stromelysin-1'                                                           . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1BIW          . 'Design And Synthesis Of Conformationally-Constrained Mmp Inhibitors'                                                         . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . PDB        1B8Y          . 'X-Ray Structure Of Human Stromelysin Catalytic Domain Complexed With Non-Peptide Inhibitors'                                 . . . . .  96.53 167  99.40 100.00 1.51e-93 . . . . 5153 2 
+      . . PDB        1B3D          .  Stromelysin-1                                                                                                                . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . BMRB               5785 . 'Matrix MetalloProteinases-3 or stromelysin 1'                                                                                . . . . . 100.00 173 100.00 100.00 1.66e-97 . . . . 5153 2 
+      . . BMRB               5231 .  stromelysin                                                                                                                  . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . BMRB               5099 . 'Metalloproteinases-1/Matrix MetalloProteinase-3(catalytic domain, residue 83-255)'                                           . . . . . 100.00 173 100.00 100.00 1.66e-97 . . . . 5153 2 
+      . . BMRB               4366 .  stromelysin                                                                                                                  . . . . .  95.95 166  98.80  99.40 7.64e-92 . . . . 5153 2 
+      . . BMRB               4365 .  stromelysin                                                                                                                  . . . . .  95.95 166  98.80  99.40 7.64e-92 . . . . 5153 2 
+      . . BMRB               4364 .  stromelysin                                                                                                                  . . . . .  95.95 166  98.80  99.40 7.64e-92 . . . . 5153 2 
+      . . BMRB               4173 .  STROMELYSIN-1                                                                                                                . . . . . 100.00 173  99.42 100.00 5.28e-97 . . . . 5153 2 
+      . . BMRB              15396 .  MMP3                                                                                                                         . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+      . . BMRB              15395 .  MMP3                                                                                                                         . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+      . . BMRB              15120 .  entity_1                                                                                                                     . . . . .  93.06 161  99.38 100.00 1.07e-89 . . . . 5153 2 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'MatrixMetalloProteinases-3(catalytic domain)' common       5153 2 
+       MMP-3(deltaC)                                 abbreviation 5153 2 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . PHE . 5153 2 
+        2 . ARG . 5153 2 
+        3 . THR . 5153 2 
+        4 . PHE . 5153 2 
+        5 . PRO . 5153 2 
+        6 . GLY . 5153 2 
+        7 . ILE . 5153 2 
+        8 . PRO . 5153 2 
+        9 . LYS . 5153 2 
+       10 . TRP . 5153 2 
+       11 . ARG . 5153 2 
+       12 . LYS . 5153 2 
+       13 . THR . 5153 2 
+       14 . HIS . 5153 2 
+       15 . LEU . 5153 2 
+       16 . THR . 5153 2 
+       17 . TYR . 5153 2 
+       18 . ARG . 5153 2 
+       19 . ILE . 5153 2 
+       20 . VAL . 5153 2 
+       21 . ASN . 5153 2 
+       22 . TYR . 5153 2 
+       23 . THR . 5153 2 
+       24 . PRO . 5153 2 
+       25 . ASP . 5153 2 
+       26 . LEU . 5153 2 
+       27 . PRO . 5153 2 
+       28 . LYS . 5153 2 
+       29 . ASP . 5153 2 
+       30 . ALA . 5153 2 
+       31 . VAL . 5153 2 
+       32 . ASP . 5153 2 
+       33 . SER . 5153 2 
+       34 . ALA . 5153 2 
+       35 . VAL . 5153 2 
+       36 . GLU . 5153 2 
+       37 . LYS . 5153 2 
+       38 . ALA . 5153 2 
+       39 . LEU . 5153 2 
+       40 . LYS . 5153 2 
+       41 . VAL . 5153 2 
+       42 . TRP . 5153 2 
+       43 . GLU . 5153 2 
+       44 . GLU . 5153 2 
+       45 . VAL . 5153 2 
+       46 . THR . 5153 2 
+       47 . PRO . 5153 2 
+       48 . LEU . 5153 2 
+       49 . THR . 5153 2 
+       50 . PHE . 5153 2 
+       51 . SER . 5153 2 
+       52 . ARG . 5153 2 
+       53 . LEU . 5153 2 
+       54 . TYR . 5153 2 
+       55 . GLU . 5153 2 
+       56 . GLY . 5153 2 
+       57 . GLU . 5153 2 
+       58 . ALA . 5153 2 
+       59 . ASP . 5153 2 
+       60 . ILE . 5153 2 
+       61 . MET . 5153 2 
+       62 . ILE . 5153 2 
+       63 . SER . 5153 2 
+       64 . PHE . 5153 2 
+       65 . ALA . 5153 2 
+       66 . VAL . 5153 2 
+       67 . ARG . 5153 2 
+       68 . GLU . 5153 2 
+       69 . HIS . 5153 2 
+       70 . GLY . 5153 2 
+       71 . ASP . 5153 2 
+       72 . PHE . 5153 2 
+       73 . TYR . 5153 2 
+       74 . PRO . 5153 2 
+       75 . PHE . 5153 2 
+       76 . ASP . 5153 2 
+       77 . GLY . 5153 2 
+       78 . PRO . 5153 2 
+       79 . GLY . 5153 2 
+       80 . ASN . 5153 2 
+       81 . VAL . 5153 2 
+       82 . LEU . 5153 2 
+       83 . ALA . 5153 2 
+       84 . HIS . 5153 2 
+       85 . ALA . 5153 2 
+       86 . TYR . 5153 2 
+       87 . ALA . 5153 2 
+       88 . PRO . 5153 2 
+       89 . GLY . 5153 2 
+       90 . PRO . 5153 2 
+       91 . GLY . 5153 2 
+       92 . ILE . 5153 2 
+       93 . ASN . 5153 2 
+       94 . GLY . 5153 2 
+       95 . ASP . 5153 2 
+       96 . ALA . 5153 2 
+       97 . HIS . 5153 2 
+       98 . PHE . 5153 2 
+       99 . ASP . 5153 2 
+      100 . ASP . 5153 2 
+      101 . ASP . 5153 2 
+      102 . GLU . 5153 2 
+      103 . GLN . 5153 2 
+      104 . TRP . 5153 2 
+      105 . THR . 5153 2 
+      106 . LYS . 5153 2 
+      107 . ASP . 5153 2 
+      108 . THR . 5153 2 
+      109 . THR . 5153 2 
+      110 . GLY . 5153 2 
+      111 . THR . 5153 2 
+      112 . ASN . 5153 2 
+      113 . LEU . 5153 2 
+      114 . PHE . 5153 2 
+      115 . LEU . 5153 2 
+      116 . VAL . 5153 2 
+      117 . ALA . 5153 2 
+      118 . ALA . 5153 2 
+      119 . HIS . 5153 2 
+      120 . GLN . 5153 2 
+      121 . ILE . 5153 2 
+      122 . GLY . 5153 2 
+      123 . HIS . 5153 2 
+      124 . SER . 5153 2 
+      125 . LEU . 5153 2 
+      126 . GLY . 5153 2 
+      127 . LEU . 5153 2 
+      128 . PHE . 5153 2 
+      129 . HIS . 5153 2 
+      130 . SER . 5153 2 
+      131 . ALA . 5153 2 
+      132 . ASN . 5153 2 
+      133 . THR . 5153 2 
+      134 . GLU . 5153 2 
+      135 . ALA . 5153 2 
+      136 . LEU . 5153 2 
+      137 . MET . 5153 2 
+      138 . TYR . 5153 2 
+      139 . PRO . 5153 2 
+      140 . LEU . 5153 2 
+      141 . TYR . 5153 2 
+      142 . HIS . 5153 2 
+      143 . SER . 5153 2 
+      144 . LEU . 5153 2 
+      145 . THR . 5153 2 
+      146 . ASP . 5153 2 
+      147 . LEU . 5153 2 
+      148 . THR . 5153 2 
+      149 . ARG . 5153 2 
+      150 . PHE . 5153 2 
+      151 . ARG . 5153 2 
+      152 . LEU . 5153 2 
+      153 . SER . 5153 2 
+      154 . GLN . 5153 2 
+      155 . ASP . 5153 2 
+      156 . ASP . 5153 2 
+      157 . ILE . 5153 2 
+      158 . ASN . 5153 2 
+      159 . GLY . 5153 2 
+      160 . ILE . 5153 2 
+      161 . GLN . 5153 2 
+      162 . SER . 5153 2 
+      163 . LEU . 5153 2 
+      164 . TYR . 5153 2 
+      165 . GLY . 5153 2 
+      166 . PRO . 5153 2 
+      167 . PRO . 5153 2 
+      168 . PRO . 5153 2 
+      169 . ASP . 5153 2 
+      170 . SER . 5153 2 
+      171 . PRO . 5153 2 
+      172 . GLU . 5153 2 
+      173 . THR . 5153 2 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . PHE   1   1 5153 2 
+      . ARG   2   2 5153 2 
+      . THR   3   3 5153 2 
+      . PHE   4   4 5153 2 
+      . PRO   5   5 5153 2 
+      . GLY   6   6 5153 2 
+      . ILE   7   7 5153 2 
+      . PRO   8   8 5153 2 
+      . LYS   9   9 5153 2 
+      . TRP  10  10 5153 2 
+      . ARG  11  11 5153 2 
+      . LYS  12  12 5153 2 
+      . THR  13  13 5153 2 
+      . HIS  14  14 5153 2 
+      . LEU  15  15 5153 2 
+      . THR  16  16 5153 2 
+      . TYR  17  17 5153 2 
+      . ARG  18  18 5153 2 
+      . ILE  19  19 5153 2 
+      . VAL  20  20 5153 2 
+      . ASN  21  21 5153 2 
+      . TYR  22  22 5153 2 
+      . THR  23  23 5153 2 
+      . PRO  24  24 5153 2 
+      . ASP  25  25 5153 2 
+      . LEU  26  26 5153 2 
+      . PRO  27  27 5153 2 
+      . LYS  28  28 5153 2 
+      . ASP  29  29 5153 2 
+      . ALA  30  30 5153 2 
+      . VAL  31  31 5153 2 
+      . ASP  32  32 5153 2 
+      . SER  33  33 5153 2 
+      . ALA  34  34 5153 2 
+      . VAL  35  35 5153 2 
+      . GLU  36  36 5153 2 
+      . LYS  37  37 5153 2 
+      . ALA  38  38 5153 2 
+      . LEU  39  39 5153 2 
+      . LYS  40  40 5153 2 
+      . VAL  41  41 5153 2 
+      . TRP  42  42 5153 2 
+      . GLU  43  43 5153 2 
+      . GLU  44  44 5153 2 
+      . VAL  45  45 5153 2 
+      . THR  46  46 5153 2 
+      . PRO  47  47 5153 2 
+      . LEU  48  48 5153 2 
+      . THR  49  49 5153 2 
+      . PHE  50  50 5153 2 
+      . SER  51  51 5153 2 
+      . ARG  52  52 5153 2 
+      . LEU  53  53 5153 2 
+      . TYR  54  54 5153 2 
+      . GLU  55  55 5153 2 
+      . GLY  56  56 5153 2 
+      . GLU  57  57 5153 2 
+      . ALA  58  58 5153 2 
+      . ASP  59  59 5153 2 
+      . ILE  60  60 5153 2 
+      . MET  61  61 5153 2 
+      . ILE  62  62 5153 2 
+      . SER  63  63 5153 2 
+      . PHE  64  64 5153 2 
+      . ALA  65  65 5153 2 
+      . VAL  66  66 5153 2 
+      . ARG  67  67 5153 2 
+      . GLU  68  68 5153 2 
+      . HIS  69  69 5153 2 
+      . GLY  70  70 5153 2 
+      . ASP  71  71 5153 2 
+      . PHE  72  72 5153 2 
+      . TYR  73  73 5153 2 
+      . PRO  74  74 5153 2 
+      . PHE  75  75 5153 2 
+      . ASP  76  76 5153 2 
+      . GLY  77  77 5153 2 
+      . PRO  78  78 5153 2 
+      . GLY  79  79 5153 2 
+      . ASN  80  80 5153 2 
+      . VAL  81  81 5153 2 
+      . LEU  82  82 5153 2 
+      . ALA  83  83 5153 2 
+      . HIS  84  84 5153 2 
+      . ALA  85  85 5153 2 
+      . TYR  86  86 5153 2 
+      . ALA  87  87 5153 2 
+      . PRO  88  88 5153 2 
+      . GLY  89  89 5153 2 
+      . PRO  90  90 5153 2 
+      . GLY  91  91 5153 2 
+      . ILE  92  92 5153 2 
+      . ASN  93  93 5153 2 
+      . GLY  94  94 5153 2 
+      . ASP  95  95 5153 2 
+      . ALA  96  96 5153 2 
+      . HIS  97  97 5153 2 
+      . PHE  98  98 5153 2 
+      . ASP  99  99 5153 2 
+      . ASP 100 100 5153 2 
+      . ASP 101 101 5153 2 
+      . GLU 102 102 5153 2 
+      . GLN 103 103 5153 2 
+      . TRP 104 104 5153 2 
+      . THR 105 105 5153 2 
+      . LYS 106 106 5153 2 
+      . ASP 107 107 5153 2 
+      . THR 108 108 5153 2 
+      . THR 109 109 5153 2 
+      . GLY 110 110 5153 2 
+      . THR 111 111 5153 2 
+      . ASN 112 112 5153 2 
+      . LEU 113 113 5153 2 
+      . PHE 114 114 5153 2 
+      . LEU 115 115 5153 2 
+      . VAL 116 116 5153 2 
+      . ALA 117 117 5153 2 
+      . ALA 118 118 5153 2 
+      . HIS 119 119 5153 2 
+      . GLN 120 120 5153 2 
+      . ILE 121 121 5153 2 
+      . GLY 122 122 5153 2 
+      . HIS 123 123 5153 2 
+      . SER 124 124 5153 2 
+      . LEU 125 125 5153 2 
+      . GLY 126 126 5153 2 
+      . LEU 127 127 5153 2 
+      . PHE 128 128 5153 2 
+      . HIS 129 129 5153 2 
+      . SER 130 130 5153 2 
+      . ALA 131 131 5153 2 
+      . ASN 132 132 5153 2 
+      . THR 133 133 5153 2 
+      . GLU 134 134 5153 2 
+      . ALA 135 135 5153 2 
+      . LEU 136 136 5153 2 
+      . MET 137 137 5153 2 
+      . TYR 138 138 5153 2 
+      . PRO 139 139 5153 2 
+      . LEU 140 140 5153 2 
+      . TYR 141 141 5153 2 
+      . HIS 142 142 5153 2 
+      . SER 143 143 5153 2 
+      . LEU 144 144 5153 2 
+      . THR 145 145 5153 2 
+      . ASP 146 146 5153 2 
+      . LEU 147 147 5153 2 
+      . THR 148 148 5153 2 
+      . ARG 149 149 5153 2 
+      . PHE 150 150 5153 2 
+      . ARG 151 151 5153 2 
+      . LEU 152 152 5153 2 
+      . SER 153 153 5153 2 
+      . GLN 154 154 5153 2 
+      . ASP 155 155 5153 2 
+      . ASP 156 156 5153 2 
+      . ILE 157 157 5153 2 
+      . ASN 158 158 5153 2 
+      . GLY 159 159 5153 2 
+      . ILE 160 160 5153 2 
+      . GLN 161 161 5153 2 
+      . SER 162 162 5153 2 
+      . LEU 163 163 5153 2 
+      . TYR 164 164 5153 2 
+      . GLY 165 165 5153 2 
+      . PRO 166 166 5153 2 
+      . PRO 167 167 5153 2 
+      . PRO 168 168 5153 2 
+      . ASP 169 169 5153 2 
+      . SER 170 170 5153 2 
+      . PRO 171 171 5153 2 
+      . GLU 172 172 5153 2 
+      . THR 173 173 5153 2 
+
+   stop_
+
+save_
+
+
+save_CA
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      CA
+   _Entity.Entry_ID                          5153
+   _Entity.ID                                3
+   _Entity.BMRB_code                         .
+   _Entity.Name                              CA
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                CA
+   _Entity.Nonpolymer_comp_label            $chem_comp_CA
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  3
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . CA . 5153 3 
+
+   stop_
+
+save_
+
+
+save_ZN
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      ZN
+   _Entity.Entry_ID                          5153
+   _Entity.ID                                4
+   _Entity.BMRB_code                         .
+   _Entity.Name                              ZN
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                ZN
+   _Entity.Nonpolymer_comp_label            $chem_comp_ZN
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  4
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . ZN . 5153 4 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       5153
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $N-TIMP-1 . 9606 organism . 'Homo sapiens' Human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      2 2 $MMP-3    . 9606 organism . 'Homo sapiens' Human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       5153
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $N-TIMP-1 . 'recombinant technology' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      2 2 $MMP-3    . 'recombinant technology' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_CA
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_CA
+   _Chem_comp.Entry_ID                          5153
+   _Chem_comp.ID                                CA
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                             'CALCIUM ION'
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          CA
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      1999-07-08
+   _Chem_comp.Modified_date                     2011-06-04
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 CA
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     2
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           Ca
+   _Chem_comp.Formula_weight                    40.078
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Mon Jun 13 13:55:41 2011
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      [Ca+2]                      SMILES            ACDLabs                10.04  5153 CA 
+      [Ca++]                      SMILES_CANONICAL  CACTVS                  3.341 5153 CA 
+      [Ca++]                      SMILES            CACTVS                  3.341 5153 CA 
+      [Ca+2]                      SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     5153 CA 
+      [Ca+2]                      SMILES           'OpenEye OEToolkits' 1.5.0     5153 CA 
+      InChI=1S/Ca/q+2             InChI             InChI                   1.03  5153 CA 
+      BHPQYMZQTOCNFJ-UHFFFAOYSA-N InChIKey          InChI                   1.03  5153 CA 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+       calcium             'SYSTEMATIC NAME'  ACDLabs                10.04 5153 CA 
+      'calcium(+2) cation' 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0    5153 CA 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      CA . CA . . CA . . N 2 . . . . no no . . . . 0.000 . 0.000 . 0.000 . 0.000 0.000 0.000 1 . 5153 CA 
+
+   stop_
+
+save_
+
+
+save_chem_comp_ZN
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_ZN
+   _Chem_comp.Entry_ID                          5153
+   _Chem_comp.ID                                ZN
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                             'ZINC ION'
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          ZN
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      1999-07-08
+   _Chem_comp.Modified_date                     2011-06-04
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 ZN
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     2
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           Zn
+   _Chem_comp.Formula_weight                    65.409
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Mon Jun 13 14:00:03 2011
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      [Zn+2]                      SMILES            ACDLabs                10.04  5153 ZN 
+      [Zn++]                      SMILES_CANONICAL  CACTVS                  3.341 5153 ZN 
+      [Zn++]                      SMILES            CACTVS                  3.341 5153 ZN 
+      [Zn+2]                      SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     5153 ZN 
+      [Zn+2]                      SMILES           'OpenEye OEToolkits' 1.5.0     5153 ZN 
+      InChI=1S/Zn/q+2             InChI             InChI                   1.03  5153 ZN 
+      PTFCDOFLOPIGGS-UHFFFAOYSA-N InChIKey          InChI                   1.03  5153 ZN 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+       zinc             'SYSTEMATIC NAME'  ACDLabs                10.04 5153 ZN 
+      'zinc(+2) cation' 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0    5153 ZN 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      ZN . ZN . . ZN . . N 2 . . . . no no . . . . 0.000 . 0.000 . 0.000 . 0.000 0.000 0.000 1 . 5153 ZN 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         5153
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'N-terminal domain of Tissue Inhibitor of Metalloproteinases-1' '[U-98% 15N; U-98% 2H]' . . 1 $N-TIMP-1 . .   0.3 . . mM . . . . 5153 1 
+      2 'MatrixMetalloProteinases-3(catalytic domain)'                  '[U-98% 15N; U-98% 2H]' . . 2 $MMP-3    . .   0.3 . . mM . . . . 5153 1 
+      3  Tris                                                            [U-2H]                 . .  .  .        . .  20   . . mM . . . . 5153 1 
+      4  NaCl                                                            .                      . .  .  .        . . 125   . . mM . . . . 5153 1 
+      5  CaCl2                                                           .                      . .  .  .        . .  10   . . mM . . . . 5153 1 
+      6  NaN3                                                            .                      . .  .  .        . .   1   . . mM . . . . 5153 1 
+      7  ZnCl2                                                           .                      . .  .  .        . .  50   . . mM . . . . 5153 1 
+      8  H2O                                                             .                      . .  .  .        . .  93   . . %  . . . . 5153 1 
+      9  D2O                                                             .                      . .  .  .        . .   7   . . %  . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_condition_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   condition_1
+   _Sample_condition_list.Entry_ID       5153
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.22 0.05 n/a 5153 1 
+      temperature 307    0.5  K   5153 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_Sybyl_TRIAD
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Sybyl_TRIAD
+   _Software.Entry_ID       5153
+   _Software.ID             1
+   _Software.Name          'Sybyl TRIAD'
+   _Software.Version        6.3
+   _Software.Details        .
+
+save_
+
+
+save_ModelFree
+   _Software.Sf_category    software
+   _Software.Sf_framecode   ModelFree
+   _Software.Entry_ID       5153
+   _Software.ID             2
+   _Software.Name           ModelFree
+   _Software.Version        4.1
+   _Software.Details        .
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer
+   _NMR_spectrometer.Entry_ID         5153
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Inova
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       5153
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer Varian Inova . 600 . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       5153
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '15N T1 relaxation'        . . . . . . . . . . . 1 $sample_1 . . . 1 $condition_1 . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 5153 1 
+      2 '15N T2 relaxation'        . . . . . . . . . . . 1 $sample_1 . . . 1 $condition_1 . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 5153 1 
+      3 'heteronuclear 1H-15N NOE' . . . . . . . . . . . 1 $sample_1 . . . 1 $condition_1 . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+save_NMR_spec_expt__0_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_1
+   _NMR_spec_expt.Entry_ID                        5153
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                           '15N T1 relaxation'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_2
+   _NMR_spec_expt.Entry_ID                        5153
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                           '15N T2 relaxation'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_3
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_3
+   _NMR_spec_expt.Entry_ID                        5153
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                           'heteronuclear 1H-15N NOE'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference
+   _Chem_shift_reference.Entry_ID       5153
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H 1 DSS 'methyl protons' . . . . ppm 0.0 internal direct 1.0 . . . 1 $entry_citation . . 1 $entry_citation 5153 1 
+
+   stop_
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_NOE
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE
+   _Heteronucl_NOE_list.Entry_ID                      5153
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $condition_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     600
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_1 . 5153 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . . .   2   2 THR . . . . . .   2   2 THR . . .  0.78988 0.0461  . . . . . . . . . . 5153 1 
+       2 . . .   3   3 CYS . . . . . .   3   3 CYS . . .  0.72767 0.00117 . . . . . . . . . . 5153 1 
+       3 . . .   4   4 VAL . . . . . .   4   4 VAL . . .  0.7034  0.00316 . . . . . . . . . . 5153 1 
+       4 . . .   9   9 GLN . . . . . .   9   9 GLN . . .  0.62824 0.07397 . . . . . . . . . . 5153 1 
+       5 . . .  10  10 THR . . . . . .  10  10 THR . . .  0.82976 0.05307 . . . . . . . . . . 5153 1 
+       6 . . .  11  11 ALA . . . . . .  11  11 ALA . . .  0.71282 0.05718 . . . . . . . . . . 5153 1 
+       7 . . .  12  12 PHE . . . . . .  12  12 PHE . . .  0.63577 0.03363 . . . . . . . . . . 5153 1 
+       8 . . .  13  13 CYS . . . . . .  13  13 CYS . . .  0.71925 0.03559 . . . . . . . . . . 5153 1 
+       9 . . .  15  15 SER . . . . . .  15  15 SER . . .  0.6635  0.05561 . . . . . . . . . . 5153 1 
+      10 . . .  16  16 ASP . . . . . .  16  16 ASP . . .  0.76289 0.04428 . . . . . . . . . . 5153 1 
+      11 . . .  17  17 LEU . . . . . .  17  17 LEU . . .  0.83455 0.03023 . . . . . . . . . . 5153 1 
+      12 . . .  18  18 VAL . . . . . .  18  18 VAL . . .  0.45049 0.04109 . . . . . . . . . . 5153 1 
+      13 . . .  19  19 ILE . . . . . .  19  19 ILE . . .  0.76894 0.03385 . . . . . . . . . . 5153 1 
+      14 . . .  20  20 ARG . . . . . .  20  20 ARG . . .  0.76886 0.09079 . . . . . . . . . . 5153 1 
+      15 . . .  21  21 ALA . . . . . .  21  21 ALA . . .  0.77777 0.05225 . . . . . . . . . . 5153 1 
+      16 . . .  22  22 LYS . . . . . .  22  22 LYS . . .  0.71659 0.01431 . . . . . . . . . . 5153 1 
+      17 . . .  23  23 PHE . . . . . .  23  23 PHE . . .  0.74083 0.05912 . . . . . . . . . . 5153 1 
+      18 . . .  24  24 VAL . . . . . .  24  24 VAL . . .  0.65351 0.03895 . . . . . . . . . . 5153 1 
+      19 . . .  25  25 GLY . . . . . .  25  25 GLY . . .  0.51599 0.02791 . . . . . . . . . . 5153 1 
+      20 . . .  28  28 GLU . . . . . .  28  28 GLU . . .  0.71808 0.03552 . . . . . . . . . . 5153 1 
+      21 . . .  29  29 VAL . . . . . .  29  29 VAL . . .  0.58445 0.0537  . . . . . . . . . . 5153 1 
+      22 . . .  30  30 ASN . . . . . .  30  30 ASN . . .  0.82765 0.06686 . . . . . . . . . . 5153 1 
+      23 . . .  35  35 TYR . . . . . .  35  35 TYR . . .  0.73737 0.02509 . . . . . . . . . . 5153 1 
+      24 . . .  36  36 GLN . . . . . .  36  36 GLN . . .  0.79827 0.13211 . . . . . . . . . . 5153 1 
+      25 . . .  37  37 ARG . . . . . .  37  37 ARG . . .  0.72997 0.06675 . . . . . . . . . . 5153 1 
+      26 . . .  38  38 TYR . . . . . .  38  38 TYR . . .  0.8264  0.03071 . . . . . . . . . . 5153 1 
+      27 . . .  39  39 GLU . . . . . .  39  39 GLU . . .  0.52371 0.07463 . . . . . . . . . . 5153 1 
+      28 . . .  40  40 ILE . . . . . .  40  40 ILE . . .  0.71854 0.05589 . . . . . . . . . . 5153 1 
+      29 . . .  41  41 LYS . . . . . .  41  41 LYS . . .  0.74496 0.06298 . . . . . . . . . . 5153 1 
+      30 . . .  42  42 MET . . . . . .  42  42 MET . . .  0.61142 0.11438 . . . . . . . . . . 5153 1 
+      31 . . .  43  43 THR . . . . . .  43  43 THR . . .  0.76142 0.06857 . . . . . . . . . . 5153 1 
+      32 . . .  44  44 LYS . . . . . .  44  44 LYS . . .  0.67879 0.03523 . . . . . . . . . . 5153 1 
+      33 . . .  45  45 MET . . . . . .  45  45 MET . . .  0.62283 0.0463  . . . . . . . . . . 5153 1 
+      34 . . .  48  48 GLY . . . . . .  48  48 GLY . . .  0.81073 0.11882 . . . . . . . . . . 5153 1 
+      35 . . .  49  49 PHE . . . . . .  49  49 PHE . . .  0.52792 0.07276 . . . . . . . . . . 5153 1 
+      36 . . .  54  54 ASP . . . . . .  54  54 ASP . . . -0.2344  0.04075 . . . . . . . . . . 5153 1 
+      37 . . .  56  56 ALA . . . . . .  56  56 ALA . . .  0.69326 0.02575 . . . . . . . . . . 5153 1 
+      38 . . .  59  59 ARG . . . . . .  59  59 ARG . . .  0.57419 0.02857 . . . . . . . . . . 5153 1 
+      39 . . .  61  61 VAL . . . . . .  61  61 VAL . . .  0.71894 0.08581 . . . . . . . . . . 5153 1 
+      40 . . .  62  62 TYR . . . . . .  62  62 TYR . . .  0.73965 0.05917 . . . . . . . . . . 5153 1 
+      41 . . .  63  63 THR . . . . . .  63  63 THR . . .  0.83377 0.04118 . . . . . . . . . . 5153 1 
+      42 . . .  70  70 CYS . . . . . .  70  70 CYS . . .  0.784   0.00375 . . . . . . . . . . 5153 1 
+      43 . . .  71  71 GLY . . . . . .  71  71 GLY . . .  0.83031 0.10691 . . . . . . . . . . 5153 1 
+      44 . . .  73  73 PHE . . . . . .  73  73 PHE . . .  0.6538  0.08179 . . . . . . . . . . 5153 1 
+      45 . . .  74  74 HIS . . . . . .  74  74 HIS . . .  0.64035 0.0356  . . . . . . . . . . 5153 1 
+      46 . . .  80  80 SER . . . . . .  80  80 SER . . .  0.61472 0.03469 . . . . . . . . . . 5153 1 
+      47 . . .  81  81 GLU . . . . . .  81  81 GLU . . .  0.72049 0.07103 . . . . . . . . . . 5153 1 
+      48 . . .  82  82 GLU . . . . . .  82  82 GLU . . .  0.58992 0.04211 . . . . . . . . . . 5153 1 
+      49 . . .  83  83 PHE . . . . . .  83  83 PHE . . .  0.74753 0.01209 . . . . . . . . . . 5153 1 
+      50 . . .  84  84 LEU . . . . . .  84  84 LEU . . .  0.79494 0.04217 . . . . . . . . . . 5153 1 
+      51 . . .  85  85 ILE . . . . . .  85  85 ILE . . .  0.76752 0.03809 . . . . . . . . . . 5153 1 
+      52 . . .  86  86 ALA . . . . . .  86  86 ALA . . .  0.76983 0.03978 . . . . . . . . . . 5153 1 
+      53 . . .  87  87 GLY . . . . . .  87  87 GLY . . .  0.77216 0.00312 . . . . . . . . . . 5153 1 
+      54 . . .  88  88 LYS . . . . . .  88  88 LYS . . .  0.75851 0.04555 . . . . . . . . . . 5153 1 
+      55 . . .  90  90 GLN . . . . . .  90  90 GLN . . .  0.72569 0.02192 . . . . . . . . . . 5153 1 
+      56 . . .  91  91 ASP . . . . . .  91  91 ASP . . .  0.69118 0.03561 . . . . . . . . . . 5153 1 
+      57 . . .  92  92 GLY . . . . . .  92  92 GLY . . .  0.67448 0.04432 . . . . . . . . . . 5153 1 
+      58 . . .  95  95 HIS . . . . . .  95  95 HIS . . .  0.83652 0.04606 . . . . . . . . . . 5153 1 
+      59 . . .  96  96 ILE . . . . . .  96  96 ILE . . .  0.79271 0.08429 . . . . . . . . . . 5153 1 
+      60 . . .  97  97 THR . . . . . .  97  97 THR . . .  0.74918 0.04205 . . . . . . . . . . 5153 1 
+      61 . . .  98  98 THR . . . . . .  98  98 THR . . .  0.76717 0.02232 . . . . . . . . . . 5153 1 
+      62 . . .  99  99 CYS . . . . . .  99  99 CYS . . .  0.79926 0.09606 . . . . . . . . . . 5153 1 
+      63 . . . 100 100 SER . . . . . . 100 100 SER . . .  0.79217 0.04508 . . . . . . . . . . 5153 1 
+      64 . . . 101 101 PHE . . . . . . 101 101 PHE . . .  0.8199  0.0869  . . . . . . . . . . 5153 1 
+      65 . . . 102 102 VAL . . . . . . 102 102 VAL . . .  0.70846 0.01488 . . . . . . . . . . 5153 1 
+      66 . . . 103 103 ALA . . . . . . 103 103 ALA . . .  0.80891 0.04619 . . . . . . . . . . 5153 1 
+      67 . . . 105 105 TRP . . . . . . 105 105 TRP . . .  0.74565 0.01926 . . . . . . . . . . 5153 1 
+      68 . . . 106 106 ASN . . . . . . 106 106 ASN . . .  0.71372 0.02755 . . . . . . . . . . 5153 1 
+      69 . . . 107 107 SER . . . . . . 107 107 SER . . .  0.67158 0.08608 . . . . . . . . . . 5153 1 
+      70 . . . 108 108 LEU . . . . . . 108 108 LEU . . .  0.8136  0.01977 . . . . . . . . . . 5153 1 
+      71 . . . 109 109 SER . . . . . . 109 109 SER . . .  0.65062 0.02722 . . . . . . . . . . 5153 1 
+      72 . . . 110 110 LEU . . . . . . 110 110 LEU . . .  0.8268  0.0422  . . . . . . . . . . 5153 1 
+      73 . . . 112 112 GLN . . . . . . 112 112 GLN . . .  0.68597 0.00814 . . . . . . . . . . 5153 1 
+      74 . . . 113 113 ARG . . . . . . 113 113 ARG . . .  0.75768 0.01853 . . . . . . . . . . 5153 1 
+      75 . . . 115 115 GLY . . . . . . 115 115 GLY . . .  0.76224 0.06427 . . . . . . . . . . 5153 1 
+      76 . . . 116 116 PHE . . . . . . 116 116 PHE . . .  0.77639 0.05065 . . . . . . . . . . 5153 1 
+      77 . . . 117 117 THR . . . . . . 117 117 THR . . .  0.7223  0.11009 . . . . . . . . . . 5153 1 
+      78 . . . 118 118 LYS . . . . . . 118 118 LYS . . .  0.64717 0.04579 . . . . . . . . . . 5153 1 
+      79 . . . 119 119 THR . . . . . . 119 119 THR . . .  0.71255 0.04128 . . . . . . . . . . 5153 1 
+      80 . . . 120 120 TYR . . . . . . 120 120 TYR . . .  0.70066 0.05841 . . . . . . . . . . 5153 1 
+      81 . . . 121 121 THR . . . . . . 121 121 THR . . .  0.59259 0.01309 . . . . . . . . . . 5153 1 
+      82 . . . 122 122 VAL . . . . . . 122 122 VAL . . .  0.57919 0.03625 . . . . . . . . . . 5153 1 
+      83 . . . 124 124 CYS . . . . . . 124 124 CYS . . .  0.5416  0.02923 . . . . . . . . . . 5153 1 
+      84 . . . 125 125 GLU . . . . . . 125 125 GLU . . .  0.23194 0.01252 . . . . . . . . . . 5153 1 
+      85 . . . 126 126 GLU . . . . . . 126 126 GLU . . . -1.0948  0.1182  . . . . . . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_T1_relaxation_label
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  T1_relaxation_label
+   _Heteronucl_T1_list.Entry_ID                      5153
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $condition_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_1 . 5153 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1   2   2 THR N . . 1.0190 0.036 . . . . . 5153 1 
+       2 . 1 1   3   3 CYS N . . 0.9191 0.027 . . . . . 5153 1 
+       3 . 1 1   4   4 VAL N . . 0.9345 0.037 . . . . . 5153 1 
+       4 . 1 1   9   9 GLN N . . 0.8176 0.039 . . . . . 5153 1 
+       5 . 1 1  10  10 THR N . . 0.8097 0.042 . . . . . 5153 1 
+       6 . 1 1  11  11 ALA N . . 0.7158 0.037 . . . . . 5153 1 
+       7 . 1 1  12  12 PHE N . . 0.8077 0.040 . . . . . 5153 1 
+       8 . 1 1  13  13 CYS N . . 0.7627 0.027 . . . . . 5153 1 
+       9 . 1 1  15  15 SER N . . 0.8038 0.033 . . . . . 5153 1 
+      10 . 1 1  16  16 ASP N . . 0.7262 0.067 . . . . . 5153 1 
+      11 . 1 1  17  17 LEU N . . 1.1918 0.121 . . . . . 5153 1 
+      12 . 1 1  19  19 ILE N . . 0.9661 0.077 . . . . . 5153 1 
+      13 . 1 1  20  20 ARG N . . 0.7593 0.027 . . . . . 5153 1 
+      14 . 1 1  21  21 ALA N . . 0.8554 0.044 . . . . . 5153 1 
+      15 . 1 1  22  22 LYS N . . 0.8802 0.036 . . . . . 5153 1 
+      16 . 1 1  23  23 PHE N . . 0.8143 0.030 . . . . . 5153 1 
+      17 . 1 1  24  24 VAL N . . 0.7861 0.021 . . . . . 5153 1 
+      18 . 1 1  25  25 GLY N . . 0.5770 0.016 . . . . . 5153 1 
+      19 . 1 1  28  28 GLU N . . 0.8912 0.043 . . . . . 5153 1 
+      20 . 1 1  29  29 VAL N . . 0.7230 0.073 . . . . . 5153 1 
+      21 . 1 1  30  30 ASN N . . 0.7843 0.039 . . . . . 5153 1 
+      22 . 1 1  35  35 TYR N . . 0.7246 0.045 . . . . . 5153 1 
+      23 . 1 1  36  36 GLN N . . 0.8445 0.039 . . . . . 5153 1 
+      24 . 1 1  37  37 ARG N . . 0.8841 0.068 . . . . . 5153 1 
+      25 . 1 1  38  38 TYR N . . 0.8169 0.040 . . . . . 5153 1 
+      26 . 1 1  39  39 GLU N . . 0.9208 0.026 . . . . . 5153 1 
+      27 . 1 1  40  40 ILE N . . 0.8665 0.026 . . . . . 5153 1 
+      28 . 1 1  41  41 LYS N . . 0.9276 0.019 . . . . . 5153 1 
+      29 . 1 1  42  42 MET N . . 0.8291 0.033 . . . . . 5153 1 
+      30 . 1 1  43  43 THR N . . 0.7547 0.046 . . . . . 5153 1 
+      31 . 1 1  44  44 LYS N . . 1.0030 0.055 . . . . . 5153 1 
+      32 . 1 1  45  45 MET N . . 0.8196 0.025 . . . . . 5153 1 
+      33 . 1 1  48  48 GLY N . . 0.6968 0.051 . . . . . 5153 1 
+      34 . 1 1  49  49 PHE N . . 0.6027 0.029 . . . . . 5153 1 
+      35 . 1 1  54  54 ASP N . . 0.6199 0.034 . . . . . 5153 1 
+      36 . 1 1  56  56 ALA N . . 0.7645 0.043 . . . . . 5153 1 
+      37 . 1 1  58  58 ILE N . . 0.6317 0.029 . . . . . 5153 1 
+      38 . 1 1  59  59 ARG N . . 0.7936 0.025 . . . . . 5153 1 
+      39 . 1 1  61  61 VAL N . . 0.9541 0.041 . . . . . 5153 1 
+      40 . 1 1  62  62 TYR N . . 0.8726 0.045 . . . . . 5153 1 
+      41 . 1 1  63  63 THR N . . 0.8250 0.040 . . . . . 5153 1 
+      42 . 1 1  70  70 CYS N . . 0.8936 0.033 . . . . . 5153 1 
+      43 . 1 1  71  71 GLY N . . 0.8382 0.054 . . . . . 5153 1 
+      44 . 1 1  73  73 PHE N . . 0.7662 0.030 . . . . . 5153 1 
+      45 . 1 1  74  74 HIS N . . 0.8658 0.028 . . . . . 5153 1 
+      46 . 1 1  80  80 SER N . . 0.6680 0.051 . . . . . 5153 1 
+      47 . 1 1  81  81 GLU N . . 0.7733 0.026 . . . . . 5153 1 
+      48 . 1 1  82  82 GLU N . . 0.8403 0.036 . . . . . 5153 1 
+      49 . 1 1  83  83 PHE N . . 0.7980 0.046 . . . . . 5153 1 
+      50 . 1 1  84  84 LEU N . . 0.7782 0.052 . . . . . 5153 1 
+      51 . 1 1  85  85 ILE N . . 0.9689 0.048 . . . . . 5153 1 
+      52 . 1 1  86  86 ALA N . . 0.9276 0.074 . . . . . 5153 1 
+      53 . 1 1  87  87 GLY N . . 1.0224 0.052 . . . . . 5153 1 
+      54 . 1 1  88  88 LYS N . . 0.8857 0.040 . . . . . 5153 1 
+      55 . 1 1  90  90 GLN N . . 0.9891 0.076 . . . . . 5153 1 
+      56 . 1 1  91  91 ASP N . . 0.7961 0.063 . . . . . 5153 1 
+      57 . 1 1  92  92 GLY N . . 0.8032 0.031 . . . . . 5153 1 
+      58 . 1 1  95  95 HIS N . . 0.8718 0.046 . . . . . 5153 1 
+      59 . 1 1  96  96 ILE N . . 0.8620 0.025 . . . . . 5153 1 
+      60 . 1 1  97  97 THR N . . 0.8090 0.037 . . . . . 5153 1 
+      61 . 1 1  98  98 THR N . . 0.8488 0.032 . . . . . 5153 1 
+      62 . 1 1  99  99 CYS N . . 0.7581 0.041 . . . . . 5153 1 
+      63 . 1 1 100 100 SER N . . 0.7980 0.029 . . . . . 5153 1 
+      64 . 1 1 101 101 PHE N . . 0.8488 0.016 . . . . . 5153 1 
+      65 . 1 1 102 102 VAL N . . 0.9699 0.032 . . . . . 5153 1 
+      66 . 1 1 103 103 ALA N . . 0.9699 0.032 . . . . . 5153 1 
+      67 . 1 1 105 105 TRP N . . 0.7473 0.041 . . . . . 5153 1 
+      68 . 1 1 106 106 ASN N . . 0.7479 0.025 . . . . . 5153 1 
+      69 . 1 1 107 107 SER N . . 0.7892 0.023 . . . . . 5153 1 
+      70 . 1 1 108 108 LEU N . . 0.6973 0.056 . . . . . 5153 1 
+      71 . 1 1 109 109 SER N . . 0.8058 0.033 . . . . . 5153 1 
+      72 . 1 1 110 110 LEU N . . 0.8130 0.050 . . . . . 5153 1 
+      73 . 1 1 112 112 GLN N . . 0.7710 0.030 . . . . . 5153 1 
+      74 . 1 1 113 113 ARG N . . 0.8110 0.024 . . . . . 5153 1 
+      75 . 1 1 115 115 GLY N . . 0.8077 0.033 . . . . . 5153 1 
+      76 . 1 1 116 116 PHE N . . 0.7215 0.020 . . . . . 5153 1 
+      77 . 1 1 117 117 THR N . . 0.7446 0.045 . . . . . 5153 1 
+      78 . 1 1 118 118 LYS N . . 0.7158 0.036 . . . . . 5153 1 
+      79 . 1 1 119 119 THR N . . 0.7002 0.021 . . . . . 5153 1 
+      80 . 1 1 120 120 TYR N . . 0.7501 0.034 . . . . . 5153 1 
+      81 . 1 1 121 121 THR N . . 0.6930 0.027 . . . . . 5153 1 
+      82 . 1 1 122 122 VAL N . . 0.8857 0.046 . . . . . 5153 1 
+      83 . 1 1 124 124 CYS N . . 0.7788 0.029 . . . . . 5153 1 
+      84 . 1 1 125 125 GLU N . . 0.5364 0.017 . . . . . 5153 1 
+      85 . 1 1 126 126 GLU N . . 0.7698 0.044 . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_T2_relaxation_label
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_relaxation_label
+   _Heteronucl_T2_list.Entry_ID                      5153
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $condition_1
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_1 . 5153 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1   2   2 THR N . . 0.048239 0.0025  5.6 1.2 . . . . . 5153 1 
+       2 . 1 1   3   3 CYS N . . 0.048828 0.0034  4.3 1.4 . . . . . 5153 1 
+       3 . 1 1   4   4 VAL N . . 0.050454 0.0026   .   .  . . . . . 5153 1 
+       4 . 1 1   9   9 GLN N . . 0.050838 0.0028   .   .  . . . . . 5153 1 
+       5 . 1 1  10  10 THR N . . 0.046040 0.0021  2.7 1.3 . . . . . 5153 1 
+       6 . 1 1  11  11 ALA N . . 0.047755 0.0020  3.4 1.1 . . . . . 5153 1 
+       7 . 1 1  12  12 PHE N . . 0.048123 0.0015  3.4 0.8 . . . . . 5153 1 
+       8 . 1 1  13  13 CYS N . . 0.049019 0.0011  2.2 0.6 . . . . . 5153 1 
+       9 . 1 1  15  15 SER N . . 0.053879 0.0030   .   .  . . . . . 5153 1 
+      10 . 1 1  17  17 LEU N . . 0.046490 0.0079  6.9 3.7 . . . . . 5153 1 
+      11 . 1 1  18  18 VAL N . . 0.042808 0.0047  8.5 3.5 . . . . . 5153 1 
+      12 . 1 1  19  19 ILE N . . 0.041017 0.0013  8.3 1.4 . . . . . 5153 1 
+      13 . 1 1  20  20 ARG N . . 0.047258 0.0023   .   .  . . . . . 5153 1 
+      14 . 1 1  21  21 ALA N . . 0.046040 0.0014  2.8 1.0 . . . . . 5153 1 
+      15 . 1 1  22  22 LYS N . . 0.049358 0.0017  2.4 0.9 . . . . . 5153 1 
+      16 . 1 1  23  23 PHE N . . 0.047483 0.0016  3.1 0.9 . . . . . 5153 1 
+      17 . 1 1  24  24 VAL N . . 0.047393 0.0022  4.1 1.0 . . . . . 5153 1 
+      18 . 1 1  25  25 GLY N . . 0.081833 0.0064   .   .  . . . . . 5153 1 
+      19 . 1 1  28  28 GLU N . . 0.053879 0.0014  1.6 0.8 . . . . . 5153 1 
+      20 . 1 1  29  29 VAL N . . 0.036818 0.0013 11.2 1.7 . . . . . 5153 1 
+      21 . 1 1  30  30 ASN N . . 0.043478 0.0009  5.6 0.8 . . . . . 5153 1 
+      22 . 1 1  35  35 TYR N . . 0.042808 0.0025  5.8 1.7 . . . . . 5153 1 
+      23 . 1 1  36  36 GLN N . . 0.049188 0.0028  2.5 1.2 . . . . . 5153 1 
+      24 . 1 1  37  37 ARG N . . 0.036630 0.0023 11.2 2.0 . . . . . 5153 1 
+      25 . 1 1  38  38 TYR N . . 0.044682 0.0011  5.0 0.8 . . . . . 5153 1 
+      26 . 1 1  39  39 GLU N . . 0.048053 0.0018  4.7 1.0 . . . . . 5153 1 
+      27 . 1 1  40  40 ILE N . . 0.046040 0.0015  3.6 0.8 . . . . . 5153 1 
+      28 . 1 1  41  41 LYS N . . 0.046382 0.0012  2.3 0.6 . . . . . 5153 1 
+      29 . 1 1  42  42 MET N . . 0.046816 0.0008  4.4 0.7 . . . . . 5153 1 
+      30 . 1 1  43  43 THR N . . 0.048169 0.0017  1.7 1.1 . . . . . 5153 1 
+      31 . 1 1  44  44 LYS N . . 0.050761 0.0028  2.2 1.4 . . . . . 5153 1 
+      32 . 1 1  45  45 MET N . . 0.042301 0.0032  5.9 1.8 . . . . . 5153 1 
+      33 . 1 1  48  48 GLY N . . 0.044247 0.0021  5.5 1.5 . . . . . 5153 1 
+      34 . 1 1  49  49 PHE N . . 0.096246 0.0032   .   .  . . . . . 5153 1 
+      35 . 1 1  54  54 ASP N . . 0.107492 0.0035   .   .  . . . . . 5153 1 
+      36 . 1 1  56  56 ALA N . . 0.058309 0.0027   .   .  . . . . . 5153 1 
+      37 . 1 1  58  58 ILE N . . 0.078247 0.0094   .   .  . . . . . 5153 1 
+      38 . 1 1  59  59 ARG N . . 0.048449 0.0026  4.2 1.1 . . . . . 5153 1 
+      39 . 1 1  61  61 VAL N . . 0.043327 0.0020  6.6 1.3 . . . . . 5153 1 
+      40 . 1 1  62  62 TYR N . . 0.044822 0.0021  4.6 1.1 . . . . . 5153 1 
+      41 . 1 1  63  63 THR N . . 0.044444 0.0016  5.2 1.0 . . . . . 5153 1 
+      42 . 1 1  70  70 CYS N . . 0.038372 0.0028  7.5 2.1 . . . . . 5153 1 
+      43 . 1 1  71  71 GLY N . . 0.037893 0.0024  8.8 2.0 . . . . . 5153 1 
+      44 . 1 1  73  73 PHE N . . 0.045850 0.0012  4.9 0.8 . . . . . 5153 1 
+      45 . 1 1  74  74 HIS N . . 0.048923 0.0032  3.2 1.3 . . . . . 5153 1 
+      46 . 1 1  80  80 SER N . . 0.048780 0.0022  3.8 1.4 . . . . . 5153 1 
+      47 . 1 1  81  81 GLU N . . 0.046794 0.0027   .   .  . . . . . 5153 1 
+      48 . 1 1  82  82 GLU N . . 0.046232 0.0025  5.4 1.3 . . . . . 5153 1 
+      49 . 1 1  83  83 PHE N . . 0.045766 0.0031   .   .  . . . . . 5153 1 
+      50 . 1 1  84  84 LEU N . . 0.046168 0.0029   .   .  . . . . . 5153 1 
+      51 . 1 1  85  85 ILE N . . 0.044563 0.0025  4.7 1.5 . . . . . 5153 1 
+      52 . 1 1  86  86 ALA N . . 0.042069 0.0018  5.8 1.4 . . . . . 5153 1 
+      53 . 1 1  87  87 GLY N . . 0.044883 0.0017  5.5 0.8 . . . . . 5153 1 
+      54 . 1 1  88  88 LYS N . . 0.044091 0.0016  4.4 1.0 . . . . . 5153 1 
+      55 . 1 1  90  90 GLN N . . 0.047641 0.0012  5.2 1.3 . . . . . 5153 1 
+      56 . 1 1  91  91 ASP N . . 0.046554 0.0042  4.8 2.2 . . . . . 5153 1 
+      57 . 1 1  92  92 GLY N . . 0.052029 0.0020  2.6 0.8 . . . . . 5153 1 
+      58 . 1 1  95  95 HIS N . . 0.043649 0.0018  5.8 1.2 . . . . . 5153 1 
+      59 . 1 1  96  96 ILE N . . 0.045475 0.0015  4.8 0.9 . . . . . 5153 1 
+      60 . 1 1  97  97 THR N . . 0.042087 0.0017  6.4 1.1 . . . . . 5153 1 
+      61 . 1 1  98  98 THR N . . 0.042607 0.0027  6.5 1.6 . . . . . 5153 1 
+      62 . 1 1  99  99 CYS N . . 0.044722 0.0021  4.6 1.2 . . . . . 5153 1 
+      63 . 1 1 100 100 SER N . . 0.043440 0.0020  5.7 1.1 . . . . . 5153 1 
+      64 . 1 1 101 101 PHE N . . 0.048285 0.0012  2.5 0.6 . . . . . 5153 1 
+      65 . 1 1 102 102 VAL N . . 0.044483 0.0011  4.3 0.7 . . . . . 5153 1 
+      66 . 1 1 103 103 ALA N . . 0.044424 0.0028  3.8 1.5 . . . . . 5153 1 
+      67 . 1 1 105 105 TRP N . . 0.043687 0.0010  5.6 0.9 . . . . . 5153 1 
+      68 . 1 1 106 106 ASN N . . 0.048590 0.0023  3.8 1.0 . . . . . 5153 1 
+      69 . 1 1 107 107 SER N . . 0.050530 0.0012  2.8 0.7 . . . . . 5153 1 
+      70 . 1 1 108 108 LEU N . . 0.046882 0.0019  3.9 1.4 . . . . . 5153 1 
+      71 . 1 1 109 109 SER N . . 0.047281 0.0014  4.4 0.8 . . . . . 5153 1 
+      72 . 1 1 110 110 LEU N . . 0.045787 0.0027  3.5 1.6 . . . . . 5153 1 
+      73 . 1 1 112 112 GLN N . . 0.047664 0.0029   .   .  . . . . . 5153 1 
+      74 . 1 1 113 113 ARG N . . 0.048100 0.0019   .   .  . . . . . 5153 1 
+      75 . 1 1 115 115 GLY N . . 0.042337 0.0034   .   .  . . . . . 5153 1 
+      76 . 1 1 116 116 PHE N . . 0.048614 0.0016   .   .  . . . . . 5153 1 
+      77 . 1 1 117 117 THR N . . 0.047778 0.0021  3.2 1.3 . . . . . 5153 1 
+      78 . 1 1 118 118 LYS N . . 0.050709 0.0016   .   .  . . . . . 5153 1 
+      79 . 1 1 119 119 THR N . . 0.048285 0.0042   .   .  . . . . . 5153 1 
+      80 . 1 1 120 120 TYR N . . 0.045065 0.0024  5.6 1.3 . . . . . 5153 1 
+      81 . 1 1 121 121 THR N . . 0.048520 0.0025   .   .  . . . . . 5153 1 
+      82 . 1 1 122 122 VAL N . . 0.050942 0.0022  3.9 1.1 . . . . . 5153 1 
+      83 . 1 1 124 124 CYS N . . 0.057803 0.0039   .   .  . . . . . 5153 1 
+      84 . 1 1 125 125 GLU N . . 0.125992 0.0069   .   .  . . . . . 5153 1 
+      85 . 1 1 126 126 GLU N . . 0.190114 0.0243   .   .  . . . . . 5153 1 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_S2_parameters_label
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  S2_parameters_label
+   _Order_parameter_list.Entry_ID                      5153
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $condition_1
+   _Order_parameter_list.Tau_e_val_units               ps
+   _Order_parameter_list.Tau_f_val_units               .
+   _Order_parameter_list.Tau_s_val_units               .
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      . . 1 $sample_1 . 5153 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+       1 . 1 1   2   2 THR N . . 0.847 0.031     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       2 . 1 1   3   3 CYS N . . 0.893 0.009   41.6    3.7 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       3 . 1 1   4   4 VAL N . . 0.951 0.003  149.5   15.9 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       4 . 1 1   9   9 GLN N . . 0.939 0.027  260.9  142.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       5 . 1 1  10  10 THR N . . 0.969 0.040   19.3   44.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       6 . 1 1  11  11 ALA N . . 0.939 0.037  211.1  156.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       7 . 1 1  12  12 PHE N . . 0.934 0.026  252.2  129.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       8 . 1 1  13  13 CYS N . . 0.952 0.020  251.7  147.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+       9 . 1 1  15  15 SER N . . 0.932 0.026  859.9 1071.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      10 . 1 1  16  16 ASP N . . 0.838 0.110 3018.4 2419.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      11 . 1 1  17  17 LEU N . . 0.767 0.077     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      12 . 1 1  18  18 VAL N . . 0.765 0.131  123.6  107.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      13 . 1 1  19  19 ILE N . . 0.886 0.061   34.7   36.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      14 . 1 1  20  20 ARG N . . 0.864 0.042 5485.3 3372.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      15 . 1 1  21  21 ALA N . . 0.978 0.033     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      16 . 1 1  22  22 LYS N . . 0.937 0.025   97.7   32.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      17 . 1 1  23  23 PHE N . . 0.956 0.028  218.8  162.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      18 . 1 1  24  24 VAL N . . 0.937 0.016  308.5  110.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      19 . 1 1  25  25 GLY N . . 0.581 0.030 1516.8   84.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      20 . 1 1  28  28 GLU N . . 0.935 0.030  139.9  114.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      21 . 1 1  29  29 VAL N . . 0.858 0.073  152.3  120.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      22 . 1 1  30  30 ASN N . . 0.980 0.031     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      23 . 1 1  35  35 TYR N . . 0.924 0.041   97.3   64.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      24 . 1 1  36  36 GLN N . . 0.982 0.028     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      25 . 1 1  37  37 ARG N . . 0.919 0.053  113.2  127.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      26 . 1 1  38  38 TYR N . . 0.980 0.029     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      27 . 1 1  39  39 GLU N . . 0.878 0.028  149.7   61.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      28 . 1 1  40  40 ILE N . . 0.957 0.023  253.3  152.7 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      29 . 1 1  41  41 LYS N . . 0.991 0.012     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      30 . 1 1  42  42 MET N . . 0.919 0.036  288.1  137.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      31 . 1 1  43  43 THR N . . 0.964 0.043   28.5   74.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      32 . 1 1  44  44 LYS N . . 0.898 0.044   95.5   79.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      33 . 1 1  45  45 MET N . . 0.929 0.018  324.2  103.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      34 . 1 1  48  48 GLY N . . 0.961 0.054     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      35 . 1 1  49  49 PHE N . . 0.502 0.023 1641.6  296.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      36 . 1 1  54  54 ASP N . . 0.453 0.020  673.7   32.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      37 . 1 1  56  56 ALA N . . 0.882 0.033 1330.9  328.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      38 . 1 1  58  58 ILE N . . 0.640 0.076 2614.6 2683.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      39 . 1 1  59  59 ARG N . . 0.911 0.013  307.0  109.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      40 . 1 1  61  61 VAL N . . 0.911 0.038     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      41 . 1 1  62  62 TYR N . . 0.980 0.028     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      42 . 1 1  63  63 THR N . . 0.981 0.027     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      43 . 1 1  70  70 CYS N . . 0.938 0.022   39.2   10.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      44 . 1 1  71  71 GLY N . . 0.974 0.037     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      45 . 1 1  73  73 PHE N . . 0.929 0.032  282.3  138.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      46 . 1 1  74  74 HIS N . . 0.936 0.016  315.6  109.9 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      47 . 1 1  80  80 SER N . . 0.913 0.050  189.0  131.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      48 . 1 1  81  81 GLU N . . 0.912 0.033 5164.7 3677.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      49 . 1 1  82  82 GLU N . . 0.885 0.032  156.3   97.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      50 . 1 1  83  83 PHE N . . 0.925 0.028 1400.5  439.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      51 . 1 1  84  84 LEU N . . 0.906 0.054 4685.1 3729.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      52 . 1 1  85  85 ILE N . . 0.927 0.041   48.9   48.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      53 . 1 1  86  86 ALA N . . 0.922 0.053   57.3   54.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      54 . 1 1  87  87 GLY N . . 0.884 0.017   21.5    5.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      55 . 1 1  88  88 LYS N . . 0.982 0.026     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      56 . 1 1  90  90 GLN N . . 0.866 0.065   50.2   40.7 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      57 . 1 1  91  91 ASP N . . 0.920 0.044  197.9  132.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      58 . 1 1  92  92 GLY N . . 0.940 0.021  274.8  133.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      59 . 1 1  95  95 HIS N . . 0.966 0.038     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      60 . 1 1  96  96 ILE N . . 0.978 0.023     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      61 . 1 1  97  97 THR N . . 0.983 0.025     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      62 . 1 1  98  98 THR N . . 0.942 0.024   62.6   32.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      63 . 1 1  99  99 CYS N . . 0.978 0.032     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      64 . 1 1 100 100 SER N . . 0.985 0.022     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      65 . 1 1 101 101 PHE N . . 0.992 0.012     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      66 . 1 1 102 102 VAL N . . 0.933 0.023   98.1   36.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      67 . 1 1 103 103 ALA N . . 0.964 0.029     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      68 . 1 1 105 105 TRP N . . 0.929 0.036   74.5   33.7 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      69 . 1 1 106 106 ASN N . . 0.950 0.016  235.0  138.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      70 . 1 1 107 107 SER N . . 0.935 0.030  278.1  139.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      71 . 1 1 108 108 LEU N . . 0.958 0.054    6.0   11.9 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      72 . 1 1 109 109 SER N . . 0.938 0.021  253.5  124.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      73 . 1 1 110 110 LEU N . . 0.972 0.041     .      .  . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      74 . 1 1 112 112 GLN N . . 0.868 0.026 1371.5  207.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      75 . 1 1 113 113 ARG N . . 0.941 0.018 1503.0  654.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      76 . 1 1 115 115 GLY N . . 0.904 0.067 4936.3 3714.9 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      77 . 1 1 116 116 PHE N . . 0.865 0.037 5853.8 3166.0 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      78 . 1 1 117 117 THR N . . 0.936 0.045  190.9  170.2 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      79 . 1 1 118 118 LYS N . . 0.886 0.030 1841.7 1508.5 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      80 . 1 1 119 119 THR N . . 0.825 0.032 2556.3 1755.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      81 . 1 1 120 120 TYR N . . 0.944 0.029  244.0  153.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      82 . 1 1 121 121 THR N . . 0.834 0.031 1048.7  170.8 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      83 . 1 1 122 122 VAL N . . 0.884 0.032  151.2   88.1 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      84 . 1 1 124 124 CYS N . . 0.838 0.029  872.3  146.4 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      85 . 1 1 125 125 GLU N . . 0.336 0.025 1181.9   24.3 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+      86 . 1 1 126 126 GLU N . . 0.245 0.039  453.3   40.6 . . . . . . . . . . . . . . . . . . . . . 5153 1 
+
+   stop_
+
+save_
+

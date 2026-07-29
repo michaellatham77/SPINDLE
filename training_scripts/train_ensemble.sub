@@ -1,0 +1,21 @@
+# HTCondor Submit File
+
+# Point directly to your new bash script
+executable = run_condor_training.sh
+
+# Pass the arguments (the bash script will hand these to Python)
+arguments  = -model_index $(Process) -train_dir ../training_data/1000 -model_dir ../models/1000 -batch_size 256
+
+log        = logs/1000/train_1000_$(Process).log
+output     = logs/1000/train_1000_$(Process).out
+error      = logs/1000/train_1000_$(Process).err
+
+request_cpus   = 8
+request_memory = 32GB
+request_gpus = 1
+
+require_gpus = (GlobalMemoryMb >= 8000)
+
+requirements = (regexp("compute", Machine) || regexp("matlab", Machine) || regexp("babbage", Machine) || regexp("gauss", Machine) || regexp("turing", Machine))
+
+queue 10

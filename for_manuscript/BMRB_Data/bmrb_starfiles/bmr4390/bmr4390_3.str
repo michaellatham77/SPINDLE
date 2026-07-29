@@ -1,0 +1,1378 @@
+data_4390
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             4390
+   _Entry.Title                         
+;
+Backbone dynamics of the human CC-chemokine eotaxin
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                1999-09-08
+   _Entry.Accession_date                 1999-09-08
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Jiqing  Ye    . .  . 4390 
+      2 Kristen Mayer . L. . 4390 
+      3 Martin  Stone . J. . 4390 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      heteronucl_NOEs          1 4390 
+      heteronucl_T1_relaxation 1 4390 
+      heteronucl_T2_relaxation 1 4390 
+      order_parameters         1 4390 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      'order parameters'     57 4390 
+      'T1 relaxation values' 57 4390 
+      'T2 relaxation values' 57 4390 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2 . . 2011-03-03 . update BMRB 'tag T2_relaxation_value changed to T2_value and Tau_e value changed from ns to ps' 4390 
+      1 . . 2011-08-10 . update BMRB 'Order parameter tags corrected'                                                    4390 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     4390
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    10605085
+   _Citation.Full_citation                .
+   _Citation.Title                       'Backbone dynamics of the human CC-chemokine eotaxin'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Biomol. NMR'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               15
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   115
+   _Citation.Page_last                    124
+   _Citation.Year                         1999
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Jiqing  Ye    . .  . 4390 1 
+      2 Kristen Mayer . L. . 4390 1 
+      3 Martin  Stone . J. . 4390 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+       chemokines                    4390 1 
+      'disulfide bond isomerization' 4390 1 
+       eotaxin                       4390 1 
+      'NMR relaxation'               4390 1 
+      'protein backbone dynamics'    4390 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_eotaxin
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_eotaxin
+   _Assembly.Entry_ID                          4390
+   _Assembly.ID                                1
+   _Assembly.Name                             'CC-chemokine eotaxin'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'not reported'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      monomer 4390 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 eotaxin 1 $eotaxin . . . native . . . . . 4390 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'CC-chemokine eotaxin' system       4390 1 
+       eotaxin               abbreviation 4390 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'chemoattractant for eosinophils' 4390 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_eotaxin
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      eotaxin
+   _Entity.Entry_ID                          4390
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'CC-chemokine eotaxin'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+GPASVPTTCCFNLANRKIPL
+QRLESYRRITSGKCPQKAVI
+FKTKLAKDICADPKKKWVQD
+SMKYLDQKSPTPKP
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                74
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    8347
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-24
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        19989 .  entity_1                                                                                                                         . . . . . 100.00 74 100.00 100.00 3.37e-45 . . . . 4390 1 
+       2 no BMRB         4155 .  Eotaxin                                                                                                                          . . . . .  98.65 74 100.00 100.00 4.30e-44 . . . . 4390 1 
+       3 no PDB  1EOT          . "Solution Nmr Structure Of Eotaxin, Minimized Average Structure"                                                                  . . . . . 100.00 74 100.00 100.00 3.37e-45 . . . . 4390 1 
+       4 no PDB  2EOT          . "Solution Structure Of Eotaxin, An Ensemble Of 32 Nmr Solution Structures"                                                        . . . . . 100.00 74 100.00 100.00 3.37e-45 . . . . 4390 1 
+       5 no PDB  2MPM          . "Structural Basis Of Receptor Sulfotyrosine Recognition By A Cc Chemokine: The N-terminal Region Of Ccr3 Bound To Ccl11/eotaxin-" . . . . . 100.00 74 100.00 100.00 3.37e-45 . . . . 4390 1 
+       6 no DBJ  BAA08370      . "eotaxin [Homo sapiens]"                                                                                                          . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+       7 no DBJ  BAG72995      . "chemokine (C-C motif) ligand 11 [synthetic construct]"                                                                           . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+       8 no EMBL CAA99997      . "CC-chemokine [Homo sapiens]"                                                                                                     . . . . . 100.00 97  98.65 100.00 3.66e-45 . . . . 4390 1 
+       9 no EMBL CAA99998      . "CC-chemokine [Homo sapiens]"                                                                                                     . . . . .  51.35 61  97.37  97.37 2.75e-17 . . . . 4390 1 
+      10 no EMBL CAB07027      . "eotaxin [Homo sapiens]"                                                                                                          . . . . . 100.00 97  98.65 100.00 3.66e-45 . . . . 4390 1 
+      11 no EMBL CAG33702      . "CCL11 [Homo sapiens]"                                                                                                            . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      12 no GB   AAA98957      . "eotaxin precursor [Homo sapiens]"                                                                                                . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      13 no GB   AAC50369      . "eotaxin precursor [Homo sapiens]"                                                                                                . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      14 no GB   AAC51297      . "eotaxin precursor [Homo sapiens]"                                                                                                . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      15 no GB   AAH17850      . "Chemokine (C-C motif) ligand 11 [Homo sapiens]"                                                                                  . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      16 no GB   ABK41951      . "chemokine (C-C motif) ligand 11 [Homo sapiens]"                                                                                  . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      17 no PRF  2208449A      .  eotaxin                                                                                                                          . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      18 no REF  NP_002977     . "eotaxin precursor [Homo sapiens]"                                                                                                . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      19 no REF  XP_002827294  . "PREDICTED: eotaxin [Pongo abelii]"                                                                                               . . . . . 100.00 97  97.30  98.65 7.60e-44 . . . . 4390 1 
+      20 no REF  XP_003818054  . "PREDICTED: eotaxin [Pan paniscus]"                                                                                               . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+      21 no REF  XP_004041989  . "PREDICTED: eotaxin-like [Gorilla gorilla gorilla]"                                                                               . . . . . 100.00 97  98.65  98.65 2.00e-44 . . . . 4390 1 
+      22 no REF  XP_004041990  . "PREDICTED: eotaxin-like [Gorilla gorilla gorilla]"                                                                               . . . . . 100.00 97  98.65  98.65 2.00e-44 . . . . 4390 1 
+      23 no SP   P51671        . "RecName: Full=Eotaxin; AltName: Full=C-C motif chemokine 11; AltName: Full=Eosinophil chemotactic protein; AltName: Full=Small-" . . . . . 100.00 97 100.00 100.00 1.71e-45 . . . . 4390 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'CC-chemokine eotaxin' common       4390 1 
+       eotaxin               abbreviation 4390 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . GLY . 4390 1 
+       2 . PRO . 4390 1 
+       3 . ALA . 4390 1 
+       4 . SER . 4390 1 
+       5 . VAL . 4390 1 
+       6 . PRO . 4390 1 
+       7 . THR . 4390 1 
+       8 . THR . 4390 1 
+       9 . CYS . 4390 1 
+      10 . CYS . 4390 1 
+      11 . PHE . 4390 1 
+      12 . ASN . 4390 1 
+      13 . LEU . 4390 1 
+      14 . ALA . 4390 1 
+      15 . ASN . 4390 1 
+      16 . ARG . 4390 1 
+      17 . LYS . 4390 1 
+      18 . ILE . 4390 1 
+      19 . PRO . 4390 1 
+      20 . LEU . 4390 1 
+      21 . GLN . 4390 1 
+      22 . ARG . 4390 1 
+      23 . LEU . 4390 1 
+      24 . GLU . 4390 1 
+      25 . SER . 4390 1 
+      26 . TYR . 4390 1 
+      27 . ARG . 4390 1 
+      28 . ARG . 4390 1 
+      29 . ILE . 4390 1 
+      30 . THR . 4390 1 
+      31 . SER . 4390 1 
+      32 . GLY . 4390 1 
+      33 . LYS . 4390 1 
+      34 . CYS . 4390 1 
+      35 . PRO . 4390 1 
+      36 . GLN . 4390 1 
+      37 . LYS . 4390 1 
+      38 . ALA . 4390 1 
+      39 . VAL . 4390 1 
+      40 . ILE . 4390 1 
+      41 . PHE . 4390 1 
+      42 . LYS . 4390 1 
+      43 . THR . 4390 1 
+      44 . LYS . 4390 1 
+      45 . LEU . 4390 1 
+      46 . ALA . 4390 1 
+      47 . LYS . 4390 1 
+      48 . ASP . 4390 1 
+      49 . ILE . 4390 1 
+      50 . CYS . 4390 1 
+      51 . ALA . 4390 1 
+      52 . ASP . 4390 1 
+      53 . PRO . 4390 1 
+      54 . LYS . 4390 1 
+      55 . LYS . 4390 1 
+      56 . LYS . 4390 1 
+      57 . TRP . 4390 1 
+      58 . VAL . 4390 1 
+      59 . GLN . 4390 1 
+      60 . ASP . 4390 1 
+      61 . SER . 4390 1 
+      62 . MET . 4390 1 
+      63 . LYS . 4390 1 
+      64 . TYR . 4390 1 
+      65 . LEU . 4390 1 
+      66 . ASP . 4390 1 
+      67 . GLN . 4390 1 
+      68 . LYS . 4390 1 
+      69 . SER . 4390 1 
+      70 . PRO . 4390 1 
+      71 . THR . 4390 1 
+      72 . PRO . 4390 1 
+      73 . LYS . 4390 1 
+      74 . PRO . 4390 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLY  1  1 4390 1 
+      . PRO  2  2 4390 1 
+      . ALA  3  3 4390 1 
+      . SER  4  4 4390 1 
+      . VAL  5  5 4390 1 
+      . PRO  6  6 4390 1 
+      . THR  7  7 4390 1 
+      . THR  8  8 4390 1 
+      . CYS  9  9 4390 1 
+      . CYS 10 10 4390 1 
+      . PHE 11 11 4390 1 
+      . ASN 12 12 4390 1 
+      . LEU 13 13 4390 1 
+      . ALA 14 14 4390 1 
+      . ASN 15 15 4390 1 
+      . ARG 16 16 4390 1 
+      . LYS 17 17 4390 1 
+      . ILE 18 18 4390 1 
+      . PRO 19 19 4390 1 
+      . LEU 20 20 4390 1 
+      . GLN 21 21 4390 1 
+      . ARG 22 22 4390 1 
+      . LEU 23 23 4390 1 
+      . GLU 24 24 4390 1 
+      . SER 25 25 4390 1 
+      . TYR 26 26 4390 1 
+      . ARG 27 27 4390 1 
+      . ARG 28 28 4390 1 
+      . ILE 29 29 4390 1 
+      . THR 30 30 4390 1 
+      . SER 31 31 4390 1 
+      . GLY 32 32 4390 1 
+      . LYS 33 33 4390 1 
+      . CYS 34 34 4390 1 
+      . PRO 35 35 4390 1 
+      . GLN 36 36 4390 1 
+      . LYS 37 37 4390 1 
+      . ALA 38 38 4390 1 
+      . VAL 39 39 4390 1 
+      . ILE 40 40 4390 1 
+      . PHE 41 41 4390 1 
+      . LYS 42 42 4390 1 
+      . THR 43 43 4390 1 
+      . LYS 44 44 4390 1 
+      . LEU 45 45 4390 1 
+      . ALA 46 46 4390 1 
+      . LYS 47 47 4390 1 
+      . ASP 48 48 4390 1 
+      . ILE 49 49 4390 1 
+      . CYS 50 50 4390 1 
+      . ALA 51 51 4390 1 
+      . ASP 52 52 4390 1 
+      . PRO 53 53 4390 1 
+      . LYS 54 54 4390 1 
+      . LYS 55 55 4390 1 
+      . LYS 56 56 4390 1 
+      . TRP 57 57 4390 1 
+      . VAL 58 58 4390 1 
+      . GLN 59 59 4390 1 
+      . ASP 60 60 4390 1 
+      . SER 61 61 4390 1 
+      . MET 62 62 4390 1 
+      . LYS 63 63 4390 1 
+      . TYR 64 64 4390 1 
+      . LEU 65 65 4390 1 
+      . ASP 66 66 4390 1 
+      . GLN 67 67 4390 1 
+      . LYS 68 68 4390 1 
+      . SER 69 69 4390 1 
+      . PRO 70 70 4390 1 
+      . THR 71 71 4390 1 
+      . PRO 72 72 4390 1 
+      . LYS 73 73 4390 1 
+      . PRO 74 74 4390 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       4390
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $eotaxin . 9606 . . 'Homo sapiens' human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       4390
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $eotaxin . 'recombinant technology' 'Escherichia coli' 'E. coli' . . Escherichia coli BL21(DE3) . . . . . . . . . . . . plasmid . . . . . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_one
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_one
+   _Sample.Entry_ID                         4390
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'CC-chemokine eotaxin' [U-15N] . . 1 $eotaxin . . 0.8 . . mM . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions
+   _Sample_condition_list.Entry_ID       4390
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            5.00 0.05 n/a 4390 1 
+      temperature 303    0.5  K   4390 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_FELIX
+   _Software.Sf_category    software
+   _Software.Sf_framecode   FELIX
+   _Software.Entry_ID       4390
+   _Software.ID             1
+   _Software.Name           FELIX
+   _Software.Version        95
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'spectral processing' 4390 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer_one
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_one
+   _NMR_spectrometer.Entry_ID         4390
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Unity-INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       4390
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer_one Varian Unity-INOVA . 500 . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       4390
+   _Experiment_list.ID             1
+   _Experiment_list.Details       
+;
+1H-15N correlation 2D experiments used to determine 15N transverse and   
+longitudinal relaxation rates,{1H}-15N NOEs and transverse cross relaxation
+rates
+;
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 1H-15N'    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4390 1 
+      2 '1H-15N NOESY' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_NOE_eotaxin
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE_eotaxin
+   _Heteronucl_NOE_list.Entry_ID                      4390
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $sample_conditions
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     500
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type    .
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_one . 4390 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . 1 1  3  3 ALA H H 1 . 1 1  3  3 ALA N N 15 -1.278 0.020 . . . . . . . . . . 4390 1 
+       2 . 1 1  4  4 SER H H 1 . 1 1  4  4 SER N N 15 -1.162 0.020 . . . . . . . . . . 4390 1 
+       3 . 1 1  5  5 VAL H H 1 . 1 1  5  5 VAL N N 15 -0.594 0.020 . . . . . . . . . . 4390 1 
+       4 . 1 1  7  7 THR H H 1 . 1 1  7  7 THR N N 15 -0.005 0.020 . . . . . . . . . . 4390 1 
+       5 . 1 1  8  8 THR H H 1 . 1 1  8  8 THR N N 15  0.314 0.020 . . . . . . . . . . 4390 1 
+       6 . 1 1  9  9 CYS H H 1 . 1 1  9  9 CYS N N 15  0.442 0.020 . . . . . . . . . . 4390 1 
+       7 . 1 1 12 12 ASN H H 1 . 1 1 12 12 ASN N N 15  0.550 0.020 . . . . . . . . . . 4390 1 
+       8 . 1 1 13 13 LEU H H 1 . 1 1 13 13 LEU N N 15  0.650 0.020 . . . . . . . . . . 4390 1 
+       9 . 1 1 14 14 ALA H H 1 . 1 1 14 14 ALA N N 15  0.636 0.020 . . . . . . . . . . 4390 1 
+      10 . 1 1 16 16 ARG H H 1 . 1 1 16 16 ARG N N 15  0.480 0.020 . . . . . . . . . . 4390 1 
+      11 . 1 1 17 17 LYS H H 1 . 1 1 17 17 LYS N N 15  0.571 0.020 . . . . . . . . . . 4390 1 
+      12 . 1 1 18 18 ILE H H 1 . 1 1 18 18 ILE N N 15  0.619 0.020 . . . . . . . . . . 4390 1 
+      13 . 1 1 20 20 LEU H H 1 . 1 1 20 20 LEU N N 15  0.672 0.020 . . . . . . . . . . 4390 1 
+      14 . 1 1 21 21 GLN H H 1 . 1 1 21 21 GLN N N 15  0.633 0.020 . . . . . . . . . . 4390 1 
+      15 . 1 1 22 22 ARG H H 1 . 1 1 22 22 ARG N N 15  0.659 0.020 . . . . . . . . . . 4390 1 
+      16 . 1 1 23 23 LEU H H 1 . 1 1 23 23 LEU N N 15  0.674 0.020 . . . . . . . . . . 4390 1 
+      17 . 1 1 24 24 GLU H H 1 . 1 1 24 24 GLU N N 15  0.655 0.020 . . . . . . . . . . 4390 1 
+      18 . 1 1 25 25 SER H H 1 . 1 1 25 25 SER N N 15  0.673 0.020 . . . . . . . . . . 4390 1 
+      19 . 1 1 26 26 TYR H H 1 . 1 1 26 26 TYR N N 15  0.628 0.020 . . . . . . . . . . 4390 1 
+      20 . 1 1 27 27 ARG H H 1 . 1 1 27 27 ARG N N 15  0.676 0.020 . . . . . . . . . . 4390 1 
+      21 . 1 1 28 28 ARG H H 1 . 1 1 28 28 ARG N N 15  0.621 0.020 . . . . . . . . . . 4390 1 
+      22 . 1 1 30 30 THR H H 1 . 1 1 30 30 THR N N 15  0.549 0.020 . . . . . . . . . . 4390 1 
+      23 . 1 1 31 31 SER H H 1 . 1 1 31 31 SER N N 15  0.546 0.020 . . . . . . . . . . 4390 1 
+      24 . 1 1 32 32 GLY H H 1 . 1 1 32 32 GLY N N 15  0.650 0.020 . . . . . . . . . . 4390 1 
+      25 . 1 1 33 33 LYS H H 1 . 1 1 33 33 LYS N N 15  0.465 0.020 . . . . . . . . . . 4390 1 
+      26 . 1 1 36 36 GLN H H 1 . 1 1 36 36 GLN N N 15  0.577 0.020 . . . . . . . . . . 4390 1 
+      27 . 1 1 37 37 LYS H H 1 . 1 1 37 37 LYS N N 15  0.583 0.020 . . . . . . . . . . 4390 1 
+      28 . 1 1 38 38 ALA H H 1 . 1 1 38 38 ALA N N 15  0.279 0.020 . . . . . . . . . . 4390 1 
+      29 . 1 1 39 39 VAL H H 1 . 1 1 39 39 VAL N N 15  0.701 0.020 . . . . . . . . . . 4390 1 
+      30 . 1 1 40 40 ILE H H 1 . 1 1 40 40 ILE N N 15  0.718 0.020 . . . . . . . . . . 4390 1 
+      31 . 1 1 41 41 PHE H H 1 . 1 1 41 41 PHE N N 15  0.750 0.020 . . . . . . . . . . 4390 1 
+      32 . 1 1 42 42 LYS H H 1 . 1 1 42 42 LYS N N 15  0.681 0.020 . . . . . . . . . . 4390 1 
+      33 . 1 1 43 43 THR H H 1 . 1 1 43 43 THR N N 15  0.684 0.020 . . . . . . . . . . 4390 1 
+      34 . 1 1 45 45 LEU H H 1 . 1 1 45 45 LEU N N 15  0.488 0.020 . . . . . . . . . . 4390 1 
+      35 . 1 1 46 46 ALA H H 1 . 1 1 46 46 ALA N N 15  0.582 0.020 . . . . . . . . . . 4390 1 
+      36 . 1 1 47 47 LYS H H 1 . 1 1 47 47 LYS N N 15  0.686 0.020 . . . . . . . . . . 4390 1 
+      37 . 1 1 49 49 ILE H H 1 . 1 1 49 49 ILE N N 15  0.652 0.020 . . . . . . . . . . 4390 1 
+      38 . 1 1 50 50 CYS H H 1 . 1 1 50 50 CYS N N 15  0.634 0.020 . . . . . . . . . . 4390 1 
+      39 . 1 1 51 51 ALA H H 1 . 1 1 51 51 ALA N N 15  0.643 0.020 . . . . . . . . . . 4390 1 
+      40 . 1 1 52 52 ASP H H 1 . 1 1 52 52 ASP N N 15  0.620 0.020 . . . . . . . . . . 4390 1 
+      41 . 1 1 54 54 LYS H H 1 . 1 1 54 54 LYS N N 15  0.698 0.020 . . . . . . . . . . 4390 1 
+      42 . 1 1 55 55 LYS H H 1 . 1 1 55 55 LYS N N 15  0.647 0.020 . . . . . . . . . . 4390 1 
+      43 . 1 1 56 56 LYS H H 1 . 1 1 56 56 LYS N N 15  0.693 0.020 . . . . . . . . . . 4390 1 
+      44 . 1 1 57 57 TRP H H 1 . 1 1 57 57 TRP N N 15  0.623 0.020 . . . . . . . . . . 4390 1 
+      45 . 1 1 58 58 VAL H H 1 . 1 1 58 58 VAL N N 15  0.676 0.020 . . . . . . . . . . 4390 1 
+      46 . 1 1 59 59 GLN H H 1 . 1 1 59 59 GLN N N 15  0.630 0.020 . . . . . . . . . . 4390 1 
+      47 . 1 1 60 60 ASP H H 1 . 1 1 60 60 ASP N N 15  0.678 0.020 . . . . . . . . . . 4390 1 
+      48 . 1 1 61 61 SER H H 1 . 1 1 61 61 SER N N 15  0.635 0.020 . . . . . . . . . . 4390 1 
+      49 . 1 1 62 62 MET H H 1 . 1 1 62 62 MET N N 15  0.663 0.020 . . . . . . . . . . 4390 1 
+      50 . 1 1 63 63 LYS H H 1 . 1 1 63 63 LYS N N 15  0.680 0.020 . . . . . . . . . . 4390 1 
+      51 . 1 1 64 64 TYR H H 1 . 1 1 64 64 TYR N N 15  0.632 0.020 . . . . . . . . . . 4390 1 
+      52 . 1 1 65 65 LEU H H 1 . 1 1 65 65 LEU N N 15  0.635 0.020 . . . . . . . . . . 4390 1 
+      53 . 1 1 66 66 ASP H H 1 . 1 1 66 66 ASP N N 15  0.660 0.020 . . . . . . . . . . 4390 1 
+      54 . 1 1 68 68 LYS H H 1 . 1 1 68 68 LYS N N 15  0.473 0.020 . . . . . . . . . . 4390 1 
+      55 . 1 1 69 69 SER H H 1 . 1 1 69 69 SER N N 15  0.210 0.020 . . . . . . . . . . 4390 1 
+      56 . 1 1 71 71 THR H H 1 . 1 1 71 71 THR N N 15 -0.605 0.020 . . . . . . . . . . 4390 1 
+      57 . 1 1 73 73 LYS H H 1 . 1 1 73 73 LYS N N 15 -0.993 0.020 . . . . . . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_T1_relaxation_eotaxin
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  T1_relaxation_eotaxin
+   _Heteronucl_T1_list.Entry_ID                      4390
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $sample_conditions
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  Hz
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_one . 4390 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1  3  3 ALA N N 15 0.724 0.007 . . . . . 4390 1 
+       2 . 1 1  4  4 SER N N 15 0.913 0.010 . . . . . 4390 1 
+       3 . 1 1  5  5 VAL N N 15 1.186 0.014 . . . . . 4390 1 
+       4 . 1 1  7  7 THR N N 15 1.656 0.024 . . . . . 4390 1 
+       5 . 1 1  8  8 THR N N 15 1.844 0.048 . . . . . 4390 1 
+       6 . 1 1  9  9 CYS N N 15 1.956 0.034 . . . . . 4390 1 
+       7 . 1 1 12 12 ASN N N 15 1.881 0.053 . . . . . 4390 1 
+       8 . 1 1 13 13 LEU N N 15 2.021 0.052 . . . . . 4390 1 
+       9 . 1 1 14 14 ALA N N 15 2.073 0.046 . . . . . 4390 1 
+      10 . 1 1 16 16 ARG N N 15 1.944 0.060 . . . . . 4390 1 
+      11 . 1 1 17 17 LYS N N 15 2.092 0.024 . . . . . 4390 1 
+      12 . 1 1 18 18 ILE N N 15 2.315 0.086 . . . . . 4390 1 
+      13 . 1 1 20 20 LEU N N 15 2.307 0.026 . . . . . 4390 1 
+      14 . 1 1 21 21 GLN N N 15 2.252 0.027 . . . . . 4390 1 
+      15 . 1 1 22 22 ARG N N 15 2.342 0.036 . . . . . 4390 1 
+      16 . 1 1 23 23 LEU N N 15 2.160 0.032 . . . . . 4390 1 
+      17 . 1 1 24 24 GLU N N 15 2.184 0.047 . . . . . 4390 1 
+      18 . 1 1 25 25 SER N N 15 2.260 0.034 . . . . . 4390 1 
+      19 . 1 1 26 26 TYR N N 15 2.216 0.035 . . . . . 4390 1 
+      20 . 1 1 27 27 ARG N N 15 2.497 0.074 . . . . . 4390 1 
+      21 . 1 1 28 28 ARG N N 15 2.112 0.037 . . . . . 4390 1 
+      22 . 1 1 30 30 THR N N 15 2.395 0.134 . . . . . 4390 1 
+      23 . 1 1 31 31 SER N N 15 1.996 0.079 . . . . . 4390 1 
+      24 . 1 1 32 32 GLY N N 15 1.923 0.114 . . . . . 4390 1 
+      25 . 1 1 33 33 LYS N N 15 2.132 0.045 . . . . . 4390 1 
+      26 . 1 1 36 36 GLN N N 15 2.075 0.034 . . . . . 4390 1 
+      27 . 1 1 37 37 LYS N N 15 2.025 0.071 . . . . . 4390 1 
+      28 . 1 1 38 38 ALA N N 15 1.811 0.030 . . . . . 4390 1 
+      29 . 1 1 39 39 VAL N N 15 2.240 0.055 . . . . . 4390 1 
+      30 . 1 1 40 40 ILE N N 15 2.237 0.046 . . . . . 4390 1 
+      31 . 1 1 41 41 PHE N N 15 2.139 0.054 . . . . . 4390 1 
+      32 . 1 1 42 42 LYS N N 15 2.281 0.044 . . . . . 4390 1 
+      33 . 1 1 43 43 THR N N 15 2.070 0.038 . . . . . 4390 1 
+      34 . 1 1 45 45 LEU N N 15 2.105 0.055 . . . . . 4390 1 
+      35 . 1 1 46 46 ALA N N 15 2.022 0.030 . . . . . 4390 1 
+      36 . 1 1 47 47 LYS N N 15 1.975 0.031 . . . . . 4390 1 
+      37 . 1 1 49 49 ILE N N 15 2.022 0.048 . . . . . 4390 1 
+      38 . 1 1 50 50 CYS N N 15 2.105 0.034 . . . . . 4390 1 
+      39 . 1 1 51 51 ALA N N 15 2.225 0.062 . . . . . 4390 1 
+      40 . 1 1 52 52 ASP N N 15 2.215 0.048 . . . . . 4390 1 
+      41 . 1 1 54 54 LYS N N 15 2.150 0.031 . . . . . 4390 1 
+      42 . 1 1 55 55 LYS N N 15 2.194 0.036 . . . . . 4390 1 
+      43 . 1 1 56 56 LYS N N 15 2.245 0.072 . . . . . 4390 1 
+      44 . 1 1 57 57 TRP N N 15 2.415 0.031 . . . . . 4390 1 
+      45 . 1 1 58 58 VAL N N 15 2.358 0.035 . . . . . 4390 1 
+      46 . 1 1 59 59 GLN N N 15 2.246 0.031 . . . . . 4390 1 
+      47 . 1 1 60 60 ASP N N 15 2.240 0.026 . . . . . 4390 1 
+      48 . 1 1 61 61 SER N N 15 2.096 0.032 . . . . . 4390 1 
+      49 . 1 1 62 62 MET N N 15 2.190 0.035 . . . . . 4390 1 
+      50 . 1 1 63 63 LYS N N 15 2.223 0.030 . . . . . 4390 1 
+      51 . 1 1 64 64 TYR N N 15 2.247 0.030 . . . . . 4390 1 
+      52 . 1 1 65 65 LEU N N 15 2.147 0.039 . . . . . 4390 1 
+      53 . 1 1 66 66 ASP N N 15 2.073 0.028 . . . . . 4390 1 
+      54 . 1 1 68 68 LYS N N 15 1.866 0.027 . . . . . 4390 1 
+      55 . 1 1 69 69 SER N N 15 1.768 0.019 . . . . . 4390 1 
+      56 . 1 1 71 71 THR N N 15 1.249 0.010 . . . . . 4390 1 
+      57 . 1 1 73 73 LYS N N 15 1.106 0.014 . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_T2_relaxation_eotaxin
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_relaxation_eotaxin
+   _Heteronucl_T2_list.Entry_ID                      4390
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $sample_conditions
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nz
+   _Heteronucl_T2_list.T2_val_units                  Hz
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_one . 4390 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1  3  3 ALA N N 15  1.922 0.013 . . . . . . . 4390 1 
+       2 . 1 1  4  4 SER N N 15  2.344 0.016 . . . . . . . 4390 1 
+       3 . 1 1  5  5 VAL N N 15  2.638 0.020 . . . . . . . 4390 1 
+       4 . 1 1  7  7 THR N N 15  4.683 0.042 . . . . . . . 4390 1 
+       5 . 1 1  8  8 THR N N 15  9.051 0.314 . . . . . . . 4390 1 
+       6 . 1 1  9  9 CYS N N 15  5.989 0.069 . . . . . . . 4390 1 
+       7 . 1 1 12 12 ASN N N 15  9.232 0.353 . . . . . . . 4390 1 
+       8 . 1 1 13 13 LEU N N 15  7.281 0.135 . . . . . . . 4390 1 
+       9 . 1 1 14 14 ALA N N 15  6.700 0.106 . . . . . . . 4390 1 
+      10 . 1 1 16 16 ARG N N 15  5.576 0.072 . . . . . . . 4390 1 
+      11 . 1 1 17 17 LYS N N 15  6.453 0.133 . . . . . . . 4390 1 
+      12 . 1 1 18 18 ILE N N 15  6.185 0.270 . . . . . . . 4390 1 
+      13 . 1 1 20 20 LEU N N 15  6.636 0.124 . . . . . . . 4390 1 
+      14 . 1 1 21 21 GLN N N 15  6.464 0.132 . . . . . . . 4390 1 
+      15 . 1 1 22 22 ARG N N 15  5.993 0.067 . . . . . . . 4390 1 
+      16 . 1 1 23 23 LEU N N 15  6.577 0.070 . . . . . . . 4390 1 
+      17 . 1 1 24 24 GLU N N 15  6.530 0.105 . . . . . . . 4390 1 
+      18 . 1 1 25 25 SER N N 15  6.144 0.069 . . . . . . . 4390 1 
+      19 . 1 1 26 26 TYR N N 15  6.962 0.177 . . . . . . . 4390 1 
+      20 . 1 1 27 27 ARG N N 15  6.341 0.085 . . . . . . . 4390 1 
+      21 . 1 1 28 28 ARG N N 15  6.545 0.201 . . . . . . . 4390 1 
+      22 . 1 1 30 30 THR N N 15  7.319 0.180 . . . . . . . 4390 1 
+      23 . 1 1 31 31 SER N N 15  9.988 0.543 . . . . . . . 4390 1 
+      24 . 1 1 32 32 GLY N N 15  6.108 0.251 . . . . . . . 4390 1 
+      25 . 1 1 33 33 LYS N N 15  8.320 0.133 . . . . . . . 4390 1 
+      26 . 1 1 36 36 GLN N N 15  7.867 0.104 . . . . . . . 4390 1 
+      27 . 1 1 37 37 LYS N N 15 11.710 0.333 . . . . . . . 4390 1 
+      28 . 1 1 38 38 ALA N N 15  7.531 0.190 . . . . . . . 4390 1 
+      29 . 1 1 39 39 VAL N N 15  6.311 0.105 . . . . . . . 4390 1 
+      30 . 1 1 40 40 ILE N N 15  7.204 0.110 . . . . . . . 4390 1 
+      31 . 1 1 41 41 PHE N N 15  6.099 0.121 . . . . . . . 4390 1 
+      32 . 1 1 42 42 LYS N N 15  6.376 0.086 . . . . . . . 4390 1 
+      33 . 1 1 43 43 THR N N 15  6.707 0.091 . . . . . . . 4390 1 
+      34 . 1 1 45 45 LEU N N 15  6.250 0.114 . . . . . . . 4390 1 
+      35 . 1 1 46 46 ALA N N 15  5.697 0.056 . . . . . . . 4390 1 
+      36 . 1 1 47 47 LYS N N 15  5.617 0.061 . . . . . . . 4390 1 
+      37 . 1 1 49 49 ILE N N 15  6.267 0.108 . . . . . . . 4390 1 
+      38 . 1 1 50 50 CYS N N 15  6.234 0.073 . . . . . . . 4390 1 
+      39 . 1 1 51 51 ALA N N 15 13.898 0.430 . . . . . . . 4390 1 
+      40 . 1 1 52 52 ASP N N 15  5.965 0.090 . . . . . . . 4390 1 
+      41 . 1 1 54 54 LYS N N 15  6.208 0.061 . . . . . . . 4390 1 
+      42 . 1 1 55 55 LYS N N 15  6.106 0.071 . . . . . . . 4390 1 
+      43 . 1 1 56 56 LYS N N 15  6.711 0.164 . . . . . . . 4390 1 
+      44 . 1 1 57 57 TRP N N 15  7.344 0.150 . . . . . . . 4390 1 
+      45 . 1 1 58 58 VAL N N 15  6.462 0.074 . . . . . . . 4390 1 
+      46 . 1 1 59 59 GLN N N 15  6.082 0.063 . . . . . . . 4390 1 
+      47 . 1 1 60 60 ASP N N 15  6.540 0.055 . . . . . . . 4390 1 
+      48 . 1 1 61 61 SER N N 15  6.304 0.068 . . . . . . . 4390 1 
+      49 . 1 1 62 62 MET N N 15  6.117 0.069 . . . . . . . 4390 1 
+      50 . 1 1 63 63 LYS N N 15  6.203 0.060 . . . . . . . 4390 1 
+      51 . 1 1 64 64 TYR N N 15  6.428 0.061 . . . . . . . 4390 1 
+      52 . 1 1 65 65 LEU N N 15  6.354 0.081 . . . . . . . 4390 1 
+      53 . 1 1 66 66 ASP N N 15  5.946 0.056 . . . . . . . 4390 1 
+      54 . 1 1 68 68 LYS N N 15  4.849 0.046 . . . . . . . 4390 1 
+      55 . 1 1 69 69 SER N N 15  4.388 0.123 . . . . . . . 4390 1 
+      56 . 1 1 71 71 THR N N 15  2.000 0.013 . . . . . . . 4390 1 
+      57 . 1 1 73 73 LYS N N 15  1.650 0.016 . . . . . . . 4390 1 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_S2_parameters
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  S2_parameters
+   _Order_parameter_list.Entry_ID                      4390
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $sample_conditions
+   _Order_parameter_list.Tau_e_val_units               ps
+   _Order_parameter_list.Tau_f_val_units               .
+   _Order_parameter_list.Tau_s_val_units               .
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      . . 1 $sample_one . 4390 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+       1 . 1 1  3  3 ALA N N 15 0.135 0.002   74.1   1.2 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       2 . 1 1  4  4 SER N N 15 0.178 0.002   95.4   1.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       3 . 1 1  5  5 VAL N N 15 0.286 0.002  101.7   2.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       4 . 1 1  7  7 THR N N 15 0.489 0.007  114.6   4.8 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       5 . 1 1  8  8 THR N N 15 0.593 0.016   90.7   7.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       6 . 1 1  9  9 CYS N N 15 0.648 0.012   78.0   6.2 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       7 . 1 1 12 12 ASN N N 15 0.625 0.012   43.9   5.3 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       8 . 1 1 13 13 LEU N N 15 0.691 0.018   29.6   5.8 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+       9 . 1 1 14 14 ALA N N 15 0.724 0.016   40.8   6.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      10 . 1 1 16 16 ARG N N 15 0.674 0.008   75.4   6.5 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      11 . 1 1 17 17 LYS N N 15 0.732 0.008   63.5   6.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      12 . 1 1 18 18 ILE N N 15 0.778 0.022   63.2  12.2 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      13 . 1 1 20 20 LEU N N 15 0.806 0.008   44.8   9.8 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      14 . 1 1 21 21 GLN N N 15 0.779 0.009   53.8   8.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      15 . 1 1 22 22 ARG N N 15 0.775 0.007   43.8   8.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      16 . 1 1 23 23 LEU N N 15 0.749 0.012   31.4   7.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      17 . 1 1 24 24 GLU N N 15 0.782 0.010   45.4   8.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      18 . 1 1 25 25 SER N N 15 0.756 0.007   38.7   7.4 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      19 . 1 1 26 26 TYR N N 15 0.789 0.011   60.8   9.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      20 . 1 1 27 27 ARG N N 15 0.740 0.054 3184.5 820.1 . . . . . . . . 0.883 0.019 . . . . . . . . . . . 4390 1 
+      21 . 1 1 28 28 ARG N N 15 0.746 0.012   50.2   7.5 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      22 . 1 1 30 30 THR N N 15 0.878 0.013  324.5 290.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      23 . 1 1 31 31 SER N N 15 0.676 0.027   57.2   8.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      24 . 1 1 32 32 GLY N N 15 0.725 0.025   34.1   7.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      25 . 1 1 33 33 LYS N N 15 0.714 0.015  100.5  10.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      26 . 1 1 36 36 GLN N N 15 0.689 0.012   50.4   6.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      27 . 1 1 37 37 LYS N N 15 0.673 0.024   44.9   7.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      28 . 1 1 38 38 ALA N N 15 0.569 0.010   90.0   5.2 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      29 . 1 1 39 39 VAL N N 15 0.774 0.011   26.2   8.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      30 . 1 1 40 40 ILE N N 15 0.846 0.010    0.0   0.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      31 . 1 1 41 41 PHE N N 15 0.750 0.012    0.0   0.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      32 . 1 1 42 42 LYS N N 15 0.783 0.009   37.1   8.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      33 . 1 1 43 43 THR N N 15 0.730 0.014   25.8   6.4 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      34 . 1 1 45 45 LEU N N 15 0.687 0.018   79.0   9.2 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      35 . 1 1 46 46 ALA N N 15 0.688 0.006   50.3   5.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      36 . 1 1 47 47 LYS N N 15 0.685 0.006   21.2   5.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      37 . 1 1 49 49 ILE N N 15 0.737 0.010   36.5   6.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      38 . 1 1 50 50 CYS N N 15 0.743 0.007   45.1   7.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      39 . 1 1 51 51 ALA N N 15 0.779 0.022   52.2  10.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      40 . 1 1 52 52 ASP N N 15 0.730 0.009   50.1   7.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      41 . 1 1 54 54 LYS N N 15 0.758 0.006   23.6   7.3 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      42 . 1 1 55 55 LYS N N 15 0.757 0.008   42.8   7.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      43 . 1 1 56 56 LYS N N 15 0.803 0.016   34.9  10.1 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      44 . 1 1 57 57 TRP N N 15 0.851 0.010  101.7  16.9 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      45 . 1 1 58 58 VAL N N 15 0.810 0.008   43.8  10.4 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      46 . 1 1 59 59 GLN N N 15 0.753 0.007   53.1   7.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      47 . 1 1 60 60 ASP N N 15 0.790 0.006   38.4   8.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      48 . 1 1 61 61 SER N N 15 0.724 0.011   40.7   6.4 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      49 . 1 1 62 62 MET N N 15 0.758 0.007   36.6   7.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      50 . 1 1 63 63 LYS N N 15 0.765 0.006   34.0   7.7 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      51 . 1 1 64 64 TYR N N 15 0.776 0.006   57.4   8.6 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      52 . 1 1 65 65 LEU N N 15 0.762 0.008   48.8   8.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      53 . 1 1 66 66 ASP N N 15 0.726 0.006   31.7   6.3 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      54 . 1 1 68 68 LYS N N 15 0.739 0.023 1045.5 130.8 . . . . . . . . 0.725 0.010 . . . . . . . . . . . 4390 1 
+      55 . 1 1 69 69 SER N N 15 0.540 0.006   94.2   4.0 . . . . . . . .  .     .    . . . . . . . . . . . 4390 1 
+      56 . 1 1 71 71 THR N N 15 0.204 0.007  811.1  16.9 . . . . . . . . 0.622 0.006 . . . . . . . . . . . 4390 1 
+      57 . 1 1 73 73 LYS N N 15 0.144 0.009  686.4  16.1 . . . . . . . . 0.602 0.008 . . . . . . . . . . . 4390 1 
+
+   stop_
+
+save_
+

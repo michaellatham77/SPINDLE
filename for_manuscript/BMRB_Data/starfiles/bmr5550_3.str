@@ -1,0 +1,2695 @@
+data_5550
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             5550
+   _Entry.Title                         
+;
+Structure and Dynamics of Micelle-bound Neuropeptide Y: Comparison with 
+unligated NPY and Implications for Receptor Selection
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2002-10-07
+   _Entry.Accession_date                 2002-10-07
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      .
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 R.   Bader          . . . 5550 
+      2 A.   Bettio         . . . 5550 
+      3 G.   Folkers        . . . 5550 
+      4 A.G. Beck-Sickinger . . . 5550 
+      5 O.   Zerbe          . . . 5550 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 2 5550 
+      order_parameters         1 5550 
+      heteronucl_T1_relaxation 3 5550 
+      heteronucl_T2_relaxation 4 5550 
+      heteronucl_NOEs          2 5550 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '1H chemical shifts'       260 5550 
+      '15N chemical shifts'       64 5550 
+      'T1 relaxation values'      93 5550 
+      'T2 relaxation values'     112 5550 
+      'heteronuclear NOE values'  62 5550 
+      'order parameters'          27 5550 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2008-07-17 . update BMRB 'Updating non-standard residue' 5550 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     5550
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              20574507
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    11124908
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Structure and Dynamics of Micelle-bound Neuropeptide Y:  Comparison with 
+Unligated NPY and Implications for Receptor Selection
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Mol. Biol.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               305
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   307
+   _Citation.Page_last                    329
+   _Citation.Year                         2001
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 R.   Bader          . . . 5550 1 
+      2 A.   Bettio         . . . 5550 1 
+      3 A.G. Beck-Sickinger . . . 5550 1 
+      4 O.   Zerbe          . . . 5550 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_PYY
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_PYY
+   _Assembly.Entry_ID                          5550
+   _Assembly.ID                                1
+   _Assembly.Name                             'Neuropeptide Y'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'not present'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      Monomer 5550 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'Neuropeptide Y' 1 $Neuropeptide_Y . . . native . . . . . 5550 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      . PDB 1QBF . . . . . . 5550 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'Neuropeptide Y' system       5550 1 
+       PYY             abbreviation 5550 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'regulation of gastrointestinal function' 5550 1 
+      'regulation of blood pressure'            5550 1 
+      'regulation of feeding behavior'          5550 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Neuropeptide_Y
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Neuropeptide_Y
+   _Entity.Entry_ID                          5550
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'Neuropeptide Y'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+YPSKPDNPGEDAPAEDLARY
+YSALRHYINLITRQRYX
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                37
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    4240
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB          548 .  neuropeptide_Y                                                                                                                   . . . . . 97.22 36 100.00 100.00 1.01e-15 . . . . 5550 1 
+       2 no PDB  1F8P          . "Porcine Neuropeptide Y Bound To Dpc Micelles"                                                                                    . . . . . 97.22 37 100.00 100.00 1.16e-15 . . . . 5550 1 
+       3 no PDB  1RON          . "Nmr Solution Structure Of Human Neuropeptide Y"                                                                                  . . . . . 97.22 37  97.14 100.00 1.65e-15 . . . . 5550 1 
+       4 no DBJ  BAB22495      . "unnamed protein product [Mus musculus]"                                                                                          . . . . . 97.22 97  97.14 100.00 7.18e-16 . . . . 5550 1 
+       5 no DBJ  BAG35090      . "unnamed protein product [Homo sapiens]"                                                                                          . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+       6 no DBJ  BAG82945      . "neuropeptide Y [Oryctolagus cuniculus]"                                                                                          . . . . . 97.22 97  97.14 100.00 8.51e-16 . . . . 5550 1 
+       7 no DBJ  BAJ20461      . "neuropeptide Y [synthetic construct]"                                                                                            . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+       8 no EMBL CAD10677      . "neuropeptide Y [Ovis aries]"                                                                                                     . . . . . 97.22 97  97.14 100.00 1.69e-15 . . . . 5550 1 
+       9 no GB   AAA41722      . "neuropeptide Y precursor [Rattus norvegicus]"                                                                                    . . . . . 97.22 98  97.14 100.00 7.90e-16 . . . . 5550 1 
+      10 no GB   AAA41723      . "neuropeptide Y [Rattus norvegicus]"                                                                                              . . . . . 97.22 98  97.14 100.00 7.90e-16 . . . . 5550 1 
+      11 no GB   AAA41724      . "neuropeptide Y precursor [Rattus norvegicus]"                                                                                    . . . . . 97.22 98  97.14 100.00 7.90e-16 . . . . 5550 1 
+      12 no GB   AAA59944      . "neuropeptide Y [Homo sapiens]"                                                                                                   . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+      13 no GB   AAA59946      . "neuropeptide Y [Homo sapiens]"                                                                                                   . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+      14 no PRF  1006203A      . "neuropeptide Y"                                                                                                                  . . . . . 97.22 36  97.14 100.00 1.63e-15 . . . . 5550 1 
+      15 no PRF  1407279B      . "Neuropeptide NPY"                                                                                                                . . . . . 97.22 36  97.14 100.00 1.63e-15 . . . . 5550 1 
+      16 no PRF  1612231A      . "neuropeptide Y 12-36"                                                                                                            . . . . . 66.67 25 100.00 100.00 8.14e-07 . . . . 5550 1 
+      17 no PRF  1907264A      . "neuropeptide Y"                                                                                                                  . . . . . 97.22 36  97.14 100.00 1.63e-15 . . . . 5550 1 
+      18 no REF  NP_000896     . "pro-neuropeptide Y preproprotein [Homo sapiens]"                                                                                 . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+      19 no REF  NP_001009452  . "pro-neuropeptide Y precursor [Ovis aries]"                                                                                       . . . . . 97.22 97  97.14 100.00 1.69e-15 . . . . 5550 1 
+      20 no REF  NP_001014845  . "pro-neuropeptide Y precursor [Bos taurus]"                                                                                       . . . . . 97.22 97 100.00 100.00 4.03e-16 . . . . 5550 1 
+      21 no REF  NP_001027986  . "pro-neuropeptide Y precursor [Macaca mulatta]"                                                                                   . . . . . 97.22 97  97.14 100.00 7.18e-16 . . . . 5550 1 
+      22 no REF  NP_001153758  . "pro-neuropeptide Y precursor [Oryctolagus cuniculus]"                                                                            . . . . . 97.22 97  97.14 100.00 8.51e-16 . . . . 5550 1 
+      23 no SP   P01303        . "RecName: Full=Pro-neuropeptide Y; Contains: RecName: Full=Neuropeptide Y; AltName: Full=Neuropeptide tyrosine; Short=NPY; Conta" . . . . . 97.22 97  97.14 100.00 7.73e-16 . . . . 5550 1 
+      24 no SP   P01304        . "RecName: Full=Pro-neuropeptide Y; Contains: RecName: Full=Neuropeptide Y; AltName: Full=Neuropeptide tyrosine; Short=NPY; Conta" . . . . . 97.22 76 100.00 100.00 7.01e-16 . . . . 5550 1 
+      25 no SP   P07808        . "RecName: Full=Pro-neuropeptide Y; Contains: RecName: Full=Neuropeptide Y; AltName: Full=Neuropeptide tyrosine; Short=NPY; Conta" . . . . . 97.22 98  97.14 100.00 7.90e-16 . . . . 5550 1 
+      26 no SP   P14765        . "RecName: Full=Pro-neuropeptide Y; Contains: RecName: Full=Neuropeptide Y; AltName: Full=Neuropeptide tyrosine; Short=NPY; Conta" . . . . . 97.22 97  97.14 100.00 1.69e-15 . . . . 5550 1 
+      27 no SP   P57774        . "RecName: Full=Pro-neuropeptide Y; Contains: RecName: Full=Neuropeptide Y; AltName: Full=Neuropeptide tyrosine; Short=NPY; Conta" . . . . . 97.22 97  97.14 100.00 7.18e-16 . . . . 5550 1 
+      28 no TPG  DAA30542      . "TPA: neuropeptide Y precursor [Bos taurus]"                                                                                      . . . . . 97.22 97 100.00 100.00 4.03e-16 . . . . 5550 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'Neuropeptide Y' common       5550 1 
+       PYY             abbreviation 5550 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . TYR . 5550 1 
+       2 . PRO . 5550 1 
+       3 . SER . 5550 1 
+       4 . LYS . 5550 1 
+       5 . PRO . 5550 1 
+       6 . ASP . 5550 1 
+       7 . ASN . 5550 1 
+       8 . PRO . 5550 1 
+       9 . GLY . 5550 1 
+      10 . GLU . 5550 1 
+      11 . ASP . 5550 1 
+      12 . ALA . 5550 1 
+      13 . PRO . 5550 1 
+      14 . ALA . 5550 1 
+      15 . GLU . 5550 1 
+      16 . ASP . 5550 1 
+      17 . LEU . 5550 1 
+      18 . ALA . 5550 1 
+      19 . ARG . 5550 1 
+      20 . TYR . 5550 1 
+      21 . TYR . 5550 1 
+      22 . SER . 5550 1 
+      23 . ALA . 5550 1 
+      24 . LEU . 5550 1 
+      25 . ARG . 5550 1 
+      26 . HIS . 5550 1 
+      27 . TYR . 5550 1 
+      28 . ILE . 5550 1 
+      29 . ASN . 5550 1 
+      30 . LEU . 5550 1 
+      31 . ILE . 5550 1 
+      32 . THR . 5550 1 
+      33 . ARG . 5550 1 
+      34 . GLN . 5550 1 
+      35 . ARG . 5550 1 
+      36 . TYR . 5550 1 
+      37 . NH2 . 5550 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . TYR  1  1 5550 1 
+      . PRO  2  2 5550 1 
+      . SER  3  3 5550 1 
+      . LYS  4  4 5550 1 
+      . PRO  5  5 5550 1 
+      . ASP  6  6 5550 1 
+      . ASN  7  7 5550 1 
+      . PRO  8  8 5550 1 
+      . GLY  9  9 5550 1 
+      . GLU 10 10 5550 1 
+      . ASP 11 11 5550 1 
+      . ALA 12 12 5550 1 
+      . PRO 13 13 5550 1 
+      . ALA 14 14 5550 1 
+      . GLU 15 15 5550 1 
+      . ASP 16 16 5550 1 
+      . LEU 17 17 5550 1 
+      . ALA 18 18 5550 1 
+      . ARG 19 19 5550 1 
+      . TYR 20 20 5550 1 
+      . TYR 21 21 5550 1 
+      . SER 22 22 5550 1 
+      . ALA 23 23 5550 1 
+      . LEU 24 24 5550 1 
+      . ARG 25 25 5550 1 
+      . HIS 26 26 5550 1 
+      . TYR 27 27 5550 1 
+      . ILE 28 28 5550 1 
+      . ASN 29 29 5550 1 
+      . LEU 30 30 5550 1 
+      . ILE 31 31 5550 1 
+      . THR 32 32 5550 1 
+      . ARG 33 33 5550 1 
+      . GLN 34 34 5550 1 
+      . ARG 35 35 5550 1 
+      . TYR 36 36 5550 1 
+      . NH2 37 37 5550 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       5550
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Neuropeptide_Y . 9823 organism . 'Sus scrofa' Pig . . Eukaryota Metazoa Sus scrofa . . . . . . . . . . . . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       5550
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Neuropeptide_Y . 'chemical synthesis' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_NH2
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_NH2
+   _Chem_comp.Entry_ID                          5550
+   _Chem_comp.ID                                NH2
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                             'AMINO GROUP'
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          NH2
+   _Chem_comp.Ambiguous_flag                    yes
+   _Chem_comp.Initial_date                      1999-07-08
+   _Chem_comp.Modified_date                     2008-10-14
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 NH2
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                          'H2 N'
+   _Chem_comp.Formula_weight                    16.023
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         2FLY
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Mon Jul 25 11:50:28 2011
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      N                         SMILES            ACDLabs                10.04  5550 NH2 
+      InChI=1/H3N/h1H3          InChI             InChI               1.02b     5550 NH2 
+      QGZKDVFQNNGYKY-UHFFFAOYAF InChIKey          InChI               1.02b     5550 NH2 
+      [NH2]                     SMILES_CANONICAL  CACTVS                  3.341 5550 NH2 
+      [NH2]                     SMILES            CACTVS                  3.341 5550 NH2 
+      [NH2]                     SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     5550 NH2 
+      [NH2]                     SMILES           'OpenEye OEToolkits' 1.5.0     5550 NH2 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      ammonia     'SYSTEMATIC NAME'  ACDLabs                10.04 5550 NH2 
+      l^{2}-azane 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0    5550 NH2 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N   . N   . . N . . N 0 . . . . no no . . . . 10.091 . 8.978 . -7.810 .  0.000  0.000  0.000 1 . 5550 NH2 
+      HN1 . HN1 . . H . . N 0 . . . . no no . . . .  9.517 . 8.769 . -7.044 . -0.385 -0.545 -0.771 2 . 5550 NH2 
+      HN2 . HN2 . . H . . N 0 . . . . no no . . . . 10.323 . 9.890 . -8.082 .  1.020  0.000  0.000 3 . 5550 NH2 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1 . SING N HN1 no N 1 . 5550 NH2 
+      2 . SING N HN2 no N 2 . 5550 NH2 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         5550
+   _Sample.ID                               1
+   _Sample.Type                             micelles
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'Neuropeptide Y' '[U-95% 15N]' . . 1 $Neuropeptide_Y . .  3    . . mM . . . . 5550 1 
+      2  DPC              .            . .  .  .              . .  0.30 . . M  . . . . 5550 1 
+      3  H2O              .            . .  .  .              . . 90    . . %  . . . . 5550 1 
+      4  D2O              .            . .  .  .              . . 10    . . %  . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         5550
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'Neuropeptide Y' '[U-95% 15N]' . . 1 $Neuropeptide_Y . .  1 . . mM . . . . 5550 2 
+      2  H2O              .            . .  .  .              . . 90 . . %  . . . . 5550 2 
+      3  D2O              .            . .  .  .              . . 10 . . %  . . . . 5550 2 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_Condition_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   Condition_1
+   _Sample_condition_list.Entry_ID       5550
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+       pH                6.0  0.1  n/a 5550 1 
+       temperature     310     .   K   5550 1 
+      'ionic strength'   0.15 0.01 M   5550 1 
+
+   stop_
+
+save_
+
+
+save_Condition_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   Condition_2
+   _Sample_condition_list.Entry_ID       5550
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+       pH                3.1  0.1  n/a 5550 2 
+       temperature     305     .   K   5550 2 
+      'ionic strength'   0.15 0.01 M   5550 2 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_X-PLOR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   X-PLOR
+   _Software.Entry_ID       5550
+   _Software.ID             1
+   _Software.Name           X-PLOR
+   _Software.Version        3.0
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure calculation' 5550 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         5550
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            UnityPlus
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         5550
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            AVANCE
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       5550
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer_1 Varian UnityPlus . 500 . . . 5550 1 
+      2 NMR_spectrometer_2 Bruker AVANCE    . 600 . . . 5550 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       5550
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 TOCSY    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      2 NOESY    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      3 DQF-COSY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_NMR_applied_experiment
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_applied_experiment
+   _NMR_spec_expt.Entry_ID                        5550
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $X-PLOR
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_1
+   _NMR_spec_expt.Entry_ID                        5550
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                            TOCSY
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $X-PLOR
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_2
+   _NMR_spec_expt.Entry_ID                        5550
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                            NOESY
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $X-PLOR
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_3
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_3
+   _NMR_spec_expt.Entry_ID                        5550
+   _NMR_spec_expt.ID                              4
+   _NMR_spec_expt.Name                            DQF-COSY
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $X-PLOR
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference
+   _Chem_shift_reference.Entry_ID       5550
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H  1 H2O protons . . . . ppm 4.63 internal direct   1.0         . . . . . . . . . 5550 1 
+      N 15 NH3 protons . . . . ppm 0.00 external indirect 0.101329118 . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_chemical_shift_set_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chemical_shift_set_1
+   _Assigned_chem_shift_list.Entry_ID                      5550
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $Condition_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 1 $sample_1 . 5550 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 TYR HB3  H  1   3.21 . . . . . . . . . . . 5550 1 
+        2 . 1 1  1  1 TYR HD1  H  1   7.21 . . . . . . . . . . . 5550 1 
+        3 . 1 1  1  1 TYR HD2  H  1   7.21 . . . . . . . . . . . 5550 1 
+        4 . 1 1  1  1 TYR HE1  H  1   6.89 . . . . . . . . . . . 5550 1 
+        5 . 1 1  1  1 TYR HE2  H  1   6.89 . . . . . . . . . . . 5550 1 
+        6 . 1 1  1  1 TYR HA   H  1   4.51 . . . . . . . . . . . 5550 1 
+        7 . 1 1  1  1 TYR HB2  H  1   3.04 . . . . . . . . . . . 5550 1 
+        8 . 1 1  2  2 PRO HB3  H  1   2.07 . . . . . . . . . . . 5550 1 
+        9 . 1 1  2  2 PRO HG2  H  1   1.97 . . . . . . . . . . . 5550 1 
+       10 . 1 1  2  2 PRO HG3  H  1   1.97 . . . . . . . . . . . 5550 1 
+       11 . 1 1  2  2 PRO HD2  H  1   3.32 . . . . . . . . . . . 5550 1 
+       12 . 1 1  2  2 PRO HD3  H  1   3.70 . . . . . . . . . . . 5550 1 
+       13 . 1 1  2  2 PRO HA   H  1   4.32 . . . . . . . . . . . 5550 1 
+       14 . 1 1  2  2 PRO HB2  H  1   1.93 . . . . . . . . . . . 5550 1 
+       15 . 1 1  3  3 SER H    H  1   8.32 . . . . . . . . . . . 5550 1 
+       16 . 1 1  3  3 SER N    N 15 117.1  . . . . . . . . . . . 5550 1 
+       17 . 1 1  3  3 SER HB3  H  1   4.03 . . . . . . . . . . . 5550 1 
+       18 . 1 1  3  3 SER HA   H  1   4.45 . . . . . . . . . . . 5550 1 
+       19 . 1 1  3  3 SER HB2  H  1   3.88 . . . . . . . . . . . 5550 1 
+       20 . 1 1  4  4 LYS H    H  1   8.22 . . . . . . . . . . . 5550 1 
+       21 . 1 1  4  4 LYS N    N 15 124    . . . . . . . . . . . 5550 1 
+       22 . 1 1  4  4 LYS HB3  H  1   1.87 . . . . . . . . . . . 5550 1 
+       23 . 1 1  4  4 LYS HG2  H  1   1.47 . . . . . . . . . . . 5550 1 
+       24 . 1 1  4  4 LYS HG3  H  1   1.47 . . . . . . . . . . . 5550 1 
+       25 . 1 1  4  4 LYS HD2  H  1   1.71 . . . . . . . . . . . 5550 1 
+       26 . 1 1  4  4 LYS HD3  H  1   1.71 . . . . . . . . . . . 5550 1 
+       27 . 1 1  4  4 LYS HE2  H  1   3.00 . . . . . . . . . . . 5550 1 
+       28 . 1 1  4  4 LYS HE3  H  1   3.00 . . . . . . . . . . . 5550 1 
+       29 . 1 1  4  4 LYS HA   H  1   4.66 . . . . . . . . . . . 5550 1 
+       30 . 1 1  4  4 LYS HB2  H  1   1.70 . . . . . . . . . . . 5550 1 
+       31 . 1 1  5  5 PRO HB3  H  1   2.29 . . . . . . . . . . . 5550 1 
+       32 . 1 1  5  5 PRO HG2  H  1   2.02 . . . . . . . . . . . 5550 1 
+       33 . 1 1  5  5 PRO HG3  H  1   2.02 . . . . . . . . . . . 5550 1 
+       34 . 1 1  5  5 PRO HD2  H  1   3.66 . . . . . . . . . . . 5550 1 
+       35 . 1 1  5  5 PRO HD3  H  1   3.79 . . . . . . . . . . . 5550 1 
+       36 . 1 1  5  5 PRO HA   H  1   4.43 . . . . . . . . . . . 5550 1 
+       37 . 1 1  5  5 PRO HB2  H  1   1.93 . . . . . . . . . . . 5550 1 
+       38 . 1 1  6  6 ASP H    H  1   8.32 . . . . . . . . . . . 5550 1 
+       39 . 1 1  6  6 ASP N    N 15 120.3  . . . . . . . . . . . 5550 1 
+       40 . 1 1  6  6 ASP HB3  H  1   2.64 . . . . . . . . . . . 5550 1 
+       41 . 1 1  6  6 ASP HA   H  1   4.52 . . . . . . . . . . . 5550 1 
+       42 . 1 1  6  6 ASP HB2  H  1   2.60 . . . . . . . . . . . 5550 1 
+       43 . 1 1  7  7 ASN H    H  1   8.17 . . . . . . . . . . . 5550 1 
+       44 . 1 1  7  7 ASN N    N 15 119.1  . . . . . . . . . . . 5550 1 
+       45 . 1 1  7  7 ASN HB3  H  1   2.81 . . . . . . . . . . . 5550 1 
+       46 . 1 1  7  7 ASN HD21 H  1   6.86 . . . . . . . . . . . 5550 1 
+       47 . 1 1  7  7 ASN HD22 H  1   7.60 . . . . . . . . . . . 5550 1 
+       48 . 1 1  7  7 ASN HA   H  1   5    . . . . . . . . . . . 5550 1 
+       49 . 1 1  7  7 ASN HB2  H  1   2.66 . . . . . . . . . . . 5550 1 
+       50 . 1 1  8  8 PRO HB3  H  1   2.26 . . . . . . . . . . . 5550 1 
+       51 . 1 1  8  8 PRO HG2  H  1   2.01 . . . . . . . . . . . 5550 1 
+       52 . 1 1  8  8 PRO HG3  H  1   2.01 . . . . . . . . . . . 5550 1 
+       53 . 1 1  8  8 PRO HD2  H  1   3.65 . . . . . . . . . . . 5550 1 
+       54 . 1 1  8  8 PRO HD3  H  1   3.74 . . . . . . . . . . . 5550 1 
+       55 . 1 1  8  8 PRO HA   H  1   4.42 . . . . . . . . . . . 5550 1 
+       56 . 1 1  8  8 PRO HB2  H  1   1.93 . . . . . . . . . . . 5550 1 
+       57 . 1 1  9  9 GLY H    H  1   8.34 . . . . . . . . . . . 5550 1 
+       58 . 1 1  9  9 GLY N    N 15 109.3  . . . . . . . . . . . 5550 1 
+       59 . 1 1  9  9 GLY HA2  H  1   3.95 . . . . . . . . . . . 5550 1 
+       60 . 1 1  9  9 GLY HA3  H  1   3.95 . . . . . . . . . . . 5550 1 
+       61 . 1 1 10 10 GLU H    H  1   8.03 . . . . . . . . . . . 5550 1 
+       62 . 1 1 10 10 GLU N    N 15 120.9  . . . . . . . . . . . 5550 1 
+       63 . 1 1 10 10 GLU HB3  H  1   2.07 . . . . . . . . . . . 5550 1 
+       64 . 1 1 10 10 GLU HG2  H  1   2.24 . . . . . . . . . . . 5550 1 
+       65 . 1 1 10 10 GLU HG3  H  1   2.24 . . . . . . . . . . . 5550 1 
+       66 . 1 1 10 10 GLU HA   H  1   4.15 . . . . . . . . . . . 5550 1 
+       67 . 1 1 10 10 GLU HB2  H  1   1.92 . . . . . . . . . . . 5550 1 
+       68 . 1 1 11 11 ASP H    H  1   8.32 . . . . . . . . . . . 5550 1 
+       69 . 1 1 11 11 ASP N    N 15 121.8  . . . . . . . . . . . 5550 1 
+       70 . 1 1 11 11 ASP HB3  H  1   2.68 . . . . . . . . . . . 5550 1 
+       71 . 1 1 11 11 ASP HA   H  1   4.6  . . . . . . . . . . . 5550 1 
+       72 . 1 1 11 11 ASP HB2  H  1   2.59 . . . . . . . . . . . 5550 1 
+       73 . 1 1 12 12 ALA H    H  1   8.12 . . . . . . . . . . . 5550 1 
+       74 . 1 1 12 12 ALA N    N 15 125.7  . . . . . . . . . . . 5550 1 
+       75 . 1 1 12 12 ALA HA   H  1   4.6  . . . . . . . . . . . 5550 1 
+       76 . 1 1 12 12 ALA HB1  H  1   1.36 . . . . . . . . . . . 5550 1 
+       77 . 1 1 12 12 ALA HB2  H  1   1.36 . . . . . . . . . . . 5550 1 
+       78 . 1 1 12 12 ALA HB3  H  1   1.36 . . . . . . . . . . . 5550 1 
+       79 . 1 1 13 13 PRO HB3  H  1   2.29 . . . . . . . . . . . 5550 1 
+       80 . 1 1 13 13 PRO HG2  H  1   2.02 . . . . . . . . . . . 5550 1 
+       81 . 1 1 13 13 PRO HG3  H  1   2.02 . . . . . . . . . . . 5550 1 
+       82 . 1 1 13 13 PRO HD2  H  1   3.66 . . . . . . . . . . . 5550 1 
+       83 . 1 1 13 13 PRO HD3  H  1   3.77 . . . . . . . . . . . 5550 1 
+       84 . 1 1 13 13 PRO HA   H  1   4.43 . . . . . . . . . . . 5550 1 
+       85 . 1 1 13 13 PRO HB2  H  1   1.93 . . . . . . . . . . . 5550 1 
+       86 . 1 1 14 14 ALA H    H  1   8.37 . . . . . . . . . . . 5550 1 
+       87 . 1 1 14 14 ALA N    N 15 124    . . . . . . . . . . . 5550 1 
+       88 . 1 1 14 14 ALA HA   H  1   4.26 . . . . . . . . . . . 5550 1 
+       89 . 1 1 14 14 ALA HB1  H  1   1.43 . . . . . . . . . . . 5550 1 
+       90 . 1 1 14 14 ALA HB2  H  1   1.43 . . . . . . . . . . . 5550 1 
+       91 . 1 1 14 14 ALA HB3  H  1   1.43 . . . . . . . . . . . 5550 1 
+       92 . 1 1 15 15 GLU H    H  1   8.31 . . . . . . . . . . . 5550 1 
+       93 . 1 1 15 15 GLU N    N 15 120.2  . . . . . . . . . . . 5550 1 
+       94 . 1 1 15 15 GLU HB3  H  1   2.10 . . . . . . . . . . . 5550 1 
+       95 . 1 1 15 15 GLU HG2  H  1   2.30 . . . . . . . . . . . 5550 1 
+       96 . 1 1 15 15 GLU HG3  H  1   2.30 . . . . . . . . . . . 5550 1 
+       97 . 1 1 15 15 GLU HA   H  1   4.26 . . . . . . . . . . . 5550 1 
+       98 . 1 1 15 15 GLU HB2  H  1   2.03 . . . . . . . . . . . 5550 1 
+       99 . 1 1 16 16 ASP H    H  1   8.19 . . . . . . . . . . . 5550 1 
+      100 . 1 1 16 16 ASP N    N 15 121.6  . . . . . . . . . . . 5550 1 
+      101 . 1 1 16 16 ASP HB3  H  1   2.69 . . . . . . . . . . . 5550 1 
+      102 . 1 1 16 16 ASP HA   H  1   4.46 . . . . . . . . . . . 5550 1 
+      103 . 1 1 16 16 ASP HB2  H  1   2.63 . . . . . . . . . . . 5550 1 
+      104 . 1 1 17 17 LEU H    H  1   8.38 . . . . . . . . . . . 5550 1 
+      105 . 1 1 17 17 LEU N    N 15 120.8  . . . . . . . . . . . 5550 1 
+      106 . 1 1 17 17 LEU HB3  H  1   1.84 . . . . . . . . . . . 5550 1 
+      107 . 1 1 17 17 LEU HD11 H  1   0.94 . . . . . . . . . . . 5550 1 
+      108 . 1 1 17 17 LEU HD12 H  1   0.94 . . . . . . . . . . . 5550 1 
+      109 . 1 1 17 17 LEU HD13 H  1   0.94 . . . . . . . . . . . 5550 1 
+      110 . 1 1 17 17 LEU HD21 H  1   1.00 . . . . . . . . . . . 5550 1 
+      111 . 1 1 17 17 LEU HD22 H  1   1.00 . . . . . . . . . . . 5550 1 
+      112 . 1 1 17 17 LEU HD23 H  1   1.00 . . . . . . . . . . . 5550 1 
+      113 . 1 1 17 17 LEU HG   H  1   1.65 . . . . . . . . . . . 5550 1 
+      114 . 1 1 17 17 LEU HA   H  1   4.18 . . . . . . . . . . . 5550 1 
+      115 . 1 1 17 17 LEU HB2  H  1   1.80 . . . . . . . . . . . 5550 1 
+      116 . 1 1 18 18 ALA H    H  1   8.05 . . . . . . . . . . . 5550 1 
+      117 . 1 1 18 18 ALA N    N 15 121.1  . . . . . . . . . . . 5550 1 
+      118 . 1 1 18 18 ALA HA   H  1   4.05 . . . . . . . . . . . 5550 1 
+      119 . 1 1 18 18 ALA HB1  H  1   1.54 . . . . . . . . . . . 5550 1 
+      120 . 1 1 18 18 ALA HB2  H  1   1.54 . . . . . . . . . . . 5550 1 
+      121 . 1 1 18 18 ALA HB3  H  1   1.54 . . . . . . . . . . . 5550 1 
+      122 . 1 1 19 19 ARG H    H  1   7.95 . . . . . . . . . . . 5550 1 
+      123 . 1 1 19 19 ARG N    N 15 119.7  . . . . . . . . . . . 5550 1 
+      124 . 1 1 19 19 ARG HB3  H  1   1.86 . . . . . . . . . . . 5550 1 
+      125 . 1 1 19 19 ARG HG2  H  1   1.46 . . . . . . . . . . . 5550 1 
+      126 . 1 1 19 19 ARG HG3  H  1   1.50 . . . . . . . . . . . 5550 1 
+      127 . 1 1 19 19 ARG HD2  H  1   3.12 . . . . . . . . . . . 5550 1 
+      128 . 1 1 19 19 ARG HD3  H  1   3.15 . . . . . . . . . . . 5550 1 
+      129 . 1 1 19 19 ARG HE   H  1   7.33 . . . . . . . . . . . 5550 1 
+      130 . 1 1 19 19 ARG HA   H  1   4.12 . . . . . . . . . . . 5550 1 
+      131 . 1 1 19 19 ARG HB2  H  1   1.76 . . . . . . . . . . . 5550 1 
+      132 . 1 1 20 20 TYR H    H  1   8.01 . . . . . . . . . . . 5550 1 
+      133 . 1 1 20 20 TYR N    N 15 120.5  . . . . . . . . . . . 5550 1 
+      134 . 1 1 20 20 TYR HB3  H  1   3.15 . . . . . . . . . . . 5550 1 
+      135 . 1 1 20 20 TYR HD1  H  1   7.04 . . . . . . . . . . . 5550 1 
+      136 . 1 1 20 20 TYR HD2  H  1   7.04 . . . . . . . . . . . 5550 1 
+      137 . 1 1 20 20 TYR HE1  H  1   6.80 . . . . . . . . . . . 5550 1 
+      138 . 1 1 20 20 TYR HE2  H  1   6.80 . . . . . . . . . . . 5550 1 
+      139 . 1 1 20 20 TYR HA   H  1   4.45 . . . . . . . . . . . 5550 1 
+      140 . 1 1 20 20 TYR HB2  H  1   3.10 . . . . . . . . . . . 5550 1 
+      141 . 1 1 21 21 TYR H    H  1   8.39 . . . . . . . . . . . 5550 1 
+      142 . 1 1 21 21 TYR N    N 15 120    . . . . . . . . . . . 5550 1 
+      143 . 1 1 21 21 TYR HB3  H  1   3.19 . . . . . . . . . . . 5550 1 
+      144 . 1 1 21 21 TYR HD1  H  1   7.07 . . . . . . . . . . . 5550 1 
+      145 . 1 1 21 21 TYR HD2  H  1   7.07 . . . . . . . . . . . 5550 1 
+      146 . 1 1 21 21 TYR HE1  H  1   6.78 . . . . . . . . . . . 5550 1 
+      147 . 1 1 21 21 TYR HE2  H  1   6.78 . . . . . . . . . . . 5550 1 
+      148 . 1 1 21 21 TYR HA   H  1   4.32 . . . . . . . . . . . 5550 1 
+      149 . 1 1 21 21 TYR HB2  H  1   3.19 . . . . . . . . . . . 5550 1 
+      150 . 1 1 22 22 SER H    H  1   8.33 . . . . . . . . . . . 5550 1 
+      151 . 1 1 22 22 SER N    N 15 114.5  . . . . . . . . . . . 5550 1 
+      152 . 1 1 22 22 SER HB3  H  1   3.98 . . . . . . . . . . . 5550 1 
+      153 . 1 1 22 22 SER HA   H  1   4.03 . . . . . . . . . . . 5550 1 
+      154 . 1 1 22 22 SER HB2  H  1   3.98 . . . . . . . . . . . 5550 1 
+      155 . 1 1 23 23 ALA H    H  1   7.84 . . . . . . . . . . . 5550 1 
+      156 . 1 1 23 23 ALA N    N 15 125    . . . . . . . . . . . 5550 1 
+      157 . 1 1 23 23 ALA HA   H  1   4.25 . . . . . . . . . . . 5550 1 
+      158 . 1 1 23 23 ALA HB1  H  1   1.66 . . . . . . . . . . . 5550 1 
+      159 . 1 1 23 23 ALA HB2  H  1   1.66 . . . . . . . . . . . 5550 1 
+      160 . 1 1 23 23 ALA HB3  H  1   1.66 . . . . . . . . . . . 5550 1 
+      161 . 1 1 24 24 LEU H    H  1   8.22 . . . . . . . . . . . 5550 1 
+      162 . 1 1 24 24 LEU N    N 15 119.1  . . . . . . . . . . . 5550 1 
+      163 . 1 1 24 24 LEU HB3  H  1   1.88 . . . . . . . . . . . 5550 1 
+      164 . 1 1 24 24 LEU HD11 H  1   0.99 . . . . . . . . . . . 5550 1 
+      165 . 1 1 24 24 LEU HD12 H  1   0.99 . . . . . . . . . . . 5550 1 
+      166 . 1 1 24 24 LEU HD13 H  1   0.99 . . . . . . . . . . . 5550 1 
+      167 . 1 1 24 24 LEU HD21 H  1   1.01 . . . . . . . . . . . 5550 1 
+      168 . 1 1 24 24 LEU HD22 H  1   1.01 . . . . . . . . . . . 5550 1 
+      169 . 1 1 24 24 LEU HD23 H  1   1.01 . . . . . . . . . . . 5550 1 
+      170 . 1 1 24 24 LEU HG   H  1   1.82 . . . . . . . . . . . 5550 1 
+      171 . 1 1 24 24 LEU HA   H  1   4.18 . . . . . . . . . . . 5550 1 
+      172 . 1 1 24 24 LEU HB2  H  1   1.88 . . . . . . . . . . . 5550 1 
+      173 . 1 1 25 25 ARG H    H  1   8.3  . . . . . . . . . . . 5550 1 
+      174 . 1 1 25 25 ARG N    N 15 118.2  . . . . . . . . . . . 5550 1 
+      175 . 1 1 25 25 ARG HB3  H  1   1.86 . . . . . . . . . . . 5550 1 
+      176 . 1 1 25 25 ARG HG2  H  1   1.46 . . . . . . . . . . . 5550 1 
+      177 . 1 1 25 25 ARG HG3  H  1   1.59 . . . . . . . . . . . 5550 1 
+      178 . 1 1 25 25 ARG HD2  H  1   3.08 . . . . . . . . . . . 5550 1 
+      179 . 1 1 25 25 ARG HD3  H  1   3.08 . . . . . . . . . . . 5550 1 
+      180 . 1 1 25 25 ARG HE   H  1   7.41 . . . . . . . . . . . 5550 1 
+      181 . 1 1 25 25 ARG HA   H  1   3.79 . . . . . . . . . . . 5550 1 
+      182 . 1 1 25 25 ARG HB2  H  1   1.73 . . . . . . . . . . . 5550 1 
+      183 . 1 1 26 26 HIS H    H  1   7.94 . . . . . . . . . . . 5550 1 
+      184 . 1 1 26 26 HIS N    N 15 118.7  . . . . . . . . . . . 5550 1 
+      185 . 1 1 26 26 HIS HB3  H  1   3.30 . . . . . . . . . . . 5550 1 
+      186 . 1 1 26 26 HIS HD2  H  1   6.42 . . . . . . . . . . . 5550 1 
+      187 . 1 1 26 26 HIS HE1  H  1   8.42 . . . . . . . . . . . 5550 1 
+      188 . 1 1 26 26 HIS HA   H  1   4.34 . . . . . . . . . . . 5550 1 
+      189 . 1 1 26 26 HIS HB2  H  1   3.18 . . . . . . . . . . . 5550 1 
+      190 . 1 1 27 27 TYR H    H  1   8.19 . . . . . . . . . . . 5550 1 
+      191 . 1 1 27 27 TYR N    N 15 118.7  . . . . . . . . . . . 5550 1 
+      192 . 1 1 27 27 TYR HB3  H  1   3.06 . . . . . . . . . . . 5550 1 
+      193 . 1 1 27 27 TYR HD1  H  1   7.13 . . . . . . . . . . . 5550 1 
+      194 . 1 1 27 27 TYR HD2  H  1   7.13 . . . . . . . . . . . 5550 1 
+      195 . 1 1 27 27 TYR HE1  H  1   6.86 . . . . . . . . . . . 5550 1 
+      196 . 1 1 27 27 TYR HE2  H  1   6.86 . . . . . . . . . . . 5550 1 
+      197 . 1 1 27 27 TYR HA   H  1   4.18 . . . . . . . . . . . 5550 1 
+      198 . 1 1 27 27 TYR HB2  H  1   3.06 . . . . . . . . . . . 5550 1 
+      199 . 1 1 28 28 ILE H    H  1   8.56 . . . . . . . . . . . 5550 1 
+      200 . 1 1 28 28 ILE N    N 15 119.4  . . . . . . . . . . . 5550 1 
+      201 . 1 1 28 28 ILE HG21 H  1   0.94 . . . . . . . . . . . 5550 1 
+      202 . 1 1 28 28 ILE HG22 H  1   0.94 . . . . . . . . . . . 5550 1 
+      203 . 1 1 28 28 ILE HG23 H  1   0.94 . . . . . . . . . . . 5550 1 
+      204 . 1 1 28 28 ILE HG12 H  1   1.25 . . . . . . . . . . . 5550 1 
+      205 . 1 1 28 28 ILE HG13 H  1   1.79 . . . . . . . . . . . 5550 1 
+      206 . 1 1 28 28 ILE HD11 H  1   0.85 . . . . . . . . . . . 5550 1 
+      207 . 1 1 28 28 ILE HD12 H  1   0.85 . . . . . . . . . . . 5550 1 
+      208 . 1 1 28 28 ILE HD13 H  1   0.85 . . . . . . . . . . . 5550 1 
+      209 . 1 1 28 28 ILE HA   H  1   3.75 . . . . . . . . . . . 5550 1 
+      210 . 1 1 28 28 ILE HB   H  1   2.02 . . . . . . . . . . . 5550 1 
+      211 . 1 1 29 29 ASN H    H  1   8.14 . . . . . . . . . . . 5550 1 
+      212 . 1 1 29 29 ASN N    N 15 120.6  . . . . . . . . . . . 5550 1 
+      213 . 1 1 29 29 ASN HB3  H  1   2.94 . . . . . . . . . . . 5550 1 
+      214 . 1 1 29 29 ASN HD21 H  1   6.89 . . . . . . . . . . . 5550 1 
+      215 . 1 1 29 29 ASN HD22 H  1   7.56 . . . . . . . . . . . 5550 1 
+      216 . 1 1 29 29 ASN HA   H  1   4.44 . . . . . . . . . . . 5550 1 
+      217 . 1 1 29 29 ASN HB2  H  1   2.78 . . . . . . . . . . . 5550 1 
+      218 . 1 1 30 30 LEU H    H  1   7.77 . . . . . . . . . . . 5550 1 
+      219 . 1 1 30 30 LEU N    N 15 120.1  . . . . . . . . . . . 5550 1 
+      220 . 1 1 30 30 LEU HB3  H  1   1.80 . . . . . . . . . . . 5550 1 
+      221 . 1 1 30 30 LEU HD11 H  1   0.84 . . . . . . . . . . . 5550 1 
+      222 . 1 1 30 30 LEU HD12 H  1   0.84 . . . . . . . . . . . 5550 1 
+      223 . 1 1 30 30 LEU HD13 H  1   0.84 . . . . . . . . . . . 5550 1 
+      224 . 1 1 30 30 LEU HD21 H  1   0.84 . . . . . . . . . . . 5550 1 
+      225 . 1 1 30 30 LEU HD22 H  1   0.84 . . . . . . . . . . . 5550 1 
+      226 . 1 1 30 30 LEU HD23 H  1   0.84 . . . . . . . . . . . 5550 1 
+      227 . 1 1 30 30 LEU HG   H  1   1.62 . . . . . . . . . . . 5550 1 
+      228 . 1 1 30 30 LEU HA   H  1   4.03 . . . . . . . . . . . 5550 1 
+      229 . 1 1 30 30 LEU HB2  H  1   1.80 . . . . . . . . . . . 5550 1 
+      230 . 1 1 31 31 ILE H    H  1   8.02 . . . . . . . . . . . 5550 1 
+      231 . 1 1 31 31 ILE N    N 15 117.6  . . . . . . . . . . . 5550 1 
+      232 . 1 1 31 31 ILE HG21 H  1   0.95 . . . . . . . . . . . 5550 1 
+      233 . 1 1 31 31 ILE HG22 H  1   0.95 . . . . . . . . . . . 5550 1 
+      234 . 1 1 31 31 ILE HG23 H  1   0.95 . . . . . . . . . . . 5550 1 
+      235 . 1 1 31 31 ILE HG12 H  1   1.29 . . . . . . . . . . . 5550 1 
+      236 . 1 1 31 31 ILE HG13 H  1   1.74 . . . . . . . . . . . 5550 1 
+      237 . 1 1 31 31 ILE HD11 H  1   0.86 . . . . . . . . . . . 5550 1 
+      238 . 1 1 31 31 ILE HD12 H  1   0.86 . . . . . . . . . . . 5550 1 
+      239 . 1 1 31 31 ILE HD13 H  1   0.86 . . . . . . . . . . . 5550 1 
+      240 . 1 1 31 31 ILE HA   H  1   3.93 . . . . . . . . . . . 5550 1 
+      241 . 1 1 31 31 ILE HB   H  1   2.03 . . . . . . . . . . . 5550 1 
+      242 . 1 1 32 32 THR H    H  1   8.07 . . . . . . . . . . . 5550 1 
+      243 . 1 1 32 32 THR N    N 15 111.7  . . . . . . . . . . . 5550 1 
+      244 . 1 1 32 32 THR HG21 H  1   1.33 . . . . . . . . . . . 5550 1 
+      245 . 1 1 32 32 THR HG22 H  1   1.33 . . . . . . . . . . . 5550 1 
+      246 . 1 1 32 32 THR HG23 H  1   1.33 . . . . . . . . . . . 5550 1 
+      247 . 1 1 32 32 THR HA   H  1   4.18 . . . . . . . . . . . 5550 1 
+      248 . 1 1 32 32 THR HB   H  1   4.41 . . . . . . . . . . . 5550 1 
+      249 . 1 1 33 33 ARG H    H  1   7.93 . . . . . . . . . . . 5550 1 
+      250 . 1 1 33 33 ARG N    N 15 121.2  . . . . . . . . . . . 5550 1 
+      251 . 1 1 33 33 ARG HB3  H  1   1.73 . . . . . . . . . . . 5550 1 
+      252 . 1 1 33 33 ARG HG2  H  1   1.61 . . . . . . . . . . . 5550 1 
+      253 . 1 1 33 33 ARG HG3  H  1   1.61 . . . . . . . . . . . 5550 1 
+      254 . 1 1 33 33 ARG HD2  H  1   3.18 . . . . . . . . . . . 5550 1 
+      255 . 1 1 33 33 ARG HD3  H  1   3.18 . . . . . . . . . . . 5550 1 
+      256 . 1 1 33 33 ARG HE   H  1   7.26 . . . . . . . . . . . 5550 1 
+      257 . 1 1 33 33 ARG HA   H  1   4.18 . . . . . . . . . . . 5550 1 
+      258 . 1 1 33 33 ARG HB2  H  1   1.95 . . . . . . . . . . . 5550 1 
+      259 . 1 1 34 34 GLN H    H  1   7.98 . . . . . . . . . . . 5550 1 
+      260 . 1 1 34 34 GLN N    N 15 117.4  . . . . . . . . . . . 5550 1 
+      261 . 1 1 34 34 GLN HB3  H  1   2.12 . . . . . . . . . . . 5550 1 
+      262 . 1 1 34 34 GLN HG2  H  1   2.38 . . . . . . . . . . . 5550 1 
+      263 . 1 1 34 34 GLN HG3  H  1   2.38 . . . . . . . . . . . 5550 1 
+      264 . 1 1 34 34 GLN HE21 H  1   6.78 . . . . . . . . . . . 5550 1 
+      265 . 1 1 34 34 GLN HE22 H  1   7.42 . . . . . . . . . . . 5550 1 
+      266 . 1 1 34 34 GLN HA   H  1   4.16 . . . . . . . . . . . 5550 1 
+      267 . 1 1 34 34 GLN HB2  H  1   2.12 . . . . . . . . . . . 5550 1 
+      268 . 1 1 35 35 ARG H    H  1   7.92 . . . . . . . . . . . 5550 1 
+      269 . 1 1 35 35 ARG N    N 15 118.9  . . . . . . . . . . . 5550 1 
+      270 . 1 1 35 35 ARG HB3  H  1   1.65 . . . . . . . . . . . 5550 1 
+      271 . 1 1 35 35 ARG HG2  H  1   1.39 . . . . . . . . . . . 5550 1 
+      272 . 1 1 35 35 ARG HG3  H  1   1.47 . . . . . . . . . . . 5550 1 
+      273 . 1 1 35 35 ARG HD2  H  1   3.08 . . . . . . . . . . . 5550 1 
+      274 . 1 1 35 35 ARG HD3  H  1   3.08 . . . . . . . . . . . 5550 1 
+      275 . 1 1 35 35 ARG HE   H  1   7.38 . . . . . . . . . . . 5550 1 
+      276 . 1 1 35 35 ARG HA   H  1   4.17 . . . . . . . . . . . 5550 1 
+      277 . 1 1 35 35 ARG HB2  H  1   1.65 . . . . . . . . . . . 5550 1 
+      278 . 1 1 36 36 TYR H    H  1   7.93 . . . . . . . . . . . 5550 1 
+      279 . 1 1 36 36 TYR N    N 15 119.1  . . . . . . . . . . . 5550 1 
+      280 . 1 1 36 36 TYR HB3  H  1   3.16 . . . . . . . . . . . 5550 1 
+      281 . 1 1 36 36 TYR HD1  H  1   7.14 . . . . . . . . . . . 5550 1 
+      282 . 1 1 36 36 TYR HD2  H  1   7.14 . . . . . . . . . . . 5550 1 
+      283 . 1 1 36 36 TYR HE1  H  1   6.81 . . . . . . . . . . . 5550 1 
+      284 . 1 1 36 36 TYR HE2  H  1   6.81 . . . . . . . . . . . 5550 1 
+      285 . 1 1 36 36 TYR HA   H  1   4.57 . . . . . . . . . . . 5550 1 
+      286 . 1 1 36 36 TYR HB2  H  1   2.85 . . . . . . . . . . . 5550 1 
+      287 . 1 1 37 37 NH2 N    N 15 107.4  . . . . . . . . . . . 5550 1 
+      288 . 1 1 37 37 NH2 HN1  H  1   7.03 . . . . . . . . . . . 5550 1 
+      289 . 1 1 37 37 NH2 HN2  H  1   7.30 . . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_chemical_shift_set_2
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chemical_shift_set_2
+   _Assigned_chem_shift_list.Entry_ID                      5550
+   _Assigned_chem_shift_list.ID                            2
+   _Assigned_chem_shift_list.Sample_condition_list_ID      2
+   _Assigned_chem_shift_list.Sample_condition_list_label  $Condition_2
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 2 $sample_2 . 5550 2 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1  3  3 SER N   N 15 116.8  . . . . . . . . . . . 5550 2 
+       2 . 1 1  3  3 SER H   H  1   8.37 . . . . . . . . . . . 5550 2 
+       3 . 1 1  4  4 LYS N   N 15 124.1  . . . . . . . . . . . 5550 2 
+       4 . 1 1  4  4 LYS H   H  1   8.26 . . . . . . . . . . . 5550 2 
+       5 . 1 1  6  6 ASP N   N 15 119.9  . . . . . . . . . . . 5550 2 
+       6 . 1 1  6  6 ASP H   H  1   8.41 . . . . . . . . . . . 5550 2 
+       7 . 1 1  7  7 ASN N   N 15 120.1  . . . . . . . . . . . 5550 2 
+       8 . 1 1  7  7 ASN H   H  1   8.26 . . . . . . . . . . . 5550 2 
+       9 . 1 1  9  9 GLY N   N 15 108.3  . . . . . . . . . . . 5550 2 
+      10 . 1 1  9  9 GLY H   H  1   8.26 . . . . . . . . . . . 5550 2 
+      11 . 1 1 10 10 GLU N   N 15 119    . . . . . . . . . . . 5550 2 
+      12 . 1 1 10 10 GLU H   H  1   8.03 . . . . . . . . . . . 5550 2 
+      13 . 1 1 11 11 ASP N   N 15 119.4  . . . . . . . . . . . 5550 2 
+      14 . 1 1 11 11 ASP H   H  1   8.34 . . . . . . . . . . . 5550 2 
+      15 . 1 1 12 12 ALA N   N 15 124.7  . . . . . . . . . . . 5550 2 
+      16 . 1 1 12 12 ALA H   H  1   7.87 . . . . . . . . . . . 5550 2 
+      17 . 1 1 14 14 ALA N   N 15 123.5  . . . . . . . . . . . 5550 2 
+      18 . 1 1 14 14 ALA H   H  1   8.33 . . . . . . . . . . . 5550 2 
+      19 . 1 1 15 15 GLU N   N 15 118.1  . . . . . . . . . . . 5550 2 
+      20 . 1 1 15 15 GLU H   H  1   8.43 . . . . . . . . . . . 5550 2 
+      21 . 1 1 16 16 ASP N   N 15 119.8  . . . . . . . . . . . 5550 2 
+      22 . 1 1 16 16 ASP H   H  1   8.05 . . . . . . . . . . . 5550 2 
+      23 . 1 1 17 17 LEU N   N 15 122.4  . . . . . . . . . . . 5550 2 
+      24 . 1 1 17 17 LEU H   H  1   8.01 . . . . . . . . . . . 5550 2 
+      25 . 1 1 18 18 ALA N   N 15 121.4  . . . . . . . . . . . 5550 2 
+      26 . 1 1 18 18 ALA H   H  1   8.06 . . . . . . . . . . . 5550 2 
+      27 . 1 1 19 19 ARG N   N 15 118    . . . . . . . . . . . 5550 2 
+      28 . 1 1 19 19 ARG H   H  1   7.82 . . . . . . . . . . . 5550 2 
+      29 . 1 1 20 20 TYR N   N 15 120.5  . . . . . . . . . . . 5550 2 
+      30 . 1 1 20 20 TYR H   H  1   7.84 . . . . . . . . . . . 5550 2 
+      31 . 1 1 21 21 TYR N   N 15 119    . . . . . . . . . . . 5550 2 
+      32 . 1 1 21 21 TYR H   H  1   8.24 . . . . . . . . . . . 5550 2 
+      33 . 1 1 22 22 SER N   N 15 115.4  . . . . . . . . . . . 5550 2 
+      34 . 1 1 22 22 SER H   H  1   8.05 . . . . . . . . . . . 5550 2 
+      35 . 1 1 23 23 ALA N   N 15 125    . . . . . . . . . . . 5550 2 
+      36 . 1 1 23 23 ALA H   H  1   8.01 . . . . . . . . . . . 5550 2 
+      37 . 1 1 24 24 LEU N   N 15 119.8  . . . . . . . . . . . 5550 2 
+      38 . 1 1 24 24 LEU H   H  1   8.07 . . . . . . . . . . . 5550 2 
+      39 . 1 1 25 25 ARG N   N 15 118.6  . . . . . . . . . . . 5550 2 
+      40 . 1 1 25 25 ARG H   H  1   7.9  . . . . . . . . . . . 5550 2 
+      41 . 1 1 26 26 HIS N   N 15 117.3  . . . . . . . . . . . 5550 2 
+      42 . 1 1 26 26 HIS H   H  1   8.03 . . . . . . . . . . . 5550 2 
+      43 . 1 1 27 27 TYR N   N 15 120.6  . . . . . . . . . . . 5550 2 
+      44 . 1 1 27 27 TYR H   H  1   8.12 . . . . . . . . . . . 5550 2 
+      45 . 1 1 28 28 ILE N   N 15 120.7  . . . . . . . . . . . 5550 2 
+      46 . 1 1 28 28 ILE H   H  1   8.15 . . . . . . . . . . . 5550 2 
+      47 . 1 1 29 29 ASN N   N 15 121    . . . . . . . . . . . 5550 2 
+      48 . 1 1 29 29 ASN H   H  1   8.16 . . . . . . . . . . . 5550 2 
+      49 . 1 1 30 30 LEU N   N 15 121.8  . . . . . . . . . . . 5550 2 
+      50 . 1 1 30 30 LEU H   H  1   7.93 . . . . . . . . . . . 5550 2 
+      51 . 1 1 31 31 ILE N   N 15 119.1  . . . . . . . . . . . 5550 2 
+      52 . 1 1 31 31 ILE H   H  1   7.96 . . . . . . . . . . . 5550 2 
+      53 . 1 1 32 32 THR N   N 15 116    . . . . . . . . . . . 5550 2 
+      54 . 1 1 32 32 THR H   H  1   7.93 . . . . . . . . . . . 5550 2 
+      55 . 1 1 33 33 ARG N   N 15 122    . . . . . . . . . . . 5550 2 
+      56 . 1 1 33 33 ARG H   H  1   7.98 . . . . . . . . . . . 5550 2 
+      57 . 1 1 34 34 GLN N   N 15 120.3  . . . . . . . . . . . 5550 2 
+      58 . 1 1 34 34 GLN H   H  1   8.12 . . . . . . . . . . . 5550 2 
+      59 . 1 1 35 35 ARG N   N 15 121.3  . . . . . . . . . . . 5550 2 
+      60 . 1 1 35 35 ARG H   H  1   8.14 . . . . . . . . . . . 5550 2 
+      61 . 1 1 36 36 TYR N   N 15 120.8  . . . . . . . . . . . 5550 2 
+      62 . 1 1 36 36 TYR H   H  1   8.02 . . . . . . . . . . . 5550 2 
+      63 . 1 1 37 37 NH2 N   N 15 108.2  . . . . . . . . . . . 5550 2 
+      64 . 1 1 37 37 NH2 HN1 H  1   7.03 . . . . . . . . . . . 5550 2 
+      65 . 1 1 37 37 NH2 HN2 H  1   7.42 . . . . . . . . . . . 5550 2 
+
+   stop_
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_NOE_1
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE_1
+   _Heteronucl_NOE_list.Entry_ID                      5550
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     500
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_1 . 5550 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . 1 1  6  6 ASP N N 15 . 1 1  6  6 ASP H H 1 -3.29 0.33 . . . . . . . . . . 5550 1 
+       2 . 1 1  7  7 ASN N N 15 . 1 1  7  7 ASN H H 1 -2.21 0.22 . . . . . . . . . . 5550 1 
+       3 . 1 1  9  9 GLY N N 15 . 1 1  9  9 GLY H H 1 -1.39 0.14 . . . . . . . . . . 5550 1 
+       4 . 1 1 10 10 GLU N N 15 . 1 1 10 10 GLU H H 1 -0.85 0.08 . . . . . . . . . . 5550 1 
+       5 . 1 1 11 11 ASP N N 15 . 1 1 11 11 ASP H H 1 -0.76 0.08 . . . . . . . . . . 5550 1 
+       6 . 1 1 12 12 ALA N N 15 . 1 1 12 12 ALA H H 1 -0.68 0.07 . . . . . . . . . . 5550 1 
+       7 . 1 1 14 14 ALA N N 15 . 1 1 14 14 ALA H H 1 -0.33 0.03 . . . . . . . . . . 5550 1 
+       8 . 1 1 15 15 GLU N N 15 . 1 1 15 15 GLU H H 1  0.08 0.01 . . . . . . . . . . 5550 1 
+       9 . 1 1 16 16 ASP N N 15 . 1 1 16 16 ASP H H 1  0.34 0.03 . . . . . . . . . . 5550 1 
+      10 . 1 1 17 17 LEU N N 15 . 1 1 17 17 LEU H H 1  0.56 0.06 . . . . . . . . . . 5550 1 
+      11 . 1 1 18 18 ALA N N 15 . 1 1 18 18 ALA H H 1  0.73 0.07 . . . . . . . . . . 5550 1 
+      12 . 1 1 19 19 ARG N N 15 . 1 1 19 19 ARG H H 1  0.71 0.07 . . . . . . . . . . 5550 1 
+      13 . 1 1 20 20 TYR N N 15 . 1 1 20 20 TYR H H 1  0.61 0.06 . . . . . . . . . . 5550 1 
+      14 . 1 1 21 21 TYR N N 15 . 1 1 21 21 TYR H H 1  0.7  0.07 . . . . . . . . . . 5550 1 
+      15 . 1 1 22 22 SER N N 15 . 1 1 22 22 SER H H 1  0.69 0.07 . . . . . . . . . . 5550 1 
+      16 . 1 1 23 23 ALA N N 15 . 1 1 23 23 ALA H H 1  0.74 0.07 . . . . . . . . . . 5550 1 
+      17 . 1 1 24 24 LEU N N 15 . 1 1 24 24 LEU H H 1  0.7  0.07 . . . . . . . . . . 5550 1 
+      18 . 1 1 25 25 ARG N N 15 . 1 1 25 25 ARG H H 1  0.83 0.08 . . . . . . . . . . 5550 1 
+      19 . 1 1 26 26 HIS N N 15 . 1 1 26 26 HIS H H 1  0.74 0.07 . . . . . . . . . . 5550 1 
+      20 . 1 1 27 27 TYR N N 15 . 1 1 27 27 TYR H H 1  0.7  0.07 . . . . . . . . . . 5550 1 
+      21 . 1 1 28 28 ILE N N 15 . 1 1 28 28 ILE H H 1  0.76 0.08 . . . . . . . . . . 5550 1 
+      22 . 1 1 29 29 ASN N N 15 . 1 1 29 29 ASN H H 1  0.67 0.07 . . . . . . . . . . 5550 1 
+      23 . 1 1 30 30 LEU N N 15 . 1 1 30 30 LEU H H 1  0.67 0.07 . . . . . . . . . . 5550 1 
+      24 . 1 1 31 31 ILE N N 15 . 1 1 31 31 ILE H H 1  0.6  0.06 . . . . . . . . . . 5550 1 
+      25 . 1 1 32 32 THR N N 15 . 1 1 32 32 THR H H 1  0.67 0.07 . . . . . . . . . . 5550 1 
+      26 . 1 1 33 33 ARG N N 15 . 1 1 33 33 ARG H H 1  0.65 0.06 . . . . . . . . . . 5550 1 
+      27 . 1 1 34 34 GLN N N 15 . 1 1 34 34 GLN H H 1  0.57 0.06 . . . . . . . . . . 5550 1 
+      28 . 1 1 35 35 ARG N N 15 . 1 1 35 35 ARG H H 1  0.44 0.04 . . . . . . . . . . 5550 1 
+      29 . 1 1 36 36 TYR N N 15 . 1 1 36 36 TYR H H 1  0.39 0.04 . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_heteronuclear_NOE_2
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE_2
+   _Heteronucl_NOE_list.Entry_ID                      5550
+   _Heteronucl_NOE_list.ID                            2
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     500
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_1 . 5550 2 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . 1 1  3  3 SER N N 15 . 1 1  3  3 SER H H 1 -1.7  0.06 . . . . . . . . . . 5550 2 
+       2 . 1 1  4  4 LYS N N 15 . 1 1  4  4 LYS H H 1 -1.03 0.05 . . . . . . . . . . 5550 2 
+       3 . 1 1  6  6 ASP N N 15 . 1 1  6  6 ASP H H 1 -0.8  0.05 . . . . . . . . . . 5550 2 
+       4 . 1 1  7  7 ASN N N 15 . 1 1  7  7 ASN H H 1 -0.67 0.05 . . . . . . . . . . 5550 2 
+       5 . 1 1  9  9 GLY N N 15 . 1 1  9  9 GLY H H 1 -0.43 0.05 . . . . . . . . . . 5550 2 
+       6 . 1 1 10 10 GLU N N 15 . 1 1 10 10 GLU H H 1 -0.33 0.05 . . . . . . . . . . 5550 2 
+       7 . 1 1 11 11 ASP N N 15 . 1 1 11 11 ASP H H 1 -0.39 0.05 . . . . . . . . . . 5550 2 
+       8 . 1 1 12 12 ALA N N 15 . 1 1 12 12 ALA H H 1 -0.24 0.05 . . . . . . . . . . 5550 2 
+       9 . 1 1 14 14 ALA N N 15 . 1 1 14 14 ALA H H 1  0.07 0.05 . . . . . . . . . . 5550 2 
+      10 . 1 1 15 15 GLU N N 15 . 1 1 15 15 GLU H H 1  0.04 0.05 . . . . . . . . . . 5550 2 
+      11 . 1 1 16 16 ASP N N 15 . 1 1 16 16 ASP H H 1  0.15 0.05 . . . . . . . . . . 5550 2 
+      12 . 1 1 17 17 LEU N N 15 . 1 1 17 17 LEU H H 1  0.13 0.05 . . . . . . . . . . 5550 2 
+      13 . 1 1 18 18 ALA N N 15 . 1 1 18 18 ALA H H 1  0.17 0.05 . . . . . . . . . . 5550 2 
+      14 . 1 1 19 19 ARG N N 15 . 1 1 19 19 ARG H H 1  0.21 0.05 . . . . . . . . . . 5550 2 
+      15 . 1 1 20 20 TYR N N 15 . 1 1 20 20 TYR H H 1  0.2  0.05 . . . . . . . . . . 5550 2 
+      16 . 1 1 21 21 TYR N N 15 . 1 1 21 21 TYR H H 1  0.39 0.05 . . . . . . . . . . 5550 2 
+      17 . 1 1 22 22 SER N N 15 . 1 1 22 22 SER H H 1  0.25 0.05 . . . . . . . . . . 5550 2 
+      18 . 1 1 23 23 ALA N N 15 . 1 1 23 23 ALA H H 1  0.25 0.05 . . . . . . . . . . 5550 2 
+      19 . 1 1 24 24 LEU N N 15 . 1 1 24 24 LEU H H 1  0.23 0.05 . . . . . . . . . . 5550 2 
+      20 . 1 1 25 25 ARG N N 15 . 1 1 25 25 ARG H H 1  0.18 0.05 . . . . . . . . . . 5550 2 
+      21 . 1 1 26 26 HIS N N 15 . 1 1 26 26 HIS H H 1  0.22 0.05 . . . . . . . . . . 5550 2 
+      22 . 1 1 27 27 TYR N N 15 . 1 1 27 27 TYR H H 1  0.03 0.05 . . . . . . . . . . 5550 2 
+      23 . 1 1 28 28 ILE N N 15 . 1 1 28 28 ILE H H 1 -0.02 0.05 . . . . . . . . . . 5550 2 
+      24 . 1 1 29 29 ASN N N 15 . 1 1 29 29 ASN H H 1  0.1  0.05 . . . . . . . . . . 5550 2 
+      25 . 1 1 30 30 LEU N N 15 . 1 1 30 30 LEU H H 1  0.03 0.05 . . . . . . . . . . 5550 2 
+      26 . 1 1 31 31 ILE N N 15 . 1 1 31 31 ILE H H 1 -0.03 0.05 . . . . . . . . . . 5550 2 
+      27 . 1 1 32 32 THR N N 15 . 1 1 32 32 THR H H 1 -0.06 0.05 . . . . . . . . . . 5550 2 
+      28 . 1 1 33 33 ARG N N 15 . 1 1 33 33 ARG H H 1 -0.21 0.05 . . . . . . . . . . 5550 2 
+      29 . 1 1 34 34 GLN N N 15 . 1 1 34 34 GLN H H 1 -0.6  0.05 . . . . . . . . . . 5550 2 
+      30 . 1 1 35 35 ARG N N 15 . 1 1 35 35 ARG H H 1 -0.79 0.05 . . . . . . . . . . 5550 2 
+      31 . 1 1 36 36 TYR N N 15 . 1 1 36 36 TYR H H 1 -0.99 0.05 . . . . . . . . . . 5550 2 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_T1_500_micelles
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  T1_500_micelles
+   _Heteronucl_T1_list.Entry_ID                      5550
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s-1
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_1 . 5550 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1  6  6 ASP N N 15 1.26 0.04 . . . . . 5550 1 
+       2 . 1 1  7  7 ASN N N 15 1.29 0.03 . . . . . 5550 1 
+       3 . 1 1  9  9 GLY N N 15 1.36 0.03 . . . . . 5550 1 
+       4 . 1 1 10 10 GLU N N 15 1.36 0.03 . . . . . 5550 1 
+       5 . 1 1 11 11 ASP N N 15 1.32 0.02 . . . . . 5550 1 
+       6 . 1 1 12 12 ALA N N 15 1.26 0.02 . . . . . 5550 1 
+       7 . 1 1 14 14 ALA N N 15 1.46 0.03 . . . . . 5550 1 
+       8 . 1 1 15 15 GLU N N 15 1.51 0.02 . . . . . 5550 1 
+       9 . 1 1 16 16 ASP N N 15 1.63 0.05 . . . . . 5550 1 
+      10 . 1 1 17 17 LEU N N 15 1.59 0.05 . . . . . 5550 1 
+      11 . 1 1 18 18 ALA N N 15 1.57 0.04 . . . . . 5550 1 
+      12 . 1 1 19 19 ARG N N 15 1.59 0.06 . . . . . 5550 1 
+      13 . 1 1 20 20 TYR N N 15 1.62 0.06 . . . . . 5550 1 
+      14 . 1 1 21 21 TYR N N 15 1.44 0.06 . . . . . 5550 1 
+      15 . 1 1 22 22 SER N N 15 1.56 0.04 . . . . . 5550 1 
+      16 . 1 1 23 23 ALA N N 15 1.64 0.06 . . . . . 5550 1 
+      17 . 1 1 24 24 LEU N N 15 1.48 0.06 . . . . . 5550 1 
+      18 . 1 1 25 25 ARG N N 15 1.53 0.06 . . . . . 5550 1 
+      19 . 1 1 26 26 HIS N N 15 1.65 0.09 . . . . . 5550 1 
+      20 . 1 1 27 27 TYR N N 15 1.61 0.07 . . . . . 5550 1 
+      21 . 1 1 28 28 ILE N N 15 1.65 0.07 . . . . . 5550 1 
+      22 . 1 1 29 29 ASN N N 15 1.63 0.06 . . . . . 5550 1 
+      23 . 1 1 30 30 LEU N N 15 1.56 0.04 . . . . . 5550 1 
+      24 . 1 1 31 31 ILE N N 15 1.45 0.09 . . . . . 5550 1 
+      25 . 1 1 32 32 THR N N 15 1.62 0.12 . . . . . 5550 1 
+      26 . 1 1 33 33 ARG N N 15 1.69 0.06 . . . . . 5550 1 
+      27 . 1 1 34 34 GLN N N 15 1.96 0.07 . . . . . 5550 1 
+      28 . 1 1 35 35 ARG N N 15 1.82 0.06 . . . . . 5550 1 
+      29 . 1 1 36 36 TYR N N 15 1.63 0.05 . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_T1_600_micelles
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  T1_600_micelles
+   _Heteronucl_T1_list.Entry_ID                      5550
+   _Heteronucl_T1_list.ID                            2
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s-1
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_1 . 5550 2 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1  6  6 ASP N N 15 1.39 0.21 . . . . . 5550 2 
+       2 . 1 1  7  7 ASN N N 15 1.4  0.17 . . . . . 5550 2 
+       3 . 1 1  9  9 GLY N N 15 1.5  0.19 . . . . . 5550 2 
+       4 . 1 1 10 10 GLU N N 15 1.36 0.13 . . . . . 5550 2 
+       5 . 1 1 11 11 ASP N N 15 1.38 0.11 . . . . . 5550 2 
+       6 . 1 1 12 12 ALA N N 15 1.35 0.09 . . . . . 5550 2 
+       7 . 1 1 14 14 ALA N N 15 1.41 0.14 . . . . . 5550 2 
+       8 . 1 1 15 15 GLU N N 15 1.62 0.21 . . . . . 5550 2 
+       9 . 1 1 16 16 ASP N N 15 1.65 0.24 . . . . . 5550 2 
+      10 . 1 1 17 17 LEU N N 15 1.5  0.24 . . . . . 5550 2 
+      11 . 1 1 18 18 ALA N N 15 1.47 0.24 . . . . . 5550 2 
+      12 . 1 1 19 19 ARG N N 15 1.57 0.25 . . . . . 5550 2 
+      13 . 1 1 20 20 TYR N N 15 1.46 0.25 . . . . . 5550 2 
+      14 . 1 1 21 21 TYR N N 15 1.35 0.28 . . . . . 5550 2 
+      15 . 1 1 22 22 SER N N 15 1.4  0.31 . . . . . 5550 2 
+      16 . 1 1 23 23 ALA N N 15 1.51 0.24 . . . . . 5550 2 
+      17 . 1 1 24 24 LEU N N 15 1.3  0.33 . . . . . 5550 2 
+      18 . 1 1 25 25 ARG N N 15 1.42 0.38 . . . . . 5550 2 
+      19 . 1 1 26 26 HIS N N 15 1.62 0.37 . . . . . 5550 2 
+      20 . 1 1 27 27 TYR N N 15 1.31 0.36 . . . . . 5550 2 
+      21 . 1 1 28 28 ILE N N 15 1.51 0.29 . . . . . 5550 2 
+      22 . 1 1 29 29 ASN N N 15 1.45 0.32 . . . . . 5550 2 
+      23 . 1 1 30 30 LEU N N 15 1.36 0.25 . . . . . 5550 2 
+      24 . 1 1 31 31 ILE N N 15 1.4  0.27 . . . . . 5550 2 
+      25 . 1 1 32 32 THR N N 15 1.26 0.55 . . . . . 5550 2 
+      26 . 1 1 33 33 ARG N N 15 1.51 0.24 . . . . . 5550 2 
+      27 . 1 1 34 34 GLN N N 15 1.59 0.27 . . . . . 5550 2 
+      28 . 1 1 35 35 ARG N N 15 1.63 0.23 . . . . . 5550 2 
+      29 . 1 1 36 36 TYR N N 15 1.72 0.17 . . . . . 5550 2 
+
+   stop_
+
+save_
+
+
+save_T1_500_solution
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  T1_500_solution
+   _Heteronucl_T1_list.Entry_ID                      5550
+   _Heteronucl_T1_list.ID                            3
+   _Heteronucl_T1_list.Sample_condition_list_ID      2
+   _Heteronucl_T1_list.Sample_condition_list_label  $Condition_2
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s-1
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 2 $sample_2 . 5550 3 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1  3  3 SER N N 15 1.02 0.02 . . . . . 5550 3 
+       2 . 1 1  4  4 LYS N N 15 1.26 0.03 . . . . . 5550 3 
+       3 . 1 1  6  6 ASP N N 15 1.38 0.03 . . . . . 5550 3 
+       4 . 1 1  7  7 ASN N N 15 1.4  0.04 . . . . . 5550 3 
+       5 . 1 1  9  9 GLY N N 15 1.57 0.03 . . . . . 5550 3 
+       6 . 1 1 10 10 GLU N N 15 1.56 0.03 . . . . . 5550 3 
+       7 . 1 1 11 11 ASP N N 15 1.56 0.04 . . . . . 5550 3 
+       8 . 1 1 12 12 ALA N N 15 1.6  0.06 . . . . . 5550 3 
+       9 . 1 1 14 14 ALA N N 15 1.84 0.07 . . . . . 5550 3 
+      10 . 1 1 15 15 GLU N N 15 1.81 0.06 . . . . . 5550 3 
+      11 . 1 1 16 16 ASP N N 15 1.98 0.05 . . . . . 5550 3 
+      12 . 1 1 17 17 LEU N N 15 2.26 0.07 . . . . . 5550 3 
+      13 . 1 1 18 18 ALA N N 15 2.06 0.07 . . . . . 5550 3 
+      14 . 1 1 19 19 ARG N N 15 2.44 0.08 . . . . . 5550 3 
+      15 . 1 1 20 20 TYR N N 15 2.13 0.07 . . . . . 5550 3 
+      16 . 1 1 21 21 TYR N N 15 1.81 0.09 . . . . . 5550 3 
+      17 . 1 1 22 22 SER N N 15 2.06 0.08 . . . . . 5550 3 
+      18 . 1 1 23 23 ALA N N 15 2.04 0.07 . . . . . 5550 3 
+      19 . 1 1 24 24 LEU N N 15 2.04 0.08 . . . . . 5550 3 
+      20 . 1 1 25 25 ARG N N 15 2.07 0.07 . . . . . 5550 3 
+      21 . 1 1 26 26 HIS N N 15 1.99 0.07 . . . . . 5550 3 
+      22 . 1 1 27 27 TYR N N 15 1.8  0.05 . . . . . 5550 3 
+      23 . 1 1 28 28 ILE N N 15 1.56 0.09 . . . . . 5550 3 
+      24 . 1 1 29 29 ASN N N 15 2.05 0.07 . . . . . 5550 3 
+      25 . 1 1 30 30 LEU N N 15 1.79 0.1  . . . . . 5550 3 
+      26 . 1 1 31 31 ILE N N 15 1.9  0.13 . . . . . 5550 3 
+      27 . 1 1 32 32 THR N N 15 1.94 0.13 . . . . . 5550 3 
+      28 . 1 1 33 33 ARG N N 15 1.82 0.07 . . . . . 5550 3 
+      29 . 1 1 34 34 GLN N N 15 1.59 0.05 . . . . . 5550 3 
+      30 . 1 1 35 35 ARG N N 15 1.47 0.03 . . . . . 5550 3 
+      31 . 1 1 36 36 TYR N N 15 1.24 0.03 . . . . . 5550 3 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_T2_500_micelles
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_500_micelles
+   _Heteronucl_T2_list.Entry_ID                      5550
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s-1
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_1 . 5550 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1  6  6 ASP N N 15  2.17 . . . . . . . . 5550 1 
+       2 . 1 1  7  7 ASN N N 15  1.76 . . . . . . . . 5550 1 
+       3 . 1 1  9  9 GLY N N 15  2.06 . . . . . . . . 5550 1 
+       4 . 1 1 10 10 GLU N N 15  2.63 . . . . . . . . 5550 1 
+       5 . 1 1 11 11 ASP N N 15  2.34 . . . . . . . . 5550 1 
+       6 . 1 1 12 12 ALA N N 15  2.68 . . . . . . . . 5550 1 
+       7 . 1 1 14 14 ALA N N 15  4.33 . . . . . . . . 5550 1 
+       8 . 1 1 15 15 GLU N N 15  4.63 . . . . . . . . 5550 1 
+       9 . 1 1 16 16 ASP N N 15  6.29 . . . . . . . . 5550 1 
+      10 . 1 1 17 17 LEU N N 15  8.26 . . . . . . . . 5550 1 
+      11 . 1 1 18 18 ALA N N 15 10.42 . . . . . . . . 5550 1 
+      12 . 1 1 19 19 ARG N N 15 10.2  . . . . . . . . 5550 1 
+      13 . 1 1 20 20 TYR N N 15 12.35 . . . . . . . . 5550 1 
+      14 . 1 1 21 21 TYR N N 15 11.36 . . . . . . . . 5550 1 
+      15 . 1 1 22 22 SER N N 15 11.36 . . . . . . . . 5550 1 
+      16 . 1 1 23 23 ALA N N 15  9.8  . . . . . . . . 5550 1 
+      17 . 1 1 24 24 LEU N N 15 11.76 . . . . . . . . 5550 1 
+      18 . 1 1 25 25 ARG N N 15 10.53 . . . . . . . . 5550 1 
+      19 . 1 1 26 26 HIS N N 15  9.26 . . . . . . . . 5550 1 
+      20 . 1 1 27 27 TYR N N 15  9.8  . . . . . . . . 5550 1 
+      21 . 1 1 28 28 ILE N N 15 11.36 . . . . . . . . 5550 1 
+      22 . 1 1 29 29 ASN N N 15 11.76 . . . . . . . . 5550 1 
+      23 . 1 1 30 30 LEU N N 15 10.2  . . . . . . . . 5550 1 
+      24 . 1 1 31 31 ILE N N 15  9.9  . . . . . . . . 5550 1 
+      25 . 1 1 32 32 THR N N 15 10.75 . . . . . . . . 5550 1 
+      26 . 1 1 33 33 ARG N N 15  9.43 . . . . . . . . 5550 1 
+      27 . 1 1 34 34 GLN N N 15  8.85 . . . . . . . . 5550 1 
+      28 . 1 1 35 35 ARG N N 15  6.9  . . . . . . . . 5550 1 
+      29 . 1 1 36 36 TYR N N 15  6.62 . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+
+
+save_T2_600_micelles
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_600_micelles
+   _Heteronucl_T2_list.Entry_ID                      5550
+   _Heteronucl_T2_list.ID                            2
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $Condition_1
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s-1
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_1 . 5550 2 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1  6  6 ASP N N 15  1.84 . . . . . . . . 5550 2 
+       2 . 1 1  7  7 ASN N N 15  1.95 . . . . . . . . 5550 2 
+       3 . 1 1  9  9 GLY N N 15  2.35 . . . . . . . . 5550 2 
+       4 . 1 1 10 10 GLU N N 15  2.69 . . . . . . . . 5550 2 
+       5 . 1 1 11 11 ASP N N 15  2.64 . . . . . . . . 5550 2 
+       6 . 1 1 12 12 ALA N N 15  3.14 . . . . . . . . 5550 2 
+       7 . 1 1 14 14 ALA N N 15  5.41 . . . . . . . . 5550 2 
+       8 . 1 1 15 15 GLU N N 15  4.18 . . . . . . . . 5550 2 
+       9 . 1 1 16 16 ASP N N 15  7.58 . . . . . . . . 5550 2 
+      10 . 1 1 17 17 LEU N N 15  9.17 . . . . . . . . 5550 2 
+      11 . 1 1 18 18 ALA N N 15  9.8  . . . . . . . . 5550 2 
+      12 . 1 1 19 19 ARG N N 15 11.76 . . . . . . . . 5550 2 
+      13 . 1 1 20 20 TYR N N 15 13.33 . . . . . . . . 5550 2 
+      14 . 1 1 21 21 TYR N N 15 10.64 . . . . . . . . 5550 2 
+      15 . 1 1 22 22 SER N N 15 12.82 . . . . . . . . 5550 2 
+      16 . 1 1 23 23 ALA N N 15 12.35 . . . . . . . . 5550 2 
+      17 . 1 1 24 24 LEU N N 15 11.24 . . . . . . . . 5550 2 
+      18 . 1 1 25 25 ARG N N 15 12.35 . . . . . . . . 5550 2 
+      19 . 1 1 26 26 HIS N N 15 10.64 . . . . . . . . 5550 2 
+      20 . 1 1 27 27 TYR N N 15 13.16 . . . . . . . . 5550 2 
+      21 . 1 1 28 28 ILE N N 15 11.36 . . . . . . . . 5550 2 
+      22 . 1 1 29 29 ASN N N 15 13.51 . . . . . . . . 5550 2 
+      23 . 1 1 30 30 LEU N N 15  9.71 . . . . . . . . 5550 2 
+      24 . 1 1 31 31 ILE N N 15 10.31 . . . . . . . . 5550 2 
+      25 . 1 1 32 32 THR N N 15 11.76 . . . . . . . . 5550 2 
+      26 . 1 1 33 33 ARG N N 15 11.36 . . . . . . . . 5550 2 
+      27 . 1 1 34 34 GLN N N 15  9.35 . . . . . . . . 5550 2 
+      28 . 1 1 35 35 ARG N N 15  6.29 . . . . . . . . 5550 2 
+      29 . 1 1 36 36 TYR N N 15  7.19 . . . . . . . . 5550 2 
+
+   stop_
+
+save_
+
+
+save_T2_500_solution
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_500_solution
+   _Heteronucl_T2_list.Entry_ID                      5550
+   _Heteronucl_T2_list.ID                            3
+   _Heteronucl_T2_list.Sample_condition_list_ID      2
+   _Heteronucl_T2_list.Sample_condition_list_label  $Condition_2
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s-1
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 2 $sample_2 . 5550 3 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1  3  3 SER N N 15  1.2  . . . . . . . . 5550 3 
+       2 . 1 1  4  4 LYS N N 15  1.89 . . . . . . . . 5550 3 
+       3 . 1 1  6  6 ASP N N 15  1.8  . . . . . . . . 5550 3 
+       4 . 1 1  7  7 ASN N N 15  3.02 . . . . . . . . 5550 3 
+       5 . 1 1  9  9 GLY N N 15  1.93 . . . . . . . . 5550 3 
+       6 . 1 1 10 10 GLU N N 15  2.13 . . . . . . . . 5550 3 
+       7 . 1 1 11 11 ASP N N 15  2.91 . . . . . . . . 5550 3 
+       8 . 1 1 12 12 ALA N N 15  2.27 . . . . . . . . 5550 3 
+       9 . 1 1 14 14 ALA N N 15  6.41 . . . . . . . . 5550 3 
+      10 . 1 1 15 15 GLU N N 15  3.91 . . . . . . . . 5550 3 
+      11 . 1 1 16 16 ASP N N 15  3.13 . . . . . . . . 5550 3 
+      12 . 1 1 17 17 LEU N N 15  6.99 . . . . . . . . 5550 3 
+      13 . 1 1 18 18 ALA N N 15  5.75 . . . . . . . . 5550 3 
+      14 . 1 1 19 19 ARG N N 15  5.18 . . . . . . . . 5550 3 
+      15 . 1 1 20 20 TYR N N 15  5.21 . . . . . . . . 5550 3 
+      16 . 1 1 21 21 TYR N N 15  5.56 . . . . . . . . 5550 3 
+      17 . 1 1 22 22 SER N N 15  7.41 . . . . . . . . 5550 3 
+      18 . 1 1 23 23 ALA N N 15  4.88 . . . . . . . . 5550 3 
+      19 . 1 1 24 24 LEU N N 15  9.26 . . . . . . . . 5550 3 
+      20 . 1 1 25 25 ARG N N 15  5.71 . . . . . . . . 5550 3 
+      21 . 1 1 26 26 HIS N N 15  5.24 . . . . . . . . 5550 3 
+      22 . 1 1 27 27 TYR N N 15  9.8  . . . . . . . . 5550 3 
+      23 . 1 1 28 28 ILE N N 15 10.2  . . . . . . . . 5550 3 
+      24 . 1 1 29 29 ASN N N 15  6.54 . . . . . . . . 5550 3 
+      25 . 1 1 30 30 LEU N N 15  7.75 . . . . . . . . 5550 3 
+      26 . 1 1 31 31 ILE N N 15  8.77 . . . . . . . . 5550 3 
+      27 . 1 1 32 32 THR N N 15 22.22 . . . . . . . . 5550 3 
+      28 . 1 1 33 33 ARG N N 15  4.85 . . . . . . . . 5550 3 
+      29 . 1 1 34 34 GLN N N 15  4.48 . . . . . . . . 5550 3 
+      30 . 1 1 35 35 ARG N N 15  3.02 . . . . . . . . 5550 3 
+      31 . 1 1 36 36 TYR N N 15  1.84 . . . . . . . . 5550 3 
+
+   stop_
+
+save_
+
+
+save_T2_600_solution
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  T2_600_solution
+   _Heteronucl_T2_list.Entry_ID                      5550
+   _Heteronucl_T2_list.ID                            4
+   _Heteronucl_T2_list.Sample_condition_list_ID      2
+   _Heteronucl_T2_list.Sample_condition_list_label  $Condition_2
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s-1
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 2 $sample_2 . 5550 4 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1  3  3 SER N N 15  1.21 . . . . . . . . 5550 4 
+       2 . 1 1  4  4 LYS N N 15  2.22 . . . . . . . . 5550 4 
+       3 . 1 1  6  6 ASP N N 15  2.04 . . . . . . . . 5550 4 
+       4 . 1 1  7  7 ASN N N 15  3.3  . . . . . . . . 5550 4 
+       5 . 1 1  9  9 GLY N N 15  2.12 . . . . . . . . 5550 4 
+       6 . 1 1 10 10 GLU N N 15  2.41 . . . . . . . . 5550 4 
+       7 . 1 1 11 11 ASP N N 15  3.77 . . . . . . . . 5550 4 
+       8 . 1 1 12 12 ALA N N 15  1.78 . . . . . . . . 5550 4 
+       9 . 1 1 14 14 ALA N N 15  7.63 . . . . . . . . 5550 4 
+      10 . 1 1 15 15 GLU N N 15  3.91 . . . . . . . . 5550 4 
+      11 . 1 1 16 16 ASP N N 15  3.1  . . . . . . . . 5550 4 
+      12 . 1 1 17 17 LEU N N 15 10.75 . . . . . . . . 5550 4 
+      13 . 1 1 18 18 ALA N N 15  6.1  . . . . . . . . 5550 4 
+      14 . 1 1 19 19 ARG N N 15  4.52 . . . . . . . . 5550 4 
+      15 . 1 1 20 20 TYR N N 15  5.52 . . . . . . . . 5550 4 
+      16 . 1 1 21 21 TYR N N 15  8.62 . . . . . . . . 5550 4 
+      17 . 1 1 22 22 SER N N 15  7.75 . . . . . . . . 5550 4 
+      18 . 1 1 23 23 ALA N N 15  4.95 . . . . . . . . 5550 4 
+      19 . 1 1 24 24 LEU N N 15 10.53 . . . . . . . . 5550 4 
+      20 . 1 1 25 25 ARG N N 15  6.02 . . . . . . . . 5550 4 
+      21 . 1 1 26 26 HIS N N 15  5.81 . . . . . . . . 5550 4 
+      22 . 1 1 27 27 TYR N N 15 14.29 . . . . . . . . 5550 4 
+      23 . 1 1 29 29 ASN N N 15  7.94 . . . . . . . . 5550 4 
+      24 . 1 1 32 32 THR N N 15 37.04 . . . . . . . . 5550 4 
+      25 . 1 1 33 33 ARG N N 15  5.29 . . . . . . . . 5550 4 
+      26 . 1 1 34 34 GLN N N 15  4.98 . . . . . . . . 5550 4 
+      27 . 1 1 35 35 ARG N N 15  3.42 . . . . . . . . 5550 4 
+      28 . 1 1 36 36 TYR N N 15  2.43 . . . . . . . . 5550 4 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_S2_parameters_set_1
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  S2_parameters_set_1
+   _Order_parameter_list.Entry_ID                      5550
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $Condition_1
+   _Order_parameter_list.Tau_e_val_units               ps
+   _Order_parameter_list.Tau_f_val_units               .
+   _Order_parameter_list.Tau_s_val_units               .
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      . . 1 $sample_1 . 5550 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+       1 . 1 1  9  9 GLY N N 15 0.06 0.02  635  47 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       2 . 1 1 10 10 GLU N N 15 0.11 0.01  776  40 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       3 . 1 1 11 11 ASP N N 15 0.09 0.01  839  40 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       4 . 1 1 12 12 ALA N N 15 0.13 0.01  823  37 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       5 . 1 1 14 14 ALA N N 15 0.27 0.01  855  31 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       6 . 1 1 15 15 GLU N N 15 0.28 0.01 1218  25 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       7 . 1 1 16 16 ASP N N 15 0.44 0.02 1356  95 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       8 . 1 1 17 17 LEU N N 15 0.63 0.04 1300 293 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+       9 . 1 1 18 18 ALA N N 15 0.82 0.02     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      10 . 1 1 19 19 ARG N N 15 0.83 0.02     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      11 . 1 1 20 20 TYR N N 15 0.82 0.03   70  25 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      12 . 1 1 21 21 TYR N N 15 0.76 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      13 . 1 1 22 22 SER N N 15 0.82 0.02   31  23 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      14 . 1 1 23 23 ALA N N 15 0.85 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      15 . 1 1 24 24 LEU N N 15 0.78 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      16 . 1 1 25 25 ARG N N 15 0.81 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      17 . 1 1 26 26 HIS N N 15 0.79 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      18 . 1 1 27 27 TYR N N 15 0.84 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      19 . 1 1 28 28 ILE N N 15 0.88 0.03     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      20 . 1 1 29 29 ASN N N 15 0.86 0.03   55  34 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      21 . 1 1 30 30 LEU N N 15 0.82 0.02     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      22 . 1 1 31 31 ILE N N 15 0.76 0.03   51  18 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      23 . 1 1 32 32 THR N N 15 0.86 0.05     .    . . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      24 . 1 1 33 33 ARG N N 15 0.8  0.02   67  23 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      25 . 1 1 34 34 GLN N N 15 0.64 0.04 1829 349 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      26 . 1 1 35 35 ARG N N 15 0.46 0.03 1674 162 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+      27 . 1 1 36 36 TYR N N 15 0.46 0.02 1439 117 . . . . . . . . . . . . . . . . . . . . . 5550 1 
+
+   stop_
+
+save_
+

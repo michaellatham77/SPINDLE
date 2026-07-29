@@ -1,0 +1,2121 @@
+data_19388
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             19388
+   _Entry.Title                         
+;
+The Apo-structure of the Low Molecular Weight Protein-tyrosine Phosphatase A (MptpA) from Mycobacterium tuberculosis Allows for Better Target-specific Drug Development
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2013-07-25
+   _Entry.Accession_date                 2013-07-25
+   _Entry.Last_release_date              2013-08-28
+   _Entry.Original_release_date          2013-08-28
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Tanja     Stehle     .  .      . 19388 
+      2 Sridhar   Sreeramulu .  .      . 19388 
+      3 Frank     Lohr       .  .      . 19388 
+      4 Christian Richter    .  .      . 19388 
+      5 Krishna   Saxena     .  .      . 19388 
+      6 Hendrik   Jonker     . 'R. A.' . 19388 
+      7 Harold    Schwalbe   .  .      . 19388 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'Institute for Organic Chemistry and Chemical Biology'                                                                      . 19388 
+      2 . 'Institute for Biophysical Chemistry, Center for Biomolecular Magnetic Resonance (BMRZ), Johann Wolfgang Goethe University' . 19388 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      heteronucl_NOEs          1 19388 
+      heteronucl_T1_relaxation 1 19388 
+      heteronucl_T2_relaxation 1 19388 
+      order_parameters         1 19388 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      'heteronuclear NOE values' 134 19388 
+      'order parameters'         119 19388 
+      'T1 relaxation values'     136 19388 
+      'T2 relaxation values'     133 19388 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2013-08-28 2013-07-25 original author . 19388 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     19388
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    22888002
+   _Citation.Full_citation                .
+   _Citation.Title                       'The Apo-structure of the Low Molecular Weight Protein-tyrosine Phosphatase A (MptpA) from Mycobacterium tuberculosis Allows for Better Target-specific Drug Development'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Biol. Chem.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               287
+   _Citation.Journal_issue                41
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   34569
+   _Citation.Page_last                    34582
+   _Citation.Year                         2012
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Tanja     Stehle     .  .      . 19388 1 
+      2 Sridhar   Sreeramulu .  .      . 19388 1 
+      3 Frank     Lohr       .  .      . 19388 1 
+      4 Christian Richter    .  .      . 19388 1 
+      5 Krishna   Saxena     .  .      . 19388 1 
+      6 Hendrik   Jonker     . 'R. A.' . 19388 1 
+      7 Harold    Schwalbe   .  .      . 19388 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          19388
+   _Assembly.ID                                1
+   _Assembly.Name                              MptpA
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 MptpA 1 $MptpA A . yes native no no . . . 19388 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_MptpA
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      MptpA
+   _Entity.Entry_ID                          19388
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              MptpA
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+GMSDPLHVTFVCTGNICRSP
+MAEKMFAQQLRHRGLGDAVR
+VTSAGTGNWHVGSCADERAA
+GVLRLHGYPTDHRAAQVGTE
+HLAADLLVALDRNHARLLRQ
+LGVEAARVRMLRSFDPRSGT
+HALDVEDPYYGDHSDFEEVF
+AVIESALPGLHDWVDERLAR
+NGPS
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                164
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not reported'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        18533 .  mptpa                                                                                                                            . . . . . 100.00 164  99.39  99.39 3.97e-114 . . . . 19388 1 
+       2 no BMRB        19361 .  MptpA                                                                                                                            . . . . . 100.00 164 100.00 100.00 6.13e-115 . . . . 19388 1 
+       3 no BMRB        26513 .  MptpA                                                                                                                            . . . . . 100.00 167 100.00 100.00 5.00e-115 . . . . 19388 1 
+       4 no PDB  1U2P          . "Crystal Structure Of Mycobacterium Tuberculosis Low Molecular Protein Tyrosine Phosphatase (Mptpa) At 1.9a Resolution"           . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+       5 no PDB  1U2Q          . "Crystal Structure Of Mycobacterium Tuberculosis Low Molecular Weight Protein Tyrosine Phosphatase (Mptpa) At 2.5a Resolution Wi" . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+       6 no PDB  2LUO          . "Nmr Solution Structure Of Apo-Mptpa"                                                                                             . . . . . 100.00 164  99.39  99.39 3.97e-114 . . . . 19388 1 
+       7 no DBJ  BAH26529      . "phosphotyrosine protein phosphatase [Mycobacterium bovis BCG str. Tokyo 172]"                                                    . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+       8 no DBJ  BAL66249      . "phosphotyrosine protein phosphatase [Mycobacterium tuberculosis str. Erdman = ATCC 35801]"                                       . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+       9 no DBJ  BAQ06307      . "phosphotyrosine protein phosphatase [Mycobacterium tuberculosis str. Kurono]"                                                    . . . . .  87.80 144  99.31  99.31 5.91e-97  . . . . 19388 1 
+      10 no DBJ  GAA45923      . "phosphotyrosine protein phosphatase [Mycobacterium tuberculosis NCGM2209]"                                                       . . . . .  87.80 144  99.31  99.31 5.91e-97  . . . . 19388 1 
+      11 no EMBL CAL72239      . "Phosphotyrosine protein phosphatase ptpA [Mycobacterium bovis BCG str. Pasteur 1173P2]"                                          . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      12 no EMBL CCC27315      . "phosphotyrosine protein phosphatase PTPA (protein-tyrosine-phosphatase) [Mycobacterium africanum GM041182]"                      . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      13 no EMBL CCC44588      . "phosphotyrosine protein phosphatase PTPA (protein-tyrosine-phosphatase) (PTPase) (LMW phosphatase) [Mycobacterium canettii CIPT" . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      14 no EMBL CCC64828      . "Phosphotyrosine protein phosphatase ptpA [Mycobacterium bovis BCG str. Moreau RDJ]"                                              . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      15 no EMBL CCE37704      . "ptpA [Mycobacterium tuberculosis UT205]"                                                                                         . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      16 no GB   AAK46577      . "protein tyrosine phosphatase [Mycobacterium tuberculosis CDC1551]"                                                               . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      17 no GB   ABQ74015      . "protein tyrosine phosphatase [Mycobacterium tuberculosis H37Ra]"                                                                 . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      18 no GB   ABR06594      . "phosphotyrosine protein phosphatase ptpA [Mycobacterium tuberculosis F11]"                                                       . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      19 no GB   ACT24805      . "phosphotyrosine protein phosphatase ptpA [Mycobacterium tuberculosis KZN 1435]"                                                  . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      20 no GB   AEB03885      . "phosphotyrosine protein phosphatase ptpA [Mycobacterium tuberculosis KZN 4207]"                                                  . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      21 no REF  NP_216750     . "protein-tyrosine-phosphatase [Mycobacterium tuberculosis H37Rv]"                                                                 . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      22 no REF  NP_855907     . "phosphotyrosine protein phosphatase PtpA [Mycobacterium bovis AF2122/97]"                                                        . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      23 no REF  WP_003411510  . "MULTISPECIES: protein-tyrosine-phosphatase [Mycobacterium]"                                                                      . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      24 no REF  WP_003899227  . "protein-tyrosine-phosphatase [Mycobacterium tuberculosis]"                                                                       . . . . .  99.39 163  98.77  98.77 1.17e-112 . . . . 19388 1 
+      25 no REF  WP_015288274  . "phosphotyrosine protein phosphatase PtpA [Mycobacterium canettii]"                                                               . . . . .  99.39 163  98.77  98.77 2.24e-112 . . . . 19388 1 
+      26 no SP   P65717        . "RecName: Full=Probable low molecular weight protein-tyrosine-phosphatase; Short=PTPase"                                          . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      27 no SP   P9WIA0        . "RecName: Full=Probable low molecular weight protein-tyrosine-phosphatase; Short=PTPase"                                          . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+      28 no SP   P9WIA1        . "RecName: Full=Probable low molecular weight protein-tyrosine-phosphatase; Short=PTPase"                                          . . . . .  99.39 163  99.39  99.39 2.23e-113 . . . . 19388 1 
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Dephosphorylation of host macrophage protein VPS33B to block phagosome-lysosome fusion and trafficking' 19388 1 
+      'Essential for infection of host macrophages'                                                            19388 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1   0 GLY . 19388 1 
+        2   1 MET . 19388 1 
+        3   2 SER . 19388 1 
+        4   3 ASP . 19388 1 
+        5   4 PRO . 19388 1 
+        6   5 LEU . 19388 1 
+        7   6 HIS . 19388 1 
+        8   7 VAL . 19388 1 
+        9   8 THR . 19388 1 
+       10   9 PHE . 19388 1 
+       11  10 VAL . 19388 1 
+       12  11 CYS . 19388 1 
+       13  12 THR . 19388 1 
+       14  13 GLY . 19388 1 
+       15  14 ASN . 19388 1 
+       16  15 ILE . 19388 1 
+       17  16 CYS . 19388 1 
+       18  17 ARG . 19388 1 
+       19  18 SER . 19388 1 
+       20  19 PRO . 19388 1 
+       21  20 MET . 19388 1 
+       22  21 ALA . 19388 1 
+       23  22 GLU . 19388 1 
+       24  23 LYS . 19388 1 
+       25  24 MET . 19388 1 
+       26  25 PHE . 19388 1 
+       27  26 ALA . 19388 1 
+       28  27 GLN . 19388 1 
+       29  28 GLN . 19388 1 
+       30  29 LEU . 19388 1 
+       31  30 ARG . 19388 1 
+       32  31 HIS . 19388 1 
+       33  32 ARG . 19388 1 
+       34  33 GLY . 19388 1 
+       35  34 LEU . 19388 1 
+       36  35 GLY . 19388 1 
+       37  36 ASP . 19388 1 
+       38  37 ALA . 19388 1 
+       39  38 VAL . 19388 1 
+       40  39 ARG . 19388 1 
+       41  40 VAL . 19388 1 
+       42  41 THR . 19388 1 
+       43  42 SER . 19388 1 
+       44  43 ALA . 19388 1 
+       45  44 GLY . 19388 1 
+       46  45 THR . 19388 1 
+       47  46 GLY . 19388 1 
+       48  47 ASN . 19388 1 
+       49  48 TRP . 19388 1 
+       50  49 HIS . 19388 1 
+       51  50 VAL . 19388 1 
+       52  51 GLY . 19388 1 
+       53  52 SER . 19388 1 
+       54  53 CYS . 19388 1 
+       55  54 ALA . 19388 1 
+       56  55 ASP . 19388 1 
+       57  56 GLU . 19388 1 
+       58  57 ARG . 19388 1 
+       59  58 ALA . 19388 1 
+       60  59 ALA . 19388 1 
+       61  60 GLY . 19388 1 
+       62  61 VAL . 19388 1 
+       63  62 LEU . 19388 1 
+       64  63 ARG . 19388 1 
+       65  64 LEU . 19388 1 
+       66  65 HIS . 19388 1 
+       67  66 GLY . 19388 1 
+       68  67 TYR . 19388 1 
+       69  68 PRO . 19388 1 
+       70  69 THR . 19388 1 
+       71  70 ASP . 19388 1 
+       72  71 HIS . 19388 1 
+       73  72 ARG . 19388 1 
+       74  73 ALA . 19388 1 
+       75  74 ALA . 19388 1 
+       76  75 GLN . 19388 1 
+       77  76 VAL . 19388 1 
+       78  77 GLY . 19388 1 
+       79  78 THR . 19388 1 
+       80  79 GLU . 19388 1 
+       81  80 HIS . 19388 1 
+       82  81 LEU . 19388 1 
+       83  82 ALA . 19388 1 
+       84  83 ALA . 19388 1 
+       85  84 ASP . 19388 1 
+       86  85 LEU . 19388 1 
+       87  86 LEU . 19388 1 
+       88  87 VAL . 19388 1 
+       89  88 ALA . 19388 1 
+       90  89 LEU . 19388 1 
+       91  90 ASP . 19388 1 
+       92  91 ARG . 19388 1 
+       93  92 ASN . 19388 1 
+       94  93 HIS . 19388 1 
+       95  94 ALA . 19388 1 
+       96  95 ARG . 19388 1 
+       97  96 LEU . 19388 1 
+       98  97 LEU . 19388 1 
+       99  98 ARG . 19388 1 
+      100  99 GLN . 19388 1 
+      101 100 LEU . 19388 1 
+      102 101 GLY . 19388 1 
+      103 102 VAL . 19388 1 
+      104 103 GLU . 19388 1 
+      105 104 ALA . 19388 1 
+      106 105 ALA . 19388 1 
+      107 106 ARG . 19388 1 
+      108 107 VAL . 19388 1 
+      109 108 ARG . 19388 1 
+      110 109 MET . 19388 1 
+      111 110 LEU . 19388 1 
+      112 111 ARG . 19388 1 
+      113 112 SER . 19388 1 
+      114 113 PHE . 19388 1 
+      115 114 ASP . 19388 1 
+      116 115 PRO . 19388 1 
+      117 116 ARG . 19388 1 
+      118 117 SER . 19388 1 
+      119 118 GLY . 19388 1 
+      120 119 THR . 19388 1 
+      121 120 HIS . 19388 1 
+      122 121 ALA . 19388 1 
+      123 122 LEU . 19388 1 
+      124 123 ASP . 19388 1 
+      125 124 VAL . 19388 1 
+      126 125 GLU . 19388 1 
+      127 126 ASP . 19388 1 
+      128 127 PRO . 19388 1 
+      129 128 TYR . 19388 1 
+      130 129 TYR . 19388 1 
+      131 130 GLY . 19388 1 
+      132 131 ASP . 19388 1 
+      133 132 HIS . 19388 1 
+      134 133 SER . 19388 1 
+      135 134 ASP . 19388 1 
+      136 135 PHE . 19388 1 
+      137 136 GLU . 19388 1 
+      138 137 GLU . 19388 1 
+      139 138 VAL . 19388 1 
+      140 139 PHE . 19388 1 
+      141 140 ALA . 19388 1 
+      142 141 VAL . 19388 1 
+      143 142 ILE . 19388 1 
+      144 143 GLU . 19388 1 
+      145 144 SER . 19388 1 
+      146 145 ALA . 19388 1 
+      147 146 LEU . 19388 1 
+      148 147 PRO . 19388 1 
+      149 148 GLY . 19388 1 
+      150 149 LEU . 19388 1 
+      151 150 HIS . 19388 1 
+      152 151 ASP . 19388 1 
+      153 152 TRP . 19388 1 
+      154 153 VAL . 19388 1 
+      155 154 ASP . 19388 1 
+      156 155 GLU . 19388 1 
+      157 156 ARG . 19388 1 
+      158 157 LEU . 19388 1 
+      159 158 ALA . 19388 1 
+      160 159 ARG . 19388 1 
+      161 160 ASN . 19388 1 
+      162 161 GLY . 19388 1 
+      163 162 PRO . 19388 1 
+      164 163 SER . 19388 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLY   1   1 19388 1 
+      . MET   2   2 19388 1 
+      . SER   3   3 19388 1 
+      . ASP   4   4 19388 1 
+      . PRO   5   5 19388 1 
+      . LEU   6   6 19388 1 
+      . HIS   7   7 19388 1 
+      . VAL   8   8 19388 1 
+      . THR   9   9 19388 1 
+      . PHE  10  10 19388 1 
+      . VAL  11  11 19388 1 
+      . CYS  12  12 19388 1 
+      . THR  13  13 19388 1 
+      . GLY  14  14 19388 1 
+      . ASN  15  15 19388 1 
+      . ILE  16  16 19388 1 
+      . CYS  17  17 19388 1 
+      . ARG  18  18 19388 1 
+      . SER  19  19 19388 1 
+      . PRO  20  20 19388 1 
+      . MET  21  21 19388 1 
+      . ALA  22  22 19388 1 
+      . GLU  23  23 19388 1 
+      . LYS  24  24 19388 1 
+      . MET  25  25 19388 1 
+      . PHE  26  26 19388 1 
+      . ALA  27  27 19388 1 
+      . GLN  28  28 19388 1 
+      . GLN  29  29 19388 1 
+      . LEU  30  30 19388 1 
+      . ARG  31  31 19388 1 
+      . HIS  32  32 19388 1 
+      . ARG  33  33 19388 1 
+      . GLY  34  34 19388 1 
+      . LEU  35  35 19388 1 
+      . GLY  36  36 19388 1 
+      . ASP  37  37 19388 1 
+      . ALA  38  38 19388 1 
+      . VAL  39  39 19388 1 
+      . ARG  40  40 19388 1 
+      . VAL  41  41 19388 1 
+      . THR  42  42 19388 1 
+      . SER  43  43 19388 1 
+      . ALA  44  44 19388 1 
+      . GLY  45  45 19388 1 
+      . THR  46  46 19388 1 
+      . GLY  47  47 19388 1 
+      . ASN  48  48 19388 1 
+      . TRP  49  49 19388 1 
+      . HIS  50  50 19388 1 
+      . VAL  51  51 19388 1 
+      . GLY  52  52 19388 1 
+      . SER  53  53 19388 1 
+      . CYS  54  54 19388 1 
+      . ALA  55  55 19388 1 
+      . ASP  56  56 19388 1 
+      . GLU  57  57 19388 1 
+      . ARG  58  58 19388 1 
+      . ALA  59  59 19388 1 
+      . ALA  60  60 19388 1 
+      . GLY  61  61 19388 1 
+      . VAL  62  62 19388 1 
+      . LEU  63  63 19388 1 
+      . ARG  64  64 19388 1 
+      . LEU  65  65 19388 1 
+      . HIS  66  66 19388 1 
+      . GLY  67  67 19388 1 
+      . TYR  68  68 19388 1 
+      . PRO  69  69 19388 1 
+      . THR  70  70 19388 1 
+      . ASP  71  71 19388 1 
+      . HIS  72  72 19388 1 
+      . ARG  73  73 19388 1 
+      . ALA  74  74 19388 1 
+      . ALA  75  75 19388 1 
+      . GLN  76  76 19388 1 
+      . VAL  77  77 19388 1 
+      . GLY  78  78 19388 1 
+      . THR  79  79 19388 1 
+      . GLU  80  80 19388 1 
+      . HIS  81  81 19388 1 
+      . LEU  82  82 19388 1 
+      . ALA  83  83 19388 1 
+      . ALA  84  84 19388 1 
+      . ASP  85  85 19388 1 
+      . LEU  86  86 19388 1 
+      . LEU  87  87 19388 1 
+      . VAL  88  88 19388 1 
+      . ALA  89  89 19388 1 
+      . LEU  90  90 19388 1 
+      . ASP  91  91 19388 1 
+      . ARG  92  92 19388 1 
+      . ASN  93  93 19388 1 
+      . HIS  94  94 19388 1 
+      . ALA  95  95 19388 1 
+      . ARG  96  96 19388 1 
+      . LEU  97  97 19388 1 
+      . LEU  98  98 19388 1 
+      . ARG  99  99 19388 1 
+      . GLN 100 100 19388 1 
+      . LEU 101 101 19388 1 
+      . GLY 102 102 19388 1 
+      . VAL 103 103 19388 1 
+      . GLU 104 104 19388 1 
+      . ALA 105 105 19388 1 
+      . ALA 106 106 19388 1 
+      . ARG 107 107 19388 1 
+      . VAL 108 108 19388 1 
+      . ARG 109 109 19388 1 
+      . MET 110 110 19388 1 
+      . LEU 111 111 19388 1 
+      . ARG 112 112 19388 1 
+      . SER 113 113 19388 1 
+      . PHE 114 114 19388 1 
+      . ASP 115 115 19388 1 
+      . PRO 116 116 19388 1 
+      . ARG 117 117 19388 1 
+      . SER 118 118 19388 1 
+      . GLY 119 119 19388 1 
+      . THR 120 120 19388 1 
+      . HIS 121 121 19388 1 
+      . ALA 122 122 19388 1 
+      . LEU 123 123 19388 1 
+      . ASP 124 124 19388 1 
+      . VAL 125 125 19388 1 
+      . GLU 126 126 19388 1 
+      . ASP 127 127 19388 1 
+      . PRO 128 128 19388 1 
+      . TYR 129 129 19388 1 
+      . TYR 130 130 19388 1 
+      . GLY 131 131 19388 1 
+      . ASP 132 132 19388 1 
+      . HIS 133 133 19388 1 
+      . SER 134 134 19388 1 
+      . ASP 135 135 19388 1 
+      . PHE 136 136 19388 1 
+      . GLU 137 137 19388 1 
+      . GLU 138 138 19388 1 
+      . VAL 139 139 19388 1 
+      . PHE 140 140 19388 1 
+      . ALA 141 141 19388 1 
+      . VAL 142 142 19388 1 
+      . ILE 143 143 19388 1 
+      . GLU 144 144 19388 1 
+      . SER 145 145 19388 1 
+      . ALA 146 146 19388 1 
+      . LEU 147 147 19388 1 
+      . PRO 148 148 19388 1 
+      . GLY 149 149 19388 1 
+      . LEU 150 150 19388 1 
+      . HIS 151 151 19388 1 
+      . ASP 152 152 19388 1 
+      . TRP 153 153 19388 1 
+      . VAL 154 154 19388 1 
+      . ASP 155 155 19388 1 
+      . GLU 156 156 19388 1 
+      . ARG 157 157 19388 1 
+      . LEU 158 158 19388 1 
+      . ALA 159 159 19388 1 
+      . ARG 160 160 19388 1 
+      . ASN 161 161 19388 1 
+      . GLY 162 162 19388 1 
+      . PRO 163 163 19388 1 
+      . SER 164 164 19388 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       19388
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $MptpA . 1773 organism . 'Mycobacterium tuberculosis' 'Mycobacterium tuberculosis' . . Bacteria . Mycobacterium tuberculosis . . . . . . . . . . . . . . . . . . . . . 19388 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       19388
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $MptpA . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli BL21(DE3)pLysS . . . . . . . . . . . . . . . pET16bTEV . . . . . . 19388 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         19388
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  MptpA            '[U-100% 15N]'      . . 1 $MptpA . .   1.0 . . mM . . . . 19388 1 
+      2 'sodium chloride' 'natural abundance' . .  .  .     . . 150   . . mM . . . . 19388 1 
+      3  HEPES            'natural abundance' . .  .  .     . .  50   . . mM . . . . 19388 1 
+      4  DTT              'natural abundance' . .  .  .     . .  10   . . mM . . . . 19388 1 
+      5  D2O              'natural abundance' . .  .  .     . .  10   . . %  . . . . 19388 1 
+      6  H2O              'natural abundance' . .  .  .     . .  90   . . %  . . . . 19388 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       19388
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.0 . pH  19388 1 
+      pressure      1   . atm 19388 1 
+      temperature 298   . K   19388 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_ARIA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   ARIA
+   _Software.Entry_ID       19388
+   _Software.ID             1
+   _Software.Name           ARIA
+   _Software.Version        1.2
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Linge, O'Donoghue and Nilges' . . 19388 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+       refinement          19388 1 
+      'structure solution' 19388 1 
+
+   stop_
+
+save_
+
+
+save_CNS
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CNS
+   _Software.Entry_ID       19388
+   _Software.ID             2
+   _Software.Name           CNS
+   _Software.Version        1.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Brunger, Adams, Clore, Gros, Nilges and Read' . . 19388 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 19388 2 
+
+   stop_
+
+save_
+
+
+save_CYANA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CYANA
+   _Software.Entry_ID       19388
+   _Software.ID             3
+   _Software.Name           CYANA
+   _Software.Version        3.9
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Guntert, Mumenthaler and Wuthrich' . . 19388 3 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 19388 3 
+
+   stop_
+
+save_
+
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       19388
+   _Software.ID             4
+   _Software.Name           SPARKY
+   _Software.Version        3.114
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard . . 19388 4 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 19388 4 
+      'data analysis'             19388 4 
+      'peak picking'              19388 4 
+
+   stop_
+
+save_
+
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       19388
+   _Software.ID             5
+   _Software.Name           TOPSPIN
+   _Software.Version        2.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin' . . 19388 5 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 19388 5 
+      processing 19388 5 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_spectrometer_3
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_3
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               3
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+
+save_
+
+
+save_spectrometer_4
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_4
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               4
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+
+save_
+
+
+save_spectrometer_5
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_5
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               5
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   900
+
+save_
+
+
+save_spectrometer_6
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_6
+   _NMR_spectrometer.Entry_ID         19388
+   _NMR_spectrometer.ID               6
+   _NMR_spectrometer.Details         'TXI-HCN cryogenic probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   950
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       19388
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker Avance . 600 'TXI-HCN cryogenic probe' . . 19388 1 
+      2 spectrometer_2 Bruker Avance . 500 'TXI-HCN cryogenic probe' . . 19388 1 
+      3 spectrometer_3 Bruker Avance . 700 'TXI-HCN cryogenic probe' . . 19388 1 
+      4 spectrometer_4 Bruker Avance . 800 'TXI-HCN cryogenic probe' . . 19388 1 
+      5 spectrometer_5 Bruker Avance . 900 'TXI-HCN cryogenic probe' . . 19388 1 
+      6 spectrometer_6 Bruker Avance . 950 'TXI-HCN cryogenic probe' . . 19388 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       19388
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '3D 1H,1H-NOESY-15N-TROSY'                                 no . . . . . . . . . . 1 $sample_1 isotropic   . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 19388 1 
+      2 '3D 1H,1H-NOESY-13C-HSQC aliphatic'                        no . . . . . . . . . . 1 $sample_1 isotropic   . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 19388 1 
+      3 '13C,1H-TROSY based 3D 13C separated 1H,1H-NOESY aromatic' no . . . . . . . . . . 1 $sample_1 isotropic   . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 19388 1 
+      4 'T1 measurement'                                           no . . . . . . . . . . 1 $sample_1 anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 19388 1 
+      5 'T2 measurement'                                           no . . . . . . . . . . 1 $sample_1 anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 19388 1 
+
+   stop_
+
+save_
+
+
+save_T1_measurement_sample_1_sample_conditions_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    T1_measurement_sample_1_sample_conditions_1
+   _NMR_spec_expt.Entry_ID                        19388
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        'Delays (ms): 10, 100, 400, 600, 800, 1000, 1200, 1500'
+
+save_
+
+
+save_T2_measurement_sample_1_sample_conditions_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    T2_measurement_sample_1_sample_conditions_1
+   _NMR_spec_expt.Entry_ID                        19388
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        'Delays (ms): 35.2, 70.4, 105.6, 140.8, 176.0, 211.2, 246.4, 281.6'
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_noe_list_1
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_noe_list_1
+   _Heteronucl_NOE_list.Entry_ID                      19388
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     600
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   0
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      1 '3D 1H,1H-NOESY-15N-TROSY'                                 . . . 19388 1 
+      2 '3D 1H,1H-NOESY-13C-HSQC aliphatic'                        . . . 19388 1 
+      3 '13C,1H-TROSY based 3D 13C separated 1H,1H-NOESY aromatic' . . . 19388 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+        1 . 1 1   1   1 GLY N N 15 . 1 1   1   1 GLY H H 1 -0.7982 0.0005 . . .   0 GLY N .   0 GLY H 19388 1 
+        2 . 1 1   2   2 MET N N 15 . 1 1   2   2 MET H H 1 -0.3627 0.0055 . . .   1 MET N .   1 MET H 19388 1 
+        3 . 1 1   3   3 SER N N 15 . 1 1   3   3 SER H H 1 -0.2568 0.0137 . . .   2 SER N .   2 SER H 19388 1 
+        4 . 1 1   4   4 ASP N N 15 . 1 1   4   4 ASP H H 1  0.0868 0.0198 . . .   3 ASP N .   3 ASP H 19388 1 
+        5 . 1 1   6   6 LEU N N 15 . 1 1   6   6 LEU H H 1  0.6192 0.0170 . . .   5 LEU N .   5 LEU H 19388 1 
+        6 . 1 1   7   7 HIS N N 15 . 1 1   7   7 HIS H H 1  0.7939 0.0226 . . .   6 HIS N .   6 HIS H 19388 1 
+        7 . 1 1   8   8 VAL N N 15 . 1 1   8   8 VAL H H 1  0.7943 0.0256 . . .   7 VAL N .   7 VAL H 19388 1 
+        8 . 1 1   9   9 THR N N 15 . 1 1   9   9 THR H H 1  0.8196 0.0134 . . .   8 THR N .   8 THR H 19388 1 
+        9 . 1 1  10  10 PHE N N 15 . 1 1  10  10 PHE H H 1  0.8161 0.0269 . . .   9 PHE N .   9 PHE H 19388 1 
+       10 . 1 1  11  11 VAL N N 15 . 1 1  11  11 VAL H H 1  0.8094 0.0199 . . .  10 VAL N .  10 VAL H 19388 1 
+       11 . 1 1  12  12 CYS N N 15 . 1 1  12  12 CYS H H 1  0.8213 0.0185 . . .  11 CYS N .  11 CYS H 19388 1 
+       12 . 1 1  15  15 ASN N N 15 . 1 1  15  15 ASN H H 1  0.8226 0.0309 . . .  14 ASN N .  14 ASN H 19388 1 
+       13 . 1 1  17  17 CYS N N 15 . 1 1  17  17 CYS H H 1  0.8759 0.0472 . . .  16 CYS N .  16 CYS H 19388 1 
+       14 . 1 1  21  21 MET N N 15 . 1 1  21  21 MET H H 1  0.7702 0.0173 . . .  20 MET N .  20 MET H 19388 1 
+       15 . 1 1  22  22 ALA N N 15 . 1 1  22  22 ALA H H 1  0.8071 0.0195 . . .  21 ALA N .  21 ALA H 19388 1 
+       16 . 1 1  23  23 GLU N N 15 . 1 1  23  23 GLU H H 1  0.8340 0.0172 . . .  22 GLU N .  22 GLU H 19388 1 
+       17 . 1 1  24  24 LYS N N 15 . 1 1  24  24 LYS H H 1  0.8122 0.0210 . . .  23 LYS N .  23 LYS H 19388 1 
+       18 . 1 1  25  25 MET N N 15 . 1 1  25  25 MET H H 1  0.908  0.0189 . . .  24 MET N .  24 MET H 19388 1 
+       19 . 1 1  27  27 ALA N N 15 . 1 1  27  27 ALA H H 1  0.8166 0.0141 . . .  26 ALA N .  26 ALA H 19388 1 
+       20 . 1 1  28  28 GLN N N 15 . 1 1  28  28 GLN H H 1  0.8214 0.0135 . . .  27 GLN N .  27 GLN H 19388 1 
+       21 . 1 1  29  29 GLN N N 15 . 1 1  29  29 GLN H H 1  0.8419 0.0184 . . .  28 GLN N .  28 GLN H 19388 1 
+       22 . 1 1  31  31 ARG N N 15 . 1 1  31  31 ARG H H 1  0.7881 0.0108 . . .  30 ARG N .  30 ARG H 19388 1 
+       23 . 1 1  32  32 HIS N N 15 . 1 1  32  32 HIS H H 1  0.8395 0.0126 . . .  31 HIS N .  31 HIS H 19388 1 
+       24 . 1 1  33  33 ARG N N 15 . 1 1  33  33 ARG H H 1  0.7769 0.0154 . . .  32 ARG N .  32 ARG H 19388 1 
+       25 . 1 1  34  34 GLY N N 15 . 1 1  34  34 GLY H H 1  0.7784 0.0152 . . .  33 GLY N .  33 GLY H 19388 1 
+       26 . 1 1  35  35 LEU N N 15 . 1 1  35  35 LEU H H 1  0.8004 0.0145 . . .  34 LEU N .  34 LEU H 19388 1 
+       27 . 1 1  36  36 GLY N N 15 . 1 1  36  36 GLY H H 1  0.7580 0.0163 . . .  35 GLY N .  35 GLY H 19388 1 
+       28 . 1 1  38  38 ALA N N 15 . 1 1  38  38 ALA H H 1  0.7560 0.0145 . . .  37 ALA N .  37 ALA H 19388 1 
+       29 . 1 1  39  39 VAL N N 15 . 1 1  39  39 VAL H H 1  0.7837 0.0131 . . .  38 VAL N .  38 VAL H 19388 1 
+       30 . 1 1  40  40 ARG N N 15 . 1 1  40  40 ARG H H 1  0.8266 0.0244 . . .  39 ARG N .  39 ARG H 19388 1 
+       31 . 1 1  41  41 VAL N N 15 . 1 1  41  41 VAL H H 1  0.7745 0.0170 . . .  40 VAL N .  40 VAL H 19388 1 
+       32 . 1 1  42  42 THR N N 15 . 1 1  42  42 THR H H 1  0.8444 0.0201 . . .  41 THR N .  41 THR H 19388 1 
+       33 . 1 1  43  43 SER N N 15 . 1 1  43  43 SER H H 1  0.8600 0.0181 . . .  42 SER N .  42 SER H 19388 1 
+       34 . 1 1  44  44 ALA N N 15 . 1 1  44  44 ALA H H 1  0.7869 0.0138 . . .  43 ALA N .  43 ALA H 19388 1 
+       35 . 1 1  45  45 GLY N N 15 . 1 1  45  45 GLY H H 1  0.7569 0.0248 . . .  44 GLY N .  44 GLY H 19388 1 
+       36 . 1 1  46  46 THR N N 15 . 1 1  46  46 THR H H 1  0.8114 0.0217 . . .  45 THR N .  45 THR H 19388 1 
+       37 . 1 1  47  47 GLY N N 15 . 1 1  47  47 GLY H H 1  0.7690 0.0190 . . .  46 GLY N .  46 GLY H 19388 1 
+       38 . 1 1  48  48 ASN N N 15 . 1 1  48  48 ASN H H 1  0.7559 0.0221 . . .  47 ASN N .  47 ASN H 19388 1 
+       39 . 1 1  49  49 TRP N N 15 . 1 1  49  49 TRP H H 1  0.8079 0.0218 . . .  48 TRP N .  48 TRP H 19388 1 
+       40 . 1 1  50  50 HIS N N 15 . 1 1  50  50 HIS H H 1  0.8002 0.0221 . . .  49 HIS N .  49 HIS H 19388 1 
+       41 . 1 1  51  51 VAL N N 15 . 1 1  51  51 VAL H H 1  0.6988 0.0113 . . .  50 VAL N .  50 VAL H 19388 1 
+       42 . 1 1  52  52 GLY N N 15 . 1 1  52  52 GLY H H 1  0.7778 0.0214 . . .  51 GLY N .  51 GLY H 19388 1 
+       43 . 1 1  53  53 SER N N 15 . 1 1  53  53 SER H H 1  0.8303 0.0147 . . .  52 SER N .  52 SER H 19388 1 
+       44 . 1 1  54  54 CYS N N 15 . 1 1  54  54 CYS H H 1  0.7971 0.0130 . . .  53 CYS N .  53 CYS H 19388 1 
+       45 . 1 1  56  56 ASP N N 15 . 1 1  56  56 ASP H H 1  0.8691 0.0262 . . .  55 ASP N .  55 ASP H 19388 1 
+       46 . 1 1  57  57 GLU N N 15 . 1 1  57  57 GLU H H 1  0.8166 0.0197 . . .  56 GLU N .  56 GLU H 19388 1 
+       47 . 1 1  58  58 ARG N N 15 . 1 1  58  58 ARG H H 1  0.8018 0.0203 . . .  57 ARG N .  57 ARG H 19388 1 
+       48 . 1 1  59  59 ALA N N 15 . 1 1  59  59 ALA H H 1  0.8253 0.0169 . . .  58 ALA N .  58 ALA H 19388 1 
+       49 . 1 1  61  61 GLY N N 15 . 1 1  61  61 GLY H H 1  0.8269 0.0160 . . .  60 GLY N .  60 GLY H 19388 1 
+       50 . 1 1  62  62 VAL N N 15 . 1 1  62  62 VAL H H 1  0.7834 0.0128 . . .  61 VAL N .  61 VAL H 19388 1 
+       51 . 1 1  63  63 LEU N N 15 . 1 1  63  63 LEU H H 1  0.7658 0.0171 . . .  62 LEU N .  62 LEU H 19388 1 
+       52 . 1 1  64  64 ARG N N 15 . 1 1  64  64 ARG H H 1  0.7854 0.0144 . . .  63 ARG N .  63 ARG H 19388 1 
+       53 . 1 1  65  65 LEU N N 15 . 1 1  65  65 LEU H H 1  0.8008 0.0122 . . .  64 LEU N .  64 LEU H 19388 1 
+       54 . 1 1  66  66 HIS N N 15 . 1 1  66  66 HIS H H 1  0.7836 0.0143 . . .  65 HIS N .  65 HIS H 19388 1 
+       55 . 1 1  67  67 GLY N N 15 . 1 1  67  67 GLY H H 1  0.7978 0.0151 . . .  66 GLY N .  66 GLY H 19388 1 
+       56 . 1 1  68  68 TYR N N 15 . 1 1  68  68 TYR H H 1  0.8282 0.0141 . . .  67 TYR N .  67 TYR H 19388 1 
+       57 . 1 1  70  70 THR N N 15 . 1 1  70  70 THR H H 1  0.7956 0.0170 . . .  69 THR N .  69 THR H 19388 1 
+       58 . 1 1  72  72 HIS N N 15 . 1 1  72  72 HIS H H 1  0.7964 0.0131 . . .  71 HIS N .  71 HIS H 19388 1 
+       59 . 1 1  73  73 ARG N N 15 . 1 1  73  73 ARG H H 1  0.7892 0.0132 . . .  72 ARG N .  72 ARG H 19388 1 
+       60 . 1 1  74  74 ALA N N 15 . 1 1  74  74 ALA H H 1  0.8250 0.0178 . . .  73 ALA N .  73 ALA H 19388 1 
+       61 . 1 1  75  75 ALA N N 15 . 1 1  75  75 ALA H H 1  0.8196 0.0189 . . .  74 ALA N .  74 ALA H 19388 1 
+       62 . 1 1  76  76 GLN N N 15 . 1 1  76  76 GLN H H 1  0.8027 0.0192 . . .  75 GLN N .  75 GLN H 19388 1 
+       63 . 1 1  77  77 VAL N N 15 . 1 1  77  77 VAL H H 1  0.7986 0.0211 . . .  76 VAL N .  76 VAL H 19388 1 
+       64 . 1 1  78  78 GLY N N 15 . 1 1  78  78 GLY H H 1  0.7675 0.0259 . . .  77 GLY N .  77 GLY H 19388 1 
+       65 . 1 1  79  79 THR N N 15 . 1 1  79  79 THR H H 1  0.7976 0.0195 . . .  78 THR N .  78 THR H 19388 1 
+       66 . 1 1  80  80 GLU N N 15 . 1 1  80  80 GLU H H 1  0.7886 0.0145 . . .  79 GLU N .  79 GLU H 19388 1 
+       67 . 1 1  81  81 HIS N N 15 . 1 1  81  81 HIS H H 1  0.7778 0.0124 . . .  80 HIS N .  80 HIS H 19388 1 
+       68 . 1 1  82  82 LEU N N 15 . 1 1  82  82 LEU H H 1  0.8126 0.0197 . . .  81 LEU N .  81 LEU H 19388 1 
+       69 . 1 1  83  83 ALA N N 15 . 1 1  83  83 ALA H H 1  0.7711 0.0113 . . .  82 ALA N .  82 ALA H 19388 1 
+       70 . 1 1  84  84 ALA N N 15 . 1 1  84  84 ALA H H 1  0.8182 0.0112 . . .  83 ALA N .  83 ALA H 19388 1 
+       71 . 1 1  86  86 LEU N N 15 . 1 1  86  86 LEU H H 1  0.7837 0.0126 . . .  85 LEU N .  85 LEU H 19388 1 
+       72 . 1 1  87  87 LEU N N 15 . 1 1  87  87 LEU H H 1  0.8333 0.0224 . . .  86 LEU N .  86 LEU H 19388 1 
+       73 . 1 1  88  88 VAL N N 15 . 1 1  88  88 VAL H H 1  0.8171 0.0200 . . .  87 VAL N .  87 VAL H 19388 1 
+       74 . 1 1  89  89 ALA N N 15 . 1 1  89  89 ALA H H 1  0.8040 0.0203 . . .  88 ALA N .  88 ALA H 19388 1 
+       75 . 1 1  90  90 LEU N N 15 . 1 1  90  90 LEU H H 1  0.7974 0.0290 . . .  89 LEU N .  89 LEU H 19388 1 
+       76 . 1 1  91  91 ASP N N 15 . 1 1  91  91 ASP H H 1  0.8444 0.0474 . . .  90 ASP N .  90 ASP H 19388 1 
+       77 . 1 1  92  92 ARG N N 15 . 1 1  92  92 ARG H H 1  0.7804 0.0219 . . .  91 ARG N .  91 ARG H 19388 1 
+       78 . 1 1  95  95 ALA N N 15 . 1 1  95  95 ALA H H 1  0.8110 0.0151 . . .  94 ALA N .  94 ALA H 19388 1 
+       79 . 1 1  96  96 ARG N N 15 . 1 1  96  96 ARG H H 1  0.7844 0.0139 . . .  95 ARG N .  95 ARG H 19388 1 
+       80 . 1 1  97  97 LEU N N 15 . 1 1  97  97 LEU H H 1  0.8108 0.0110 . . .  96 LEU N .  96 LEU H 19388 1 
+       81 . 1 1  98  98 LEU N N 15 . 1 1  98  98 LEU H H 1  0.7677 0.0173 . . .  97 LEU N .  97 LEU H 19388 1 
+       82 . 1 1  99  99 ARG N N 15 . 1 1  99  99 ARG H H 1  0.8064 0.0143 . . .  98 ARG N .  98 ARG H 19388 1 
+       83 . 1 1 100 100 GLN N N 15 . 1 1 100 100 GLN H H 1  0.7883 0.0114 . . .  99 GLN N .  99 GLN H 19388 1 
+       84 . 1 1 101 101 LEU N N 15 . 1 1 101 101 LEU H H 1  0.8037 0.0135 . . . 100 LEU N . 100 LEU H 19388 1 
+       85 . 1 1 102 102 GLY N N 15 . 1 1 102 102 GLY H H 1  0.7979 0.0145 . . . 101 GLY N . 101 GLY H 19388 1 
+       86 . 1 1 103 103 VAL N N 15 . 1 1 103 103 VAL H H 1  0.8437 0.0156 . . . 102 VAL N . 102 VAL H 19388 1 
+       87 . 1 1 104 104 GLU N N 15 . 1 1 104 104 GLU H H 1  0.7723 0.0156 . . . 103 GLU N . 103 GLU H 19388 1 
+       88 . 1 1 105 105 ALA N N 15 . 1 1 105 105 ALA H H 1  0.7790 0.0131 . . . 104 ALA N . 104 ALA H 19388 1 
+       89 . 1 1 107 107 ARG N N 15 . 1 1 107 107 ARG H H 1  0.7683 0.0136 . . . 106 ARG N . 106 ARG H 19388 1 
+       90 . 1 1 108 108 VAL N N 15 . 1 1 108 108 VAL H H 1  0.7797 0.0111 . . . 107 VAL N . 107 VAL H 19388 1 
+       91 . 1 1 109 109 ARG N N 15 . 1 1 109 109 ARG H H 1  0.8076 0.0158 . . . 108 ARG N . 108 ARG H 19388 1 
+       92 . 1 1 110 110 MET N N 15 . 1 1 110 110 MET H H 1  0.7678 0.0199 . . . 109 MET N . 109 MET H 19388 1 
+       93 . 1 1 111 111 LEU N N 15 . 1 1 111 111 LEU H H 1  0.7988 0.0229 . . . 110 LEU N . 110 LEU H 19388 1 
+       94 . 1 1 112 112 ARG N N 15 . 1 1 112 112 ARG H H 1  0.8368 0.0301 . . . 111 ARG N . 111 ARG H 19388 1 
+       95 . 1 1 113 113 SER N N 15 . 1 1 113 113 SER H H 1  0.8448 0.0184 . . . 112 SER N . 112 SER H 19388 1 
+       96 . 1 1 114 114 PHE N N 15 . 1 1 114 114 PHE H H 1  0.8277 0.0175 . . . 113 PHE N . 113 PHE H 19388 1 
+       97 . 1 1 117 117 ARG N N 15 . 1 1 117 117 ARG H H 1  0.6816 0.0159 . . . 116 ARG N . 116 ARG H 19388 1 
+       98 . 1 1 118 118 SER N N 15 . 1 1 118 118 SER H H 1  0.6598 0.0197 . . . 117 SER N . 117 SER H 19388 1 
+       99 . 1 1 119 119 GLY N N 15 . 1 1 119 119 GLY H H 1  0.5947 0.0202 . . . 118 GLY N . 118 GLY H 19388 1 
+      100 . 1 1 121 121 HIS N N 15 . 1 1 121 121 HIS H H 1  0.5808 0.0437 . . . 120 HIS N . 120 HIS H 19388 1 
+      101 . 1 1 122 122 ALA N N 15 . 1 1 122 122 ALA H H 1  0.5166 0.0334 . . . 121 ALA N . 121 ALA H 19388 1 
+      102 . 1 1 123 123 LEU N N 15 . 1 1 123 123 LEU H H 1  0.6017 0.0135 . . . 122 LEU N . 122 LEU H 19388 1 
+      103 . 1 1 124 124 ASP N N 15 . 1 1 124 124 ASP H H 1  0.7085 0.0142 . . . 123 ASP N . 123 ASP H 19388 1 
+      104 . 1 1 125 125 VAL N N 15 . 1 1 125 125 VAL H H 1  0.4950 0.0185 . . . 124 VAL N . 124 VAL H 19388 1 
+      105 . 1 1 126 126 GLU N N 15 . 1 1 126 126 GLU H H 1  0.8059 0.0200 . . . 125 GLU N . 125 GLU H 19388 1 
+      106 . 1 1 127 127 ASP N N 15 . 1 1 127 127 ASP H H 1  0.8005 0.0284 . . . 126 ASP N . 126 ASP H 19388 1 
+      107 . 1 1 129 129 TYR N N 15 . 1 1 129 129 TYR H H 1  0.7398 0.0166 . . . 128 TYR N . 128 TYR H 19388 1 
+      108 . 1 1 130 130 TYR N N 15 . 1 1 130 130 TYR H H 1  0.8269 0.0162 . . . 129 TYR N . 129 TYR H 19388 1 
+      109 . 1 1 131 131 GLY N N 15 . 1 1 131 131 GLY H H 1  0.7602 0.0128 . . . 130 GLY N . 130 GLY H 19388 1 
+      110 . 1 1 132 132 ASP N N 15 . 1 1 132 132 ASP H H 1  0.7634 0.0157 . . . 131 ASP N . 131 ASP H 19388 1 
+      111 . 1 1 134 134 SER N N 15 . 1 1 134 134 SER H H 1  0.7727 0.0143 . . . 133 SER N . 133 SER H 19388 1 
+      112 . 1 1 135 135 ASP N N 15 . 1 1 135 135 ASP H H 1  0.7817 0.0135 . . . 134 ASP N . 134 ASP H 19388 1 
+      113 . 1 1 136 136 PHE N N 15 . 1 1 136 136 PHE H H 1  0.8137 0.0188 . . . 135 PHE N . 135 PHE H 19388 1 
+      114 . 1 1 138 138 GLU N N 15 . 1 1 138 138 GLU H H 1  0.8026 0.0126 . . . 137 GLU N . 137 GLU H 19388 1 
+      115 . 1 1 139 139 VAL N N 15 . 1 1 139 139 VAL H H 1  0.7793 0.0147 . . . 138 VAL N . 138 VAL H 19388 1 
+      116 . 1 1 140 140 PHE N N 15 . 1 1 140 140 PHE H H 1  0.8335 0.0172 . . . 139 PHE N . 139 PHE H 19388 1 
+      117 . 1 1 141 141 ALA N N 15 . 1 1 141 141 ALA H H 1  0.8655 0.0113 . . . 140 ALA N . 140 ALA H 19388 1 
+      118 . 1 1 142 142 VAL N N 15 . 1 1 142 142 VAL H H 1  0.8018 0.0155 . . . 141 VAL N . 141 VAL H 19388 1 
+      119 . 1 1 144 144 GLU N N 15 . 1 1 144 144 GLU H H 1  0.8020 0.0132 . . . 143 GLU N . 143 GLU H 19388 1 
+      120 . 1 1 145 145 SER N N 15 . 1 1 145 145 SER H H 1  0.7830 0.0126 . . . 144 SER N . 144 SER H 19388 1 
+      121 . 1 1 146 146 ALA N N 15 . 1 1 146 146 ALA H H 1  0.8341 0.0154 . . . 145 ALA N . 145 ALA H 19388 1 
+      122 . 1 1 147 147 LEU N N 15 . 1 1 147 147 LEU H H 1  0.7581 0.0173 . . . 146 LEU N . 146 LEU H 19388 1 
+      123 . 1 1 149 149 GLY N N 15 . 1 1 149 149 GLY H H 1  0.7732 0.0169 . . . 148 GLY N . 148 GLY H 19388 1 
+      124 . 1 1 150 150 LEU N N 15 . 1 1 150 150 LEU H H 1  0.8200 0.0175 . . . 149 LEU N . 149 LEU H 19388 1 
+      125 . 1 1 151 151 HIS N N 15 . 1 1 151 151 HIS H H 1  0.8354 0.0168 . . . 150 HIS N . 150 HIS H 19388 1 
+      126 . 1 1 152 152 ASP N N 15 . 1 1 152 152 ASP H H 1  0.8211 0.0127 . . . 151 ASP N . 151 ASP H 19388 1 
+      127 . 1 1 154 154 VAL N N 15 . 1 1 154 154 VAL H H 1  0.7794 0.0139 . . . 153 VAL N . 153 VAL H 19388 1 
+      128 . 1 1 156 156 GLU N N 15 . 1 1 156 156 GLU H H 1  0.7951 0.0142 . . . 155 GLU N . 155 GLU H 19388 1 
+      129 . 1 1 157 157 ARG N N 15 . 1 1 157 157 ARG H H 1  0.8165 0.0154 . . . 156 ARG N . 156 ARG H 19388 1 
+      130 . 1 1 159 159 ALA N N 15 . 1 1 159 159 ALA H H 1  0.6982 0.0127 . . . 158 ALA N . 158 ALA H 19388 1 
+      131 . 1 1 160 160 ARG N N 15 . 1 1 160 160 ARG H H 1  0.5097 0.0110 . . . 159 ARG N . 159 ARG H 19388 1 
+      132 . 1 1 161 161 ASN N N 15 . 1 1 161 161 ASN H H 1  0.3012 0.0145 . . . 160 ASN N . 160 ASN H 19388 1 
+      133 . 1 1 162 162 GLY N N 15 . 1 1 162 162 GLY H H 1 -0.2631 0.0051 . . . 161 GLY N . 161 GLY H 19388 1 
+      134 . 1 1 164 164 SER N N 15 . 1 1 164 164 SER H H 1 -1.0553 0.0019 . . . 163 SER N . 163 SER H 19388 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_heteronuclear_T1_list_1
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  heteronuclear_T1_list_1
+   _Heteronucl_T1_list.Entry_ID                      19388
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T1_list.T1_coherence_type            'not reported'
+   _Heteronucl_T1_list.T1_val_units                  ms
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      4 'T1 measurement' . . . 19388 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+        1 . 1 1   1   1 GLY N N 15  945.3 140.0 . .   0 GLY N 19388 1 
+        2 . 1 1   2   2 MET N N 15  780.9  81.8 . .   1 MET N 19388 1 
+        3 . 1 1   3   3 SER N N 15  800.7  92.7 . .   2 SER N 19388 1 
+        4 . 1 1   4   4 ASP N N 15  791.0  80.9 . .   3 ASP N 19388 1 
+        5 . 1 1   6   6 LEU N N 15  798.7  14.4 . .   5 LEU N 19388 1 
+        6 . 1 1   7   7 HIS N N 15  834.0  14.4 . .   6 HIS N 19388 1 
+        7 . 1 1   8   8 VAL N N 15  824.8  23.9 . .   7 VAL N 19388 1 
+        8 . 1 1   9   9 THR N N 15  785.4  18.3 . .   8 THR N 19388 1 
+        9 . 1 1  10  10 PHE N N 15  841.3  32.6 . .   9 PHE N 19388 1 
+       10 . 1 1  11  11 VAL N N 15  786.1  30.0 . .  10 VAL N 19388 1 
+       11 . 1 1  12  12 CYS N N 15  830.8  29.7 . .  11 CYS N 19388 1 
+       12 . 1 1  15  15 ASN N N 15  774.2  19.9 . .  14 ASN N 19388 1 
+       13 . 1 1  17  17 CYS N N 15  786.5 104.0 . .  16 CYS N 19388 1 
+       14 . 1 1  21  21 MET N N 15  872.2  21.8 . .  20 MET N 19388 1 
+       15 . 1 1  22  22 ALA N N 15  856.8  27.8 . .  21 ALA N 19388 1 
+       16 . 1 1  23  23 GLU N N 15  848.2  35.7 . .  22 GLU N 19388 1 
+       17 . 1 1  24  24 LYS N N 15  846.2  32.5 . .  23 LYS N 19388 1 
+       18 . 1 1  25  25 MET N N 15  847.4  37.3 . .  24 MET N 19388 1 
+       19 . 1 1  27  27 ALA N N 15  853.0  26.9 . .  26 ALA N 19388 1 
+       20 . 1 1  28  28 GLN N N 15  866.6  33.7 . .  27 GLN N 19388 1 
+       21 . 1 1  29  29 GLN N N 15  807.4  29.3 . .  28 GLN N 19388 1 
+       22 . 1 1  31  31 ARG N N 15  789.7  16.0 . .  30 ARG N 19388 1 
+       23 . 1 1  32  32 HIS N N 15  781.2  32.4 . .  31 HIS N 19388 1 
+       24 . 1 1  33  33 ARG N N 15  882.8  45.6 . .  32 ARG N 19388 1 
+       25 . 1 1  34  34 GLY N N 15  840.4  51.2 . .  33 GLY N 19388 1 
+       26 . 1 1  35  35 LEU N N 15  848.8  37.0 . .  34 LEU N 19388 1 
+       27 . 1 1  36  36 GLY N N 15  798.9  38.0 . .  35 GLY N 19388 1 
+       28 . 1 1  37  37 ASP N N 15  809.5  70.6 . .  36 ASP N 19388 1 
+       29 . 1 1  38  38 ALA N N 15  862.9  33.0 . .  37 ALA N 19388 1 
+       30 . 1 1  39  39 VAL N N 15  817.5  28.4 . .  38 VAL N 19388 1 
+       31 . 1 1  40  40 ARG N N 15  842.6  19.9 . .  39 ARG N 19388 1 
+       32 . 1 1  41  41 VAL N N 15  807.8  24.3 . .  40 VAL N 19388 1 
+       33 . 1 1  42  42 THR N N 15  844.7  64.2 . .  41 THR N 19388 1 
+       34 . 1 1  43  43 SER N N 15  795.6  34.1 . .  42 SER N 19388 1 
+       35 . 1 1  44  44 ALA N N 15  790.8  33.0 . .  43 ALA N 19388 1 
+       36 . 1 1  45  45 GLY N N 15  827.5  36.2 . .  44 GLY N 19388 1 
+       37 . 1 1  46  46 THR N N 15  803.1  29.7 . .  45 THR N 19388 1 
+       38 . 1 1  47  47 GLY N N 15  789.0  35.4 . .  46 GLY N 19388 1 
+       39 . 1 1  48  48 ASN N N 15  780.6  72.2 . .  47 ASN N 19388 1 
+       40 . 1 1  49  49 TRP N N 15  708.8  37.2 . .  48 TRP N 19388 1 
+       41 . 1 1  50  50 HIS N N 15  771.7  51.8 . .  49 HIS N 19388 1 
+       42 . 1 1  51  51 VAL N N 15  832.2  40.6 . .  50 VAL N 19388 1 
+       43 . 1 1  52  52 GLY N N 15  814.0  20.7 . .  51 GLY N 19388 1 
+       44 . 1 1  53  53 SER N N 15  785.5  46.0 . .  52 SER N 19388 1 
+       45 . 1 1  54  54 CYS N N 15  886.6  65.6 . .  53 CYS N 19388 1 
+       46 . 1 1  56  56 ASP N N 15  830.7  37.1 . .  55 ASP N 19388 1 
+       47 . 1 1  57  57 GLU N N 15  744.2  49.4 . .  56 GLU N 19388 1 
+       48 . 1 1  58  58 ARG N N 15  787.7  28.4 . .  57 ARG N 19388 1 
+       49 . 1 1  59  59 ALA N N 15  841.6  36.2 . .  58 ALA N 19388 1 
+       50 . 1 1  61  61 GLY N N 15  852.6  24.2 . .  60 GLY N 19388 1 
+       51 . 1 1  62  62 VAL N N 15  767.2  13.5 . .  61 VAL N 19388 1 
+       52 . 1 1  63  63 LEU N N 15  827.9  40.5 . .  62 LEU N 19388 1 
+       53 . 1 1  64  64 ARG N N 15  796.3  23.8 . .  63 ARG N 19388 1 
+       54 . 1 1  66  66 HIS N N 15  889.7  39.8 . .  65 HIS N 19388 1 
+       55 . 1 1  67  67 GLY N N 15  842.1  23.5 . .  66 GLY N 19388 1 
+       56 . 1 1  68  68 TYR N N 15  869.7  34.6 . .  67 TYR N 19388 1 
+       57 . 1 1  70  70 THR N N 15  848.1  39.6 . .  69 THR N 19388 1 
+       58 . 1 1  73  73 ARG N N 15  863.5  27.3 . .  72 ARG N 19388 1 
+       59 . 1 1  74  74 ALA N N 15  857.5  27.3 . .  73 ALA N 19388 1 
+       60 . 1 1  75  75 ALA N N 15  836.6  44.3 . .  74 ALA N 19388 1 
+       61 . 1 1  76  76 GLN N N 15  795.5  18.7 . .  75 GLN N 19388 1 
+       62 . 1 1  77  77 VAL N N 15  821.2  16.8 . .  76 VAL N 19388 1 
+       63 . 1 1  78  78 GLY N N 15  846.1  55.1 . .  77 GLY N 19388 1 
+       64 . 1 1  79  79 THR N N 15  815.5  58.1 . .  78 THR N 19388 1 
+       65 . 1 1  80  80 GLU N N 15  780.1  68.9 . .  79 GLU N 19388 1 
+       66 . 1 1  81  81 HIS N N 15  861.9  37.0 . .  80 HIS N 19388 1 
+       67 . 1 1  82  82 LEU N N 15  785.9  24.5 . .  81 LEU N 19388 1 
+       68 . 1 1  83  83 ALA N N 15  824.5  37.2 . .  82 ALA N 19388 1 
+       69 . 1 1  84  84 ALA N N 15  868.2  21.2 . .  83 ALA N 19388 1 
+       70 . 1 1  86  86 LEU N N 15  792.3  13.8 . .  85 LEU N 19388 1 
+       71 . 1 1  87  87 LEU N N 15  782.6  34.4 . .  86 LEU N 19388 1 
+       72 . 1 1  88  88 VAL N N 15  829.9  35.5 . .  87 VAL N 19388 1 
+       73 . 1 1  89  89 ALA N N 15  784.6  33.6 . .  88 ALA N 19388 1 
+       74 . 1 1  90  90 LEU N N 15  776.9  31.1 . .  89 LEU N 19388 1 
+       75 . 1 1  91  91 ASP N N 15  899.4 106.0 . .  90 ASP N 19388 1 
+       76 . 1 1  92  92 ARG N N 15  807.7  55.9 . .  91 ARG N 19388 1 
+       77 . 1 1  93  93 ASN N N 15  759.7  23.1 . .  92 ASN N 19388 1 
+       78 . 1 1  95  95 ALA N N 15  809.0  43.5 . .  94 ALA N 19388 1 
+       79 . 1 1  96  96 ARG N N 15  873.9  35.5 . .  95 ARG N 19388 1 
+       80 . 1 1  97  97 LEU N N 15  783.3  16.6 . .  96 LEU N 19388 1 
+       81 . 1 1  98  98 LEU N N 15  832.1  21.6 . .  97 LEU N 19388 1 
+       82 . 1 1  99  99 ARG N N 15  819.0  17.9 . .  98 ARG N 19388 1 
+       83 . 1 1 100 100 GLN N N 15  799.7  10.0 . .  99 GLN N 19388 1 
+       84 . 1 1 101 101 LEU N N 15  820.1  17.1 . . 100 LEU N 19388 1 
+       85 . 1 1 102 102 GLY N N 15  835.4  27.6 . . 101 GLY N 19388 1 
+       86 . 1 1 103 103 VAL N N 15  915.1  28.1 . . 102 VAL N 19388 1 
+       87 . 1 1 104 104 GLU N N 15  852.8  27.6 . . 103 GLU N 19388 1 
+       88 . 1 1 105 105 ALA N N 15  754.4  26.6 . . 104 ALA N 19388 1 
+       89 . 1 1 106 106 ALA N N 15  795.2  51.5 . . 105 ALA N 19388 1 
+       90 . 1 1 107 107 ARG N N 15  812.4  30.2 . . 106 ARG N 19388 1 
+       91 . 1 1 108 108 VAL N N 15  816.3  19.7 . . 107 VAL N 19388 1 
+       92 . 1 1 109 109 ARG N N 15  795.5  18.1 . . 108 ARG N 19388 1 
+       93 . 1 1 110 110 MET N N 15  839.6  56.3 . . 109 MET N 19388 1 
+       94 . 1 1 111 111 LEU N N 15  800.0  59.5 . . 110 LEU N 19388 1 
+       95 . 1 1 112 112 ARG N N 15  801.8  54.0 . . 111 ARG N 19388 1 
+       96 . 1 1 113 113 SER N N 15  965.7  40.5 . . 112 SER N 19388 1 
+       97 . 1 1 114 114 PHE N N 15  819.2  40.2 . . 113 PHE N 19388 1 
+       98 . 1 1 117 117 ARG N N 15  777.2  36.5 . . 116 ARG N 19388 1 
+       99 . 1 1 118 118 SER N N 15  809.4  66.5 . . 117 SER N 19388 1 
+      100 . 1 1 119 119 GLY N N 15  703.1  82.2 . . 118 GLY N 19388 1 
+      101 . 1 1 122 122 ALA N N 15  801.2  69.9 . . 121 ALA N 19388 1 
+      102 . 1 1 123 123 LEU N N 15  751.1  48.7 . . 122 LEU N 19388 1 
+      103 . 1 1 124 124 ASP N N 15  853.5  37.3 . . 123 ASP N 19388 1 
+      104 . 1 1 125 125 VAL N N 15  875.3  54.0 . . 124 VAL N 19388 1 
+      105 . 1 1 126 126 GLU N N 15  798.7  20.0 . . 125 GLU N 19388 1 
+      106 . 1 1 127 127 ASP N N 15  790.1  36.6 . . 126 ASP N 19388 1 
+      107 . 1 1 129 129 TYR N N 15  838.9  29.2 . . 128 TYR N 19388 1 
+      108 . 1 1 130 130 TYR N N 15  802.3  34.5 . . 129 TYR N 19388 1 
+      109 . 1 1 131 131 GLY N N 15  906.3  44.3 . . 130 GLY N 19388 1 
+      110 . 1 1 132 132 ASP N N 15  805.0  39.5 . . 131 ASP N 19388 1 
+      111 . 1 1 134 134 SER N N 15  839.8  75.4 . . 133 SER N 19388 1 
+      112 . 1 1 135 135 ASP N N 15  875.8  52.6 . . 134 ASP N 19388 1 
+      113 . 1 1 136 136 PHE N N 15  838.9  63.9 . . 135 PHE N 19388 1 
+      114 . 1 1 137 137 GLU N N 15  853.1  21.0 . . 136 GLU N 19388 1 
+      115 . 1 1 138 138 GLU N N 15  809.7  22.2 . . 137 GLU N 19388 1 
+      116 . 1 1 139 139 VAL N N 15  870.8  23.8 . . 138 VAL N 19388 1 
+      117 . 1 1 140 140 PHE N N 15  884.1  34.4 . . 139 PHE N 19388 1 
+      118 . 1 1 141 141 ALA N N 15  820.4  19.0 . . 140 ALA N 19388 1 
+      119 . 1 1 142 142 VAL N N 15  868.3  44.9 . . 141 VAL N 19388 1 
+      120 . 1 1 143 143 ILE N N 15  889.3  34.5 . . 142 ILE N 19388 1 
+      121 . 1 1 144 144 GLU N N 15  856.2  22.4 . . 143 GLU N 19388 1 
+      122 . 1 1 145 145 SER N N 15  890.8  36.0 . . 144 SER N 19388 1 
+      123 . 1 1 146 146 ALA N N 15  771.7  23.1 . . 145 ALA N 19388 1 
+      124 . 1 1 147 147 LEU N N 15  894.5  39.2 . . 146 LEU N 19388 1 
+      125 . 1 1 149 149 GLY N N 15  891.8  28.3 . . 148 GLY N 19388 1 
+      126 . 1 1 150 150 LEU N N 15  869.4  21.5 . . 149 LEU N 19388 1 
+      127 . 1 1 151 151 HIS N N 15  870.8  13.9 . . 150 HIS N 19388 1 
+      128 . 1 1 152 152 ASP N N 15  865.5  18.5 . . 151 ASP N 19388 1 
+      129 . 1 1 155 155 ASP N N 15  853.2  44.0 . . 154 ASP N 19388 1 
+      130 . 1 1 156 156 GLU N N 15  860.7  22.3 . . 155 GLU N 19388 1 
+      131 . 1 1 157 157 ARG N N 15  875.9  35.3 . . 156 ARG N 19388 1 
+      132 . 1 1 159 159 ALA N N 15  790.7  18.0 . . 158 ALA N 19388 1 
+      133 . 1 1 160 160 ARG N N 15  756.2  41.4 . . 159 ARG N 19388 1 
+      134 . 1 1 161 161 ASN N N 15  683.8  96.5 . . 160 ASN N 19388 1 
+      135 . 1 1 162 162 GLY N N 15  813.5  88.6 . . 161 GLY N 19388 1 
+      136 . 1 1 164 164 SER N N 15 1125.0  31.0 . . 163 SER N 19388 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_heteronuclear_T2_list_1
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  heteronuclear_T2_list_1
+   _Heteronucl_T2_list.Entry_ID                      19388
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_T2_list.Temp_calibration_method      'not reported'
+   _Heteronucl_T2_list.Temp_control_method          'not reported'
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T2_list.T2_coherence_type            'not reported'
+   _Heteronucl_T2_list.T2_val_units                  ms
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      5 'T2 measurement' . . . 19388 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+        1 . 1 1   1   1 GLY N N 15 503.6 43.30 . . . .   0 GLY N 19388 1 
+        2 . 1 1   2   2 MET N N 15 231.9 10.20 . . . .   1 MET N 19388 1 
+        3 . 1 1   3   3 SER N N 15 277.0 17.70 . . . .   2 SER N 19388 1 
+        4 . 1 1   4   4 ASP N N 15 114.7  3.52 . . . .   3 ASP N 19388 1 
+        5 . 1 1   6   6 LEU N N 15  69.3  1.09 . . . .   5 LEU N 19388 1 
+        6 . 1 1   7   7 HIS N N 15  81.7  2.40 . . . .   6 HIS N 19388 1 
+        7 . 1 1   8   8 VAL N N 15  74.6  2.87 . . . .   7 VAL N 19388 1 
+        8 . 1 1   9   9 THR N N 15  86.4  2.31 . . . .   8 THR N 19388 1 
+        9 . 1 1  10  10 PHE N N 15  75.2  1.72 . . . .   9 PHE N 19388 1 
+       10 . 1 1  11  11 VAL N N 15  81.2  1.86 . . . .  10 VAL N 19388 1 
+       11 . 1 1  15  15 ASN N N 15  69.5  3.42 . . . .  14 ASN N 19388 1 
+       12 . 1 1  21  21 MET N N 15  72.4  2.78 . . . .  20 MET N 19388 1 
+       13 . 1 1  22  22 ALA N N 15  69.8  3.33 . . . .  21 ALA N 19388 1 
+       14 . 1 1  23  23 GLU N N 15  65.2  2.03 . . . .  22 GLU N 19388 1 
+       15 . 1 1  24  24 LYS N N 15  72.9  3.39 . . . .  23 LYS N 19388 1 
+       16 . 1 1  25  25 MET N N 15  70.9  1.64 . . . .  24 MET N 19388 1 
+       17 . 1 1  27  27 ALA N N 15  70.9  1.69 . . . .  26 ALA N 19388 1 
+       18 . 1 1  28  28 GLN N N 15  68.9  1.96 . . . .  27 GLN N 19388 1 
+       19 . 1 1  29  29 GLN N N 15  73.4  1.64 . . . .  28 GLN N 19388 1 
+       20 . 1 1  31  31 ARG N N 15  70.5  1.28 . . . .  30 ARG N 19388 1 
+       21 . 1 1  32  32 HIS N N 15  70.6  1.28 . . . .  31 HIS N 19388 1 
+       22 . 1 1  33  33 ARG N N 15  79.3  1.88 . . . .  32 ARG N 19388 1 
+       23 . 1 1  34  34 GLY N N 15  65.0  1.64 . . . .  33 GLY N 19388 1 
+       24 . 1 1  35  35 LEU N N 15  71.8  1.55 . . . .  34 LEU N 19388 1 
+       25 . 1 1  36  36 GLY N N 15  92.0  1.87 . . . .  35 GLY N 19388 1 
+       26 . 1 1  37  37 ASP N N 15  81.8  1.84 . . . .  36 ASP N 19388 1 
+       27 . 1 1  38  38 ALA N N 15  93.4  1.94 . . . .  37 ALA N 19388 1 
+       28 . 1 1  39  39 VAL N N 15  75.6  1.39 . . . .  38 VAL N 19388 1 
+       29 . 1 1  40  40 ARG N N 15  83.1  3.97 . . . .  39 ARG N 19388 1 
+       30 . 1 1  41  41 VAL N N 15  70.5  2.54 . . . .  40 VAL N 19388 1 
+       31 . 1 1  42  42 THR N N 15  76.5  3.19 . . . .  41 THR N 19388 1 
+       32 . 1 1  43  43 SER N N 15  66.4  1.75 . . . .  42 SER N 19388 1 
+       33 . 1 1  44  44 ALA N N 15  78.3  1.78 . . . .  43 ALA N 19388 1 
+       34 . 1 1  45  45 GLY N N 15  66.8  3.02 . . . .  44 GLY N 19388 1 
+       35 . 1 1  46  46 THR N N 15  70.6  2.72 . . . .  45 THR N 19388 1 
+       36 . 1 1  47  47 GLY N N 15  78.4  1.71 . . . .  46 GLY N 19388 1 
+       37 . 1 1  48  48 ASN N N 15  72.9  2.64 . . . .  47 ASN N 19388 1 
+       38 . 1 1  49  49 TRP N N 15  76.8  4.49 . . . .  48 TRP N 19388 1 
+       39 . 1 1  50  50 HIS N N 15  66.3  2.43 . . . .  49 HIS N 19388 1 
+       40 . 1 1  51  51 VAL N N 15  82.0  1.73 . . . .  50 VAL N 19388 1 
+       41 . 1 1  52  52 GLY N N 15  73.8  1.93 . . . .  51 GLY N 19388 1 
+       42 . 1 1  53  53 SER N N 15  75.3  0.98 . . . .  52 SER N 19388 1 
+       43 . 1 1  54  54 CYS N N 15  81.0  1.88 . . . .  53 CYS N 19388 1 
+       44 . 1 1  56  56 ASP N N 15  77.0  1.92 . . . .  55 ASP N 19388 1 
+       45 . 1 1  57  57 GLU N N 15  83.9  1.19 . . . .  56 GLU N 19388 1 
+       46 . 1 1  58  58 ARG N N 15  76.3  2.42 . . . .  57 ARG N 19388 1 
+       47 . 1 1  59  59 ALA N N 15  83.4  2.93 . . . .  58 ALA N 19388 1 
+       48 . 1 1  60  60 ALA N N 15  79.6  1.49 . . . .  59 ALA N 19388 1 
+       49 . 1 1  61  61 GLY N N 15  61.0  1.72 . . . .  60 GLY N 19388 1 
+       50 . 1 1  62  62 VAL N N 15  64.7  1.48 . . . .  61 VAL N 19388 1 
+       51 . 1 1  63  63 LEU N N 15  83.9  1.50 . . . .  62 LEU N 19388 1 
+       52 . 1 1  64  64 ARG N N 15  77.5  1.30 . . . .  63 ARG N 19388 1 
+       53 . 1 1  66  66 HIS N N 15  83.2  2.09 . . . .  65 HIS N 19388 1 
+       54 . 1 1  67  67 GLY N N 15  56.4  1.54 . . . .  66 GLY N 19388 1 
+       55 . 1 1  68  68 TYR N N 15  75.5  1.87 . . . .  67 TYR N 19388 1 
+       56 . 1 1  70  70 THR N N 15  93.1  2.20 . . . .  69 THR N 19388 1 
+       57 . 1 1  73  73 ARG N N 15  67.4  0.98 . . . .  72 ARG N 19388 1 
+       58 . 1 1  74  74 ALA N N 15  75.8  1.45 . . . .  73 ALA N 19388 1 
+       59 . 1 1  75  75 ALA N N 15  71.1  1.00 . . . .  74 ALA N 19388 1 
+       60 . 1 1  76  76 GLN N N 15  56.6  3.96 . . . .  75 GLN N 19388 1 
+       61 . 1 1  77  77 VAL N N 15  63.9  1.72 . . . .  76 VAL N 19388 1 
+       62 . 1 1  78  78 GLY N N 15  88.3  3.12 . . . .  77 GLY N 19388 1 
+       63 . 1 1  79  79 THR N N 15  74.2  1.17 . . . .  78 THR N 19388 1 
+       64 . 1 1  80  80 GLU N N 15  70.6  1.30 . . . .  79 GLU N 19388 1 
+       65 . 1 1  81  81 HIS N N 15  81.7  1.50 . . . .  80 HIS N 19388 1 
+       66 . 1 1  82  82 LEU N N 15  72.6  1.50 . . . .  81 LEU N 19388 1 
+       67 . 1 1  83  83 ALA N N 15  75.7  1.24 . . . .  82 ALA N 19388 1 
+       68 . 1 1  84  84 ALA N N 15  70.6  1.15 . . . .  83 ALA N 19388 1 
+       69 . 1 1  86  86 LEU N N 15  77.0  1.46 . . . .  85 LEU N 19388 1 
+       70 . 1 1  87  87 LEU N N 15  66.6  3.44 . . . .  86 LEU N 19388 1 
+       71 . 1 1  88  88 VAL N N 15  82.5  2.77 . . . .  87 VAL N 19388 1 
+       72 . 1 1  89  89 ALA N N 15  83.3  2.51 . . . .  88 ALA N 19388 1 
+       73 . 1 1  90  90 LEU N N 15  80.6  4.94 . . . .  89 LEU N 19388 1 
+       74 . 1 1  92  92 ARG N N 15  68.6  3.09 . . . .  91 ARG N 19388 1 
+       75 . 1 1  93  93 ASN N N 15  70.7  2.33 . . . .  92 ASN N 19388 1 
+       76 . 1 1  95  95 ALA N N 15  80.8  6.18 . . . .  94 ALA N 19388 1 
+       77 . 1 1  96  96 ARG N N 15  73.4  2.32 . . . .  95 ARG N 19388 1 
+       78 . 1 1  97  97 LEU N N 15  74.6  1.91 . . . .  96 LEU N 19388 1 
+       79 . 1 1  98  98 LEU N N 15  78.6  3.01 . . . .  97 LEU N 19388 1 
+       80 . 1 1  99  99 ARG N N 15  73.2  1.04 . . . .  98 ARG N 19388 1 
+       81 . 1 1 100 100 GLN N N 15  77.1  0.79 . . . .  99 GLN N 19388 1 
+       82 . 1 1 101 101 LEU N N 15  84.2  1.94 . . . . 100 LEU N 19388 1 
+       83 . 1 1 102 102 GLY N N 15  90.6  2.14 . . . . 101 GLY N 19388 1 
+       84 . 1 1 103 103 VAL N N 15  72.4  1.01 . . . . 102 VAL N 19388 1 
+       85 . 1 1 104 104 GLU N N 15  84.4  1.76 . . . . 103 GLU N 19388 1 
+       86 . 1 1 105 105 ALA N N 15  71.5  2.22 . . . . 104 ALA N 19388 1 
+       87 . 1 1 106 106 ALA N N 15  72.8  2.58 . . . . 105 ALA N 19388 1 
+       88 . 1 1 107 107 ARG N N 15  77.2  1.65 . . . . 106 ARG N 19388 1 
+       89 . 1 1 108 108 VAL N N 15  80.0  1.25 . . . . 107 VAL N 19388 1 
+       90 . 1 1 109 109 ARG N N 15  66.7  1.68 . . . . 108 ARG N 19388 1 
+       91 . 1 1 110 110 MET N N 15  84.3  3.27 . . . . 109 MET N 19388 1 
+       92 . 1 1 111 111 LEU N N 15  70.7  1.23 . . . . 110 LEU N 19388 1 
+       93 . 1 1 112 112 ARG N N 15  76.9  2.33 . . . . 111 ARG N 19388 1 
+       94 . 1 1 113 113 SER N N 15  72.2  2.30 . . . . 112 SER N 19388 1 
+       95 . 1 1 114 114 PHE N N 15  65.4  2.24 . . . . 113 PHE N 19388 1 
+       96 . 1 1 117 117 ARG N N 15  75.1  2.39 . . . . 116 ARG N 19388 1 
+       97 . 1 1 119 119 GLY N N 15 114.6  5.92 . . . . 118 GLY N 19388 1 
+       98 . 1 1 123 123 LEU N N 15  84.2  1.59 . . . . 122 LEU N 19388 1 
+       99 . 1 1 124 124 ASP N N 15  82.7  1.22 . . . . 123 ASP N 19388 1 
+      100 . 1 1 125 125 VAL N N 15  96.6  3.04 . . . . 124 VAL N 19388 1 
+      101 . 1 1 126 126 GLU N N 15  81.8  2.46 . . . . 125 GLU N 19388 1 
+      102 . 1 1 127 127 ASP N N 15  69.6  3.72 . . . . 126 ASP N 19388 1 
+      103 . 1 1 129 129 TYR N N 15  79.9  3.01 . . . . 128 TYR N 19388 1 
+      104 . 1 1 130 130 TYR N N 15  71.8  1.16 . . . . 129 TYR N 19388 1 
+      105 . 1 1 131 131 GLY N N 15  75.6  2.33 . . . . 130 GLY N 19388 1 
+      106 . 1 1 132 132 ASP N N 15  78.6  3.35 . . . . 131 ASP N 19388 1 
+      107 . 1 1 134 134 SER N N 15  69.0  1.32 . . . . 133 SER N 19388 1 
+      108 . 1 1 135 135 ASP N N 15  63.7  1.90 . . . . 134 ASP N 19388 1 
+      109 . 1 1 136 136 PHE N N 15  68.6  2.38 . . . . 135 PHE N 19388 1 
+      110 . 1 1 137 137 GLU N N 15  71.1  1.58 . . . . 136 GLU N 19388 1 
+      111 . 1 1 138 138 GLU N N 15  76.8  1.11 . . . . 137 GLU N 19388 1 
+      112 . 1 1 139 139 VAL N N 15  73.6  1.25 . . . . 138 VAL N 19388 1 
+      113 . 1 1 140 140 PHE N N 15  60.5  1.79 . . . . 139 PHE N 19388 1 
+      114 . 1 1 141 141 ALA N N 15  68.7  1.85 . . . . 140 ALA N 19388 1 
+      115 . 1 1 142 142 VAL N N 15  69.6  3.07 . . . . 141 VAL N 19388 1 
+      116 . 1 1 143 143 ILE N N 15  72.9  1.98 . . . . 142 ILE N 19388 1 
+      117 . 1 1 144 144 GLU N N 15  71.0  3.55 . . . . 143 GLU N 19388 1 
+      118 . 1 1 145 145 SER N N 15  74.0  1.15 . . . . 144 SER N 19388 1 
+      119 . 1 1 146 146 ALA N N 15  53.5  1.74 . . . . 145 ALA N 19388 1 
+      120 . 1 1 147 147 LEU N N 15  73.3  1.19 . . . . 146 LEU N 19388 1 
+      121 . 1 1 149 149 GLY N N 15  71.2  3.46 . . . . 148 GLY N 19388 1 
+      122 . 1 1 150 150 LEU N N 15  68.5  2.10 . . . . 149 LEU N 19388 1 
+      123 . 1 1 151 151 HIS N N 15  72.0  1.33 . . . . 150 HIS N 19388 1 
+      124 . 1 1 152 152 ASP N N 15  68.3  1.17 . . . . 151 ASP N 19388 1 
+      125 . 1 1 154 154 VAL N N 15  83.8  2.44 . . . . 153 VAL N 19388 1 
+      126 . 1 1 155 155 ASP N N 15  66.9  2.07 . . . . 154 ASP N 19388 1 
+      127 . 1 1 156 156 GLU N N 15  68.9  1.51 . . . . 155 GLU N 19388 1 
+      128 . 1 1 157 157 ARG N N 15  75.3  1.51 . . . . 156 ARG N 19388 1 
+      129 . 1 1 159 159 ALA N N 15  85.7  2.82 . . . . 158 ALA N 19388 1 
+      130 . 1 1 160 160 ARG N N 15 102.4  1.52 . . . . 159 ARG N 19388 1 
+      131 . 1 1 161 161 ASN N N 15 172.8  3.49 . . . . 160 ASN N 19388 1 
+      132 . 1 1 162 162 GLY N N 15 332.9 12.30 . . . . 161 GLY N 19388 1 
+      133 . 1 1 164 164 SER N N 15 525.3 18.10 . . . . 163 SER N 19388 1 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_order_parameter_list_1
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  order_parameter_list_1
+   _Order_parameter_list.Entry_ID                      19388
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $sample_conditions_1
+   _Order_parameter_list.Tau_e_val_units               .
+   _Order_parameter_list.Tau_f_val_units               .
+   _Order_parameter_list.Tau_s_val_units               .
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      1 '3D 1H,1H-NOESY-15N-TROSY'                                 . . . 19388 1 
+      2 '3D 1H,1H-NOESY-13C-HSQC aliphatic'                        . . . 19388 1 
+      3 '13C,1H-TROSY based 3D 13C separated 1H,1H-NOESY aromatic' . . . 19388 1 
+      4 'T1 measurement'                                           . . . 19388 1 
+      5 'T2 measurement'                                           . . . 19388 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+        1 . 1 1   2   2 MET N N 15 0.2821 0.0196 . . . . . . . . . . . . . . . . . . . .   1 MET N 19388 1 
+        2 . 1 1   3   3 SER N N 15 0.2380 0.0115 . . . . . . . . . . . . . . . . . . . .   2 SER N 19388 1 
+        3 . 1 1   4   4 ASP N N 15 0.6141 0.1067 . . . . . . . . . . . . . . . . . . . .   3 ASP N 19388 1 
+        4 . 1 1   6   6 LEU N N 15 0.7762 0.0059 . . . . . . . . . . . . . . . . . . . .   5 LEU N 19388 1 
+        5 . 1 1   7   7 HIS N N 15 0.7836 0.0011 . . . . . . . . . . . . . . . . . . . .   6 HIS N 19388 1 
+        6 . 1 1   8   8 VAL N N 15 0.8132 0.0019 . . . . . . . . . . . . . . . . . . . .   7 VAL N 19388 1 
+        7 . 1 1  10  10 PHE N N 15 0.8208 0.0018 . . . . . . . . . . . . . . . . . . . .   9 PHE N 19388 1 
+        8 . 1 1  11  11 VAL N N 15 0.8208 0.0019 . . . . . . . . . . . . . . . . . . . .  10 VAL N 19388 1 
+        9 . 1 1  15  15 ASN N N 15 0.8208 0.0055 . . . . . . . . . . . . . . . . . . . .  14 ASN N 19388 1 
+       10 . 1 1  21  21 MET N N 15 0.7947 0.0122 . . . . . . . . . . . . . . . . . . . .  20 MET N 19388 1 
+       11 . 1 1  22  22 ALA N N 15 0.7932 0.0337 . . . . . . . . . . . . . . . . . . . .  21 ALA N 19388 1 
+       12 . 1 1  23  23 GLU N N 15 0.8726 0.0008 . . . . . . . . . . . . . . . . . . . .  22 GLU N 19388 1 
+       13 . 1 1  24  24 LYS N N 15 0.8224 0.0005 . . . . . . . . . . . . . . . . . . . .  23 LYS N 19388 1 
+       14 . 1 1  25  25 MET N N 15 0.8508 0.0029 . . . . . . . . . . . . . . . . . . . .  24 MET N 19388 1 
+       15 . 1 1  27  27 ALA N N 15 0.8255 0.0011 . . . . . . . . . . . . . . . . . . . .  26 ALA N 19388 1 
+       16 . 1 1  28  28 GLN N N 15 0.8362 0.0014 . . . . . . . . . . . . . . . . . . . .  27 GLN N 19388 1 
+       17 . 1 1  29  29 GLN N N 15 0.8225 0.0028 . . . . . . . . . . . . . . . . . . . .  28 GLN N 19388 1 
+       18 . 1 1  31  31 ARG N N 15 0.9230 0.1067 . . . . . . . . . . . . . . . . . . . .  30 ARG N 19388 1 
+       19 . 1 1  32  32 HIS N N 15 0.8432 0.0037 . . . . . . . . . . . . . . . . . . . .  31 HIS N 19388 1 
+       20 . 1 1  33  33 ARG N N 15 0.7867 0.0031 . . . . . . . . . . . . . . . . . . . .  32 ARG N 19388 1 
+       21 . 1 1  34  34 GLY N N 15 0.8868 0.0034 . . . . . . . . . . . . . . . . . . . .  33 GLY N 19388 1 
+       22 . 1 1  35  35 LEU N N 15 0.8237 0.0033 . . . . . . . . . . . . . . . . . . . .  34 LEU N 19388 1 
+       23 . 1 1  36  36 GLY N N 15 0.9093 0.0058 . . . . . . . . . . . . . . . . . . . .  35 GLY N 19388 1 
+       24 . 1 1  38  38 ALA N N 15 0.9015 0.1765 . . . . . . . . . . . . . . . . . . . .  37 ALA N 19388 1 
+       25 . 1 1  39  39 VAL N N 15 0.8305 0.0023 . . . . . . . . . . . . . . . . . . . .  38 VAL N 19388 1 
+       26 . 1 1  40  40 ARG N N 15 0.7755 0.0019 . . . . . . . . . . . . . . . . . . . .  39 ARG N 19388 1 
+       27 . 1 1  41  41 VAL N N 15 0.8431 0.0010 . . . . . . . . . . . . . . . . . . . .  40 VAL N 19388 1 
+       28 . 1 1  42  42 THR N N 15 0.8102 0.0016 . . . . . . . . . . . . . . . . . . . .  41 THR N 19388 1 
+       29 . 1 1  43  43 SER N N 15 0.8238 0.0030 . . . . . . . . . . . . . . . . . . . .  42 SER N 19388 1 
+       30 . 1 1  44  44 ALA N N 15 0.8113 0.0019 . . . . . . . . . . . . . . . . . . . .  43 ALA N 19388 1 
+       31 . 1 1  45  45 GLY N N 15 0.7919 0.0034 . . . . . . . . . . . . . . . . . . . .  44 GLY N 19388 1 
+       32 . 1 1  46  46 THR N N 15 0.8491 0.0009 . . . . . . . . . . . . . . . . . . . .  45 THR N 19388 1 
+       33 . 1 1  47  47 GLY N N 15 0.8208 0.0022 . . . . . . . . . . . . . . . . . . . .  46 GLY N 19388 1 
+       34 . 1 1  48  48 ASN N N 15 0.8272 0.0045 . . . . . . . . . . . . . . . . . . . .  47 ASN N 19388 1 
+       35 . 1 1  49  49 TRP N N 15 0.8722 0.0004 . . . . . . . . . . . . . . . . . . . .  48 TRP N 19388 1 
+       36 . 1 1  50  50 HIS N N 15 0.9195 0.0028 . . . . . . . . . . . . . . . . . . . .  49 HIS N 19388 1 
+       37 . 1 1  51  51 VAL N N 15 0.7547 0.0044 . . . . . . . . . . . . . . . . . . . .  50 VAL N 19388 1 
+       38 . 1 1  52  52 GLY N N 15 0.8303 0.0002 . . . . . . . . . . . . . . . . . . . .  51 GLY N 19388 1 
+       39 . 1 1  53  53 SER N N 15 0.8368 0.0039 . . . . . . . . . . . . . . . . . . . .  52 SER N 19388 1 
+       40 . 1 1  54  54 CYS N N 15 0.7182 0.0025 . . . . . . . . . . . . . . . . . . . .  53 CYS N 19388 1 
+       41 . 1 1  56  56 ASP N N 15 0.8054 0.0013 . . . . . . . . . . . . . . . . . . . .  55 ASP N 19388 1 
+       42 . 1 1  58  58 ARG N N 15 0.8054 0.0005 . . . . . . . . . . . . . . . . . . . .  57 ARG N 19388 1 
+       43 . 1 1  59  59 ALA N N 15 0.7675 0.0009 . . . . . . . . . . . . . . . . . . . .  58 ALA N 19388 1 
+       44 . 1 1  61  61 GLY N N 15 0.7993 0.0082 . . . . . . . . . . . . . . . . . . . .  60 GLY N 19388 1 
+       45 . 1 1  62  62 VAL N N 15 0.8568 0.0084 . . . . . . . . . . . . . . . . . . . .  61 VAL N 19388 1 
+       46 . 1 1  63  63 LEU N N 15 0.7535 0.0045 . . . . . . . . . . . . . . . . . . . .  62 LEU N 19388 1 
+       47 . 1 1  64  64 ARG N N 15 0.8048 0.0021 . . . . . . . . . . . . . . . . . . . .  63 ARG N 19388 1 
+       48 . 1 1  66  66 HIS N N 15 0.7600 0.0015 . . . . . . . . . . . . . . . . . . . .  65 HIS N 19388 1 
+       49 . 1 1  67  67 GLY N N 15 0.8384 0.0044 . . . . . . . . . . . . . . . . . . . .  66 GLY N 19388 1 
+       50 . 1 1  68  68 TYR N N 15 0.7826 0.0021 . . . . . . . . . . . . . . . . . . . .  67 TYR N 19388 1 
+       51 . 1 1  70  70 THR N N 15 0.9001 0.0071 . . . . . . . . . . . . . . . . . . . .  69 THR N 19388 1 
+       52 . 1 1  73  73 ARG N N 15 0.8155 0.0378 . . . . . . . . . . . . . . . . . . . .  72 ARG N 19388 1 
+       53 . 1 1  74  74 ALA N N 15 0.7949 0.0014 . . . . . . . . . . . . . . . . . . . .  73 ALA N 19388 1 
+       54 . 1 1  75  75 ALA N N 15 0.7998 0.0828 . . . . . . . . . . . . . . . . . . . .  74 ALA N 19388 1 
+       55 . 1 1  76  76 GLN N N 15 0.8367 0.0175 . . . . . . . . . . . . . . . . . . . .  75 GLN N 19388 1 
+       56 . 1 1  77  77 VAL N N 15 0.8813 0.0025 . . . . . . . . . . . . . . . . . . . .  76 VAL N 19388 1 
+       57 . 1 1  78  78 GLY N N 15 0.7262 0.0037 . . . . . . . . . . . . . . . . . . . .  77 GLY N 19388 1 
+       58 . 1 1  79  79 THR N N 15 0.8453 0.0025 . . . . . . . . . . . . . . . . . . . .  78 THR N 19388 1 
+       59 . 1 1  80  80 GLU N N 15 0.8732 0.0058 . . . . . . . . . . . . . . . . . . . .  79 GLU N 19388 1 
+       60 . 1 1  81  81 HIS N N 15 0.7601 0.0033 . . . . . . . . . . . . . . . . . . . .  80 HIS N 19388 1 
+       61 . 1 1  82  82 LEU N N 15 0.8573 0.0014 . . . . . . . . . . . . . . . . . . . .  81 LEU N 19388 1 
+       62 . 1 1  83  83 ALA N N 15 0.8159 0.0018 . . . . . . . . . . . . . . . . . . . .  82 ALA N 19388 1 
+       63 . 1 1  84  84 ALA N N 15 0.8226 0.0016 . . . . . . . . . . . . . . . . . . . .  83 ALA N 19388 1 
+       64 . 1 1  86  86 LEU N N 15 0.8237 0.0002 . . . . . . . . . . . . . . . . . . . .  85 LEU N 19388 1 
+       65 . 1 1  87  87 LEU N N 15 0.8790 0.0009 . . . . . . . . . . . . . . . . . . . .  86 LEU N 19388 1 
+       66 . 1 1  88  88 VAL N N 15 0.7711 0.0546 . . . . . . . . . . . . . . . . . . . .  87 VAL N 19388 1 
+       67 . 1 1  90  90 LEU N N 15 0.8231 0.0011 . . . . . . . . . . . . . . . . . . . .  89 LEU N 19388 1 
+       68 . 1 1  95  95 ALA N N 15 0.8060 0.0010 . . . . . . . . . . . . . . . . . . . .  94 ALA N 19388 1 
+       69 . 1 1  96  96 ARG N N 15 0.8070 0.0007 . . . . . . . . . . . . . . . . . . . .  95 ARG N 19388 1 
+       70 . 1 1  97  97 LEU N N 15 0.8419 0.0006 . . . . . . . . . . . . . . . . . . . .  96 LEU N 19388 1 
+       71 . 1 1  98  98 LEU N N 15 0.7950 0.0010 . . . . . . . . . . . . . . . . . . . .  97 LEU N 19388 1 
+       72 . 1 1  99  99 ARG N N 15 0.8344 0.0204 . . . . . . . . . . . . . . . . . . . .  98 ARG N 19388 1 
+       73 . 1 1 100 100 GLN N N 15 0.9586 0.0048 . . . . . . . . . . . . . . . . . . . .  99 GLN N 19388 1 
+       74 . 1 1 101 101 LEU N N 15 0.7757 0.0002 . . . . . . . . . . . . . . . . . . . . 100 LEU N 19388 1 
+       75 . 1 1 102 102 GLY N N 15 0.9033 0.0091 . . . . . . . . . . . . . . . . . . . . 101 GLY N 19388 1 
+       76 . 1 1 103 103 VAL N N 15 0.7969 0.0055 . . . . . . . . . . . . . . . . . . . . 102 VAL N 19388 1 
+       77 . 1 1 104 104 GLU N N 15 0.7584 0.0015 . . . . . . . . . . . . . . . . . . . . 103 GLU N 19388 1 
+       78 . 1 1 105 105 ALA N N 15 0.8773 0.0006 . . . . . . . . . . . . . . . . . . . . 104 ALA N 19388 1 
+       79 . 1 1 107 107 ARG N N 15 0.8169 0.0026 . . . . . . . . . . . . . . . . . . . . 106 ARG N 19388 1 
+       80 . 1 1 108 108 VAL N N 15 0.7958 0.0017 . . . . . . . . . . . . . . . . . . . . 107 VAL N 19388 1 
+       81 . 1 1 109 109 ARG N N 15 0.8294 0.0024 . . . . . . . . . . . . . . . . . . . . 108 ARG N 19388 1 
+       82 . 1 1 110 110 MET N N 15 0.7498 0.0016 . . . . . . . . . . . . . . . . . . . . 109 MET N 19388 1 
+       83 . 1 1 111 111 LEU N N 15 0.8626 0.0043 . . . . . . . . . . . . . . . . . . . . 110 LEU N 19388 1 
+       84 . 1 1 112 112 ARG N N 15 0.8086 0.0049 . . . . . . . . . . . . . . . . . . . . 111 ARG N 19388 1 
+       85 . 1 1 113 113 SER N N 15 0.8729 0.0016 . . . . . . . . . . . . . . . . . . . . 112 SER N 19388 1 
+       86 . 1 1 114 114 PHE N N 15 0.8916 0.0011 . . . . . . . . . . . . . . . . . . . . 113 PHE N 19388 1 
+       87 . 1 1 117 117 ARG N N 15 0.8310 0.0017 . . . . . . . . . . . . . . . . . . . . 116 ARG N 19388 1 
+       88 . 1 1 119 119 GLY N N 15 0.6562 0.0456 . . . . . . . . . . . . . . . . . . . . 118 GLY N 19388 1 
+       89 . 1 1 123 123 LEU N N 15 0.8158 0.1071 . . . . . . . . . . . . . . . . . . . . 122 LEU N 19388 1 
+       90 . 1 1 124 124 ASP N N 15 0.7616 0.0129 . . . . . . . . . . . . . . . . . . . . 123 ASP N 19388 1 
+       91 . 1 1 125 125 VAL N N 15 0.6619 0.0044 . . . . . . . . . . . . . . . . . . . . 124 VAL N 19388 1 
+       92 . 1 1 127 127 ASP N N 15 0.8619 0.0064 . . . . . . . . . . . . . . . . . . . . 126 ASP N 19388 1 
+       93 . 1 1 129 129 TYR N N 15 0.7784 0.0007 . . . . . . . . . . . . . . . . . . . . 128 TYR N 19388 1 
+       94 . 1 1 130 130 TYR N N 15 0.8379 0.0236 . . . . . . . . . . . . . . . . . . . . 129 TYR N 19388 1 
+       95 . 1 1 131 131 GLY N N 15 0.7402 0.0498 . . . . . . . . . . . . . . . . . . . . 130 GLY N 19388 1 
+       96 . 1 1 132 132 ASP N N 15 0.8016 0.0016 . . . . . . . . . . . . . . . . . . . . 131 ASP N 19388 1 
+       97 . 1 1 134 134 SER N N 15 0.8355 0.0037 . . . . . . . . . . . . . . . . . . . . 133 SER N 19388 1 
+       98 . 1 1 135 135 ASP N N 15 0.8290 0.0859 . . . . . . . . . . . . . . . . . . . . 134 ASP N 19388 1 
+       99 . 1 1 136 136 PHE N N 15 0.8743 0.0058 . . . . . . . . . . . . . . . . . . . . 135 PHE N 19388 1 
+      100 . 1 1 138 138 GLU N N 15 0.9083 0.0098 . . . . . . . . . . . . . . . . . . . . 137 GLU N 19388 1 
+      101 . 1 1 139 139 VAL N N 15 0.8064 0.0014 . . . . . . . . . . . . . . . . . . . . 138 VAL N 19388 1 
+      102 . 1 1 140 140 PHE N N 15 0.7976 0.0042 . . . . . . . . . . . . . . . . . . . . 139 PHE N 19388 1 
+      103 . 1 1 142 142 VAL N N 15 0.8286 0.0003 . . . . . . . . . . . . . . . . . . . . 141 VAL N 19388 1 
+      104 . 1 1 144 144 GLU N N 15 0.8272 0.0016 . . . . . . . . . . . . . . . . . . . . 143 GLU N 19388 1 
+      105 . 1 1 145 145 SER N N 15 0.7928 0.0024 . . . . . . . . . . . . . . . . . . . . 144 SER N 19388 1 
+      106 . 1 1 146 146 ALA N N 15 0.8877 0.0037 . . . . . . . . . . . . . . . . . . . . 145 ALA N 19388 1 
+      107 . 1 1 147 147 LEU N N 15 0.7665 0.0523 . . . . . . . . . . . . . . . . . . . . 146 LEU N 19388 1 
+      108 . 1 1 149 149 GLY N N 15 0.7925 0.0020 . . . . . . . . . . . . . . . . . . . . 148 GLY N 19388 1 
+      109 . 1 1 150 150 LEU N N 15 0.7747 0.0032 . . . . . . . . . . . . . . . . . . . . 149 LEU N 19388 1 
+      110 . 1 1 151 151 HIS N N 15 0.7922 0.0174 . . . . . . . . . . . . . . . . . . . . 150 HIS N 19388 1 
+      111 . 1 1 152 152 ASP N N 15 0.8391 0.0143 . . . . . . . . . . . . . . . . . . . . 151 ASP N 19388 1 
+      112 . 1 1 155 155 ASP N N 15 0.8629 0.0424 . . . . . . . . . . . . . . . . . . . . 154 ASP N 19388 1 
+      113 . 1 1 156 156 GLU N N 15 0.8371 0.0007 . . . . . . . . . . . . . . . . . . . . 155 GLU N 19388 1 
+      114 . 1 1 157 157 ARG N N 15 0.7960 0.0025 . . . . . . . . . . . . . . . . . . . . 156 ARG N 19388 1 
+      115 . 1 1 159 159 ALA N N 15 0.8616 0.0070 . . . . . . . . . . . . . . . . . . . . 158 ALA N 19388 1 
+      116 . 1 1 160 160 ARG N N 15 0.7010 0.0077 . . . . . . . . . . . . . . . . . . . . 159 ARG N 19388 1 
+      117 . 1 1 161 161 ASN N N 15 0.4080 0.0065 . . . . . . . . . . . . . . . . . . . . 160 ASN N 19388 1 
+      118 . 1 1 162 162 GLY N N 15 0.1832 0.0037 . . . . . . . . . . . . . . . . . . . . 161 GLY N 19388 1 
+      119 . 1 1 164 164 SER N N 15 0.1195 0.0084 . . . . . . . . . . . . . . . . . . . . 163 SER N 19388 1 
+
+   stop_
+
+save_
+

@@ -1,0 +1,2829 @@
+data_17041
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             17041
+   _Entry.Title                         
+;
+Backbone dynamics of Tryptophan repressor protein in holo-form
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2010-07-01
+   _Entry.Accession_date                 2010-07-01
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.9.13
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Anupam Goel . . . 17041 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 17041 
+      heteronucl_NOEs          1 17041 
+      heteronucl_T1_relaxation 1 17041 
+      heteronucl_T2_relaxation 1 17041 
+      order_parameters         1 17041 
+      spectral_density_values  1 17041 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'      189 17041 
+      '15N chemical shifts'       95 17041 
+      '1H chemical shifts'        95 17041 
+      'heteronuclear NOE values'  76 17041 
+      'order parameters'          72 17041 
+      'spectral density values'   83 17041 
+      'T1 relaxation values'      76 17041 
+      'T2 relaxation values'      76 17041 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      4 . . 2011-03-29 2010-07-01 update   BMRB   
+;
+tau e value units changed from ns to ps
+residue numbering (comp_index_ID) corrected in all relaxation data save frames
+; 17041 
+      3 . . 2010-09-23 2010-07-01 update   BMRB   'update entry citation' 17041 
+      2 . . 2010-08-20 2010-07-01 update   BMRB   'update entry citation' 17041 
+      1 . . 2010-07-09 2010-07-01 original author 'original release'      17041 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 17010 'Wild Type Tryptophan Repressor'                        17041 
+      BMRB 17012 'mutant L75F Tryptophan Repressor'                      17041 
+      BMRB 17013 'mutant A77V Tryptophan Repressor'                      17041 
+      BMRB 17046 'Tryptophan repressor L75F mutant in holo-form'         17041 
+      BMRB 17047 'Tryptophan repressor A77V mutant protein in holo-form' 17041 
+      PDB  2xdi    .                                                      17041 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     17041
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    20718459
+   _Citation.Full_citation                .
+   _Citation.Title                       'Backbone amide dynamics studies of Apo-L75F-TrpR, a temperature-sensitive mutant of the tryptophan repressor protein (TrpR): comparison with the (15)N NMR relaxation profiles of wild-type and A77V mutant Apo-TrpR repressors.'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Biochemistry
+   _Citation.Journal_name_full            Biochemistry
+   _Citation.Journal_volume               49
+   _Citation.Journal_issue                37
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   8006
+   _Citation.Page_last                    8019
+   _Citation.Year                         2010
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Anupam  Goel   . .  . 17041 1 
+      2 Brian   Tripet . P. . 17041 1 
+      3 Robert  Tyler  . C. . 17041 1 
+      4 Lucas   Nebert . D. . 17041 1 
+      5 Valerie Copie  . .  . 17041 1 
+
+   stop_
+
+save_
+
+
+save_reference_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 reference_citation
+   _Citation.Entry_ID                     17041
+   _Citation.ID                           2
+   _Citation.Class                       'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title                       'Backbone amide dynamics studies of apo-L75F-TrpR, a temperature sensitive mutant of the tryptophan repressor protein (TrpR): comparison with the 15N NMR relaxation profiles of wild type and A77V mutant apo-TrpR repressors'
+   _Citation.Status                       submitted
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Biochemistry
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Anupam  Goel   . P. . 17041 2 
+      2 Brian   Tripet . P. . 17041 2 
+      3 Valerie Copie  . .  . 17041 2 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          17041
+   _Assembly.ID                                1
+   _Assembly.Name                             'holoTrpR dimer'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    13046.8
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 subunit     1 $TrpR       A . yes native no no . . . 17041 1 
+      2 L-Trytophan 2 $entity_TRP B . no  native no no . . . 17041 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes PDB 1wrp . . . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_TrpR
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      TrpR
+   _Entity.Entry_ID                          17041
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              TrpR
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+HHHHHHAQQSPYSAAMAEQR
+HQEWLRFVDLLKNAYQNDLH
+LPLLNLMLTPDEREALGTRV
+RIVEELLRGEMSQRELKNEL
+GAGIATITRGSNSLKAAPVE
+LRQWLEEVLLKSD
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                113
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        17010 .  apo-TrpR                                                                                              . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+       2 no BMRB        17012 .  apo-L75F-TrpR                                                                                         . . . . .  94.69 108  99.07  99.07 5.28e-69 . . . . 17041 1 
+       3 no BMRB        17013 .  apo-A77V-TrpR                                                                                         . . . . .  94.69 108  99.07  99.07 7.65e-69 . . . . 17041 1 
+       4 no BMRB        17046 .  TrpR_L75F                                                                                             . . . . . 100.00 113  99.12  99.12 3.05e-74 . . . . 17041 1 
+       5 no BMRB        17047 .  TrpR_A77V                                                                                             . . . . . 100.00 113  99.12  99.12 5.68e-74 . . . . 17041 1 
+       6 no BMRB         2040 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+       7 no BMRB         2042 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+       8 no BMRB         2043 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+       9 no BMRB         2074 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+      10 no BMRB         2173 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+      11 no BMRB         2209 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+      12 no BMRB         2764 . "trp repressor"                                                                                        . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+      13 no BMRB          441 . "trp repressor"                                                                                        . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      14 no BMRB          442 . "trp repressor"                                                                                        . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      15 no PDB  1CO0          . "Nmr Study Of Trp Repressor-Mtr Operator Dna Complex"                                                  . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      16 no PDB  1JHG          . "Trp Repressor Mutant V58i"                                                                            . . . . .  89.38 101  99.01 100.00 5.92e-64 . . . . 17041 1 
+      17 no PDB  1MI7          . "Crystal Structure Of Domain Swapped Trp Aporepressor In 30%(VV) Isopropanol"                          . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      18 no PDB  1RCS          . "Nmr Study Of Trp Repressor-Operator Dna Complex"                                                      . . . . .  92.92 105 100.00 100.00 5.78e-68 . . . . 17041 1 
+      19 no PDB  1TRO          . "Crystal Structure Of Trp Repressor Operator Complex At Atomic Resolution"                             . . . . .  94.69 108  99.07 100.00 7.65e-69 . . . . 17041 1 
+      20 no PDB  1TRR          . "Tandem Binding In Crystals Of A Trp RepressorOPERATOR HALF- Site Complex"                             . . . . .  94.69 107  99.07 100.00 8.74e-69 . . . . 17041 1 
+      21 no PDB  1WRP          . "Flexibility Of The Dna-binding Domains Of Trp Repressor"                                              . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      22 no PDB  1WRS          . "Nmr Study Of Holo Trp Repressor"                                                                      . . . . .  92.92 105 100.00 100.00 5.78e-68 . . . . 17041 1 
+      23 no PDB  1WRT          . "Nmr Study Of Apo Trp Repressor"                                                                       . . . . .  92.92 105 100.00 100.00 5.78e-68 . . . . 17041 1 
+      24 no PDB  1ZT9          . "E. Coli Trp Repressor, Tetragonal Crystal Form"                                                       . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      25 no PDB  2OZ9          . "E. Coli Trp Holorepressor, Orthorhombic Crystal Form"                                                 . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      26 no PDB  2XDI          . "Tryptophan Repressor With L75f Mutation In Its Apo Form (no L-tryptophan Bound)"                      . . . . .  94.69 107  99.07  99.07 5.06e-69 . . . . 17041 1 
+      27 no PDB  3SSW          . "E. Coli Trp Aporepressor"                                                                             . . . . .  94.69 107 100.00 100.00 2.05e-69 . . . . 17041 1 
+      28 no PDB  3SSX          . "E. Coli Trp Aporeporessor L75f Mutant"                                                                . . . . .  94.69 107  99.07  99.07 5.06e-69 . . . . 17041 1 
+      29 no PDB  3WRP          . "Flexibility Of The Dna-Binding Domains Of Trp Repressor"                                              . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      30 no DBJ  BAB38774      . "regulator for trp operon and aroH [Escherichia coli O157:H7 str. Sakai]"                              . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      31 no DBJ  BAE78382      . "DNA-binding transcriptional repressor, tryptophan-binding [Escherichia coli str. K12 substr. W3110]"  . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      32 no DBJ  BAG80193      . "tryptophan operon repressor [Escherichia coli SE11]"                                                  . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      33 no DBJ  BAI28718      . "DNA-binding transcriptional repressor TrpR, tryptophan-binding [Escherichia coli O26:H11 str. 11368]" . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      34 no DBJ  BAI33927      . "DNA-binding transcriptional repressor TrpR, tryptophan-binding [Escherichia coli O103:H2 str. 12009]" . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      35 no EMBL CAP78881      . "Trp operon repressor [Escherichia coli LF82]"                                                         . . . . .  94.69 108  99.07 100.00 5.64e-69 . . . . 17041 1 
+      36 no EMBL CAQ34751      . "TrpR transcriptional repressor [Escherichia coli BL21(DE3)]"                                          . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      37 no EMBL CAQ91905      . "DNA-binding transcriptional repressor, tryptophan-binding [Escherichia fergusonii ATCC 35469]"        . . . . .  92.92 108 100.00 100.00 1.66e-67 . . . . 17041 1 
+      38 no EMBL CAR01357      . "DNA-binding transcriptional repressor, tryptophan-binding [Escherichia coli IAI1]"                    . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      39 no EMBL CAR06215      . "DNA-binding transcriptional repressor, tryptophan-binding [Escherichia coli S88]"                     . . . . .  94.69 108  99.07 100.00 5.64e-69 . . . . 17041 1 
+      40 no GB   AAA72134      . "tryptophan repressor [Salmonella enterica subsp. enterica serovar Typhimurium]"                       . . . . .  94.69 108  97.20  99.07 6.78e-68 . . . . 17041 1 
+      41 no GB   AAA72140      . "trp operon repressor protein (trpR) [Escherichia coli]"                                               . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      42 no GB   AAA97289      . "CG Site No. 68; alternate gene name Rtry [Escherichia coli str. K-12 substr. MG1655]"                 . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      43 no GB   AAC77346      . "transcriptional repressor, tryptophan-binding [Escherichia coli str. K-12 substr. MG1655]"            . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      44 no GB   AAG59573      . "regulator for trp operon and aroH; trp aporepressor [Escherichia coli O157:H7 str. EDL933]"           . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      45 no REF  NP_313378     . "Trp operon repressor [Escherichia coli O157:H7 str. Sakai]"                                           . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      46 no REF  NP_418810     . "transcriptional repressor, tryptophan-binding [Escherichia coli str. K-12 substr. MG1655]"            . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      47 no REF  NP_710132     . "Trp operon repressor [Shigella flexneri 2a str. 301]"                                                 . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      48 no REF  WP_000068670  . "MULTISPECIES: Trp operon repressor [Escherichia]"                                                     . . . . .  94.69 108  99.07 100.00 7.65e-69 . . . . 17041 1 
+      49 no REF  WP_000068671  . "MULTISPECIES: Trp operon repressor [Escherichia]"                                                     . . . . .  94.69 108  98.13  99.07 9.00e-68 . . . . 17041 1 
+      50 no SP   A1AJW2        . "RecName: Full=Trp operon repressor"                                                                   . . . . .  94.69 108  99.07 100.00 5.64e-69 . . . . 17041 1 
+      51 no SP   A7ZVT5        . "RecName: Full=Trp operon repressor"                                                                   . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      52 no SP   A8A8C2        . "RecName: Full=Trp operon repressor"                                                                   . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      53 no SP   B1IS26        . "RecName: Full=Trp operon repressor"                                                                   . . . . .  94.69 108 100.00 100.00 2.04e-69 . . . . 17041 1 
+      54 no SP   B1LEK0        . "RecName: Full=Trp operon repressor"                                                                   . . . . .  93.81 108  98.11  99.06 4.47e-67 . . . . 17041 1 
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Regulation of intracellular L-Trp concentrations by repressing the trp operon' 17041 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . HIS . 17041 1 
+        2 . HIS . 17041 1 
+        3 . HIS . 17041 1 
+        4 . HIS . 17041 1 
+        5 . HIS . 17041 1 
+        6 . HIS . 17041 1 
+        7 . ALA . 17041 1 
+        8 . GLN . 17041 1 
+        9 . GLN . 17041 1 
+       10 . SER . 17041 1 
+       11 . PRO . 17041 1 
+       12 . TYR . 17041 1 
+       13 . SER . 17041 1 
+       14 . ALA . 17041 1 
+       15 . ALA . 17041 1 
+       16 . MET . 17041 1 
+       17 . ALA . 17041 1 
+       18 . GLU . 17041 1 
+       19 . GLN . 17041 1 
+       20 . ARG . 17041 1 
+       21 . HIS . 17041 1 
+       22 . GLN . 17041 1 
+       23 . GLU . 17041 1 
+       24 . TRP . 17041 1 
+       25 . LEU . 17041 1 
+       26 . ARG . 17041 1 
+       27 . PHE . 17041 1 
+       28 . VAL . 17041 1 
+       29 . ASP . 17041 1 
+       30 . LEU . 17041 1 
+       31 . LEU . 17041 1 
+       32 . LYS . 17041 1 
+       33 . ASN . 17041 1 
+       34 . ALA . 17041 1 
+       35 . TYR . 17041 1 
+       36 . GLN . 17041 1 
+       37 . ASN . 17041 1 
+       38 . ASP . 17041 1 
+       39 . LEU . 17041 1 
+       40 . HIS . 17041 1 
+       41 . LEU . 17041 1 
+       42 . PRO . 17041 1 
+       43 . LEU . 17041 1 
+       44 . LEU . 17041 1 
+       45 . ASN . 17041 1 
+       46 . LEU . 17041 1 
+       47 . MET . 17041 1 
+       48 . LEU . 17041 1 
+       49 . THR . 17041 1 
+       50 . PRO . 17041 1 
+       51 . ASP . 17041 1 
+       52 . GLU . 17041 1 
+       53 . ARG . 17041 1 
+       54 . GLU . 17041 1 
+       55 . ALA . 17041 1 
+       56 . LEU . 17041 1 
+       57 . GLY . 17041 1 
+       58 . THR . 17041 1 
+       59 . ARG . 17041 1 
+       60 . VAL . 17041 1 
+       61 . ARG . 17041 1 
+       62 . ILE . 17041 1 
+       63 . VAL . 17041 1 
+       64 . GLU . 17041 1 
+       65 . GLU . 17041 1 
+       66 . LEU . 17041 1 
+       67 . LEU . 17041 1 
+       68 . ARG . 17041 1 
+       69 . GLY . 17041 1 
+       70 . GLU . 17041 1 
+       71 . MET . 17041 1 
+       72 . SER . 17041 1 
+       73 . GLN . 17041 1 
+       74 . ARG . 17041 1 
+       75 . GLU . 17041 1 
+       76 . LEU . 17041 1 
+       77 . LYS . 17041 1 
+       78 . ASN . 17041 1 
+       79 . GLU . 17041 1 
+       80 . LEU . 17041 1 
+       81 . GLY . 17041 1 
+       82 . ALA . 17041 1 
+       83 . GLY . 17041 1 
+       84 . ILE . 17041 1 
+       85 . ALA . 17041 1 
+       86 . THR . 17041 1 
+       87 . ILE . 17041 1 
+       88 . THR . 17041 1 
+       89 . ARG . 17041 1 
+       90 . GLY . 17041 1 
+       91 . SER . 17041 1 
+       92 . ASN . 17041 1 
+       93 . SER . 17041 1 
+       94 . LEU . 17041 1 
+       95 . LYS . 17041 1 
+       96 . ALA . 17041 1 
+       97 . ALA . 17041 1 
+       98 . PRO . 17041 1 
+       99 . VAL . 17041 1 
+      100 . GLU . 17041 1 
+      101 . LEU . 17041 1 
+      102 . ARG . 17041 1 
+      103 . GLN . 17041 1 
+      104 . TRP . 17041 1 
+      105 . LEU . 17041 1 
+      106 . GLU . 17041 1 
+      107 . GLU . 17041 1 
+      108 . VAL . 17041 1 
+      109 . LEU . 17041 1 
+      110 . LEU . 17041 1 
+      111 . LYS . 17041 1 
+      112 . SER . 17041 1 
+      113 . ASP . 17041 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . HIS   1   1 17041 1 
+      . HIS   2   2 17041 1 
+      . HIS   3   3 17041 1 
+      . HIS   4   4 17041 1 
+      . HIS   5   5 17041 1 
+      . HIS   6   6 17041 1 
+      . ALA   7   7 17041 1 
+      . GLN   8   8 17041 1 
+      . GLN   9   9 17041 1 
+      . SER  10  10 17041 1 
+      . PRO  11  11 17041 1 
+      . TYR  12  12 17041 1 
+      . SER  13  13 17041 1 
+      . ALA  14  14 17041 1 
+      . ALA  15  15 17041 1 
+      . MET  16  16 17041 1 
+      . ALA  17  17 17041 1 
+      . GLU  18  18 17041 1 
+      . GLN  19  19 17041 1 
+      . ARG  20  20 17041 1 
+      . HIS  21  21 17041 1 
+      . GLN  22  22 17041 1 
+      . GLU  23  23 17041 1 
+      . TRP  24  24 17041 1 
+      . LEU  25  25 17041 1 
+      . ARG  26  26 17041 1 
+      . PHE  27  27 17041 1 
+      . VAL  28  28 17041 1 
+      . ASP  29  29 17041 1 
+      . LEU  30  30 17041 1 
+      . LEU  31  31 17041 1 
+      . LYS  32  32 17041 1 
+      . ASN  33  33 17041 1 
+      . ALA  34  34 17041 1 
+      . TYR  35  35 17041 1 
+      . GLN  36  36 17041 1 
+      . ASN  37  37 17041 1 
+      . ASP  38  38 17041 1 
+      . LEU  39  39 17041 1 
+      . HIS  40  40 17041 1 
+      . LEU  41  41 17041 1 
+      . PRO  42  42 17041 1 
+      . LEU  43  43 17041 1 
+      . LEU  44  44 17041 1 
+      . ASN  45  45 17041 1 
+      . LEU  46  46 17041 1 
+      . MET  47  47 17041 1 
+      . LEU  48  48 17041 1 
+      . THR  49  49 17041 1 
+      . PRO  50  50 17041 1 
+      . ASP  51  51 17041 1 
+      . GLU  52  52 17041 1 
+      . ARG  53  53 17041 1 
+      . GLU  54  54 17041 1 
+      . ALA  55  55 17041 1 
+      . LEU  56  56 17041 1 
+      . GLY  57  57 17041 1 
+      . THR  58  58 17041 1 
+      . ARG  59  59 17041 1 
+      . VAL  60  60 17041 1 
+      . ARG  61  61 17041 1 
+      . ILE  62  62 17041 1 
+      . VAL  63  63 17041 1 
+      . GLU  64  64 17041 1 
+      . GLU  65  65 17041 1 
+      . LEU  66  66 17041 1 
+      . LEU  67  67 17041 1 
+      . ARG  68  68 17041 1 
+      . GLY  69  69 17041 1 
+      . GLU  70  70 17041 1 
+      . MET  71  71 17041 1 
+      . SER  72  72 17041 1 
+      . GLN  73  73 17041 1 
+      . ARG  74  74 17041 1 
+      . GLU  75  75 17041 1 
+      . LEU  76  76 17041 1 
+      . LYS  77  77 17041 1 
+      . ASN  78  78 17041 1 
+      . GLU  79  79 17041 1 
+      . LEU  80  80 17041 1 
+      . GLY  81  81 17041 1 
+      . ALA  82  82 17041 1 
+      . GLY  83  83 17041 1 
+      . ILE  84  84 17041 1 
+      . ALA  85  85 17041 1 
+      . THR  86  86 17041 1 
+      . ILE  87  87 17041 1 
+      . THR  88  88 17041 1 
+      . ARG  89  89 17041 1 
+      . GLY  90  90 17041 1 
+      . SER  91  91 17041 1 
+      . ASN  92  92 17041 1 
+      . SER  93  93 17041 1 
+      . LEU  94  94 17041 1 
+      . LYS  95  95 17041 1 
+      . ALA  96  96 17041 1 
+      . ALA  97  97 17041 1 
+      . PRO  98  98 17041 1 
+      . VAL  99  99 17041 1 
+      . GLU 100 100 17041 1 
+      . LEU 101 101 17041 1 
+      . ARG 102 102 17041 1 
+      . GLN 103 103 17041 1 
+      . TRP 104 104 17041 1 
+      . LEU 105 105 17041 1 
+      . GLU 106 106 17041 1 
+      . GLU 107 107 17041 1 
+      . VAL 108 108 17041 1 
+      . LEU 109 109 17041 1 
+      . LEU 110 110 17041 1 
+      . LYS 111 111 17041 1 
+      . SER 112 112 17041 1 
+      . ASP 113 113 17041 1 
+
+   stop_
+
+save_
+
+
+save_entity_TRP
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_TRP
+   _Entity.Entry_ID                          17041
+   _Entity.ID                                2
+   _Entity.BMRB_code                         TRP
+   _Entity.Name                              TRYPTOPHAN
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                TRP
+   _Entity.Nonpolymer_comp_label            $chem_comp_TRP
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    204.225
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      TRYPTOPHAN BMRB 17041 2 
+
+   stop_
+
+   loop_
+      _Entity_systematic_name.Name
+      _Entity_systematic_name.Naming_system
+      _Entity_systematic_name.Entry_ID
+      _Entity_systematic_name.Entity_ID
+
+      TRYPTOPHAN  BMRB               17041 2 
+      TRP        'Three letter code' 17041 2 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 1 TRP $chem_comp_TRP 17041 2 
+
+   stop_
+
+   loop_
+      _Entity_atom_list.ID
+      _Entity_atom_list.Comp_index_ID
+      _Entity_atom_list.Comp_ID
+      _Entity_atom_list.Atom_ID
+      _Entity_atom_list.Entry_ID
+      _Entity_atom_list.Entity_ID
+
+       1 1 TRP C   17041 2 
+       2 1 TRP CA  17041 2 
+       3 1 TRP CB  17041 2 
+       4 1 TRP CD1 17041 2 
+       5 1 TRP CD2 17041 2 
+       6 1 TRP CE2 17041 2 
+       7 1 TRP CE3 17041 2 
+       8 1 TRP CG  17041 2 
+       9 1 TRP CH2 17041 2 
+      10 1 TRP CZ2 17041 2 
+      11 1 TRP CZ3 17041 2 
+      12 1 TRP H   17041 2 
+      13 1 TRP H2  17041 2 
+      14 1 TRP HA  17041 2 
+      15 1 TRP HB2 17041 2 
+      16 1 TRP HB3 17041 2 
+      17 1 TRP HD1 17041 2 
+      18 1 TRP HE1 17041 2 
+      19 1 TRP HE3 17041 2 
+      20 1 TRP HH2 17041 2 
+      21 1 TRP HXT 17041 2 
+      22 1 TRP HZ2 17041 2 
+      23 1 TRP HZ3 17041 2 
+      24 1 TRP N   17041 2 
+      25 1 TRP NE1 17041 2 
+      26 1 TRP O   17041 2 
+      27 1 TRP OXT 17041 2 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       17041
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $TrpR . 562 organism . 'Escherichia coli' 'E. coli' . . Bacteria . Escherichia coli . . . . . . . . . . . . . . . . . . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       17041
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $TrpR . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli K12 . . . . . . . . . . . . . . . pJPR2 . . . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_TRP
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_TRP
+   _Chem_comp.Entry_ID                          17041
+   _Chem_comp.ID                                TRP
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              TRYPTOPHAN
+   _Chem_comp.Type                             'L-PEPTIDE LINKING'
+   _Chem_comp.BMRB_code                         TRP
+   _Chem_comp.PDB_code                          TRP
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          LTR
+   _Chem_comp.One_letter_code                   W
+   _Chem_comp.Three_letter_code                 TRP
+   _Chem_comp.Number_atoms_all                  27
+   _Chem_comp.Number_atoms_nh                   15
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          yes
+   _Chem_comp.Formula                          'C11 H12 N2 O2'
+   _Chem_comp.Formula_weight                    204.225
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      c1ccc2c(c1)c(c[nH]2)CC(C(=O)O)N                                                                       SMILES           'OpenEye OEToolkits' 1.5.0     17041 TRP 
+      c1ccc2c(c1)c(c[nH]2)C[C@@H](C(=O)O)N                                                                  SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     17041 TRP 
+      InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1 InChI             InChI                   1.03  17041 TRP 
+      N[C@@H](Cc1c[nH]c2ccccc12)C(O)=O                                                                      SMILES_CANONICAL  CACTVS                  3.341 17041 TRP 
+      N[CH](Cc1c[nH]c2ccccc12)C(O)=O                                                                        SMILES            CACTVS                  3.341 17041 TRP 
+      O=C(O)C(N)Cc2c1ccccc1nc2                                                                              SMILES            ACDLabs                10.04  17041 TRP 
+      QIVBCDIJIAJPQS-VIFPVBQESA-N                                                                           InChIKey          InChI                   1.03  17041 TRP 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid' 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0    17041 TRP 
+       L-tryptophan                                  'SYSTEMATIC NAME'  ACDLabs                10.04 17041 TRP 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N   N   N   N   . N . . N 0 . . . 1 no  no  . . . . 74.708 . 60.512 . 32.843 .  1.278  1.121  2.059  1 . 17041 TRP 
+      CA  CA  CA  CA  . C . . S 0 . . . 1 no  no  . . . . 74.400 . 61.735 . 32.114 . -0.008  0.417  1.970  2 . 17041 TRP 
+      C   C   C   C   . C . . N 0 . . . 1 no  no  . . . . 73.588 . 61.411 . 30.840 . -0.490  0.076  3.357  3 . 17041 TRP 
+      O   O   O   O   . O . . N 0 . . . 1 no  no  . . . . 72.939 . 62.292 . 30.277 .  0.308 -0.130  4.240  4 . 17041 TRP 
+      CB  CB  CB  CB  . C . . N 0 . . . 1 no  no  . . . . 75.684 . 62.473 . 31.706 .  0.168 -0.868  1.161  5 . 17041 TRP 
+      CG  CG  CG  CG  . C . . N 0 . . . 1 yes no  . . . . 76.675 . 62.727 . 32.832 .  0.650 -0.526 -0.225  6 . 17041 TRP 
+      CD1 CD1 CD1 CD1 . C . . N 0 . . . 1 yes no  . . . . 77.753 . 61.964 . 33.157 .  1.928 -0.418 -0.622  7 . 17041 TRP 
+      CD2 CD2 CD2 CD2 . C . . N 0 . . . 1 yes no  . . . . 76.646 . 63.805 . 33.777 . -0.186 -0.256 -1.396  8 . 17041 TRP 
+      NE1 NE1 NE1 NE1 . N . . N 0 . . . 1 yes no  . . . . 78.403 . 62.494 . 34.247 .  1.978 -0.095 -1.951  9 . 17041 TRP 
+      CE2 CE2 CE2 CE2 . C . . N 0 . . . 1 yes no  . . . . 77.741 . 63.625 . 34.650 .  0.701  0.014 -2.454 10 . 17041 TRP 
+      CE3 CE3 CE3 CE3 . C . . N 0 . . . 1 yes no  . . . . 75.796 . 64.902 . 33.974 . -1.564 -0.210 -1.615 11 . 17041 TRP 
+      CZ2 CZ2 CZ2 CZ2 . C . . N 0 . . . 1 yes no  . . . . 78.014 . 64.499 . 35.709 .  0.190  0.314 -3.712 12 . 17041 TRP 
+      CZ3 CZ3 CZ3 CZ3 . C . . N 0 . . . 1 yes no  . . . . 76.065 . 65.776 . 35.031 . -2.044  0.086 -2.859 13 . 17041 TRP 
+      CH2 CH2 CH2 CH2 . C . . N 0 . . . 1 yes no  . . . . 77.168 . 65.565 . 35.884 . -1.173  0.348 -3.907 14 . 17041 TRP 
+      OXT OXT OXT OXT . O . . N 0 . . . 1 no  yes . . . . 73.495 . 60.470 . 30.438 . -1.806  0.001  3.610 15 . 17041 TRP 
+      H   H   H   H   . H . . N 0 . . . 1 no  no  . . . . 75.244 . 60.725 . 33.684 .  1.921  0.493  2.518 16 . 17041 TRP 
+      H2  H2  H2  HN2 . H . . N 0 . . . 1 no  yes . . . . 75.182 . 59.827 . 32.253 .  1.611  1.237  1.113 17 . 17041 TRP 
+      HA  HA  HA  HA  . H . . N 0 . . . 1 no  no  . . . . 73.801 . 62.387 . 32.790 . -0.740  1.058  1.479 18 . 17041 TRP 
+      HB2 HB2 HB2 1HB . H . . N 0 . . . 1 no  no  . . . . 76.185 . 61.933 . 30.869 .  0.900 -1.509  1.652 19 . 17041 TRP 
+      HB3 HB3 HB3 2HB . H . . N 0 . . . 1 no  no  . . . . 75.429 . 63.431 . 31.197 . -0.786 -1.390  1.095 20 . 17041 TRP 
+      HD1 HD1 HD1 HD1 . H . . N 0 . . . 1 no  no  . . . . 78.055 . 61.051 . 32.616 .  2.789 -0.564  0.012 21 . 17041 TRP 
+      HE1 HE1 HE1 HE1 . H . . N 0 . . . 1 no  no  . . . . 79.240 . 62.110 . 34.685 .  2.791  0.036 -2.462 22 . 17041 TRP 
+      HE3 HE3 HE3 HE3 . H . . N 0 . . . 1 no  no  . . . . 74.932 . 65.074 . 33.310 . -2.248 -0.413 -0.804 23 . 17041 TRP 
+      HZ2 HZ2 HZ2 HZ2 . H . . N 0 . . . 1 no  no  . . . . 78.871 . 64.351 . 36.386 .  0.860  0.521 -4.534 24 . 17041 TRP 
+      HZ3 HZ3 HZ3 HZ3 . H . . N 0 . . . 1 no  no  . . . . 75.400 . 66.641 . 35.193 . -3.110  0.116 -3.029 25 . 17041 TRP 
+      HH2 HH2 HH2 HH2 . H . . N 0 . . . 1 no  no  . . . . 77.376 . 66.257 . 36.716 . -1.567  0.582 -4.885 26 . 17041 TRP 
+      HXT HXT HXT HXT . H . . N 0 . . . 1 no  yes . . . . 72.995 . 60.270 . 29.654 . -2.115 -0.217  4.500 27 . 17041 TRP 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+       1 . SING N   CA  no  N  1 . 17041 TRP 
+       2 . SING N   H   no  N  2 . 17041 TRP 
+       3 . SING N   H2  no  N  3 . 17041 TRP 
+       4 . SING CA  C   no  N  4 . 17041 TRP 
+       5 . SING CA  CB  no  N  5 . 17041 TRP 
+       6 . SING CA  HA  no  N  6 . 17041 TRP 
+       7 . DOUB C   O   no  N  7 . 17041 TRP 
+       8 . SING C   OXT no  N  8 . 17041 TRP 
+       9 . SING CB  CG  no  N  9 . 17041 TRP 
+      10 . SING CB  HB2 no  N 10 . 17041 TRP 
+      11 . SING CB  HB3 no  N 11 . 17041 TRP 
+      12 . DOUB CG  CD1 yes N 12 . 17041 TRP 
+      13 . SING CG  CD2 yes N 13 . 17041 TRP 
+      14 . SING CD1 NE1 yes N 14 . 17041 TRP 
+      15 . SING CD1 HD1 no  N 15 . 17041 TRP 
+      16 . DOUB CD2 CE2 yes N 16 . 17041 TRP 
+      17 . SING CD2 CE3 yes N 17 . 17041 TRP 
+      18 . SING NE1 CE2 yes N 18 . 17041 TRP 
+      19 . SING NE1 HE1 no  N 19 . 17041 TRP 
+      20 . SING CE2 CZ2 yes N 20 . 17041 TRP 
+      21 . DOUB CE3 CZ3 yes N 21 . 17041 TRP 
+      22 . SING CE3 HE3 no  N 22 . 17041 TRP 
+      23 . DOUB CZ2 CH2 yes N 23 . 17041 TRP 
+      24 . SING CZ2 HZ2 no  N 24 . 17041 TRP 
+      25 . SING CZ3 CH2 yes N 25 . 17041 TRP 
+      26 . SING CZ3 HZ3 no  N 26 . 17041 TRP 
+      27 . SING CH2 HH2 no  N 27 . 17041 TRP 
+      28 . SING OXT HXT no  N 28 . 17041 TRP 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_CSA
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_CSA
+   _Sample.Entry_ID                         17041
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          2
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  TrpR              '[U-100% 13C; U-100% 15N]' . . 1 $TrpR       . .   1    . . mM . . . . 17041 1 
+      2  L-Tryptophan      'natural abundance'        . . 2 $entity_TRP . .   5    . . mM . . . . 17041 1 
+      3  D2O               'natural abundance'        . .  .  .          . .   5    . . %  . . . . 17041 1 
+      4  H2O               'natural abundance'        . .  .  .          . .  95    . . %  . . . . 17041 1 
+      5  PMSF              'natural abundance'        . .  .  .          . .   0.1  . . mM . . . . 17041 1 
+      6 'sodium azide'     'natural abundance'        . .  .  .          . .   0.01 . . %  . . . . 17041 1 
+      7 'sodium chloride'  'natural abundance'        . .  .  .          . . 500    . . mM . . . . 17041 1 
+      8 'sodium phosphate' 'natural abundance'        . .  .  .          . .  50    . . mM . . . . 17041 1 
+      9  EDTA              'natural abundance'        . .  .  .          . .   1    . . mM . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+save_sample_relax
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_relax
+   _Sample.Entry_ID                         17041
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          2
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  TrpR              '[U-100% 13C; U-100% 15N]' . . 1 $TrpR       . .   1    . . mM . . . . 17041 2 
+      2  L-Tryptophan      'natural abundance'        . . 2 $entity_TRP . .   5    . . mM . . . . 17041 2 
+      3  D2O               'natural abundance'        . .  .  .          . .   5    . . %  . . . . 17041 2 
+      4  H2O               'natural abundance'        . .  .  .          . .  95    . . %  . . . . 17041 2 
+      5  PMSF              'natural abundance'        . .  .  .          . .   0.1  . . mM . . . . 17041 2 
+      6 'sodium azide'     'natural abundance'        . .  .  .          . .   0.01 . . %  . . . . 17041 2 
+      7 'sodium chloride'  'natural abundance'        . .  .  .          . . 500    . . mM . . . . 17041 2 
+      8 'sodium phosphate' 'natural abundance'        . .  .  .          . .  50    . . mM . . . . 17041 2 
+      9  EDTA              'natural abundance'        . .  .  .          . .   1    . . mM . . . . 17041 2 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       17041
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.001 . M   17041 1 
+       pH                5.7   . pH  17041 1 
+       pressure          1     . atm 17041 1 
+       temperature     318     . K   17041 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       17041
+   _Software.ID             1
+   _Software.Name           TOPSPIN
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin' . . 17041 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 17041 1 
+
+   stop_
+
+save_
+
+
+save_NMRDraw
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRDraw
+   _Software.Entry_ID       17041
+   _Software.ID             2
+   _Software.Name           NMRDraw
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' . . 17041 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 17041 2 
+       processing     17041 2 
+
+   stop_
+
+save_
+
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       17041
+   _Software.ID             3
+   _Software.Name           SPARKY
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard . . 17041 3 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 17041 3 
+      'data analysis'             17041 3 
+      'peak picking'              17041 3 
+
+   stop_
+
+save_
+
+
+save_ModelFree
+   _Software.Sf_category    software
+   _Software.Sf_framecode   ModelFree
+   _Software.Entry_ID       17041
+   _Software.ID             4
+   _Software.Name           ModelFree
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Palmer . . 17041 4 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'         17041 4 
+      'geometry optimization' 17041 4 
+       refinement             17041 4 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         17041
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            DRX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       17041
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker DRX . 600 . . . 17041 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       17041
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 1H-15N HSQC'        no . . . . . . . . . . 1 $sample_CSA   anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+      2 '3D HNCACB'             no . . . . . . . . . . 1 $sample_CSA   anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+      3 '3D CBCA(CO)NH'         no . . . . . . . . . . 1 $sample_CSA   anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+      4 '2D 15N T1'             no . . . . . . . . . . 2 $sample_relax anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+      5 '2D 15N T2 interleaved' no . . . . . . . . . . 2 $sample_relax anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+      6 '2D 15N {1H} nOe'       no . . . . . . . . . . 2 $sample_relax anisotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       17041
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 na       indirect 0.251449530 . . . . . . . . . 17041 1 
+      H  1 DSS 'methyl protons' . . . . ppm 0.00 internal direct   1.000000000 . . . . . . . . . 17041 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 na       indirect 0.101329118 . . . . . . . . . 17041 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      17041
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D 1H-15N HSQC' . . . 17041 1 
+      2 '3D HNCACB'      . . . 17041 1 
+      3 '3D CBCA(CO)NH'  . . . 17041 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1   7   7 ALA CA C 13  54.75 0.14 . 1 . . . .   7 Ala CA . 17041 1 
+        2 . 1 1   7   7 ALA CB C 13  18.91 0.07 . 1 . . . .   7 Ala CB . 17041 1 
+        3 . 1 1   8   8 GLN H  H  1   8.19 0.01 . 1 . . . .   8 Gln HN . 17041 1 
+        4 . 1 1   8   8 GLN CA C 13  57.09 1.06 . 1 . . . .   8 Gln CA . 17041 1 
+        5 . 1 1   8   8 GLN CB C 13  29.94 0.18 . 1 . . . .   8 Gln CB . 17041 1 
+        6 . 1 1   8   8 GLN N  N 15 119.38 0.01 . 1 . . . .   8 Gln N  . 17041 1 
+        7 . 1 1   9   9 GLN H  H  1   8.45 0.01 . 1 . . . .   9 Gln HN . 17041 1 
+        8 . 1 1   9   9 GLN CA C 13  56.04 0.13 . 1 . . . .   9 Gln CA . 17041 1 
+        9 . 1 1   9   9 GLN CB C 13  29.95 0.18 . 1 . . . .   9 Gln CB . 17041 1 
+       10 . 1 1   9   9 GLN N  N 15 122.08 0.01 . 1 . . . .   9 Gln N  . 17041 1 
+       11 . 1 1  10  10 SER H  H  1   8.35 0.01 . 1 . . . .  10 Ser HN . 17041 1 
+       12 . 1 1  10  10 SER CA C 13  56.66 0.01 . 1 . . . .  10 Ser CA . 17041 1 
+       13 . 1 1  10  10 SER CB C 13  63.70 0.01 . 1 . . . .  10 Ser CB . 17041 1 
+       14 . 1 1  10  10 SER N  N 15 117.98 0.01 . 1 . . . .  10 Ser N  . 17041 1 
+       15 . 1 1  11  11 PRO CA C 13  64.09 0.10 . 1 . . . .  11 Pro CA . 17041 1 
+       16 . 1 1  11  11 PRO CB C 13  32.14 0.11 . 1 . . . .  11 Pro CB . 17041 1 
+       17 . 1 1  12  12 TYR H  H  1   7.93 0.01 . 1 . . . .  12 Tyr HN . 17041 1 
+       18 . 1 1  12  12 TYR CA C 13  58.36 0.24 . 1 . . . .  12 Tyr CA . 17041 1 
+       19 . 1 1  12  12 TYR CB C 13  39.01 0.13 . 1 . . . .  12 Tyr CB . 17041 1 
+       20 . 1 1  12  12 TYR N  N 15 118.98 0.01 . 1 . . . .  12 Tyr N  . 17041 1 
+       21 . 1 1  13  13 SER H  H  1   7.92 0.01 . 1 . . . .  13 Ser HN . 17041 1 
+       22 . 1 1  13  13 SER CA C 13  58.72 0.35 . 1 . . . .  13 Ser CA . 17041 1 
+       23 . 1 1  13  13 SER CB C 13  64.32 0.06 . 1 . . . .  13 Ser CB . 17041 1 
+       24 . 1 1  13  13 SER N  N 15 117.28 0.01 . 1 . . . .  13 Ser N  . 17041 1 
+       25 . 1 1  14  14 ALA H  H  1   8.33 0.01 . 1 . . . .  14 Ala HN . 17041 1 
+       26 . 1 1  14  14 ALA CA C 13  54.11 0.15 . 1 . . . .  14 Ala CA . 17041 1 
+       27 . 1 1  14  14 ALA CB C 13  19.02 0.09 . 1 . . . .  14 Ala CB . 17041 1 
+       28 . 1 1  14  14 ALA N  N 15 126.18 0.01 . 1 . . . .  14 Ala N  . 17041 1 
+       29 . 1 1  15  15 ALA H  H  1   8.09 0.01 . 1 . . . .  15 Ala HN . 17041 1 
+       30 . 1 1  15  15 ALA CA C 13  54.15 0.10 . 1 . . . .  15 Ala CA . 17041 1 
+       31 . 1 1  15  15 ALA CB C 13  19.02 0.07 . 1 . . . .  15 Ala CB . 17041 1 
+       32 . 1 1  15  15 ALA N  N 15 121.38 0.01 . 1 . . . .  15 Ala N  . 17041 1 
+       33 . 1 1  16  16 MET H  H  1   7.99 0.01 . 1 . . . .  16 Met HN . 17041 1 
+       34 . 1 1  16  16 MET CA C 13  56.95 0.21 . 1 . . . .  16 Met CA . 17041 1 
+       35 . 1 1  16  16 MET CB C 13  32.67 0.09 . 1 . . . .  16 Met CB . 17041 1 
+       36 . 1 1  16  16 MET N  N 15 118.38 0.01 . 1 . . . .  16 Met N  . 17041 1 
+       37 . 1 1  17  17 ALA H  H  1   8.11 0.01 . 1 . . . .  17 Ala HN . 17041 1 
+       38 . 1 1  17  17 ALA CA C 13  54.49 0.01 . 1 . . . .  17 Ala CA . 17041 1 
+       39 . 1 1  17  17 ALA CB C 13  18.91 0.01 . 1 . . . .  17 Ala CB . 17041 1 
+       40 . 1 1  17  17 ALA N  N 15 122.98 0.01 . 1 . . . .  17 Ala N  . 17041 1 
+       41 . 1 1  18  18 GLU H  H  1   8.21 0.01 . 1 . . . .  18 Glu HN . 17041 1 
+       42 . 1 1  18  18 GLU CA C 13  58.88 0.05 . 1 . . . .  18 Glu CA . 17041 1 
+       43 . 1 1  18  18 GLU CB C 13  29.91 0.01 . 1 . . . .  18 Glu CB . 17041 1 
+       44 . 1 1  18  18 GLU N  N 15 119.28 0.01 . 1 . . . .  18 Glu N  . 17041 1 
+       45 . 1 1  19  19 GLN H  H  1   8.17 0.01 . 1 . . . .  19 Gln HN . 17041 1 
+       46 . 1 1  19  19 GLN CA C 13  58.70 0.33 . 1 . . . .  19 Gln CA . 17041 1 
+       47 . 1 1  19  19 GLN CB C 13  28.76 0.09 . 1 . . . .  19 Gln CB . 17041 1 
+       48 . 1 1  19  19 GLN N  N 15 120.68 0.01 . 1 . . . .  19 Gln N  . 17041 1 
+       49 . 1 1  20  20 ARG H  H  1   8.36 0.01 . 1 . . . .  20 Arg HN . 17041 1 
+       50 . 1 1  20  20 ARG CA C 13  58.71 0.01 . 1 . . . .  20 Arg CA . 17041 1 
+       51 . 1 1  20  20 ARG CB C 13  30.27 0.01 . 1 . . . .  20 Arg CB . 17041 1 
+       52 . 1 1  20  20 ARG N  N 15 118.48 0.01 . 1 . . . .  20 Arg N  . 17041 1 
+       53 . 1 1  21  21 HIS H  H  1   8.39 0.01 . 1 . . . .  21 His HN . 17041 1 
+       54 . 1 1  21  21 HIS CA C 13  56.27 0.07 . 1 . . . .  21 His CA . 17041 1 
+       55 . 1 1  21  21 HIS CB C 13  29.27 0.01 . 1 . . . .  21 His CB . 17041 1 
+       56 . 1 1  21  21 HIS N  N 15 118.58 0.01 . 1 . . . .  21 His N  . 17041 1 
+       57 . 1 1  22  22 GLN H  H  1   8.35 0.01 . 1 . . . .  22 Gln HN . 17041 1 
+       58 . 1 1  22  22 GLN CA C 13  59.20 0.29 . 1 . . . .  22 Gln CA . 17041 1 
+       59 . 1 1  22  22 GLN CB C 13  28.81 0.19 . 1 . . . .  22 Gln CB . 17041 1 
+       60 . 1 1  22  22 GLN N  N 15 118.08 0.01 . 1 . . . .  22 Gln N  . 17041 1 
+       61 . 1 1  23  23 GLU H  H  1   8.47 0.01 . 1 . . . .  23 Glu HN . 17041 1 
+       62 . 1 1  23  23 GLU CA C 13  59.52 0.26 . 1 . . . .  23 Glu CA . 17041 1 
+       63 . 1 1  23  23 GLU CB C 13  28.94 0.26 . 1 . . . .  23 Glu CB . 17041 1 
+       64 . 1 1  23  23 GLU N  N 15 120.28 0.01 . 1 . . . .  23 Glu N  . 17041 1 
+       65 . 1 1  24  24 TRP H  H  1   8.11 0.01 . 1 . . . .  24 Trp HN . 17041 1 
+       66 . 1 1  24  24 TRP CA C 13  59.56 0.11 . 1 . . . .  24 Trp CA . 17041 1 
+       67 . 1 1  24  24 TRP CB C 13  29.32 0.10 . 1 . . . .  24 Trp CB . 17041 1 
+       68 . 1 1  24  24 TRP N  N 15 122.28 0.01 . 1 . . . .  24 Trp N  . 17041 1 
+       69 . 1 1  25  25 LEU H  H  1   8.04 0.01 . 1 . . . .  25 Leu HN . 17041 1 
+       70 . 1 1  25  25 LEU CA C 13  57.76 0.02 . 1 . . . .  25 Leu CA . 17041 1 
+       71 . 1 1  25  25 LEU CB C 13  40.76 0.02 . 1 . . . .  25 Leu CB . 17041 1 
+       72 . 1 1  25  25 LEU N  N 15 117.68 0.01 . 1 . . . .  25 Leu N  . 17041 1 
+       73 . 1 1  26  26 ARG H  H  1   7.95 0.01 . 1 . . . .  26 Arg HN . 17041 1 
+       74 . 1 1  26  26 ARG CA C 13  59.87 0.21 . 1 . . . .  26 Arg CA . 17041 1 
+       75 . 1 1  26  26 ARG CB C 13  30.25 0.08 . 1 . . . .  26 Arg CB . 17041 1 
+       76 . 1 1  26  26 ARG N  N 15 119.68 0.01 . 1 . . . .  26 Arg N  . 17041 1 
+       77 . 1 1  27  27 PHE H  H  1   7.80 0.01 . 1 . . . .  27 Phe HN . 17041 1 
+       78 . 1 1  27  27 PHE CA C 13  62.20 0.26 . 1 . . . .  27 Phe CA . 17041 1 
+       79 . 1 1  27  27 PHE CB C 13  37.80 0.17 . 1 . . . .  27 Phe CB . 17041 1 
+       80 . 1 1  27  27 PHE N  N 15 120.18 0.01 . 1 . . . .  27 Phe N  . 17041 1 
+       81 . 1 1  28  28 VAL H  H  1   7.80 0.01 . 1 . . . .  28 Val HN . 17041 1 
+       82 . 1 1  28  28 VAL CA C 13  63.93 5.61 . 1 . . . .  28 Val CA . 17041 1 
+       83 . 1 1  28  28 VAL CB C 13  31.42 0.18 . 1 . . . .  28 Val CB . 17041 1 
+       84 . 1 1  28  28 VAL N  N 15 119.28 0.01 . 1 . . . .  28 Val N  . 17041 1 
+       85 . 1 1  29  29 ASP H  H  1   8.08 0.01 . 1 . . . .  29 Asp HN . 17041 1 
+       86 . 1 1  29  29 ASP CA C 13  57.64 0.13 . 1 . . . .  29 Asp CA . 17041 1 
+       87 . 1 1  29  29 ASP CB C 13  41.71 0.13 . 1 . . . .  29 Asp CB . 17041 1 
+       88 . 1 1  29  29 ASP N  N 15 121.28 0.01 . 1 . . . .  29 Asp N  . 17041 1 
+       89 . 1 1  30  30 LEU H  H  1   8.14 0.01 . 1 . . . .  30 Leu HN . 17041 1 
+       90 . 1 1  30  30 LEU CA C 13  58.48 0.01 . 1 . . . .  30 Leu CA . 17041 1 
+       91 . 1 1  30  30 LEU CB C 13  42.91 0.14 . 1 . . . .  30 Leu CB . 17041 1 
+       92 . 1 1  30  30 LEU N  N 15 124.08 0.01 . 1 . . . .  30 Leu N  . 17041 1 
+       93 . 1 1  31  31 LEU H  H  1   8.26 0.01 . 1 . . . .  31 Leu HN . 17041 1 
+       94 . 1 1  31  31 LEU CA C 13  57.39 0.29 . 1 . . . .  31 Leu CA . 17041 1 
+       95 . 1 1  31  31 LEU CB C 13  40.58 0.12 . 1 . . . .  31 Leu CB . 17041 1 
+       96 . 1 1  31  31 LEU N  N 15 119.28 0.01 . 1 . . . .  31 Leu N  . 17041 1 
+       97 . 1 1  32  32 LYS H  H  1   7.53 0.01 . 1 . . . .  32 Lys HN . 17041 1 
+       98 . 1 1  32  32 LYS CA C 13  60.30 0.19 . 1 . . . .  32 Lys CA . 17041 1 
+       99 . 1 1  32  32 LYS CB C 13  32.58 0.12 . 1 . . . .  32 Lys CB . 17041 1 
+      100 . 1 1  32  32 LYS N  N 15 120.68 0.01 . 1 . . . .  32 Lys N  . 17041 1 
+      101 . 1 1  33  33 ASN H  H  1   7.74 0.01 . 1 . . . .  33 Asn HN . 17041 1 
+      102 . 1 1  33  33 ASN CA C 13  56.25 0.18 . 1 . . . .  33 Asn CA . 17041 1 
+      103 . 1 1  33  33 ASN CB C 13  39.28 0.08 . 1 . . . .  33 Asn CB . 17041 1 
+      104 . 1 1  33  33 ASN N  N 15 116.58 0.01 . 1 . . . .  33 Asn N  . 17041 1 
+      105 . 1 1  34  34 ALA H  H  1   8.93 0.01 . 1 . . . .  34 Ala HN . 17041 1 
+      106 . 1 1  34  34 ALA CA C 13  56.07 0.01 . 1 . . . .  34 Ala CA . 17041 1 
+      107 . 1 1  34  34 ALA CB C 13  17.86 0.06 . 1 . . . .  34 Ala CB . 17041 1 
+      108 . 1 1  34  34 ALA N  N 15 126.18 0.01 . 1 . . . .  34 Ala N  . 17041 1 
+      109 . 1 1  35  35 TYR H  H  1   8.44 0.01 . 1 . . . .  35 Tyr HN . 17041 1 
+      110 . 1 1  35  35 TYR CA C 13  61.95 0.23 . 1 . . . .  35 Tyr CA . 17041 1 
+      111 . 1 1  35  35 TYR CB C 13  38.23 0.23 . 1 . . . .  35 Tyr CB . 17041 1 
+      112 . 1 1  35  35 TYR N  N 15 119.08 0.01 . 1 . . . .  35 Tyr N  . 17041 1 
+      113 . 1 1  36  36 GLN H  H  1   7.44 0.01 . 1 . . . .  36 Gln HN . 17041 1 
+      114 . 1 1  36  36 GLN CA C 13  58.30 0.21 . 1 . . . .  36 Gln CA . 17041 1 
+      115 . 1 1  36  36 GLN CB C 13  28.71 0.16 . 1 . . . .  36 Gln CB . 17041 1 
+      116 . 1 1  36  36 GLN N  N 15 117.08 0.01 . 1 . . . .  36 Gln N  . 17041 1 
+      117 . 1 1  37  37 ASN H  H  1   7.36 0.01 . 1 . . . .  37 Asn HN . 17041 1 
+      118 . 1 1  37  37 ASN CA C 13  53.37 0.21 . 1 . . . .  37 Asn CA . 17041 1 
+      119 . 1 1  37  37 ASN CB C 13  40.65 0.12 . 1 . . . .  37 Asn CB . 17041 1 
+      120 . 1 1  37  37 ASN N  N 15 115.48 0.01 . 1 . . . .  37 Asn N  . 17041 1 
+      121 . 1 1  38  38 ASP H  H  1   7.94 0.01 . 1 . . . .  38 Asp HN . 17041 1 
+      122 . 1 1  38  38 ASP CA C 13  56.53 0.14 . 1 . . . .  38 Asp CA . 17041 1 
+      123 . 1 1  38  38 ASP CB C 13  40.13 0.12 . 1 . . . .  38 Asp CB . 17041 1 
+      124 . 1 1  38  38 ASP N  N 15 117.18 0.01 . 1 . . . .  38 Asp N  . 17041 1 
+      125 . 1 1  39  39 LEU H  H  1   8.32 0.01 . 1 . . . .  39 Leu HN . 17041 1 
+      126 . 1 1  39  39 LEU CA C 13  53.90 0.06 . 1 . . . .  39 Leu CA . 17041 1 
+      127 . 1 1  39  39 LEU CB C 13  43.66 0.16 . 1 . . . .  39 Leu CB . 17041 1 
+      128 . 1 1  39  39 LEU N  N 15 117.68 0.01 . 1 . . . .  39 Leu N  . 17041 1 
+      129 . 1 1  40  40 HIS H  H  1   9.08 0.01 . 1 . . . .  40 His HN . 17041 1 
+      130 . 1 1  40  40 HIS CA C 13  59.78 0.19 . 1 . . . .  40 His CA . 17041 1 
+      131 . 1 1  40  40 HIS CB C 13  29.00 0.13 . 1 . . . .  40 His CB . 17041 1 
+      132 . 1 1  40  40 HIS N  N 15 120.88 0.01 . 1 . . . .  40 His N  . 17041 1 
+      133 . 1 1  41  41 LEU H  H  1   7.46 0.01 . 1 . . . .  41 Leu HN . 17041 1 
+      134 . 1 1  41  41 LEU CA C 13  59.58 0.01 . 1 . . . .  41 Leu CA . 17041 1 
+      135 . 1 1  41  41 LEU CB C 13  37.89 0.01 . 1 . . . .  41 Leu CB . 17041 1 
+      136 . 1 1  41  41 LEU N  N 15 119.38 0.01 . 1 . . . .  41 Leu N  . 17041 1 
+      137 . 1 1  42  42 PRO CA C 13  65.74 0.09 . 1 . . . .  42 Pro CA . 17041 1 
+      138 . 1 1  42  42 PRO CB C 13  31.19 0.08 . 1 . . . .  42 Pro CB . 17041 1 
+      139 . 1 1  43  43 LEU H  H  1   8.03 0.01 . 1 . . . .  43 Leu HN . 17041 1 
+      140 . 1 1  43  43 LEU CA C 13  58.92 0.18 . 1 . . . .  43 Leu CA . 17041 1 
+      141 . 1 1  43  43 LEU CB C 13  41.64 0.13 . 1 . . . .  43 Leu CB . 17041 1 
+      142 . 1 1  43  43 LEU N  N 15 119.78 0.01 . 1 . . . .  43 Leu N  . 17041 1 
+      143 . 1 1  44  44 LEU H  H  1   8.92 0.01 . 1 . . . .  44 Leu HN . 17041 1 
+      144 . 1 1  44  44 LEU CA C 13  54.52 7.11 . 1 . . . .  44 Leu CA . 17041 1 
+      145 . 1 1  44  44 LEU CB C 13  41.89 0.04 . 1 . . . .  44 Leu CB . 17041 1 
+      146 . 1 1  44  44 LEU N  N 15 120.78 0.01 . 1 . . . .  44 Leu N  . 17041 1 
+      147 . 1 1  45  45 ASN H  H  1   8.21 0.01 . 1 . . . .  45 Asn HN . 17041 1 
+      148 . 1 1  45  45 ASN CA C 13  55.13 0.13 . 1 . . . .  45 Asn CA . 17041 1 
+      149 . 1 1  45  45 ASN CB C 13  38.28 0.12 . 1 . . . .  45 Asn CB . 17041 1 
+      150 . 1 1  45  45 ASN N  N 15 117.98 0.01 . 1 . . . .  45 Asn N  . 17041 1 
+      151 . 1 1  46  46 LEU H  H  1   7.77 0.01 . 1 . . . .  46 Leu HN . 17041 1 
+      152 . 1 1  46  46 LEU CA C 13  58.22 0.01 . 1 . . . .  46 Leu CA . 17041 1 
+      153 . 1 1  46  46 LEU CB C 13  42.45 0.16 . 1 . . . .  46 Leu CB . 17041 1 
+      154 . 1 1  46  46 LEU N  N 15 119.08 0.01 . 1 . . . .  46 Leu N  . 17041 1 
+      155 . 1 1  47  47 MET H  H  1   8.68 0.01 . 1 . . . .  47 Met HN . 17041 1 
+      156 . 1 1  47  47 MET CA C 13  56.31 0.28 . 1 . . . .  47 Met CA . 17041 1 
+      157 . 1 1  47  47 MET CB C 13  32.36 0.06 . 1 . . . .  47 Met CB . 17041 1 
+      158 . 1 1  47  47 MET N  N 15 114.28 0.01 . 1 . . . .  47 Met N  . 17041 1 
+      159 . 1 1  48  48 LEU H  H  1   7.64 0.01 . 1 . . . .  48 Leu HN . 17041 1 
+      160 . 1 1  48  48 LEU CA C 13  54.02 0.01 . 1 . . . .  48 Leu CA . 17041 1 
+      161 . 1 1  48  48 LEU CB C 13  44.64 0.01 . 1 . . . .  48 Leu CB . 17041 1 
+      162 . 1 1  48  48 LEU N  N 15 115.78 0.01 . 1 . . . .  48 Leu N  . 17041 1 
+      163 . 1 1  50  50 PRO CA C 13  66.00 0.13 . 1 . . . .  50 Pro CA . 17041 1 
+      164 . 1 1  50  50 PRO CB C 13  31.93 0.07 . 1 . . . .  50 Pro CB . 17041 1 
+      165 . 1 1  51  51 ASP H  H  1   7.99 0.01 . 1 . . . .  51 Asp HN . 17041 1 
+      166 . 1 1  51  51 ASP CA C 13  56.82 0.17 . 1 . . . .  51 Asp CA . 17041 1 
+      167 . 1 1  51  51 ASP CB C 13  40.50 0.10 . 1 . . . .  51 Asp CB . 17041 1 
+      168 . 1 1  51  51 ASP N  N 15 114.68 0.01 . 1 . . . .  51 Asp N  . 17041 1 
+      169 . 1 1  52  52 GLU H  H  1   7.81 0.01 . 1 . . . .  52 Glu HN . 17041 1 
+      170 . 1 1  52  52 GLU CA C 13  60.07 0.69 . 1 . . . .  52 Glu CA . 17041 1 
+      171 . 1 1  52  52 GLU CB C 13  28.92 0.65 . 1 . . . .  52 Glu CB . 17041 1 
+      172 . 1 1  52  52 GLU N  N 15 122.78 0.01 . 1 . . . .  52 Glu N  . 17041 1 
+      173 . 1 1  53  53 ARG H  H  1   8.15 0.01 . 1 . . . .  53 Arg HN . 17041 1 
+      174 . 1 1  53  53 ARG CA C 13  60.51 0.72 . 1 . . . .  53 Arg CA . 17041 1 
+      175 . 1 1  53  53 ARG CB C 13  30.56 0.22 . 1 . . . .  53 Arg CB . 17041 1 
+      176 . 1 1  53  53 ARG N  N 15 117.88 0.01 . 1 . . . .  53 Arg N  . 17041 1 
+      177 . 1 1  54  54 GLU H  H  1   7.72 0.01 . 1 . . . .  54 Glu HN . 17041 1 
+      178 . 1 1  54  54 GLU CA C 13  59.53 0.16 . 1 . . . .  54 Glu CA . 17041 1 
+      179 . 1 1  54  54 GLU CB C 13  29.71 0.10 . 1 . . . .  54 Glu CB . 17041 1 
+      180 . 1 1  54  54 GLU N  N 15 117.38 0.01 . 1 . . . .  54 Glu N  . 17041 1 
+      181 . 1 1  55  55 ALA H  H  1   8.05 0.01 . 1 . . . .  55 Ala HN . 17041 1 
+      182 . 1 1  55  55 ALA CA C 13  55.48 0.10 . 1 . . . .  55 Ala CA . 17041 1 
+      183 . 1 1  55  55 ALA CB C 13  17.77 0.17 . 1 . . . .  55 Ala CB . 17041 1 
+      184 . 1 1  55  55 ALA N  N 15 121.88 0.01 . 1 . . . .  55 Ala N  . 17041 1 
+      185 . 1 1  56  56 LEU H  H  1   8.11 0.01 . 1 . . . .  56 Leu HN . 17041 1 
+      186 . 1 1  56  56 LEU CA C 13  58.84 0.01 . 1 . . . .  56 Leu CA . 17041 1 
+      187 . 1 1  56  56 LEU CB C 13  41.05 0.01 . 1 . . . .  56 Leu CB . 17041 1 
+      188 . 1 1  56  56 LEU N  N 15 118.78 0.01 . 1 . . . .  56 Leu N  . 17041 1 
+      189 . 1 1  57  57 GLY H  H  1   8.04 0.01 . 1 . . . .  57 Gly HN . 17041 1 
+      190 . 1 1  57  57 GLY N  N 15 133.98 0.01 . 1 . . . .  57 Gly N  . 17041 1 
+      191 . 1 1  59  59 ARG H  H  1   8.68 0.01 . 1 . . . .  59 Arg HN . 17041 1 
+      192 . 1 1  59  59 ARG CA C 13  61.20 0.41 . 1 . . . .  59 Arg CA . 17041 1 
+      193 . 1 1  59  59 ARG CB C 13  31.14 0.52 . 1 . . . .  59 Arg CB . 17041 1 
+      194 . 1 1  59  59 ARG N  N 15 121.58 0.01 . 1 . . . .  59 Arg N  . 17041 1 
+      195 . 1 1  60  60 VAL H  H  1   7.80 0.01 . 1 . . . .  60 Val HN . 17041 1 
+      196 . 1 1  60  60 VAL CA C 13  67.39 0.27 . 1 . . . .  60 Val CA . 17041 1 
+      197 . 1 1  60  60 VAL CB C 13  31.74 0.03 . 1 . . . .  60 Val CB . 17041 1 
+      198 . 1 1  60  60 VAL N  N 15 118.38 0.01 . 1 . . . .  60 Val N  . 17041 1 
+      199 . 1 1  61  61 ARG H  H  1   7.16 0.01 . 1 . . . .  61 Arg HN . 17041 1 
+      200 . 1 1  61  61 ARG CA C 13  58.26 0.01 . 1 . . . .  61 Arg CA . 17041 1 
+      201 . 1 1  61  61 ARG CB C 13  29.23 0.01 . 1 . . . .  61 Arg CB . 17041 1 
+      202 . 1 1  61  61 ARG N  N 15 118.98 0.01 . 1 . . . .  61 Arg N  . 17041 1 
+      203 . 1 1  63  63 VAL H  H  1   8.49 0.01 . 1 . . . .  63 Val HN . 17041 1 
+      204 . 1 1  63  63 VAL CA C 13  68.23 0.22 . 1 . . . .  63 Val CA . 17041 1 
+      205 . 1 1  63  63 VAL CB C 13  31.80 0.08 . 1 . . . .  63 Val CB . 17041 1 
+      206 . 1 1  63  63 VAL N  N 15 118.78 0.01 . 1 . . . .  63 Val N  . 17041 1 
+      207 . 1 1  64  64 GLU H  H  1   8.68 0.01 . 1 . . . .  64 Glu HN . 17041 1 
+      208 . 1 1  64  64 GLU CA C 13  60.65 0.21 . 1 . . . .  64 Glu CA . 17041 1 
+      209 . 1 1  64  64 GLU CB C 13  30.23 0.04 . 1 . . . .  64 Glu CB . 17041 1 
+      210 . 1 1  64  64 GLU N  N 15 119.18 0.01 . 1 . . . .  64 Glu N  . 17041 1 
+      211 . 1 1  65  65 GLU H  H  1   8.28 0.01 . 1 . . . .  65 Glu HN . 17041 1 
+      212 . 1 1  65  65 GLU CA C 13  57.97 0.29 . 1 . . . .  65 Glu CA . 17041 1 
+      213 . 1 1  65  65 GLU CB C 13  29.47 0.07 . 1 . . . .  65 Glu CB . 17041 1 
+      214 . 1 1  65  65 GLU N  N 15 115.08 0.01 . 1 . . . .  65 Glu N  . 17041 1 
+      215 . 1 1  66  66 LEU H  H  1   9.05 0.01 . 1 . . . .  66 Leu HN . 17041 1 
+      216 . 1 1  66  66 LEU CA C 13  58.46 0.28 . 1 . . . .  66 Leu CA . 17041 1 
+      217 . 1 1  66  66 LEU CB C 13  41.60 0.01 . 1 . . . .  66 Leu CB . 17041 1 
+      218 . 1 1  66  66 LEU N  N 15 124.18 0.01 . 1 . . . .  66 Leu N  . 17041 1 
+      219 . 1 1  67  67 LEU H  H  1   8.29 0.01 . 1 . . . .  67 Leu HN . 17041 1 
+      220 . 1 1  67  67 LEU CA C 13  58.11 0.87 . 1 . . . .  67 Leu CA . 17041 1 
+      221 . 1 1  67  67 LEU CB C 13  42.75 0.10 . 1 . . . .  67 Leu CB . 17041 1 
+      222 . 1 1  67  67 LEU N  N 15 119.38 0.01 . 1 . . . .  67 Leu N  . 17041 1 
+      223 . 1 1  68  68 ARG H  H  1   8.33 0.01 . 1 . . . .  68 Arg HN . 17041 1 
+      224 . 1 1  68  68 ARG CB C 13  30.79 0.01 . 1 . . . .  68 Arg CB . 17041 1 
+      225 . 1 1  68  68 ARG N  N 15 119.18 0.01 . 1 . . . .  68 Arg N  . 17041 1 
+      226 . 1 1  69  69 GLY H  H  1   7.66 0.01 . 1 . . . .  69 Gly HN . 17041 1 
+      227 . 1 1  69  69 GLY CA C 13  46.31 0.87 . 1 . . . .  69 Gly CA . 17041 1 
+      228 . 1 1  69  69 GLY N  N 15 132.78 0.01 . 1 . . . .  69 Gly N  . 17041 1 
+      229 . 1 1  70  70 GLU H  H  1   7.98 0.01 . 1 . . . .  70 Glu HN . 17041 1 
+      230 . 1 1  70  70 GLU CA C 13  57.89 0.12 . 1 . . . .  70 Glu CA . 17041 1 
+      231 . 1 1  70  70 GLU CB C 13  31.75 0.31 . 1 . . . .  70 Glu CB . 17041 1 
+      232 . 1 1  70  70 GLU N  N 15 119.48 0.01 . 1 . . . .  70 Glu N  . 17041 1 
+      233 . 1 1  71  71 MET H  H  1   8.65 0.01 . 1 . . . .  71 Met HN . 17041 1 
+      234 . 1 1  71  71 MET CA C 13  56.35 0.15 . 1 . . . .  71 Met CA . 17041 1 
+      235 . 1 1  71  71 MET CB C 13  35.36 0.11 . 1 . . . .  71 Met CB . 17041 1 
+      236 . 1 1  71  71 MET N  N 15 119.08 0.01 . 1 . . . .  71 Met N  . 17041 1 
+      237 . 1 1  72  72 SER H  H  1   8.73 0.01 . 1 . . . .  72 Ser HN . 17041 1 
+      238 . 1 1  72  72 SER CA C 13  60.22 3.78 . 1 . . . .  72 Ser CA . 17041 1 
+      239 . 1 1  72  72 SER CB C 13  62.81 3.57 . 1 . . . .  72 Ser CB . 17041 1 
+      240 . 1 1  72  72 SER N  N 15 118.18 0.01 . 1 . . . .  72 Ser N  . 17041 1 
+      241 . 1 1  73  73 GLN H  H  1   8.81 0.01 . 1 . . . .  73 Gln HN . 17041 1 
+      242 . 1 1  73  73 GLN CA C 13  59.58 0.56 . 1 . . . .  73 Gln CA . 17041 1 
+      243 . 1 1  73  73 GLN CB C 13  29.48 0.70 . 1 . . . .  73 Gln CB . 17041 1 
+      244 . 1 1  73  73 GLN N  N 15 120.28 0.01 . 1 . . . .  73 Gln N  . 17041 1 
+      245 . 1 1  74  74 ARG H  H  1   7.60 0.01 . 1 . . . .  74 Arg HN . 17041 1 
+      246 . 1 1  74  74 ARG CA C 13  59.81 0.69 . 1 . . . .  74 Arg CA . 17041 1 
+      247 . 1 1  74  74 ARG CB C 13  30.25 0.25 . 1 . . . .  74 Arg CB . 17041 1 
+      248 . 1 1  74  74 ARG N  N 15 117.38 0.01 . 1 . . . .  74 Arg N  . 17041 1 
+      249 . 1 1  75  75 GLU H  H  1   7.67 0.01 . 1 . . . .  75 Glu HN . 17041 1 
+      250 . 1 1  75  75 GLU CA C 13  59.28 0.18 . 1 . . . .  75 Glu CA . 17041 1 
+      251 . 1 1  75  75 GLU CB C 13  30.25 0.05 . 1 . . . .  75 Glu CB . 17041 1 
+      252 . 1 1  75  75 GLU N  N 15 119.48 0.01 . 1 . . . .  75 Glu N  . 17041 1 
+      253 . 1 1  76  76 LEU H  H  1   8.40 0.01 . 1 . . . .  76 Leu HN . 17041 1 
+      254 . 1 1  76  76 LEU CA C 13  58.31 0.08 . 1 . . . .  76 Leu CA . 17041 1 
+      255 . 1 1  76  76 LEU CB C 13  42.68 0.09 . 1 . . . .  76 Leu CB . 17041 1 
+      256 . 1 1  76  76 LEU N  N 15 121.18 0.01 . 1 . . . .  76 Leu N  . 17041 1 
+      257 . 1 1  77  77 LYS H  H  1   7.97 0.01 . 1 . . . .  77 Lys HN . 17041 1 
+      258 . 1 1  77  77 LYS CA C 13  59.65 0.11 . 1 . . . .  77 Lys CA . 17041 1 
+      259 . 1 1  77  77 LYS CB C 13  32.31 0.10 . 1 . . . .  77 Lys CB . 17041 1 
+      260 . 1 1  77  77 LYS N  N 15 119.78 0.01 . 1 . . . .  77 Lys N  . 17041 1 
+      261 . 1 1  78  78 ASN H  H  1   7.87 0.01 . 1 . . . .  78 Asn HN . 17041 1 
+      262 . 1 1  78  78 ASN CA C 13  55.73 0.10 . 1 . . . .  78 Asn CA . 17041 1 
+      263 . 1 1  78  78 ASN CB C 13  39.05 0.12 . 1 . . . .  78 Asn CB . 17041 1 
+      264 . 1 1  78  78 ASN N  N 15 117.38 0.01 . 1 . . . .  78 Asn N  . 17041 1 
+      265 . 1 1  79  79 GLU H  H  1   8.56 0.01 . 1 . . . .  79 Glu HN . 17041 1 
+      266 . 1 1  79  79 GLU CA C 13  58.50 0.21 . 1 . . . .  79 Glu CA . 17041 1 
+      267 . 1 1  79  79 GLU CB C 13  30.20 0.15 . 1 . . . .  79 Glu CB . 17041 1 
+      268 . 1 1  79  79 GLU N  N 15 118.78 0.01 . 1 . . . .  79 Glu N  . 17041 1 
+      269 . 1 1  80  80 LEU H  H  1   8.02 0.01 . 1 . . . .  80 Leu HN . 17041 1 
+      270 . 1 1  80  80 LEU CA C 13  55.23 0.18 . 1 . . . .  80 Leu CA . 17041 1 
+      271 . 1 1  80  80 LEU CB C 13  43.28 0.16 . 1 . . . .  80 Leu CB . 17041 1 
+      272 . 1 1  80  80 LEU N  N 15 114.78 0.01 . 1 . . . .  80 Leu N  . 17041 1 
+      273 . 1 1  81  81 GLY H  H  1   7.89 0.01 . 1 . . . .  81 Gly HN . 17041 1 
+      274 . 1 1  81  81 GLY CA C 13  46.51 0.15 . 1 . . . .  81 Gly CA . 17041 1 
+      275 . 1 1  81  81 GLY N  N 15 108.28 0.01 . 1 . . . .  81 Gly N  . 17041 1 
+      276 . 1 1  82  82 ALA H  H  1   7.04 0.01 . 1 . . . .  82 Ala HN . 17041 1 
+      277 . 1 1  82  82 ALA CA C 13  50.90 0.15 . 1 . . . .  82 Ala CA . 17041 1 
+      278 . 1 1  82  82 ALA CB C 13  21.08 0.05 . 1 . . . .  82 Ala CB . 17041 1 
+      279 . 1 1  82  82 ALA N  N 15 121.38 0.01 . 1 . . . .  82 Ala N  . 17041 1 
+      280 . 1 1  83  83 GLY H  H  1   8.31 0.01 . 1 . . . .  83 Gly HN . 17041 1 
+      281 . 1 1  83  83 GLY CA C 13  45.01 0.01 . 1 . . . .  83 Gly CA . 17041 1 
+      282 . 1 1  83  83 GLY N  N 15 105.98 0.01 . 1 . . . .  83 Gly N  . 17041 1 
+      283 . 1 1  87  87 ILE H  H  1   7.90 0.01 . 1 . . . .  87 Ile HN . 17041 1 
+      284 . 1 1  87  87 ILE N  N 15 121.68 0.01 . 1 . . . .  87 Ile N  . 17041 1 
+      285 . 1 1  89  89 ARG H  H  1   7.74 0.01 . 1 . . . .  89 Arg HN . 17041 1 
+      286 . 1 1  89  89 ARG CA C 13  59.91 0.16 . 1 . . . .  89 Arg CA . 17041 1 
+      287 . 1 1  89  89 ARG CB C 13  29.51 0.11 . 1 . . . .  89 Arg CB . 17041 1 
+      288 . 1 1  89  89 ARG N  N 15 121.68 0.01 . 1 . . . .  89 Arg N  . 17041 1 
+      289 . 1 1  90  90 GLY H  H  1   7.65 0.01 . 1 . . . .  90 Gly HN . 17041 1 
+      290 . 1 1  90  90 GLY CA C 13  47.34 0.20 . 1 . . . .  90 Gly CA . 17041 1 
+      291 . 1 1  90  90 GLY N  N 15 109.38 0.01 . 1 . . . .  90 Gly N  . 17041 1 
+      292 . 1 1  91  91 SER H  H  1   8.28 0.01 . 1 . . . .  91 Ser HN . 17041 1 
+      293 . 1 1  91  91 SER CA C 13  61.52 0.01 . 1 . . . .  91 Ser CA . 17041 1 
+      294 . 1 1  91  91 SER CB C 13  62.89 0.01 . 1 . . . .  91 Ser CB . 17041 1 
+      295 . 1 1  91  91 SER N  N 15 116.28 0.01 . 1 . . . .  91 Ser N  . 17041 1 
+      296 . 1 1  92  92 ASN H  H  1   8.45 0.01 . 1 . . . .  92 Asn HN . 17041 1 
+      297 . 1 1  92  92 ASN N  N 15 119.08 0.01 . 1 . . . .  92 Asn N  . 17041 1 
+      298 . 1 1  93  93 SER H  H  1   7.92 0.01 . 1 . . . .  93 Ser HN . 17041 1 
+      299 . 1 1  93  93 SER CA C 13  58.43 0.03 . 1 . . . .  93 Ser CA . 17041 1 
+      300 . 1 1  93  93 SER CB C 13  63.29 0.31 . 1 . . . .  93 Ser CB . 17041 1 
+      301 . 1 1  93  93 SER N  N 15 116.98 0.01 . 1 . . . .  93 Ser N  . 17041 1 
+      302 . 1 1  94  94 LEU H  H  1   8.35 0.01 . 1 . . . .  94 Leu HN . 17041 1 
+      303 . 1 1  94  94 LEU CA C 13  57.99 0.32 . 1 . . . .  94 Leu CA . 17041 1 
+      304 . 1 1  94  94 LEU CB C 13  42.50 0.13 . 1 . . . .  94 Leu CB . 17041 1 
+      305 . 1 1  94  94 LEU N  N 15 123.88 0.01 . 1 . . . .  94 Leu N  . 17041 1 
+      306 . 1 1  95  95 LYS H  H  1   7.80 0.01 . 1 . . . .  95 Lys HN . 17041 1 
+      307 . 1 1  95  95 LYS CA C 13  59.44 0.04 . 1 . . . .  95 Lys CA . 17041 1 
+      308 . 1 1  95  95 LYS CB C 13  32.66 0.09 . 1 . . . .  95 Lys CB . 17041 1 
+      309 . 1 1  95  95 LYS N  N 15 117.98 0.01 . 1 . . . .  95 Lys N  . 17041 1 
+      310 . 1 1  96  96 ALA H  H  1   7.10 0.01 . 1 . . . .  96 Ala HN . 17041 1 
+      311 . 1 1  96  96 ALA CA C 13  52.10 0.07 . 1 . . . .  96 Ala CA . 17041 1 
+      312 . 1 1  96  96 ALA CB C 13  19.50 0.20 . 1 . . . .  96 Ala CB . 17041 1 
+      313 . 1 1  96  96 ALA N  N 15 118.18 0.01 . 1 . . . .  96 Ala N  . 17041 1 
+      314 . 1 1  97  97 ALA H  H  1   7.34 0.01 . 1 . . . .  97 Ala HN . 17041 1 
+      315 . 1 1  97  97 ALA CA C 13  50.64 0.01 . 1 . . . .  97 Ala CA . 17041 1 
+      316 . 1 1  97  97 ALA CB C 13  17.75 0.01 . 1 . . . .  97 Ala CB . 17041 1 
+      317 . 1 1  97  97 ALA N  N 15 123.18 0.01 . 1 . . . .  97 Ala N  . 17041 1 
+      318 . 1 1  98  98 PRO CA C 13  63.00 0.09 . 1 . . . .  98 Pro CA . 17041 1 
+      319 . 1 1  98  98 PRO CB C 13  32.65 0.05 . 1 . . . .  98 Pro CB . 17041 1 
+      320 . 1 1  99  99 VAL H  H  1   8.82 0.01 . 1 . . . .  99 Val HN . 17041 1 
+      321 . 1 1  99  99 VAL CA C 13  66.62 0.12 . 1 . . . .  99 Val CA . 17041 1 
+      322 . 1 1  99  99 VAL CB C 13  32.11 0.02 . 1 . . . .  99 Val CB . 17041 1 
+      323 . 1 1  99  99 VAL N  N 15 125.08 0.01 . 1 . . . .  99 Val N  . 17041 1 
+      324 . 1 1 100 100 GLU H  H  1   9.68 0.01 . 1 . . . . 100 Glu HN . 17041 1 
+      325 . 1 1 100 100 GLU CA C 13  60.37 0.15 . 1 . . . . 100 Glu CA . 17041 1 
+      326 . 1 1 100 100 GLU CB C 13  28.78 0.09 . 1 . . . . 100 Glu CB . 17041 1 
+      327 . 1 1 100 100 GLU N  N 15 118.88 0.01 . 1 . . . . 100 Glu N  . 17041 1 
+      328 . 1 1 101 101 LEU H  H  1   7.28 0.01 . 1 . . . . 101 Leu HN . 17041 1 
+      329 . 1 1 101 101 LEU CA C 13  57.64 0.12 . 1 . . . . 101 Leu CA . 17041 1 
+      330 . 1 1 101 101 LEU CB C 13  42.37 0.19 . 1 . . . . 101 Leu CB . 17041 1 
+      331 . 1 1 101 101 LEU N  N 15 117.28 0.01 . 1 . . . . 101 Leu N  . 17041 1 
+      332 . 1 1 102 102 ARG H  H  1   7.93 0.01 . 1 . . . . 102 Arg HN . 17041 1 
+      333 . 1 1 102 102 ARG CA C 13  61.49 0.18 . 1 . . . . 102 Arg CA . 17041 1 
+      334 . 1 1 102 102 ARG CB C 13  30.39 0.15 . 1 . . . . 102 Arg CB . 17041 1 
+      335 . 1 1 102 102 ARG N  N 15 119.88 0.01 . 1 . . . . 102 Arg N  . 17041 1 
+      336 . 1 1 103 103 GLN H  H  1   8.74 0.01 . 1 . . . . 103 Gln HN . 17041 1 
+      337 . 1 1 103 103 GLN CA C 13  59.29 0.09 . 1 . . . . 103 Gln CA . 17041 1 
+      338 . 1 1 103 103 GLN CB C 13  28.72 0.11 . 1 . . . . 103 Gln CB . 17041 1 
+      339 . 1 1 103 103 GLN N  N 15 116.08 0.01 . 1 . . . . 103 Gln N  . 17041 1 
+      340 . 1 1 104 104 TRP H  H  1   7.51 0.01 . 1 . . . . 104 Trp HN . 17041 1 
+      341 . 1 1 104 104 TRP CA C 13  62.09 0.21 . 1 . . . . 104 Trp CA . 17041 1 
+      342 . 1 1 104 104 TRP CB C 13  28.49 0.25 . 1 . . . . 104 Trp CB . 17041 1 
+      343 . 1 1 104 104 TRP N  N 15 121.28 0.01 . 1 . . . . 104 Trp N  . 17041 1 
+      344 . 1 1 105 105 LEU H  H  1   8.87 0.01 . 1 . . . . 105 Leu HN . 17041 1 
+      345 . 1 1 105 105 LEU CA C 13  58.00 0.12 . 1 . . . . 105 Leu CA . 17041 1 
+      346 . 1 1 105 105 LEU CB C 13  43.01 0.14 . 1 . . . . 105 Leu CB . 17041 1 
+      347 . 1 1 105 105 LEU N  N 15 117.38 0.01 . 1 . . . . 105 Leu N  . 17041 1 
+      348 . 1 1 106 106 GLU H  H  1   8.01 0.01 . 1 . . . . 106 Glu HN . 17041 1 
+      349 . 1 1 106 106 GLU CA C 13  60.30 0.19 . 1 . . . . 106 Glu CA . 17041 1 
+      350 . 1 1 106 106 GLU CB C 13  29.91 0.10 . 1 . . . . 106 Glu CB . 17041 1 
+      351 . 1 1 106 106 GLU N  N 15 117.18 0.01 . 1 . . . . 106 Glu N  . 17041 1 
+      352 . 1 1 107 107 GLU H  H  1   7.43 0.01 . 1 . . . . 107 Glu HN . 17041 1 
+      353 . 1 1 107 107 GLU CA C 13  59.40 0.11 . 1 . . . . 107 Glu CA . 17041 1 
+      354 . 1 1 107 107 GLU CB C 13  29.93 0.07 . 1 . . . . 107 Glu CB . 17041 1 
+      355 . 1 1 107 107 GLU N  N 15 118.08 0.01 . 1 . . . . 107 Glu N  . 17041 1 
+      356 . 1 1 108 108 VAL H  H  1   7.96 0.01 . 1 . . . . 108 Val HN . 17041 1 
+      357 . 1 1 108 108 VAL CA C 13  64.56 0.15 . 1 . . . . 108 Val CA . 17041 1 
+      358 . 1 1 108 108 VAL CB C 13  32.40 0.12 . 1 . . . . 108 Val CB . 17041 1 
+      359 . 1 1 108 108 VAL N  N 15 113.28 0.01 . 1 . . . . 108 Val N  . 17041 1 
+      360 . 1 1 109 109 LEU H  H  1   8.39 0.01 . 1 . . . . 109 Leu HN . 17041 1 
+      361 . 1 1 109 109 LEU CA C 13  56.27 0.20 . 1 . . . . 109 Leu CA . 17041 1 
+      362 . 1 1 109 109 LEU CB C 13  42.73 0.16 . 1 . . . . 109 Leu CB . 17041 1 
+      363 . 1 1 109 109 LEU N  N 15 117.38 0.01 . 1 . . . . 109 Leu N  . 17041 1 
+      364 . 1 1 110 110 LEU H  H  1   7.06 0.01 . 1 . . . . 110 Leu HN . 17041 1 
+      365 . 1 1 110 110 LEU CA C 13  55.36 0.13 . 1 . . . . 110 Leu CA . 17041 1 
+      366 . 1 1 110 110 LEU CB C 13  41.41 0.09 . 1 . . . . 110 Leu CB . 17041 1 
+      367 . 1 1 110 110 LEU N  N 15 114.98 0.01 . 1 . . . . 110 Leu N  . 17041 1 
+      368 . 1 1 111 111 LYS H  H  1   7.21 0.01 . 1 . . . . 111 Lys HN . 17041 1 
+      369 . 1 1 111 111 LYS CA C 13  56.65 0.14 . 1 . . . . 111 Lys CA . 17041 1 
+      370 . 1 1 111 111 LYS CB C 13  32.95 0.21 . 1 . . . . 111 Lys CB . 17041 1 
+      371 . 1 1 111 111 LYS N  N 15 119.28 0.01 . 1 . . . . 111 Lys N  . 17041 1 
+      372 . 1 1 112 112 SER H  H  1   8.11 0.01 . 1 . . . . 112 Ser HN . 17041 1 
+      373 . 1 1 112 112 SER CA C 13  58.29 0.21 . 1 . . . . 112 Ser CA . 17041 1 
+      374 . 1 1 112 112 SER CB C 13  64.54 0.18 . 1 . . . . 112 Ser CB . 17041 1 
+      375 . 1 1 112 112 SER N  N 15 117.28 0.01 . 1 . . . . 112 Ser N  . 17041 1 
+      376 . 1 1 113 113 ASP H  H  1   7.94 0.01 . 1 . . . . 113 Asp HN . 17041 1 
+      377 . 1 1 113 113 ASP CA C 13  56.01 0.01 . 1 . . . . 113 Asp CA . 17041 1 
+      378 . 1 1 113 113 ASP CB C 13  42.33 0.01 . 1 . . . . 113 Asp CB . 17041 1 
+      379 . 1 1 113 113 ASP N  N 15 127.68 0.01 . 1 . . . . 113 Asp N  . 17041 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  Spectral density values  #
+    #############################
+
+save_spectral_density_list_1
+   _Spectral_density_list.Sf_category                   spectral_density_values
+   _Spectral_density_list.Sf_framecode                  spectral_density_list_1
+   _Spectral_density_list.Entry_ID                      17041
+   _Spectral_density_list.ID                            1
+   _Spectral_density_list.Sample_condition_list_ID      1
+   _Spectral_density_list.Sample_condition_list_label  $sample_conditions_1
+   _Spectral_density_list.Details                       .
+   _Spectral_density_list.Text_data_format              .
+   _Spectral_density_list.Text_data                     .
+
+   loop_
+      _Spectral_density_experiment.Experiment_ID
+      _Spectral_density_experiment.Experiment_name
+      _Spectral_density_experiment.Sample_ID
+      _Spectral_density_experiment.Sample_label
+      _Spectral_density_experiment.Sample_state
+      _Spectral_density_experiment.Entry_ID
+      _Spectral_density_experiment.Spectral_density_list_ID
+
+      4 '2D 15N T1'             2 $sample_relax anisotropic 17041 1 
+      5 '2D 15N T2 interleaved' 2 $sample_relax anisotropic 17041 1 
+      6 '2D 15N {1H} nOe'       2 $sample_relax anisotropic 17041 1 
+
+   stop_
+
+   loop_
+      _Spectral_density.ID
+      _Spectral_density.Assembly_atom_ID
+      _Spectral_density.Entity_assembly_ID
+      _Spectral_density.Entity_ID
+      _Spectral_density.Comp_index_ID
+      _Spectral_density.Seq_ID
+      _Spectral_density.Comp_ID
+      _Spectral_density.Atom_ID
+      _Spectral_density.Atom_type
+      _Spectral_density.Atom_isotope_number
+      _Spectral_density.W_zero_val
+      _Spectral_density.W_zero_val_err
+      _Spectral_density.W_1H_val
+      _Spectral_density.W_1H_val_err
+      _Spectral_density.W_13C_val
+      _Spectral_density.W_13C_val_err
+      _Spectral_density.W_15N_val
+      _Spectral_density.W_15N_val_err
+      _Spectral_density.Resonance_ID
+      _Spectral_density.Auth_entity_assembly_ID
+      _Spectral_density.Auth_seq_ID
+      _Spectral_density.Auth_comp_ID
+      _Spectral_density.Auth_atom_ID
+      _Spectral_density.Entry_ID
+      _Spectral_density.Spectral_density_list_ID
+
+       1 . 1 1  10  10 SER . . .  8.18 30.10 0.26 0.42 . . 0.04 0.19 . 1  10 SER . 17041 1 
+       2 . 1 1  12  12 TYR . . .  1.65 26.70 0.06 0.96 . . 0.02 0.29 . 1  12 TYR . 17041 1 
+       3 . 1 1  13  13 SER . . . 12.80 21.30 0.07 1.34 . . 0.04 0.30 . 1  13 SER . 17041 1 
+       4 . 1 1  14  14 ALA . . .  2.81 17.40 0.21 2.31 . . 0.05 0.32 . 1  14 ALA . 17041 1 
+       5 . 1 1  16  16 MET . . .  1.09 14.70 0.02 2.33 . . 0.02 0.31 . 1  16 MET . 17041 1 
+       6 . 1 1  17  17 ALA . . .  1.20 12.30 0.51 3.08 . . 0.03 0.32 . 1  17 ALA . 17041 1 
+       7 . 1 1  18  18 GLU . . .  0.57  9.71 0.04 3.47 . . 0.00 0.29 . 1  18 GLU . 17041 1 
+       8 . 1 1  19  19 GLN . . .  0.55  9.33 0.01 3.34 . . 0.01 0.31 . 1  19 GLN . 17041 1 
+       9 . 1 1  20  20 ARG . . .  2.07 10.30 0.21 3.79 . . 0.00 0.31 . 1  20 ARG . 17041 1 
+      10 . 1 1  22  22 GLN . . .  0.88  6.41 0.11 4.02 . . 0.03 0.34 . 1  22 GLN . 17041 1 
+      11 . 1 1  23  23 GLU . . .  0.44  4.63 0.33 4.35 . . 0.01 0.33 . 1  23 GLU . 17041 1 
+      12 . 1 1  24  24 TRP . . .  1.02  4.03 0.24 4.47 . . 0.03 0.30 . 1  24 TRP . 17041 1 
+      13 . 1 1  25  25 LEU . . .  0.92  3.28 0.06 4.87 . . 0.01 0.29 . 1  25 LEU . 17041 1 
+      14 . 1 1  26  26 ARG . . .  1.67  3.74 0.01 4.74 . . 0.01 0.30 . 1  26 ARG . 17041 1 
+      15 . 1 1  27  27 PHE . . .  1.25  4.13 0.10 4.55 . . 0.08 0.37 . 1  27 PHE . 17041 1 
+      16 . 1 1  28  28 VAL . . .  1.13  3.90 0.48 4.83 . . 0.01 0.30 . 1  28 VAL . 17041 1 
+      17 . 1 1  30  30 LEU . . .  1.23  4.32 0.48 4.52 . . 0.02 0.33 . 1  30 LEU . 17041 1 
+      18 . 1 1  31  31 LEU . . .  0.63  4.43 0.25 4.73 . . 0.00 0.32 . 1  31 LEU . 17041 1 
+      19 . 1 1  32  32 LYS . . .  0.39  2.09 1.43 6.58 . . 0.00 0.31 . 1  32 LYS . 17041 1 
+      20 . 1 1  33  33 ASN . . .  1.45  4.43 0.42 4.57 . . 0.03 0.32 . 1  33 ASN . 17041 1 
+      21 . 1 1  34  34 ALA . . .  0.84  3.24 0.09 4.65 . . 0.01 0.32 . 1  34 ALA . 17041 1 
+      22 . 1 1  35  35 TYR . . .  0.82  3.07 0.16 5.19 . . 0.06 0.33 . 1  35 TYR . 17041 1 
+      23 . 1 1  36  36 GLN . . .  1.34  4.70 0.20 4.80 . . 0.03 0.34 . 1  36 GLN . 17041 1 
+      24 . 1 1  37  37 ASN . . .  1.33  3.62 0.10 4.38 . . 0.01 0.30 . 1  37 ASN . 17041 1 
+      25 . 1 1  38  38 ASP . . .  0.71  4.49 0.55 4.84 . . 0.03 0.30 . 1  38 ASP . 17041 1 
+      26 . 1 1  39  39 LEU . . .  1.28  4.95 0.03 4.59 . . 0.03 0.31 . 1  39 LEU . 17041 1 
+      27 . 1 1  40  40 HIS . . .  2.12  2.97 0.05 5.16 . . 0.03 0.32 . 1  40 HIS . 17041 1 
+      28 . 1 1  41  41 LEU . . .  1.37  3.26 0.69 4.45 . . 0.02 0.31 . 1  41 LEU . 17041 1 
+      29 . 1 1  43  43 LEU . . .  1.30  5.93 0.33 4.00 . . 0.04 0.32 . 1  43 LEU . 17041 1 
+      30 . 1 1  44  44 LEU . . .  0.38  3.16 0.06 4.79 . . 0.00 0.30 . 1  44 LEU . 17041 1 
+      31 . 1 1  45  45 ASN . . .  0.82  4.12 0.63 4.89 . . 0.00 0.33 . 1  45 ASN . 17041 1 
+      32 . 1 1  46  46 LEU . . .  1.15  3.62 0.38 4.64 . . 0.05 0.32 . 1  46 LEU . 17041 1 
+      33 . 1 1  48  48 LEU . . .  0.84  4.94 0.05 4.82 . . 0.06 0.36 . 1  48 LEU . 17041 1 
+      34 . 1 1  49  49 THR . . .  2.16  4.29 0.86 5.18 . . 0.03 0.31 . 1  49 THR . 17041 1 
+      35 . 1 1  51  51 ASP . . .  1.01  3.14 0.25 5.09 . . 0.05 0.28 . 1  51 ASP . 17041 1 
+      36 . 1 1  52  52 GLU . . .  0.90  4.23 0.34 5.16 . . 0.02 0.28 . 1  52 GLU . 17041 1 
+      37 . 1 1  53  53 ARG . . .  0.41  7.21 0.17 4.29 . . 0.00 0.30 . 1  53 ARG . 17041 1 
+      38 . 1 1  54  54 GLU . . .  1.30  3.43 0.28 4.57 . . 0.01 0.30 . 1  54 GLU . 17041 1 
+      39 . 1 1  55  55 ALA . . .  1.27  4.27 0.15 5.02 . . 0.00 0.29 . 1  55 ALA . 17041 1 
+      40 . 1 1  56  56 LEU . . .  0.56  3.43 0.01 5.55 . . 0.00 0.30 . 1  56 LEU . 17041 1 
+      41 . 1 1  57  57 GLY . . .  1.10  3.35 0.35 5.09 . . 0.04 0.28 . 1  57 GLY . 17041 1 
+      42 . 1 1  59  59 ARG . . .  2.15  2.36 0.59 5.43 . . 0.02 0.27 . 1  59 ARG . 17041 1 
+      43 . 1 1  60  60 VAL . . .  0.66  3.42 0.21 5.06 . . 0.02 0.32 . 1  60 VAL . 17041 1 
+      44 . 1 1  61  61 ARG . . .  1.46  5.02 0.08 4.87 . . 0.04 0.35 . 1  61 ARG . 17041 1 
+      45 . 1 1  64  64 GLU . . .  0.43  3.23 0.17 4.95 . . 0.02 0.29 . 1  64 GLU . 17041 1 
+      46 . 1 1  65  65 GLU . . .  0.58  4.12 0.55 5.08 . . 0.00 0.30 . 1  65 GLU . 17041 1 
+      47 . 1 1  66  66 LEU . . .  1.16  3.31 0.60 5.45 . . 0.02 0.31 . 1  66 LEU . 17041 1 
+      48 . 1 1  67  67 LEU . . .  0.59  4.08 0.62 4.80 . . 0.00 0.29 . 1  67 LEU . 17041 1 
+      49 . 1 1  68  68 ARG . . .  0.54  3.98 0.33 4.76 . . 0.01 0.29 . 1  68 ARG . 17041 1 
+      50 . 1 1  69  69 GLY . . .  0.94  4.05 0.12 5.05 . . 0.06 0.28 . 1  69 GLY . 17041 1 
+      51 . 1 1  70  70 GLU . . .  1.33  5.02 0.06 4.52 . . 0.05 0.33 . 1  70 GLU . 17041 1 
+      52 . 1 1  71  71 MET . . .  0.80  6.52 0.12 3.79 . . 0.01 0.27 . 1  71 MET . 17041 1 
+      53 . 1 1  73  73 GLN . . .  2.27  8.31 0.71 3.71 . . 0.03 0.36 . 1  73 GLN . 17041 1 
+      54 . 1 1  75  75 GLU . . .  0.28  6.23 0.13 3.93 . . 0.01 0.27 . 1  75 GLU . 17041 1 
+      55 . 1 1  77  77 LYS . . .  0.62  7.00 0.23 4.16 . . 0.01 0.32 . 1  77 LYS . 17041 1 
+      56 . 1 1  78  78 ASN . . .  0.91  6.36 0.18 4.38 . . 0.01 0.29 . 1  78 ASN . 17041 1 
+      57 . 1 1  81  81 GLY . . .  0.63  8.65 0.36 3.45 . . 0.00 0.31 . 1  81 GLY . 17041 1 
+      58 . 1 1  83  83 GLY . . .  0.94  8.58 0.24 2.90 . . 0.03 0.30 . 1  83 GLY . 17041 1 
+      59 . 1 1  86  86 THR . . .  0.98  5.89 1.12 5.64 . . 0.01 0.29 . 1  86 THR . 17041 1 
+      60 . 1 1  87  87 ILE . . .  0.61  5.98 6.79 0.36 . . 0.02 0.35 . 1  87 ILE . 17041 1 
+      61 . 1 1  89  89 ARG . . .  1.20  4.64 0.10 4.40 . . 0.02 0.31 . 1  89 ARG . 17041 1 
+      62 . 1 1  90  90 GLY . . .  1.05  3.91 2.13 3.39 . . 0.02 0.33 . 1  90 GLY . 17041 1 
+      63 . 1 1  91  91 SER . . .  0.90  4.24 0.03 4.45 . . 0.03 0.34 . 1  91 SER . 17041 1 
+      64 . 1 1  92  92 ASN . . .  0.27  3.56 0.38 4.60 . . 0.02 0.30 . 1  92 ASN . 17041 1 
+      65 . 1 1  94  94 LEU . . .  0.76  5.15 0.78 5.40 . . 0.03 0.33 . 1  94 LEU . 17041 1 
+      66 . 1 1  95  95 LYS . . .  0.21  3.81 0.17 4.36 . . 0.01 0.30 . 1  95 LYS . 17041 1 
+      67 . 1 1  96  96 ALA . . .  0.93  4.20 1.68 3.56 . . 0.05 0.29 . 1  96 ALA . 17041 1 
+      68 . 1 1  97  97 ALA . . .  1.00  4.39 0.27 4.28 . . 0.04 0.32 . 1  97 ALA . 17041 1 
+      69 . 1 1  99  99 VAL . . .  0.82  4.52 0.03 4.09 . . 0.02 0.31 . 1  99 VAL . 17041 1 
+      70 . 1 1 100 100 GLU . . .  0.84  4.93 0.18 4.56 . . 0.03 0.39 . 1 100 GLU . 17041 1 
+      71 . 1 1 101 101 LEU . . .  1.04  4.15 0.01 4.56 . . 0.01 0.33 . 1 101 LEU . 17041 1 
+      72 . 1 1 102 102 ARG . . .  1.18  3.37 0.01 4.74 . . 0.01 0.30 . 1 102 ARG . 17041 1 
+      73 . 1 1 103 103 GLN . . .  0.64  4.23 0.21 4.73 . . 0.03 0.29 . 1 103 GLN . 17041 1 
+      74 . 1 1 104 104 TRP . . .  0.53  3.95 0.40 4.68 . . 0.01 0.27 . 1 104 TRP . 17041 1 
+      75 . 1 1 105 105 LEU . . .  0.74  3.59 0.01 4.84 . . 0.02 0.29 . 1 105 LEU . 17041 1 
+      76 . 1 1 106 106 GLU . . .  1.08  6.04 0.06 4.50 . . 0.05 0.32 . 1 106 GLU . 17041 1 
+      77 . 1 1 107 107 GLU . . .  1.16  3.79 0.20 4.55 . . 0.04 0.32 . 1 107 GLU . 17041 1 
+      78 . 1 1 108 108 VAL . . .  0.53  4.12 0.01 4.55 . . 0.00 0.27 . 1 108 VAL . 17041 1 
+      79 . 1 1 109 109 LEU . . .  0.70  5.85 0.29 4.42 . . 0.02 0.31 . 1 109 LEU . 17041 1 
+      80 . 1 1 110 110 LEU . . .  1.42  7.21 0.21 4.27 . . 0.02 0.34 . 1 110 LEU . 17041 1 
+      81 . 1 1 111 111 LYS . . .  0.71 16.30 0.11 2.13 . . 0.01 0.33 . 1 111 LYS . 17041 1 
+      82 . 1 1 112 112 SER . . .  2.02 28.00 0.04 0.70 . . 0.02 0.28 . 1 112 SER . 17041 1 
+      83 . 1 1 113 113 ASP . . .  2.57 25.90 0.09 0.27 . . 0.01 0.14 . 1 113 ASP . 17041 1 
+
+   stop_
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_noe_list_1
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_noe_list_1
+   _Heteronucl_NOE_list.Entry_ID                      17041
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     600
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'peak height'
+   _Heteronucl_NOE_list.NOE_ref_val                   20000
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      6 '2D 15N {1H} nOe' . . . 17041 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . 1 1   9   9 GLN N N 15 . 1 1   9   9 GLN H H 1 -1.60 0.05 . . 1   9 Gln N 1   9 Gln H 17041 1 
+       2 . 1 1  12  12 TYR N N 15 . 1 1  12  12 TYR H H 1 -0.25 0.08 . . 1  12 Tyr N 1  12 Tyr H 17041 1 
+       3 . 1 1  14  14 ALA N N 15 . 1 1  14  14 ALA H H 1  0.19 0.04 . . 1  14 Ala N 1  14 Ala H 17041 1 
+       4 . 1 1  16  16 MET N N 15 . 1 1  16  16 MET H H 1  0.31 0.04 . . 1  16 Met N 1  16 Met H 17041 1 
+       5 . 1 1  17  17 ALA N N 15 . 1 1  17  17 ALA H H 1  0.42 0.01 . . 1  17 Ala N 1  17 Ala H 17041 1 
+       6 . 1 1  19  19 GLN N N 15 . 1 1  19  19 GLN H H 1  0.53 0.05 . . 1  19 Gln N 1  19 Gln H 17041 1 
+       7 . 1 1  21  21 HIS N N 15 . 1 1  21  21 HIS H H 1  0.67 0.14 . . 1  21 His N 1  21 His H 17041 1 
+       8 . 1 1  22  22 GLN N N 15 . 1 1  22  22 GLN H H 1  0.69 0.04 . . 1  22 Gln N 1  22 Gln H 17041 1 
+       9 . 1 1  23  23 GLU N N 15 . 1 1  23  23 GLU H H 1  0.77 0.01 . . 1  23 Glu N 1  23 Glu H 17041 1 
+      10 . 1 1  24  24 TRP N N 15 . 1 1  24  24 TRP H H 1  0.85 0.03 . . 1  24 Trp N 1  24 Trp H 17041 1 
+      11 . 1 1  25  25 LEU N N 15 . 1 1  25  25 LEU H H 1  0.84 0.01 . . 1  25 Leu N 1  25 Leu H 17041 1 
+      12 . 1 1  26  26 ARG N N 15 . 1 1  26  26 ARG H H 1  0.78 0.04 . . 1  26 Arg N 1  26 Arg H 17041 1 
+      13 . 1 1  27  27 PHE N N 15 . 1 1  27  27 PHE H H 1  0.77 0.10 . . 1  27 Phe N 1  27 Phe H 17041 1 
+      14 . 1 1  28  28 VAL N N 15 . 1 1  28  28 VAL H H 1  0.75 0.05 . . 1  28 Val N 1  28 Val H 17041 1 
+      15 . 1 1  30  30 LEU N N 15 . 1 1  30  30 LEU H H 1  0.77 0.01 . . 1  30 Leu N 1  30 Leu H 17041 1 
+      16 . 1 1  32  32 LYS N N 15 . 1 1  32  32 LYS H H 1  0.80 0.09 . . 1  32 Lys N 1  32 Lys H 17041 1 
+      17 . 1 1  33  33 ASN N N 15 . 1 1  33  33 ASN H H 1  0.78 0.06 . . 1  33 Asn N 1  33 Asn H 17041 1 
+      18 . 1 1  34  34 ALA N N 15 . 1 1  34  34 ALA H H 1  0.85 0.02 . . 1  34 Ala N 1  34 Ala H 17041 1 
+      19 . 1 1  35  35 TYR N N 15 . 1 1  35  35 TYR H H 1  0.82 0.01 . . 1  35 Tyr N 1  35 Tyr H 17041 1 
+      20 . 1 1  36  36 GLN N N 15 . 1 1  36  36 GLN H H 1  0.81 0.05 . . 1  36 Gln N 1  36 Gln H 17041 1 
+      21 . 1 1  37  37 ASN N N 15 . 1 1  37  37 ASN H H 1  0.80 0.04 . . 1  37 Asn N 1  37 Asn H 17041 1 
+      22 . 1 1  38  38 ASP N N 15 . 1 1  38  38 ASP H H 1  0.76 0.02 . . 1  38 Asp N 1  38 Asp H 17041 1 
+      23 . 1 1  39  39 LEU N N 15 . 1 1  39  39 LEU H H 1  0.73 0.08 . . 1  39 Leu N 1  39 Leu H 17041 1 
+      24 . 1 1  40  40 HIS N N 15 . 1 1  40  40 HIS H H 1  0.78 0.01 . . 1  40 His N 1  40 His H 17041 1 
+      25 . 1 1  41  41 LEU N N 15 . 1 1  41  41 LEU H H 1  0.81 0.12 . . 1  41 Leu N 1  41 Leu H 17041 1 
+      26 . 1 1  43  43 LEU N N 15 . 1 1  43  43 LEU H H 1  0.74 0.06 . . 1  43 Leu N 1  43 Leu H 17041 1 
+      27 . 1 1  44  44 LEU N N 15 . 1 1  44  44 LEU H H 1  0.82 0.02 . . 1  44 Leu N 1  44 Leu H 17041 1 
+      28 . 1 1  46  46 LEU N N 15 . 1 1  46  46 LEU H H 1  0.79 0.02 . . 1  46 Leu N 1  46 Leu H 17041 1 
+      29 . 1 1  47  47 MET N N 15 . 1 1  47  47 MET H H 1  0.86 0.01 . . 1  47 Met N 1  47 Met H 17041 1 
+      30 . 1 1  48  48 LEU N N 15 . 1 1  48  48 LEU H H 1  0.81 0.07 . . 1  48 Leu N 1  48 Leu H 17041 1 
+      31 . 1 1  51  51 ASP N N 15 . 1 1  51  51 ASP H H 1  0.81 0.02 . . 1  51 Asp N 1  51 Asp H 17041 1 
+      32 . 1 1  52  52 GLU N N 15 . 1 1  52  52 GLU H H 1  0.76 0.03 . . 1  52 Glu N 1  52 Glu H 17041 1 
+      33 . 1 1  53  53 ARG N N 15 . 1 1  53  53 ARG H H 1  0.71 0.10 . . 1  53 Arg N 1  53 Arg H 17041 1 
+      34 . 1 1  54  54 GLU N N 15 . 1 1  54  54 GLU H H 1  0.78 0.07 . . 1  54 Glu N 1  54 Glu H 17041 1 
+      35 . 1 1  55  55 ALA N N 15 . 1 1  55  55 ALA H H 1  0.77 0.08 . . 1  55 Ala N 1  55 Ala H 17041 1 
+      36 . 1 1  56  56 LEU N N 15 . 1 1  56  56 LEU H H 1  0.84 0.01 . . 1  56 Leu N 1  56 Leu H 17041 1 
+      37 . 1 1  57  57 GLY N N 15 . 1 1  57  57 GLY H H 1  0.81 0.05 . . 1  57 Gly N 1  57 Gly H 17041 1 
+      38 . 1 1  59  59 ARG N N 15 . 1 1  59  59 ARG H H 1  0.82 0.07 . . 1  59 Arg N 1  59 Arg H 17041 1 
+      39 . 1 1  60  60 VAL N N 15 . 1 1  60  60 VAL H H 1  0.80 0.02 . . 1  60 Val N 1  60 Val H 17041 1 
+      40 . 1 1  63  63 VAL N N 15 . 1 1  63  63 VAL H H 1  0.84 0.03 . . 1  63 Val N 1  63 Val H 17041 1 
+      41 . 1 1  65  65 GLU N N 15 . 1 1  65  65 GLU H H 1  0.80 0.04 . . 1  65 Glu N 1  65 Glu H 17041 1 
+      42 . 1 1  66  66 LEU N N 15 . 1 1  66  66 LEU H H 1  0.82 0.01 . . 1  66 Leu N 1  66 Leu H 17041 1 
+      43 . 1 1  67  67 LEU N N 15 . 1 1  67  67 LEU H H 1  0.78 0.01 . . 1  67 Leu N 1  67 Leu H 17041 1 
+      44 . 1 1  68  68 ARG N N 15 . 1 1  68  68 ARG H H 1  0.78 0.01 . . 1  68 Arg N 1  68 Arg H 17041 1 
+      45 . 1 1  69  69 GLY N N 15 . 1 1  69  69 GLY H H 1  0.79 0.01 . . 1  69 Gly N 1  69 Gly H 17041 1 
+      46 . 1 1  70  70 GLU N N 15 . 1 1  70  70 GLU H H 1  0.71 0.03 . . 1  70 Glu N 1  70 Glu H 17041 1 
+      47 . 1 1  72  72 SER N N 15 . 1 1  72  72 SER H H 1  0.65 0.04 . . 1  72 Ser N 1  72 Ser H 17041 1 
+      48 . 1 1  73  73 GLN N N 15 . 1 1  73  73 GLN H H 1  0.62 0.02 . . 1  73 Gln N 1  73 Gln H 17041 1 
+      49 . 1 1  75  75 GLU N N 15 . 1 1  75  75 GLU H H 1  0.63 0.02 . . 1  75 Glu N 1  75 Glu H 17041 1 
+      50 . 1 1  76  76 LEU N N 15 . 1 1  76  76 LEU H H 1  0.64 0.05 . . 1  76 Leu N 1  76 Leu H 17041 1 
+      51 . 1 1  78  78 ASN N N 15 . 1 1  78  78 ASN H H 1  0.68 0.07 . . 1  78 Asn N 1  78 Asn H 17041 1 
+      52 . 1 1  79  79 GLU N N 15 . 1 1  79  79 GLU H H 1  0.75 0.10 . . 1  79 Glu N 1  79 Glu H 17041 1 
+      53 . 1 1  83  83 GLY N N 15 . 1 1  83  83 GLY H H 1  0.64 0.16 . . 1  83 Gly N 1  83 Gly H 17041 1 
+      54 . 1 1  89  89 ARG N N 15 . 1 1  89  89 ARG H H 1  0.79 0.02 . . 1  89 Arg N 1  89 Arg H 17041 1 
+      55 . 1 1  90  90 GLY N N 15 . 1 1  90  90 GLY H H 1  0.78 0.02 . . 1  90 Gly N 1  90 Gly H 17041 1 
+      56 . 1 1  91  91 SER N N 15 . 1 1  91  91 SER H H 1  0.81 0.03 . . 1  91 Ser N 1  91 Ser H 17041 1 
+      57 . 1 1  92  92 ASN N N 15 . 1 1  92  92 ASN H H 1  0.80 0.02 . . 1  92 Asn N 1  92 Asn H 17041 1 
+      58 . 1 1  94  94 LEU N N 15 . 1 1  94  94 LEU H H 1  0.79 0.03 . . 1  94 Leu N 1  94 Leu H 17041 1 
+      59 . 1 1  95  95 LYS N N 15 . 1 1  95  95 LYS H H 1  0.80 0.02 . . 1  95 Lys N 1  95 Lys H 17041 1 
+      60 . 1 1  96  96 ALA N N 15 . 1 1  96  96 ALA H H 1  0.76 0.03 . . 1  96 Ala N 1  96 Ala H 17041 1 
+      61 . 1 1  97  97 ALA N N 15 . 1 1  97  97 ALA H H 1  0.78 0.07 . . 1  97 Ala N 1  97 Ala H 17041 1 
+      62 . 1 1  99  99 VAL N N 15 . 1 1  99  99 VAL H H 1  0.76 0.06 . . 1  99 Val N 1  99 Val H 17041 1 
+      63 . 1 1 100 100 GLU N N 15 . 1 1 100 100 GLU H H 1  0.80 0.03 . . 1 100 Glu N 1 100 Glu H 17041 1 
+      64 . 1 1 101 101 LEU N N 15 . 1 1 101 101 LEU H H 1  0.88 0.02 . . 1 101 Leu N 1 101 Leu H 17041 1 
+      65 . 1 1 102 102 ARG N N 15 . 1 1 102 102 ARG H H 1  0.78 0.04 . . 1 102 Arg N 1 102 Arg H 17041 1 
+      66 . 1 1 103 103 GLN N N 15 . 1 1 103 103 GLN H H 1  0.82 0.01 . . 1 103 Gln N 1 103 Gln H 17041 1 
+      67 . 1 1 104 104 TRP N N 15 . 1 1 104 104 TRP H H 1  0.77 0.04 . . 1 104 Trp N 1 104 Trp H 17041 1 
+      68 . 1 1 105 105 LEU N N 15 . 1 1 105 105 LEU H H 1  0.78 0.02 . . 1 105 Leu N 1 105 Leu H 17041 1 
+      69 . 1 1 106 106 GLU N N 15 . 1 1 106 106 GLU H H 1  0.73 0.04 . . 1 106 Glu N 1 106 Glu H 17041 1 
+      70 . 1 1 107 107 GLU N N 15 . 1 1 107 107 GLU H H 1  0.79 0.01 . . 1 107 Glu N 1 107 Glu H 17041 1 
+      71 . 1 1 108 108 VAL N N 15 . 1 1 108 108 VAL H H 1  0.79 0.01 . . 1 108 Val N 1 108 Val H 17041 1 
+      72 . 1 1 109 109 LEU N N 15 . 1 1 109 109 LEU H H 1  0.72 0.06 . . 1 109 Leu N 1 109 Leu H 17041 1 
+      73 . 1 1 110 110 LEU N N 15 . 1 1 110 110 LEU H H 1  0.66 0.04 . . 1 110 Leu N 1 110 Leu H 17041 1 
+      74 . 1 1 111 111 LYS N N 15 . 1 1 111 111 LYS H H 1  0.29 0.02 . . 1 111 Lys N 1 111 Lys H 17041 1 
+      75 . 1 1 112 112 SER N N 15 . 1 1 112 112 SER H H 1 -0.36 0.01 . . 1 112 Ser N 1 112 Ser H 17041 1 
+      76 . 1 1 113 113 ASP N N 15 . 1 1 113 113 ASP H H 1 -1.23 0.02 . . 1 113 Asp N 1 113 Asp H 17041 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_heteronuclear_T1_list_1
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  heteronuclear_T1_list_1
+   _Heteronucl_T1_list.Entry_ID                      17041
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  ms
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      4 '2D 15N T1' . . . 17041 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1   9   9 GLN N N 15 1338.00  77.78 . 1   9 Gln N 17041 1 
+       2 . 1 1  12  12 TYR N N 15  723.50   0.14 . 1  12 Tyr N 17041 1 
+       3 . 1 1  14  14 ALA N N 15  784.70  15.56 . 1  14 Ala N 17041 1 
+       4 . 1 1  16  16 MET N N 15  677.20  45.82 . 1  16 Met N 17041 1 
+       5 . 1 1  17  17 ALA N N 15  771.45   5.87 . 1  17 Ala N 17041 1 
+       6 . 1 1  19  19 GLN N N 15  631.60  89.24 . 1  19 Gln N 17041 1 
+       7 . 1 1  21  21 HIS N N 15  835.30  30.83 . 1  21 His N 17041 1 
+       8 . 1 1  22  22 GLN N N 15  726.40  17.40 . 1  22 Gln N 17041 1 
+       9 . 1 1  23  23 GLU N N 15  743.35  79.55 . 1  23 Glu N 17041 1 
+      10 . 1 1  24  24 TRP N N 15  846.15  30.05 . 1  24 Trp N 17041 1 
+      11 . 1 1  25  25 LEU N N 15  830.10  12.45 . 1  25 Leu N 17041 1 
+      12 . 1 1  26  26 ARG N N 15  779.25  50.13 . 1  26 Arg N 17041 1 
+      13 . 1 1  27  27 PHE N N 15  687.55   1.20 . 1  27 Phe N 17041 1 
+      14 . 1 1  28  28 VAL N N 15  823.70  11.74 . 1  28 Val N 17041 1 
+      15 . 1 1  30  30 LEU N N 15  718.95   1.77 . 1  30 Leu N 17041 1 
+      16 . 1 1  32  32 LYS N N 15  837.30  33.38 . 1  32 Lys N 17041 1 
+      17 . 1 1  33  33 ASN N N 15  850.85  22.70 . 1  33 Asn N 17041 1 
+      18 . 1 1  34  34 ALA N N 15  814.65  51.97 . 1  34 Ala N 17041 1 
+      19 . 1 1  35  35 TYR N N 15  785.30  17.25 . 1  35 Tyr N 17041 1 
+      20 . 1 1  36  36 GLN N N 15  872.15  32.46 . 1  36 Gln N 17041 1 
+      21 . 1 1  37  37 ASN N N 15  815.30  39.60 . 1  37 Asn N 17041 1 
+      22 . 1 1  38  38 ASP N N 15  835.10  55.86 . 1  38 Asp N 17041 1 
+      23 . 1 1  39  39 LEU N N 15  830.30  37.05 . 1  39 Leu N 17041 1 
+      24 . 1 1  40  40 HIS N N 15  785.75   5.59 . 1  40 His N 17041 1 
+      25 . 1 1  41  41 LEU N N 15  859.55   2.33 . 1  41 Leu N 17041 1 
+      26 . 1 1  43  43 LEU N N 15  831.00  40.59 . 1  43 Leu N 17041 1 
+      27 . 1 1  44  44 LEU N N 15  769.60  38.18 . 1  44 Leu N 17041 1 
+      28 . 1 1  46  46 LEU N N 15  733.90  56.43 . 1  46 Leu N 17041 1 
+      29 . 1 1  47  47 MET N N 15  784.40  27.15 . 1  47 Met N 17041 1 
+      30 . 1 1  48  48 LEU N N 15  776.75   8.98 . 1  48 Leu N 17041 1 
+      31 . 1 1  51  51 ASP N N 15  902.10  19.52 . 1  51 Asp N 17041 1 
+      32 . 1 1  52  52 GLU N N 15  870.20   1.41 . 1  52 Glu N 17041 1 
+      33 . 1 1  53  53 ARG N N 15  784.50  35.36 . 1  53 Arg N 17041 1 
+      34 . 1 1  54  54 GLU N N 15  876.05  41.37 . 1  54 Glu N 17041 1 
+      35 . 1 1  55  55 ALA N N 15  832.65  97.65 . 1  55 Ala N 17041 1 
+      36 . 1 1  56  56 LEU N N 15  836.00  70.99 . 1  56 Leu N 17041 1 
+      37 . 1 1  57  57 GLY N N 15  848.75  47.45 . 1  57 Gly N 17041 1 
+      38 . 1 1  59  59 ARG N N 15  830.75   6.86 . 1  59 Arg N 17041 1 
+      39 . 1 1  60  60 VAL N N 15  782.05  73.89 . 1  60 Val N 17041 1 
+      40 . 1 1  63  63 VAL N N 15  829.55  66.12 . 1  63 Val N 17041 1 
+      41 . 1 1  65  65 GLU N N 15  802.15  27.93 . 1  65 Glu N 17041 1 
+      42 . 1 1  66  66 LEU N N 15  783.30 132.79 . 1  66 Leu N 17041 1 
+      43 . 1 1  67  67 LEU N N 15  885.65  30.62 . 1  67 Leu N 17041 1 
+      44 . 1 1  68  68 ARG N N 15  855.95  11.38 . 1  68 Arg N 17041 1 
+      45 . 1 1  69  69 GLY N N 15  869.75  30.90 . 1  69 Gly N 17041 1 
+      46 . 1 1  70  70 GLU N N 15  850.45 109.11 . 1  70 Glu N 17041 1 
+      47 . 1 1  72  72 SER N N 15  732.90 171.54 . 1  72 Ser N 17041 1 
+      48 . 1 1  73  73 GLN N N 15  836.50  16.55 . 1  73 Gln N 17041 1 
+      49 . 1 1  75  75 GLU N N 15  808.50  41.01 . 1  75 Glu N 17041 1 
+      50 . 1 1  76  76 LEU N N 15  727.95 104.58 . 1  76 Leu N 17041 1 
+      51 . 1 1  78  78 ASN N N 15  818.20  20.22 . 1  78 Asn N 17041 1 
+      52 . 1 1  79  79 GLU N N 15  845.90  23.33 . 1  79 Glu N 17041 1 
+      53 . 1 1  83  83 GLY N N 15  882.70  55.72 . 1  83 Gly N 17041 1 
+      54 . 1 1  89  89 ARG N N 15  699.00   7.78 . 1  89 Arg N 17041 1 
+      55 . 1 1  90  90 GLY N N 15  760.35  67.25 . 1  90 Gly N 17041 1 
+      56 . 1 1  91  91 SER N N 15  731.95  12.23 . 1  91 Ser N 17041 1 
+      57 . 1 1  92  92 ASN N N 15  785.30  17.25 . 1  92 Asn N 17041 1 
+      58 . 1 1  94  94 LEU N N 15  805.45  27.93 . 1  94 Leu N 17041 1 
+      59 . 1 1  95  95 LYS N N 15  782.05  73.89 . 1  95 Lys N 17041 1 
+      60 . 1 1  96  96 ALA N N 15  778.55  17.75 . 1  96 Ala N 17041 1 
+      61 . 1 1  97  97 ALA N N 15  954.65  49.14 . 1  97 Ala N 17041 1 
+      62 . 1 1  99  99 VAL N N 15  846.35  47.02 . 1  99 Val N 17041 1 
+      63 . 1 1 100 100 GLU N N 15  819.75  72.05 . 1 100 Glu N 17041 1 
+      64 . 1 1 101 101 LEU N N 15  785.95  12.94 . 1 101 Leu N 17041 1 
+      65 . 1 1 102 102 ARG N N 15  779.25  50.13 . 1 102 Arg N 17041 1 
+      66 . 1 1 103 103 GLN N N 15  848.10  53.32 . 1 103 Gln N 17041 1 
+      67 . 1 1 104 104 TRP N N 15  769.50  80.61 . 1 104 Trp N 17041 1 
+      68 . 1 1 105 105 LEU N N 15  771.45  45.47 . 1 105 Leu N 17041 1 
+      69 . 1 1 106 106 GLU N N 15  879.20  45.26 . 1 106 Glu N 17041 1 
+      70 . 1 1 107 107 GLU N N 15  850.30  97.02 . 1 107 Glu N 17041 1 
+      71 . 1 1 108 108 VAL N N 15  866.45  45.18 . 1 108 Val N 17041 1 
+      72 . 1 1 109 109 LEU N N 15  809.05  61.17 . 1 109 Leu N 17041 1 
+      73 . 1 1 110 110 LEU N N 15  761.55  21.14 . 1 110 Leu N 17041 1 
+      74 . 1 1 111 111 LYS N N 15  680.55  49.99 . 1 111 Lys N 17041 1 
+      75 . 1 1 112 112 SER N N 15  824.75  29.63 . 1 112 Ser N 17041 1 
+      76 . 1 1 113 113 ASP N N 15 1260.00 106.07 . 1 113 Asp N 17041 1 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_heteronuclear_T2_list_1
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  heteronuclear_T2_list_1
+   _Heteronucl_T2_list.Entry_ID                      17041
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $sample_conditions_1
+   _Heteronucl_T2_list.Temp_calibration_method       DSS
+   _Heteronucl_T2_list.Temp_control_method          'single scan interleaving'
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T2_list.T2_coherence_type             Nz
+   _Heteronucl_T2_list.T2_val_units                  ms
+   _Heteronucl_T2_list.Rex_units                     s-1
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      5 '2D 15N T2 interleaved' . . . 17041 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1   9   9 GLN N N 15 656.90 133.93 . . . .   9 Gln N 17041 1 
+       2 . 1 1  12  12 TYR N N 15 230.50  17.82 . . . .  12 Tyr N 17041 1 
+       3 . 1 1  14  14 ALA N N 15 141.55   0.35 . . . .  14 Ala N 17041 1 
+       4 . 1 1  16  16 MET N N 15 132.75   3.75 . . . .  16 Met N 17041 1 
+       5 . 1 1  17  17 ALA N N 15 110.60   2.12 . . . .  17 Ala N 17041 1 
+       6 . 1 1  19  19 GLN N N 15  95.47   2.85 . . . .  19 Gln N 17041 1 
+       7 . 1 1  21  21 HIS N N 15  77.37   5.02 . . . .  21 His N 17041 1 
+       8 . 1 1  22  22 GLN N N 15  84.29   2.93 . . . .  22 Gln N 17041 1 
+       9 . 1 1  23  23 GLU N N 15  78.28   3.33 . . . .  23 Glu N 17041 1 
+      10 . 1 1  24  24 TRP N N 15  73.27   5.01 . . . .  24 Trp N 17041 1 
+      11 . 1 1  25  25 LEU N N 15  73.40   5.70 . . . .  25 Leu N 17041 1 
+      12 . 1 1  26  26 ARG N N 15  77.69   0.81 . . . .  26 Arg N 17041 1 
+      13 . 1 1  27  27 PHE N N 15  76.58   2.09 . . . .  27 Phe N 17041 1 
+      14 . 1 1  28  28 VAL N N 15  70.83   0.70 . . . .  28 Val N 17041 1 
+      15 . 1 1  30  30 LEU N N 15  75.59   2.87 . . . .  30 Leu N 17041 1 
+      16 . 1 1  32  32 LYS N N 15  56.25   4.08 . . . .  32 Lys N 17041 1 
+      17 . 1 1  33  33 ASN N N 15  71.79   2.50 . . . .  33 Asn N 17041 1 
+      18 . 1 1  34  34 ALA N N 15  76.03   1.31 . . . .  34 Ala N 17041 1 
+      19 . 1 1  35  35 TYR N N 15  76.90   0.88 . . . .  35 Tyr N 17041 1 
+      20 . 1 1  36  36 GLN N N 15  74.98   1.33 . . . .  36 Gln N 17041 1 
+      21 . 1 1  37  37 ASN N N 15  80.77   2.49 . . . .  37 Asn N 17041 1 
+      22 . 1 1  38  38 ASP N N 15  73.45   2.59 . . . .  38 Asp N 17041 1 
+      23 . 1 1  39  39 LEU N N 15  77.53   0.81 . . . .  39 Leu N 17041 1 
+      24 . 1 1  40  40 HIS N N 15  73.26   0.86 . . . .  40 His N 17041 1 
+      25 . 1 1  41  41 LEU N N 15  70.13   4.28 . . . .  41 Leu N 17041 1 
+      26 . 1 1  43  43 LEU N N 15  72.84   4.79 . . . .  43 Leu N 17041 1 
+      27 . 1 1  44  44 LEU N N 15  75.02   1.90 . . . .  44 Leu N 17041 1 
+      28 . 1 1  46  46 LEU N N 15  77.12   2.62 . . . .  46 Leu N 17041 1 
+      29 . 1 1  47  47 MET N N 15  75.03   1.83 . . . .  47 Met N 17041 1 
+      30 . 1 1  48  48 LEU N N 15  70.66   2.86 . . . .  48 Leu N 17041 1 
+      31 . 1 1  51  51 ASP N N 15  70.00   0.80 . . . .  51 Asp N 17041 1 
+      32 . 1 1  52  52 GLU N N 15  70.10   4.21 . . . .  52 Glu N 17041 1 
+      33 . 1 1  53  53 ARG N N 15  80.26   3.70 . . . .  53 Arg N 17041 1 
+      34 . 1 1  54  54 GLU N N 15  69.21   1.57 . . . .  54 Glu N 17041 1 
+      35 . 1 1  55  55 ALA N N 15  68.69   1.40 . . . .  55 Ala N 17041 1 
+      36 . 1 1  56  56 LEU N N 15  70.74   3.02 . . . .  56 Leu N 17041 1 
+      37 . 1 1  57  57 GLY N N 15  71.10   4.09 . . . .  57 Gly N 17041 1 
+      38 . 1 1  59  59 ARG N N 15  68.77   0.78 . . . .  59 Arg N 17041 1 
+      39 . 1 1  60  60 VAL N N 15  75.62   2.02 . . . .  60 Val N 17041 1 
+      40 . 1 1  63  63 VAL N N 15  69.93   2.99 . . . .  63 Val N 17041 1 
+      41 . 1 1  65  65 GLU N N 15  66.31   2.72 . . . .  65 Glu N 17041 1 
+      42 . 1 1  66  66 LEU N N 15  65.71   3.82 . . . .  66 Leu N 17041 1 
+      43 . 1 1  67  67 LEU N N 15  71.73   4.21 . . . .  67 Leu N 17041 1 
+      44 . 1 1  68  68 ARG N N 15  71.45   2.87 . . . .  68 Arg N 17041 1 
+      45 . 1 1  69  69 GLY N N 15  70.16   5.18 . . . .  69 Gly N 17041 1 
+      46 . 1 1  70  70 GLU N N 15  84.03   3.16 . . . .  70 Glu N 17041 1 
+      47 . 1 1  72  72 SER N N 15  83.51   4.23 . . . .  72 Ser N 17041 1 
+      48 . 1 1  73  73 GLN N N 15  81.36   4.26 . . . .  73 Gln N 17041 1 
+      49 . 1 1  75  75 GLU N N 15  84.00   3.47 . . . .  75 Glu N 17041 1 
+      50 . 1 1  76  76 LEU N N 15  86.82   3.56 . . . .  76 Leu N 17041 1 
+      51 . 1 1  78  78 ASN N N 15  80.69   1.73 . . . .  78 Asn N 17041 1 
+      52 . 1 1  79  79 GLU N N 15  85.78   1.38 . . . .  79 Glu N 17041 1 
+      53 . 1 1  83  83 GLY N N 15  96.62   2.74 . . . .  83 Gly N 17041 1 
+      54 . 1 1  89  89 ARG N N 15  75.91   1.22 . . . .  89 Arg N 17041 1 
+      55 . 1 1  90  90 GLY N N 15  74.63   3.51 . . . .  90 Gly N 17041 1 
+      56 . 1 1  91  91 SER N N 15  73.97   1.15 . . . .  91 Ser N 17041 1 
+      57 . 1 1  92  92 ASN N N 15  76.90   0.88 . . . .  92 Asn N 17041 1 
+      58 . 1 1  94  94 LEU N N 15  77.58   1.73 . . . .  94 Leu N 17041 1 
+      59 . 1 1  95  95 LYS N N 15  75.62   2.02 . . . .  95 Lys N 17041 1 
+      60 . 1 1  96  96 ALA N N 15  79.70   2.43 . . . .  96 Ala N 17041 1 
+      61 . 1 1  97  97 ALA N N 15  76.39   0.23 . . . .  97 Ala N 17041 1 
+      62 . 1 1  99  99 VAL N N 15  79.99   2.97 . . . .  99 Val N 17041 1 
+      63 . 1 1 100 100 GLU N N 15  73.45   2.86 . . . . 100 Glu N 17041 1 
+      64 . 1 1 101 101 LEU N N 15  76.63   1.17 . . . . 101 Leu N 17041 1 
+      65 . 1 1 102 102 ARG N N 15  77.69   0.81 . . . . 102 Arg N 17041 1 
+      66 . 1 1 103 103 GLN N N 15  72.01   1.86 . . . . 103 Gln N 17041 1 
+      67 . 1 1 104 104 TRP N N 15  75.84   0.57 . . . . 104 Trp N 17041 1 
+      68 . 1 1 105 105 LEU N N 15  72.26   1.01 . . . . 105 Leu N 17041 1 
+      69 . 1 1 106 106 GLU N N 15  73.25   2.40 . . . . 106 Glu N 17041 1 
+      70 . 1 1 107 107 GLU N N 15  76.90   2.60 . . . . 107 Glu N 17041 1 
+      71 . 1 1 108 108 VAL N N 15  77.26   2.33 . . . . 108 Val N 17041 1 
+      72 . 1 1 109 109 LEU N N 15  78.15   3.09 . . . . 109 Leu N 17041 1 
+      73 . 1 1 110 110 LEU N N 15  81.15   3.58 . . . . 110 Leu N 17041 1 
+      74 . 1 1 111 111 LYS N N 15 148.95   4.31 . . . . 111 Lys N 17041 1 
+      75 . 1 1 112 112 SER N N 15 389.15  34.15 . . . . 112 Ser N 17041 1 
+      76 . 1 1 113 113 ASP N N 15 807.10  27.86 . . . . 113 Asp N 17041 1 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_order_parameter_list_1
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  order_parameter_list_1
+   _Order_parameter_list.Entry_ID                      17041
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $sample_conditions_1
+   _Order_parameter_list.Tau_e_val_units               ps
+   _Order_parameter_list.Tau_f_val_units               ps
+   _Order_parameter_list.Tau_s_val_units               ps
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      4 '2D 15N T1'             . . . 17041 1 
+      5 '2D 15N T2 interleaved' . . . 17041 1 
+      6 '2D 15N {1H} nOe'       . . . 17041 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+       1 . 1 1  12  12 TYR N N 15 0.22 0.03  808.00  56.00 . . . .  .    .   . 5 0.83 0.02 0.27 0.03 . . . . . .  12 Tyr N 17041 1 
+       2 . 1 1  14  14 ALA N N 15 0.45 0.00  878.00  41.00 . . . .  .    .   . 5 0.80 0.01 0.56 0.01 . . . . . .  14 Ala N 17041 1 
+       3 . 1 1  16  16 MET N N 15 0.46 0.02 1100.00  83.70 . . . .  .    .   . 5 0.87 0.04 0.53 0.04 . . . . . .  16 Met N 17041 1 
+       4 . 1 1  17  17 ALA N N 15 0.61 0.02  931.00  38.80 . . . .  .    .   . 5 0.85 0.01 0.72 0.01 . . . . . .  17 Ala N 17041 1 
+       5 . 1 1  19  19 GLN N N 15 0.68 0.03 1320.00 357.00 . . . .  .    .   . 2  .    .   0.68 0.03 . . . . . .  19 Gln N 17041 1 
+       6 . 1 1  21  21 HIS N N 15 0.88 0.03     .      .   . . . .  .    .   . 1  .    .   0.88 0.03 . . . . . .  21 His N 17041 1 
+       7 . 1 1  22  22 GLN N N 15 0.80 0.04 1380.00 371.00 . . . .  .    .   . 5 0.93 0.03 0.86 0.02 . . . . . .  22 Gln N 17041 1 
+       8 . 1 1  23  23 GLU N N 15 0.90 0.03   29.60  70.20 . . . .  .    .   . 2  .    .   0.90 0.03 . . . . . .  23 Glu N 17041 1 
+       9 . 1 1  24  24 TRP N N 15 0.89 0.03     .      .   . . . .  .    .   . 1  .    .   0.89 0.03 . . . . . .  24 Trp N 17041 1 
+      10 . 1 1  25  25 LEU N N 15 0.90 0.01     .      .   . . . .  .    .   . 1  .    .   0.90 0.01 . . . . . .  25 Leu N 17041 1 
+      11 . 1 1  26  26 ARG N N 15 0.90 0.01     .      .   . . . .  .    .   . 1  .    .   0.90 0.01 . . . . . .  26 Arg N 17041 1 
+      12 . 1 1  27  27 PHE N N 15 0.92 0.02 1370.00 348.00 . . . .  .    .   . 2  .    .   0.92 0.02 . . . . . .  27 Phe N 17041 1 
+      13 . 1 1  28  28 VAL N N 15 0.88 0.01     .      .   . . . . 1.68 0.24 . 3  .    .   0.88 0.01 . . . . . .  28 Val N 17041 1 
+      14 . 1 1  30  30 LEU N N 15 0.96 0.01 1100.00  93.50 . . . .  .    .   . 2  .    .   0.96 0.01 . . . . . .  30 Leu N 17041 1 
+      15 . 1 1  32  32 LYS N N 15 0.88 0.03     .      .   . . . . 5.41 1.42 . 3  .    .   0.88 0.03 . . . . . .  32 Lys N 17041 1 
+      16 . 1 1  33  33 ASN N N 15 0.87 0.02     .      .   . . . . 1.57 0.58 . 3  .    .   0.87 0.02 . . . . . .  33 Asn N 17041 1 
+      17 . 1 1  34  34 ALA N N 15 0.92 0.02     .      .   . . . .  .    .   . 1  .    .   0.92 0.02 . . . . . .  34 Ala N 17041 1 
+      18 . 1 1  35  35 TYR N N 15 0.92 0.01     .      .   . . . .  .    .   . 1  .    .   0.92 0.01 . . . . . .  35 Tyr N 17041 1 
+      19 . 1 1  36  36 GLN N N 15 0.84 0.03     .      .   . . . . 1.52 0.51 . 3  .    .   0.84 0.03 . . . . . .  36 Gln N 17041 1 
+      20 . 1 1  37  37 ASN N N 15 0.87 0.02     .      .   . . . .  .    .   . 1  .    .   0.87 0.02 . . . . . .  37 Asn N 17041 1 
+      21 . 1 1  38  38 ASP N N 15 0.93 0.03   46.90 326.00 . . . .  .    .   . 2  .    .   0.93 0.03 . . . . . .  38 Asp N 17041 1 
+      22 . 1 1  39  39 LEU N N 15 0.92 0.01     .      .   . . . .  .    .   . 1  .    .   0.92 0.01 . . . . . .  39 Leu N 17041 1 
+      23 . 1 1  40  40 HIS N N 15 0.94 0.01   42.20   8.16 . . . .  .    .   . 2  .    .   0.94 0.01 . . . . . .  40 His N 17041 1 
+      24 . 1 1  41  41 LEU N N 15 0.85 0.00     .      .   . . . . 2.33 0.86 . 3  .    .   0.85 0.00 . . . . . .  41 Leu N 17041 1 
+      25 . 1 1  43  43 LEU N N 15 0.91 0.03     .      .   . . . .  .    .   . 1  .    .   0.91 0.03 . . . . . .  43 Leu N 17041 1 
+      26 . 1 1  44  44 LEU N N 15 0.95 0.02     .      .   . . . .  .    .   . 1  .    .   0.95 0.02 . . . . . .  44 Leu N 17041 1 
+      27 . 1 1  46  46 LEU N N 15 0.93 0.03     .      .   . . . .  .    .   . 1  .    .   0.93 0.03 . . . . . .  46 Leu N 17041 1 
+      28 . 1 1  47  47 MET N N 15 0.94 0.02     .      .   . . . .  .    .   . 1  .    .   0.94 0.02 . . . . . .  47 Met N 17041 1 
+      29 . 1 1  48  48 LEU N N 15 0.95 0.01     .      .   . . . .  .    .   . 1  .    .   0.95 0.01 . . . . . .  48 Leu N 17041 1 
+      30 . 1 1  51  51 ASP N N 15 0.83 0.02     .      .   . . . . 2.18 0.30 . 3  .    .   0.83 0.02 . . . . . .  51 Asp N 17041 1 
+      31 . 1 1  52  52 GLU N N 15 0.85 0.00     .      .   . . . .  .    .   . 1  .    .   0.85 0.00 . . . . . .  52 Glu N 17041 1 
+      32 . 1 1  53  53 ARG N N 15 0.90 0.03     .      .   . . . .  .    .   . 1  .    .   0.90 0.03 . . . . . .  53 Arg N 17041 1 
+      33 . 1 1  54  54 GLU N N 15 0.86 0.04     .      .   . . . . 1.99 0.69 . 3  .    .   0.86 0.04 . . . . . .  54 Glu N 17041 1 
+      34 . 1 1  56  56 LEU N N 15 0.97 0.03     .      .   . . . .  .    .   . 1  .    .   0.97 0.03 . . . . . .  56 Leu N 17041 1 
+      35 . 1 1  57  57 GLY N N 15 0.92 0.04     .      .   . . . .  .    .   . 1  .    .   0.92 0.04 . . . . . .  57 Gly N 17041 1 
+      36 . 1 1  59  59 ARG N N 15 0.89 0.01     .      .   . . . . 1.88 0.19 . 3  .    .   0.89 0.01 . . . . . .  59 Arg N 17041 1 
+      37 . 1 1  60  60 VAL N N 15 0.94 0.03     .      .   . . . .  .    .   . 1  .    .   0.94 0.03 . . . . . .  60 Val N 17041 1 
+      38 . 1 1  63  63 VAL N N 15 0.96 0.03     .      .   . . . .  .    .   . 1  .    .   0.96 0.03 . . . . . .  63 Val N 17041 1 
+      39 . 1 1  65  65 GLU N N 15 0.97 0.02     .      .   . . . .  .    .   . 1  .    .   0.97 0.02 . . . . . .  65 Glu N 17041 1 
+      40 . 1 1  67  67 LEU N N 15 0.82 0.02   11.20   2.27 . . . . 2.19 0.91 . 4  .    .   0.82 0.02 . . . . . .  67 Leu N 17041 1 
+      41 . 1 1  68  68 ARG N N 15 0.85 0.01   14.00   1.62 . . . . 1.75 0.61 . 4  .    .   0.85 0.01 . . . . . .  68 Arg N 17041 1 
+      42 . 1 1  69  69 GLY N N 15 0.87 0.03   12.40   4.21 . . . .  .    .   . 2  .    .   0.87 0.03 . . . . . .  69 Gly N 17041 1 
+      43 . 1 1  70  70 GLU N N 15 0.82 0.03   30.30 301.00 . . . .  .    .   . 2  .    .   0.82 0.03 . . . . . .  70 Glu N 17041 1 
+      44 . 1 1  72  72 SER N N 15 0.85 0.05   58.90 646.00 . . . .  .    .   . 2  .    .   0.85 0.05 . . . . . .  72 Ser N 17041 1 
+      45 . 1 1  73  73 GLN N N 15 0.83 0.02   60.10   9.64 . . . .  .    .   . 2  .    .   0.83 0.02 . . . . . .  73 Gln N 17041 1 
+      46 . 1 1  75  75 GLU N N 15 0.85 0.03   62.80  57.50 . . . .  .    .   . 2  .    .   0.85 0.03 . . . . . .  75 Glu N 17041 1 
+      47 . 1 1  76  76 LEU N N 15 0.76 0.04 1500.00 509.00 . . . .  .    .   . 2  .    .   0.76 0.04 . . . . . .  76 Leu N 17041 1 
+      48 . 1 1  78  78 ASN N N 15 0.86 0.02   60.20  25.20 . . . .  .    .   . 2  .    .   0.86 0.02 . . . . . .  78 Asn N 17041 1 
+      49 . 1 1  79  79 GLU N N 15 0.84 0.01     .      .   . . . .  .    .   . 1  .    .   0.84 0.01 . . . . . .  79 Glu N 17041 1 
+      50 . 1 1  83  83 GLY N N 15 0.75 0.02     .      .   . . . .  .    .   . 1  .    .   0.75 0.02 . . . . . .  83 Gly N 17041 1 
+      51 . 1 1  89  89 ARG N N 15 0.95 0.01 1730.00 265.00 . . . .  .    .   . 2  .    .   0.95 0.01 . . . . . .  89 Arg N 17041 1 
+      52 . 1 1  90  90 GLY N N 15 0.96 0.04     .      .   . . . .  .    .   . 1  .    .   0.96 0.04 . . . . . .  90 Gly N 17041 1 
+      53 . 1 1  91  91 SER N N 15 0.98 0.01     .      .   . . . .  .    .   . 1  .    .   0.98 0.01 . . . . . .  91 Ser N 17041 1 
+      54 . 1 1  92  92 ASN N N 15 0.92 0.01     .      .   . . . .  .    .   . 1  .    .   0.92 0.01 . . . . . .  92 Asn N 17041 1 
+      55 . 1 1  94  94 LEU N N 15 0.90 0.02     .      .   . . . .  .    .   . 1  .    .   0.90 0.02 . . . . . .  94 Leu N 17041 1 
+      56 . 1 1  95  95 LYS N N 15 0.94 0.02     .      .   . . . .  .    .   . 1  .    .   0.94 0.02 . . . . . .  95 Lys N 17041 1 
+      57 . 1 1  96  96 ALA N N 15 0.92 0.02     .      .   . . . .  .    .   . 1  .    .   0.92 0.02 . . . . . .  96 Ala N 17041 1 
+      58 . 1 1  97  97 ALA N N 15 0.77 0.04     .      .   . . . . 2.14 0.57 . 3  .    .   0.77 0.04 . . . . . .  97 Ala N 17041 1 
+      59 . 1 1  99  99 VAL N N 15 0.88 0.03     .      .   . . . .  .    .   . 1  .    .   0.88 0.03 . . . . . .  99 Val N 17041 1 
+      60 . 1 1 100 100 GLU N N 15 0.95 0.03     .      .   . . . .  .    .   . 1  .    .   0.95 0.03 . . . . . . 100 Glu N 17041 1 
+      61 . 1 1 101 101 LEU N N 15 0.93 0.01     .      .   . . . .  .    .   . 1  .    .   0.93 0.01 . . . . . . 101 Leu N 17041 1 
+      62 . 1 1 102 102 ARG N N 15 0.92 0.01     .      .   . . . .  .    .   . 1  .    .   0.92 0.01 . . . . . . 102 Arg N 17041 1 
+      63 . 1 1 103 103 GLN N N 15 0.95 0.02     .      .   . . . .  .    .   . 1  .    .   0.95 0.02 . . . . . . 103 Gln N 17041 1 
+      64 . 1 1 104 104 TRP N N 15 0.92 0.01     .      .   . . . .  .    .   . 1  .    .   0.92 0.01 . . . . . . 104 Trp N 17041 1 
+      65 . 1 1 105 105 LEU N N 15 0.96 0.01     .      .   . . . .  .    .   . 1  .    .   0.96 0.01 . . . . . . 105 Leu N 17041 1 
+      66 . 1 1 106 106 GLU N N 15 0.92 0.02     .      .   . . . .  .    .   . 1  .    .   0.92 0.02 . . . . . . 106 Glu N 17041 1 
+      67 . 1 1 107 107 GLU N N 15 0.90 0.03   16.80 181.00 . . . .  .    .   . 2  .    .   0.90 0.03 . . . . . . 107 Glu N 17041 1 
+      68 . 1 1 108 108 VAL N N 15 0.89 0.02   16.30   4.98 . . . .  .    .   . 2  .    .   0.89 0.02 . . . . . . 108 Val N 17041 1 
+      69 . 1 1 109 109 LEU N N 15 0.91 0.03     .      .   . . . .  .    .   . 1  .    .   0.91 0.03 . . . . . . 109 Leu N 17041 1 
+      70 . 1 1 110 110 LEU N N 15 0.91 0.02  112.00  99.10 . . . .  .    .   . 2  .    .   0.91 0.02 . . . . . . 110 Leu N 17041 1 
+      71 . 1 1 111 111 LYS N N 15 0.39 0.02 1150.00  57.40 . . . .  .    .   . 5 0.84 0.04 0.47 0.04 . . . . . . 111 Lys N 17041 1 
+      72 . 1 1 112 112 SER N N 15 0.09 0.02  835.00  14.90 . . . .  .    .   . 5 0.70 0.02 0.13 0.02 . . . . . . 112 Ser N 17041 1 
+
+   stop_
+
+save_
+

@@ -1,0 +1,5 @@
+=== GLOBAL SPINDLE TAUC STATISTICS ===
+Total Valid Fields/Conditions Mapped: 73
+Pearson r Correlation Coefficient: 0.947
+Root Mean Square Error (RMSE): 1.497 ns
+Mean Absolute Error (MAE): 0.781 ns

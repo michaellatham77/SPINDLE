@@ -1,0 +1,2218 @@
+data_5330
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             5330
+   _Entry.Title                         
+;
+Backbone relaxation data of rat apo cellular retinol-binding protein type I 
+(CRBP-I)
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2002-03-19
+   _Entry.Accession_date                 2002-03-20
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1  Lorella     Franzoni   . . . 5330 
+      2  Christian   Luecke     . . . 5330 
+      3  Carlos      Perez      . . . 5330 
+      4  Davide      Cavazzini  . . . 5330 
+      5  Martin      Rademacher . . . 5330 
+      6  Christian   Ludwig     . . . 5330 
+      7  Alberto     Spisni     . . . 5330 
+      8 'Gian Luigi' Rossi      . . . 5330 
+      9  Heinz       Rueterjans . . . 5330 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      heteronucl_T1_relaxation 2 5330 
+      heteronucl_T2_relaxation 2 5330 
+      heteronucl_NOEs          2 5330 
+      order_parameters         1 5330 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      'T1 relaxation values' 171 5330 
+      'T2 relaxation values' 152 5330 
+      'order parameters'      89 5330 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2002-06-26 . update   author 'Add the PubMed ID of the citation.' 5330 
+      2 . . 2002-06-13 . original author 'Original release.'                  5330 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 5048 'chemical shift assignments of the apo protein'  5330 
+      BMRB 5319 'chemical shift assignments of the holo protein' 5330 
+      BMRB 5331 'relaxation data of the holo protein'            5330 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     5330
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    11934897
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Structure and backbone dynamics of apo- and holo-cellular retinol-binding 
+protein in solution
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Biol. Chem.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               277
+   _Citation.Journal_issue                24
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   21983
+   _Citation.Page_last                    21997
+   _Citation.Year                         2002
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1  Lorella     Franzoni   . . . 5330 1 
+      2  Christian   Luecke     . . . 5330 1 
+      3  Carlos      Perez      . . . 5330 1 
+      4  Davide      Cavazzini  . . . 5330 1 
+      5  Martin      Rademacher . . . 5330 1 
+      6  Christian   Ludwig     . . . 5330 1 
+      7  Alberto     Spisni     . . . 5330 1 
+      8 'Gian Luigi' Rossi      . . . 5330 1 
+      9  Heinz       Rueterjans . . . 5330 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'beta barrel'            5330 1 
+      'lipid binding protein'  5330 1 
+      'retinoid carrier'       5330 1 
+      'apo form'               5330 1 
+      '15N isotope enrichment' 5330 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_CRBP-I
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_CRBP-I
+   _Assembly.Entry_ID                          5330
+   _Assembly.ID                                1
+   _Assembly.Name                             'cellular retinol-binding protein type I'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'all free'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      monomer 5330 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'cellular retinol-binding protein type I' 1 $CRBP-I . . . native . . . . . 5330 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      . PDB        1JBH   . . . . . 'solution structure of the apo protein'  5330 1 
+      . PDB        1KGL   . . . . . 'solution structure of the holo protein' 5330 1 
+      . SWISS-PROT P02696 . . . . .  .                                       5330 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'cellular retinol-binding protein type I' system       5330 1 
+       CRBP-I                                   abbreviation 5330 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'lipid binding'    5330 1 
+      'retinoid carrier' 5330 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_CRBP-I
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      CRBP-I
+   _Entity.Entry_ID                          5330
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'cellular retinol-binding protein type I'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MPVDFNGYWKMLSNENFEEY
+LRALDVNVALRKIANLLKPD
+KEIVQDGDHMIIRTLSTFRN
+YIMDFQVGKEFEEDLTGIDD
+RKCMTTVSWDGDKLQCVQKG
+EKEGRGWTQWIEGDELHLEM
+RAEGVTCKQVFKKVH
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                135
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    15703
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                          'The above molecular mass excludes MET 0.'
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB         5048 .  CRBP-I                                                                                                                           . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+       2 no BMRB         5319 .  CRBP-I                                                                                                                           . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+       3 no BMRB         5331 .  CRBP-I                                                                                                                           . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+       4 no BMRB         5578 .  CRBP_I                                                                                                                           . . . . .  99.26 134 100.00 100.00 1.01e-93 . . . . 5330 1 
+       5 no BMRB         5579 .  CRBP_I                                                                                                                           . . . . .  99.26 134 100.00 100.00 1.01e-93 . . . . 5330 1 
+       6 no PDB  1CRB          . "Crystallographic Studies On A Family Of Cellular Lipophilic Transport Proteins. Refinement Of P2 Myelin Protein And The Structu" . . . . .  99.26 134 100.00 100.00 1.01e-93 . . . . 5330 1 
+       7 no PDB  1JBH          . "Solution Structure Of Cellular Retinol Binding Protein Type- I In The Ligand-Free State"                                         . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+       8 no PDB  1KGL          . "Solution Structure Of Cellular Retinol Binding Protein Type- I In Complex With All-Trans-Retinol"                                . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+       9 no PDB  1MX7          . "Two Homologous Rat Cellular Retinol-Binding Proteins Differ In Local Structure And Flexibility"                                  . . . . .  99.26 134 100.00 100.00 1.01e-93 . . . . 5330 1 
+      10 no PDB  1MX8          . "Two Homologous Rat Cellular Retinol-Binding Proteins Differ In Local Structure And Flexibility"                                  . . . . .  99.26 134 100.00 100.00 1.01e-93 . . . . 5330 1 
+      11 no DBJ  BAB27753      . "unnamed protein product [Mus musculus]"                                                                                          . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+      12 no EMBL CAA42919      . "cellular retinol binding protein I [Mus musculus]"                                                                               . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+      13 no GB   AAA35714      . "retinol-binding protein, partial [Homo sapiens]"                                                                                 . . . . .  89.63 121  98.35  98.35 1.60e-81 . . . . 5330 1 
+      14 no GB   AAA40962      . "cytosolic retinol-binding protein [Rattus norvegicus]"                                                                           . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+      15 no GB   AAA42021      . "cellular retinol binding protein [Rattus norvegicus]"                                                                            . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+      16 no GB   AAH18254      . "Retinol binding protein 1, cellular [Mus musculus]"                                                                              . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+      17 no GB   AAH91751      . "Rbp1 protein [Mus musculus]"                                                                                                     . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+      18 no REF  NP_035384     . "retinol-binding protein 1 [Mus musculus]"                                                                                        . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+      19 no REF  NP_036865     . "retinol-binding protein 1 [Rattus norvegicus]"                                                                                   . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+      20 no REF  XP_005080789  . "PREDICTED: retinol-binding protein 1 [Mesocricetus auratus]"                                                                     . . . . . 100.00 135  98.52  99.26 2.93e-93 . . . . 5330 1 
+      21 no REF  XP_005366741  . "PREDICTED: retinol-binding protein 1 [Microtus ochrogaster]"                                                                     . . . . . 100.00 135  97.78  99.26 9.11e-93 . . . . 5330 1 
+      22 no REF  XP_006083819  . "PREDICTED: retinol-binding protein 1 [Myotis lucifugus]"                                                                         . . . . . 100.00 135  97.04  97.78 7.92e-92 . . . . 5330 1 
+      23 no SP   P02696        . "RecName: Full=Retinol-binding protein 1; AltName: Full=Cellular retinol-binding protein; Short=CRBP; AltName: Full=Cellular ret" . . . . . 100.00 135 100.00 100.00 1.89e-94 . . . . 5330 1 
+      24 no SP   Q00915        . "RecName: Full=Retinol-binding protein 1; AltName: Full=Cellular retinol-binding protein; Short=CRBP; AltName: Full=Cellular ret" . . . . . 100.00 135  99.26  99.26 1.22e-93 . . . . 5330 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'cellular retinol-binding protein type I' common       5330 1 
+       CRBP-I                                   abbreviation 5330 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1   0 MET . 5330 1 
+        2   1 PRO . 5330 1 
+        3   2 VAL . 5330 1 
+        4   3 ASP . 5330 1 
+        5   4 PHE . 5330 1 
+        6   5 ASN . 5330 1 
+        7   6 GLY . 5330 1 
+        8   7 TYR . 5330 1 
+        9   8 TRP . 5330 1 
+       10   9 LYS . 5330 1 
+       11  10 MET . 5330 1 
+       12  11 LEU . 5330 1 
+       13  12 SER . 5330 1 
+       14  13 ASN . 5330 1 
+       15  14 GLU . 5330 1 
+       16  15 ASN . 5330 1 
+       17  16 PHE . 5330 1 
+       18  17 GLU . 5330 1 
+       19  18 GLU . 5330 1 
+       20  19 TYR . 5330 1 
+       21  20 LEU . 5330 1 
+       22  21 ARG . 5330 1 
+       23  22 ALA . 5330 1 
+       24  23 LEU . 5330 1 
+       25  24 ASP . 5330 1 
+       26  25 VAL . 5330 1 
+       27  26 ASN . 5330 1 
+       28  27 VAL . 5330 1 
+       29  28 ALA . 5330 1 
+       30  29 LEU . 5330 1 
+       31  30 ARG . 5330 1 
+       32  31 LYS . 5330 1 
+       33  32 ILE . 5330 1 
+       34  33 ALA . 5330 1 
+       35  34 ASN . 5330 1 
+       36  35 LEU . 5330 1 
+       37  36 LEU . 5330 1 
+       38  37 LYS . 5330 1 
+       39  38 PRO . 5330 1 
+       40  39 ASP . 5330 1 
+       41  40 LYS . 5330 1 
+       42  41 GLU . 5330 1 
+       43  42 ILE . 5330 1 
+       44  43 VAL . 5330 1 
+       45  44 GLN . 5330 1 
+       46  45 ASP . 5330 1 
+       47  46 GLY . 5330 1 
+       48  47 ASP . 5330 1 
+       49  48 HIS . 5330 1 
+       50  49 MET . 5330 1 
+       51  50 ILE . 5330 1 
+       52  51 ILE . 5330 1 
+       53  52 ARG . 5330 1 
+       54  53 THR . 5330 1 
+       55  54 LEU . 5330 1 
+       56  55 SER . 5330 1 
+       57  56 THR . 5330 1 
+       58  57 PHE . 5330 1 
+       59  58 ARG . 5330 1 
+       60  59 ASN . 5330 1 
+       61  60 TYR . 5330 1 
+       62  61 ILE . 5330 1 
+       63  62 MET . 5330 1 
+       64  63 ASP . 5330 1 
+       65  64 PHE . 5330 1 
+       66  65 GLN . 5330 1 
+       67  66 VAL . 5330 1 
+       68  67 GLY . 5330 1 
+       69  68 LYS . 5330 1 
+       70  69 GLU . 5330 1 
+       71  70 PHE . 5330 1 
+       72  71 GLU . 5330 1 
+       73  72 GLU . 5330 1 
+       74  73 ASP . 5330 1 
+       75  74 LEU . 5330 1 
+       76  75 THR . 5330 1 
+       77  76 GLY . 5330 1 
+       78  77 ILE . 5330 1 
+       79  78 ASP . 5330 1 
+       80  79 ASP . 5330 1 
+       81  80 ARG . 5330 1 
+       82  81 LYS . 5330 1 
+       83  82 CYS . 5330 1 
+       84  83 MET . 5330 1 
+       85  84 THR . 5330 1 
+       86  85 THR . 5330 1 
+       87  86 VAL . 5330 1 
+       88  87 SER . 5330 1 
+       89  88 TRP . 5330 1 
+       90  89 ASP . 5330 1 
+       91  90 GLY . 5330 1 
+       92  91 ASP . 5330 1 
+       93  92 LYS . 5330 1 
+       94  93 LEU . 5330 1 
+       95  94 GLN . 5330 1 
+       96  95 CYS . 5330 1 
+       97  96 VAL . 5330 1 
+       98  97 GLN . 5330 1 
+       99  98 LYS . 5330 1 
+      100  99 GLY . 5330 1 
+      101 100 GLU . 5330 1 
+      102 101 LYS . 5330 1 
+      103 102 GLU . 5330 1 
+      104 103 GLY . 5330 1 
+      105 104 ARG . 5330 1 
+      106 105 GLY . 5330 1 
+      107 106 TRP . 5330 1 
+      108 107 THR . 5330 1 
+      109 108 GLN . 5330 1 
+      110 109 TRP . 5330 1 
+      111 110 ILE . 5330 1 
+      112 111 GLU . 5330 1 
+      113 112 GLY . 5330 1 
+      114 113 ASP . 5330 1 
+      115 114 GLU . 5330 1 
+      116 115 LEU . 5330 1 
+      117 116 HIS . 5330 1 
+      118 117 LEU . 5330 1 
+      119 118 GLU . 5330 1 
+      120 119 MET . 5330 1 
+      121 120 ARG . 5330 1 
+      122 121 ALA . 5330 1 
+      123 122 GLU . 5330 1 
+      124 123 GLY . 5330 1 
+      125 124 VAL . 5330 1 
+      126 125 THR . 5330 1 
+      127 126 CYS . 5330 1 
+      128 127 LYS . 5330 1 
+      129 128 GLN . 5330 1 
+      130 129 VAL . 5330 1 
+      131 130 PHE . 5330 1 
+      132 131 LYS . 5330 1 
+      133 132 LYS . 5330 1 
+      134 133 VAL . 5330 1 
+      135 134 HIS . 5330 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET   1   1 5330 1 
+      . PRO   2   2 5330 1 
+      . VAL   3   3 5330 1 
+      . ASP   4   4 5330 1 
+      . PHE   5   5 5330 1 
+      . ASN   6   6 5330 1 
+      . GLY   7   7 5330 1 
+      . TYR   8   8 5330 1 
+      . TRP   9   9 5330 1 
+      . LYS  10  10 5330 1 
+      . MET  11  11 5330 1 
+      . LEU  12  12 5330 1 
+      . SER  13  13 5330 1 
+      . ASN  14  14 5330 1 
+      . GLU  15  15 5330 1 
+      . ASN  16  16 5330 1 
+      . PHE  17  17 5330 1 
+      . GLU  18  18 5330 1 
+      . GLU  19  19 5330 1 
+      . TYR  20  20 5330 1 
+      . LEU  21  21 5330 1 
+      . ARG  22  22 5330 1 
+      . ALA  23  23 5330 1 
+      . LEU  24  24 5330 1 
+      . ASP  25  25 5330 1 
+      . VAL  26  26 5330 1 
+      . ASN  27  27 5330 1 
+      . VAL  28  28 5330 1 
+      . ALA  29  29 5330 1 
+      . LEU  30  30 5330 1 
+      . ARG  31  31 5330 1 
+      . LYS  32  32 5330 1 
+      . ILE  33  33 5330 1 
+      . ALA  34  34 5330 1 
+      . ASN  35  35 5330 1 
+      . LEU  36  36 5330 1 
+      . LEU  37  37 5330 1 
+      . LYS  38  38 5330 1 
+      . PRO  39  39 5330 1 
+      . ASP  40  40 5330 1 
+      . LYS  41  41 5330 1 
+      . GLU  42  42 5330 1 
+      . ILE  43  43 5330 1 
+      . VAL  44  44 5330 1 
+      . GLN  45  45 5330 1 
+      . ASP  46  46 5330 1 
+      . GLY  47  47 5330 1 
+      . ASP  48  48 5330 1 
+      . HIS  49  49 5330 1 
+      . MET  50  50 5330 1 
+      . ILE  51  51 5330 1 
+      . ILE  52  52 5330 1 
+      . ARG  53  53 5330 1 
+      . THR  54  54 5330 1 
+      . LEU  55  55 5330 1 
+      . SER  56  56 5330 1 
+      . THR  57  57 5330 1 
+      . PHE  58  58 5330 1 
+      . ARG  59  59 5330 1 
+      . ASN  60  60 5330 1 
+      . TYR  61  61 5330 1 
+      . ILE  62  62 5330 1 
+      . MET  63  63 5330 1 
+      . ASP  64  64 5330 1 
+      . PHE  65  65 5330 1 
+      . GLN  66  66 5330 1 
+      . VAL  67  67 5330 1 
+      . GLY  68  68 5330 1 
+      . LYS  69  69 5330 1 
+      . GLU  70  70 5330 1 
+      . PHE  71  71 5330 1 
+      . GLU  72  72 5330 1 
+      . GLU  73  73 5330 1 
+      . ASP  74  74 5330 1 
+      . LEU  75  75 5330 1 
+      . THR  76  76 5330 1 
+      . GLY  77  77 5330 1 
+      . ILE  78  78 5330 1 
+      . ASP  79  79 5330 1 
+      . ASP  80  80 5330 1 
+      . ARG  81  81 5330 1 
+      . LYS  82  82 5330 1 
+      . CYS  83  83 5330 1 
+      . MET  84  84 5330 1 
+      . THR  85  85 5330 1 
+      . THR  86  86 5330 1 
+      . VAL  87  87 5330 1 
+      . SER  88  88 5330 1 
+      . TRP  89  89 5330 1 
+      . ASP  90  90 5330 1 
+      . GLY  91  91 5330 1 
+      . ASP  92  92 5330 1 
+      . LYS  93  93 5330 1 
+      . LEU  94  94 5330 1 
+      . GLN  95  95 5330 1 
+      . CYS  96  96 5330 1 
+      . VAL  97  97 5330 1 
+      . GLN  98  98 5330 1 
+      . LYS  99  99 5330 1 
+      . GLY 100 100 5330 1 
+      . GLU 101 101 5330 1 
+      . LYS 102 102 5330 1 
+      . GLU 103 103 5330 1 
+      . GLY 104 104 5330 1 
+      . ARG 105 105 5330 1 
+      . GLY 106 106 5330 1 
+      . TRP 107 107 5330 1 
+      . THR 108 108 5330 1 
+      . GLN 109 109 5330 1 
+      . TRP 110 110 5330 1 
+      . ILE 111 111 5330 1 
+      . GLU 112 112 5330 1 
+      . GLY 113 113 5330 1 
+      . ASP 114 114 5330 1 
+      . GLU 115 115 5330 1 
+      . LEU 116 116 5330 1 
+      . HIS 117 117 5330 1 
+      . LEU 118 118 5330 1 
+      . GLU 119 119 5330 1 
+      . MET 120 120 5330 1 
+      . ARG 121 121 5330 1 
+      . ALA 122 122 5330 1 
+      . GLU 123 123 5330 1 
+      . GLY 124 124 5330 1 
+      . VAL 125 125 5330 1 
+      . THR 126 126 5330 1 
+      . CYS 127 127 5330 1 
+      . LYS 128 128 5330 1 
+      . GLN 129 129 5330 1 
+      . VAL 130 130 5330 1 
+      . PHE 131 131 5330 1 
+      . LYS 132 132 5330 1 
+      . LYS 133 133 5330 1 
+      . VAL 134 134 5330 1 
+      . HIS 135 135 5330 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       5330
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $CRBP-I . 10116 . . 'Rattus norvegicus' Rat . . Eukaryota Metazoa Rattus norvegicus . . . . . . . . . . . . . . . . . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       5330
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $CRBP-I . 'recombinant technology' 'Escherichia coli' 'E. coli' . . Escherichia coli BL21 . . . . . . . . . . . . plasmid . . pET11b . . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         5330
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'cellular retinol-binding protein type I' [U-15N] . . 1 $CRBP-I . . 1.6 . . mM . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_cond_set_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   cond_set_1
+   _Sample_condition_list.Entry_ID       5330
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.0 0.1 n/a 5330 1 
+      temperature 298   0.1 K   5330 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_XWINNMR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   XWINNMR
+   _Software.Entry_ID       5330
+   _Software.ID             1
+   _Software.Name           XWINNMR
+   _Software.Version        1.3
+   _Software.Details        Bruker
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data acquisition' 5330 1 
+      'data processing'  5330 1 
+
+   stop_
+
+save_
+
+
+save_RMX
+   _Software.Sf_category    software
+   _Software.Sf_framecode   RMX
+   _Software.Entry_ID       5330
+   _Software.ID             2
+   _Software.Name           RMX
+   _Software.Version       'rev. II/1997'
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 5330 2 
+
+   stop_
+
+save_
+
+
+save_ModelFree
+   _Software.Sf_category    software
+   _Software.Sf_framecode   ModelFree
+   _Software.Entry_ID       5330
+   _Software.ID             3
+   _Software.Name           MODELFREE
+   _Software.Version        4.01
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 5330 3 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         5330
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            DMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_NMR_spectrometer
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer
+   _NMR_spectrometer.Entry_ID         5330
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            DMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       5330
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer_1 Bruker DMX . 500 . . . 5330 1 
+      2 NMR_spectrometer   Bruker DMX . 600 . . . 5330 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       5330
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '15N T1'       . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      2 '15N T2'       . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      3 '{1H}-15N NOE' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+save_NMR_spec_expt__0_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_1
+   _NMR_spec_expt.Entry_ID                        5330
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                           '15N T1'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_2
+   _NMR_spec_expt.Entry_ID                        5330
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                           '15N T2'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_3
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_3
+   _NMR_spec_expt.Entry_ID                        5330
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                           '{1H}-15N NOE'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+    ##############################
+    #  Heteronuclear NOE values  #
+    ##############################
+
+save_heteronuclear_NOE_500
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE_500
+   _Heteronucl_NOE_list.Entry_ID                      5330
+   _Heteronucl_NOE_list.ID                            1
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     500
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_1 . 5330 1 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . . .   3   3 VAL . . . . . .   3   3 VAL . . . 0.102 0.080 . . . . . . . . . . 5330 1 
+       2 . . .   4   4 ASP . . . . . .   4   4 ASP . . . 0.691 0.080 . . . . . . . . . . 5330 1 
+       3 . . .   5   5 PHE . . . . . .   5   5 PHE . . . 0.641 0.080 . . . . . . . . . . 5330 1 
+       4 . . .   6   6 ASN . . . . . .   6   6 ASN . . . 0.768 0.080 . . . . . . . . . . 5330 1 
+       5 . . .   7   7 GLY . . . . . .   7   7 GLY . . . 0.765 0.080 . . . . . . . . . . 5330 1 
+       6 . . .   8   8 TYR . . . . . .   8   8 TYR . . . 0.636 0.080 . . . . . . . . . . 5330 1 
+       7 . . .   9   9 TRP . . . . . .   9   9 TRP . . . 0.658 0.080 . . . . . . . . . . 5330 1 
+       8 . . .  10  10 LYS . . . . . .  10  10 LYS . . . 0.700 0.080 . . . . . . . . . . 5330 1 
+       9 . . .  13  13 SER . . . . . .  13  13 SER . . . 0.738 0.080 . . . . . . . . . . 5330 1 
+      10 . . .  14  14 ASN . . . . . .  14  14 ASN . . . 0.815 0.080 . . . . . . . . . . 5330 1 
+      11 . . .  16  16 ASN . . . . . .  16  16 ASN . . . 0.842 0.080 . . . . . . . . . . 5330 1 
+      12 . . .  17  17 PHE . . . . . .  17  17 PHE . . . 0.680 0.080 . . . . . . . . . . 5330 1 
+      13 . . .  18  18 GLU . . . . . .  18  18 GLU . . . 0.865 0.080 . . . . . . . . . . 5330 1 
+      14 . . .  19  19 GLU . . . . . .  19  19 GLU . . . 0.762 0.080 . . . . . . . . . . 5330 1 
+      15 . . .  20  20 TYR . . . . . .  20  20 TYR . . . 0.762 0.080 . . . . . . . . . . 5330 1 
+      16 . . .  23  23 ALA . . . . . .  23  23 ALA . . . 0.786 0.080 . . . . . . . . . . 5330 1 
+      17 . . .  24  24 LEU . . . . . .  24  24 LEU . . . 0.683 0.080 . . . . . . . . . . 5330 1 
+      18 . . .  25  25 ASP . . . . . .  25  25 ASP . . . 0.852 0.080 . . . . . . . . . . 5330 1 
+      19 . . .  29  29 ALA . . . . . .  29  29 ALA . . . 0.690 0.080 . . . . . . . . . . 5330 1 
+      20 . . .  31  31 ARG . . . . . .  31  31 ARG . . . 0.646 0.080 . . . . . . . . . . 5330 1 
+      21 . . .  35  35 ASN . . . . . .  35  35 ASN . . . 0.761 0.080 . . . . . . . . . . 5330 1 
+      22 . . .  37  37 LEU . . . . . .  37  37 LEU . . . 0.731 0.080 . . . . . . . . . . 5330 1 
+      23 . . .  40  40 ASP . . . . . .  40  40 ASP . . . 0.715 0.080 . . . . . . . . . . 5330 1 
+      24 . . .  41  41 LYS . . . . . .  41  41 LYS . . . 0.903 0.080 . . . . . . . . . . 5330 1 
+      25 . . .  42  42 GLU . . . . . .  42  42 GLU . . . 0.740 0.080 . . . . . . . . . . 5330 1 
+      26 . . .  43  43 ILE . . . . . .  43  43 ILE . . . 0.832 0.080 . . . . . . . . . . 5330 1 
+      27 . . .  46  46 ASP . . . . . .  46  46 ASP . . . 0.718 0.080 . . . . . . . . . . 5330 1 
+      28 . . .  47  47 GLY . . . . . .  47  47 GLY . . . 0.880 0.080 . . . . . . . . . . 5330 1 
+      29 . . .  48  48 ASP . . . . . .  48  48 ASP . . . 0.778 0.080 . . . . . . . . . . 5330 1 
+      30 . . .  49  49 HIS . . . . . .  49  49 HIS . . . 0.670 0.080 . . . . . . . . . . 5330 1 
+      31 . . .  50  50 MET . . . . . .  50  50 MET . . . 0.896 0.080 . . . . . . . . . . 5330 1 
+      32 . . .  51  51 ILE . . . . . .  51  51 ILE . . . 0.880 0.080 . . . . . . . . . . 5330 1 
+      33 . . .  53  53 ARG . . . . . .  53  53 ARG . . . 0.868 0.080 . . . . . . . . . . 5330 1 
+      34 . . .  60  60 ASN . . . . . .  60  60 ASN . . . 0.963 0.080 . . . . . . . . . . 5330 1 
+      35 . . .  63  63 MET . . . . . .  63  63 MET . . . 0.780 0.080 . . . . . . . . . . 5330 1 
+      36 . . .  65  65 PHE . . . . . .  65  65 PHE . . . 0.670 0.080 . . . . . . . . . . 5330 1 
+      37 . . .  66  66 GLN . . . . . .  66  66 GLN . . . 0.795 0.080 . . . . . . . . . . 5330 1 
+      38 . . .  68  68 GLY . . . . . .  68  68 GLY . . . 0.800 0.080 . . . . . . . . . . 5330 1 
+      39 . . .  69  69 LYS . . . . . .  69  69 LYS . . . 0.687 0.080 . . . . . . . . . . 5330 1 
+      40 . . .  70  70 GLU . . . . . .  70  70 GLU . . . 0.734 0.080 . . . . . . . . . . 5330 1 
+      41 . . .  71  71 PHE . . . . . .  71  71 PHE . . . 0.890 0.080 . . . . . . . . . . 5330 1 
+      42 . . .  72  72 GLU . . . . . .  72  72 GLU . . . 0.814 0.080 . . . . . . . . . . 5330 1 
+      43 . . .  79  79 ASP . . . . . .  79  79 ASP . . . 0.842 0.080 . . . . . . . . . . 5330 1 
+      44 . . .  82  82 LYS . . . . . .  82  82 LYS . . . 0.637 0.030 . . . . . . . . . . 5330 1 
+      45 . . .  86  86 THR . . . . . .  86  86 THR . . . 0.890 0.080 . . . . . . . . . . 5330 1 
+      46 . . .  89  89 TRP . . . . . .  89  89 TRP . . . 0.772 0.080 . . . . . . . . . . 5330 1 
+      47 . . .  90  90 ASP . . . . . .  90  90 ASP . . . 0.860 0.080 . . . . . . . . . . 5330 1 
+      48 . . .  91  91 GLY . . . . . .  91  91 GLY . . . 0.860 0.080 . . . . . . . . . . 5330 1 
+      49 . . .  92  92 ASP . . . . . .  92  92 ASP . . . 0.617 0.080 . . . . . . . . . . 5330 1 
+      50 . . .  93  93 LYS . . . . . .  93  93 LYS . . . 0.719 0.080 . . . . . . . . . . 5330 1 
+      51 . . .  94  94 LEU . . . . . .  94  94 LEU . . . 0.621 0.080 . . . . . . . . . . 5330 1 
+      52 . . .  95  95 GLN . . . . . .  95  95 GLN . . . 0.875 0.080 . . . . . . . . . . 5330 1 
+      53 . . .  97  97 VAL . . . . . .  97  97 VAL . . . 0.846 0.080 . . . . . . . . . . 5330 1 
+      54 . . .  98  98 GLN . . . . . .  98  98 GLN . . . 0.768 0.080 . . . . . . . . . . 5330 1 
+      55 . . . 101 101 GLU . . . . . . 101 101 GLU . . . 0.678 0.080 . . . . . . . . . . 5330 1 
+      56 . . . 103 103 GLU . . . . . . 103 103 GLU . . . 0.668 0.080 . . . . . . . . . . 5330 1 
+      57 . . . 104 104 GLY . . . . . . 104 104 GLY . . . 0.854 0.080 . . . . . . . . . . 5330 1 
+      58 . . . 105 105 ARG . . . . . . 105 105 ARG . . . 0.832 0.080 . . . . . . . . . . 5330 1 
+      59 . . . 106 106 GLY . . . . . . 106 106 GLY . . . 0.783 0.080 . . . . . . . . . . 5330 1 
+      60 . . . 108 108 THR . . . . . . 108 108 THR . . . 0.806 0.080 . . . . . . . . . . 5330 1 
+      61 . . . 109 109 GLN . . . . . . 109 109 GLN . . . 0.791 0.080 . . . . . . . . . . 5330 1 
+      62 . . . 110 110 TRP . . . . . . 110 110 TRP . . . 0.642 0.080 . . . . . . . . . . 5330 1 
+      63 . . . 113 113 GLY . . . . . . 113 113 GLY . . . 0.846 0.080 . . . . . . . . . . 5330 1 
+      64 . . . 114 114 ASP . . . . . . 114 114 ASP . . . 0.748 0.080 . . . . . . . . . . 5330 1 
+      65 . . . 115 115 GLU . . . . . . 115 115 GLU . . . 0.732 0.080 . . . . . . . . . . 5330 1 
+      66 . . . 117 117 HIS . . . . . . 117 117 HIS . . . 0.851 0.080 . . . . . . . . . . 5330 1 
+      67 . . . 118 118 LEU . . . . . . 118 118 LEU . . . 0.708 0.080 . . . . . . . . . . 5330 1 
+      68 . . . 119 119 GLU . . . . . . 119 119 GLU . . . 0.621 0.080 . . . . . . . . . . 5330 1 
+      69 . . . 120 120 MET . . . . . . 120 120 MET . . . 0.705 0.080 . . . . . . . . . . 5330 1 
+      70 . . . 121 121 ARG . . . . . . 121 121 ARG . . . 0.681 0.080 . . . . . . . . . . 5330 1 
+      71 . . . 122 122 ALA . . . . . . 122 122 ALA . . . 0.764 0.080 . . . . . . . . . . 5330 1 
+      72 . . . 123 123 GLU . . . . . . 123 123 GLU . . . 0.801 0.080 . . . . . . . . . . 5330 1 
+      73 . . . 124 124 GLY . . . . . . 124 124 GLY . . . 0.729 0.080 . . . . . . . . . . 5330 1 
+      74 . . . 125 125 VAL . . . . . . 125 125 VAL . . . 0.832 0.080 . . . . . . . . . . 5330 1 
+      75 . . . 126 126 THR . . . . . . 126 126 THR . . . 0.778 0.080 . . . . . . . . . . 5330 1 
+      76 . . . 128 128 LYS . . . . . . 128 128 LYS . . . 0.630 0.080 . . . . . . . . . . 5330 1 
+      77 . . . 131 131 PHE . . . . . . 131 131 PHE . . . 0.751 0.080 . . . . . . . . . . 5330 1 
+      78 . . . 132 132 LYS . . . . . . 132 132 LYS . . . 0.767 0.080 . . . . . . . . . . 5330 1 
+      79 . . . 135 135 HIS . . . . . . 135 135 HIS . . . 0.631 0.080 . . . . . . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+save_heteronuclear_NOE_600
+   _Heteronucl_NOE_list.Sf_category                   heteronucl_NOEs
+   _Heteronucl_NOE_list.Sf_framecode                  heteronuclear_NOE_600
+   _Heteronucl_NOE_list.Entry_ID                      5330
+   _Heteronucl_NOE_list.ID                            2
+   _Heteronucl_NOE_list.Sample_condition_list_ID      1
+   _Heteronucl_NOE_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_NOE_list.Spectrometer_frequency_1H     600
+   _Heteronucl_NOE_list.Heteronuclear_NOE_val_type   'relative intensities'
+   _Heteronucl_NOE_list.NOE_ref_val                   .
+   _Heteronucl_NOE_list.NOE_ref_description           .
+   _Heteronucl_NOE_list.Details                       .
+   _Heteronucl_NOE_list.Text_data_format              .
+   _Heteronucl_NOE_list.Text_data                     .
+
+   loop_
+      _Heteronucl_NOE_experiment.Experiment_ID
+      _Heteronucl_NOE_experiment.Experiment_name
+      _Heteronucl_NOE_experiment.Sample_ID
+      _Heteronucl_NOE_experiment.Sample_label
+      _Heteronucl_NOE_experiment.Sample_state
+      _Heteronucl_NOE_experiment.Entry_ID
+      _Heteronucl_NOE_experiment.Heteronucl_NOE_list_ID
+
+      . . 1 $sample_1 . 5330 2 
+
+   stop_
+
+   loop_
+      _Heteronucl_NOE.ID
+      _Heteronucl_NOE.Assembly_atom_ID_1
+      _Heteronucl_NOE.Entity_assembly_ID_1
+      _Heteronucl_NOE.Entity_ID_1
+      _Heteronucl_NOE.Comp_index_ID_1
+      _Heteronucl_NOE.Seq_ID_1
+      _Heteronucl_NOE.Comp_ID_1
+      _Heteronucl_NOE.Atom_ID_1
+      _Heteronucl_NOE.Atom_type_1
+      _Heteronucl_NOE.Atom_isotope_number_1
+      _Heteronucl_NOE.Assembly_atom_ID_2
+      _Heteronucl_NOE.Entity_assembly_ID_2
+      _Heteronucl_NOE.Entity_ID_2
+      _Heteronucl_NOE.Comp_index_ID_2
+      _Heteronucl_NOE.Seq_ID_2
+      _Heteronucl_NOE.Comp_ID_2
+      _Heteronucl_NOE.Atom_ID_2
+      _Heteronucl_NOE.Atom_type_2
+      _Heteronucl_NOE.Atom_isotope_number_2
+      _Heteronucl_NOE.Val
+      _Heteronucl_NOE.Val_err
+      _Heteronucl_NOE.Resonance_ID_1
+      _Heteronucl_NOE.Resonance_ID_2
+      _Heteronucl_NOE.Auth_entity_assembly_ID_1
+      _Heteronucl_NOE.Auth_seq_ID_1
+      _Heteronucl_NOE.Auth_comp_ID_1
+      _Heteronucl_NOE.Auth_atom_ID_1
+      _Heteronucl_NOE.Auth_entity_assembly_ID_2
+      _Heteronucl_NOE.Auth_seq_ID_2
+      _Heteronucl_NOE.Auth_comp_ID_2
+      _Heteronucl_NOE.Auth_atom_ID_2
+      _Heteronucl_NOE.Entry_ID
+      _Heteronucl_NOE.Heteronucl_NOE_list_ID
+
+       1 . . .   5   5 PHE . . . . . .   5   5 PHE . . . 0.804 0.080 . . . . . . . . . . 5330 2 
+       2 . . .   6   6 ASN . . . . . .   6   6 ASN . . . 0.884 0.080 . . . . . . . . . . 5330 2 
+       3 . . .   7   7 GLY . . . . . .   7   7 GLY . . . 0.724 0.080 . . . . . . . . . . 5330 2 
+       4 . . .   8   8 TYR . . . . . .   8   8 TYR . . . 0.811 0.080 . . . . . . . . . . 5330 2 
+       5 . . .   9   9 TRP . . . . . .   9   9 TRP . . . 0.839 0.080 . . . . . . . . . . 5330 2 
+       6 . . .  10  10 LYS . . . . . .  10  10 LYS . . . 0.883 0.080 . . . . . . . . . . 5330 2 
+       7 . . .  13  13 SER . . . . . .  13  13 SER . . . 0.773 0.080 . . . . . . . . . . 5330 2 
+       8 . . .  14  14 ASN . . . . . .  14  14 ASN . . . 0.794 0.080 . . . . . . . . . . 5330 2 
+       9 . . .  16  16 ASN . . . . . .  16  16 ASN . . . 0.730 0.080 . . . . . . . . . . 5330 2 
+      10 . . .  17  17 PHE . . . . . .  17  17 PHE . . . 0.639 0.080 . . . . . . . . . . 5330 2 
+      11 . . .  18  18 GLU . . . . . .  18  18 GLU . . . 0.714 0.080 . . . . . . . . . . 5330 2 
+      12 . . .  19  19 GLU . . . . . .  19  19 GLU . . . 0.702 0.080 . . . . . . . . . . 5330 2 
+      13 . . .  20  20 TYR . . . . . .  20  20 TYR . . . 0.862 0.080 . . . . . . . . . . 5330 2 
+      14 . . .  21  21 LEU . . . . . .  21  21 LEU . . . 0.782 0.080 . . . . . . . . . . 5330 2 
+      15 . . .  23  23 ALA . . . . . .  23  23 ALA . . . 0.848 0.080 . . . . . . . . . . 5330 2 
+      16 . . .  24  24 LEU . . . . . .  24  24 LEU . . . 0.864 0.080 . . . . . . . . . . 5330 2 
+      17 . . .  29  29 ALA . . . . . .  29  29 ALA . . . 0.731 0.080 . . . . . . . . . . 5330 2 
+      18 . . .  31  31 ARG . . . . . .  31  31 ARG . . . 0.856 0.080 . . . . . . . . . . 5330 2 
+      19 . . .  32  32 LYS . . . . . .  32  32 LYS . . . 0.595 0.080 . . . . . . . . . . 5330 2 
+      20 . . .  42  42 GLU . . . . . .  42  42 GLU . . . 0.835 0.080 . . . . . . . . . . 5330 2 
+      21 . . .  43  43 ILE . . . . . .  43  43 ILE . . . 0.871 0.080 . . . . . . . . . . 5330 2 
+      22 . . .  45  45 GLN . . . . . .  45  45 GLN . . . 0.853 0.080 . . . . . . . . . . 5330 2 
+      23 . . .  46  46 ASP . . . . . .  46  46 ASP . . . 0.818 0.080 . . . . . . . . . . 5330 2 
+      24 . . .  47  47 GLY . . . . . .  47  47 GLY . . . 0.754 0.080 . . . . . . . . . . 5330 2 
+      25 . . .  48  48 ASP . . . . . .  48  48 ASP . . . 0.814 0.080 . . . . . . . . . . 5330 2 
+      26 . . .  49  49 HIS . . . . . .  49  49 HIS . . . 0.879 0.080 . . . . . . . . . . 5330 2 
+      27 . . .  50  50 MET . . . . . .  50  50 MET . . . 0.814 0.080 . . . . . . . . . . 5330 2 
+      28 . . .  51  51 ILE . . . . . .  51  51 ILE . . . 0.855 0.080 . . . . . . . . . . 5330 2 
+      29 . . .  53  53 ARG . . . . . .  53  53 ARG . . . 0.804 0.080 . . . . . . . . . . 5330 2 
+      30 . . .  56  56 SER . . . . . .  56  56 SER . . . 0.685 0.080 . . . . . . . . . . 5330 2 
+      31 . . .  65  65 PHE . . . . . .  65  65 PHE . . . 0.863 0.080 . . . . . . . . . . 5330 2 
+      32 . . .  66  66 GLN . . . . . .  66  66 GLN . . . 0.783 0.080 . . . . . . . . . . 5330 2 
+      33 . . .  68  68 GLY . . . . . .  68  68 GLY . . . 0.822 0.080 . . . . . . . . . . 5330 2 
+      34 . . .  69  69 LYS . . . . . .  69  69 LYS . . . 0.894 0.080 . . . . . . . . . . 5330 2 
+      35 . . .  70  70 GLU . . . . . .  70  70 GLU . . . 0.815 0.080 . . . . . . . . . . 5330 2 
+      36 . . .  71  71 PHE . . . . . .  71  71 PHE . . . 0.806 0.080 . . . . . . . . . . 5330 2 
+      37 . . .  72  72 GLU . . . . . .  72  72 GLU . . . 0.813 0.080 . . . . . . . . . . 5330 2 
+      38 . . .  79  79 ASP . . . . . .  79  79 ASP . . . 0.680 0.080 . . . . . . . . . . 5330 2 
+      39 . . .  82  82 LYS . . . . . .  82  82 LYS . . . 0.653 0.080 . . . . . . . . . . 5330 2 
+      40 . . .  84  84 MET . . . . . .  84  84 MET . . . 0.797 0.080 . . . . . . . . . . 5330 2 
+      41 . . .  87  87 VAL . . . . . .  87  87 VAL . . . 0.886 0.080 . . . . . . . . . . 5330 2 
+      42 . . .  88  88 SER . . . . . .  88  88 SER . . . 0.834 0.080 . . . . . . . . . . 5330 2 
+      43 . . .  89  89 TRP . . . . . .  89  89 TRP . . . 0.729 0.080 . . . . . . . . . . 5330 2 
+      44 . . .  90  90 ASP . . . . . .  90  90 ASP . . . 0.788 0.080 . . . . . . . . . . 5330 2 
+      45 . . .  91  91 GLY . . . . . .  91  91 GLY . . . 0.739 0.080 . . . . . . . . . . 5330 2 
+      46 . . .  92  92 ASP . . . . . .  92  92 ASP . . . 0.739 0.080 . . . . . . . . . . 5330 2 
+      47 . . .  93  93 LYS . . . . . .  93  93 LYS . . . 0.822 0.080 . . . . . . . . . . 5330 2 
+      48 . . .  94  94 LEU . . . . . .  94  94 LEU . . . 0.851 0.080 . . . . . . . . . . 5330 2 
+      49 . . .  98  98 GLN . . . . . .  98  98 GLN . . . 0.826 0.080 . . . . . . . . . . 5330 2 
+      50 . . . 101 101 GLU . . . . . . 101 101 GLU . . . 0.647 0.080 . . . . . . . . . . 5330 2 
+      51 . . . 103 103 GLU . . . . . . 103 103 GLU . . . 0.694 0.080 . . . . . . . . . . 5330 2 
+      52 . . . 104 104 GLY . . . . . . 104 104 GLY . . . 0.853 0.080 . . . . . . . . . . 5330 2 
+      53 . . . 105 105 ARG . . . . . . 105 105 ARG . . . 0.816 0.080 . . . . . . . . . . 5330 2 
+      54 . . . 106 106 GLY . . . . . . 106 106 GLY . . . 0.786 0.080 . . . . . . . . . . 5330 2 
+      55 . . . 107 107 TRP . . . . . . 107 107 TRP . . . 0.814 0.080 . . . . . . . . . . 5330 2 
+      56 . . . 108 108 THR . . . . . . 108 108 THR . . . 0.819 0.080 . . . . . . . . . . 5330 2 
+      57 . . . 110 110 TRP . . . . . . 110 110 TRP . . . 0.860 0.080 . . . . . . . . . . 5330 2 
+      58 . . . 111 111 ILE . . . . . . 111 111 ILE . . . 0.826 0.080 . . . . . . . . . . 5330 2 
+      59 . . . 113 113 GLY . . . . . . 113 113 GLY . . . 0.879 0.080 . . . . . . . . . . 5330 2 
+      60 . . . 114 114 ASP . . . . . . 114 114 ASP . . . 0.848 0.080 . . . . . . . . . . 5330 2 
+      61 . . . 115 115 GLU . . . . . . 115 115 GLU . . . 0.819 0.080 . . . . . . . . . . 5330 2 
+      62 . . . 117 117 HIS . . . . . . 117 117 HIS . . . 0.844 0.080 . . . . . . . . . . 5330 2 
+      63 . . . 118 118 LEU . . . . . . 118 118 LEU . . . 0.730 0.080 . . . . . . . . . . 5330 2 
+      64 . . . 119 119 GLU . . . . . . 119 119 GLU . . . 0.867 0.080 . . . . . . . . . . 5330 2 
+      65 . . . 120 120 MET . . . . . . 120 120 MET . . . 0.646 0.080 . . . . . . . . . . 5330 2 
+      66 . . . 121 121 ARG . . . . . . 121 121 ARG . . . 0.797 0.080 . . . . . . . . . . 5330 2 
+      67 . . . 122 122 ALA . . . . . . 122 122 ALA . . . 0.900 0.080 . . . . . . . . . . 5330 2 
+      68 . . . 123 123 GLU . . . . . . 123 123 GLU . . . 0.875 0.080 . . . . . . . . . . 5330 2 
+      69 . . . 124 124 GLY . . . . . . 124 124 GLY . . . 0.787 0.080 . . . . . . . . . . 5330 2 
+      70 . . . 125 125 VAL . . . . . . 125 125 VAL . . . 0.758 0.030 . . . . . . . . . . 5330 2 
+      71 . . . 126 126 THR . . . . . . 126 126 THR . . . 0.811 0.030 . . . . . . . . . . 5330 2 
+      72 . . . 131 131 PHE . . . . . . 131 131 PHE . . . 0.774 0.080 . . . . . . . . . . 5330 2 
+      73 . . . 132 132 LYS . . . . . . 132 132 LYS . . . 0.770 0.080 . . . . . . . . . . 5330 2 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T1 relaxation values  #
+    ########################################
+
+save_15N_T1_500
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  15N_T1_500
+   _Heteronucl_T1_list.Entry_ID                      5330
+   _Heteronucl_T1_list.ID                            1
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_1 . 5330 1 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1   3   3 VAL N . . 0.703 0.130 . . . . . 5330 1 
+       2 . 1 1   4   4 ASP N . . 0.547 0.032 . . . . . 5330 1 
+       3 . 1 1   5   5 PHE N . . 0.551 0.069 . . . . . 5330 1 
+       4 . 1 1   6   6 ASN N . . 0.622 0.039 . . . . . 5330 1 
+       5 . 1 1   7   7 GLY N . . 0.585 0.023 . . . . . 5330 1 
+       6 . 1 1   8   8 TYR N . . 0.581 0.022 . . . . . 5330 1 
+       7 . 1 1   9   9 TRP N . . 0.573 0.020 . . . . . 5330 1 
+       8 . 1 1  10  10 LYS N . . 0.627 0.054 . . . . . 5330 1 
+       9 . 1 1  13  13 SER N . . 0.607 0.007 . . . . . 5330 1 
+      10 . 1 1  14  14 ASN N . . 0.593 0.020 . . . . . 5330 1 
+      11 . 1 1  16  16 ASN N . . 0.590 0.026 . . . . . 5330 1 
+      12 . 1 1  17  17 PHE N . . 0.533 0.033 . . . . . 5330 1 
+      13 . 1 1  18  18 GLU N . . 0.551 0.034 . . . . . 5330 1 
+      14 . 1 1  19  19 GLU N . . 0.683 0.049 . . . . . 5330 1 
+      15 . 1 1  20  20 TYR N . . 0.579 0.038 . . . . . 5330 1 
+      16 . 1 1  21  21 LEU N . . 0.590 0.042 . . . . . 5330 1 
+      17 . 1 1  23  23 ALA N . . 0.557 0.019 . . . . . 5330 1 
+      18 . 1 1  24  24 LEU N . . 0.636 0.027 . . . . . 5330 1 
+      19 . 1 1  25  25 ASP N . . 0.584 0.042 . . . . . 5330 1 
+      20 . 1 1  29  29 ALA N . . 0.551 0.012 . . . . . 5330 1 
+      21 . 1 1  31  31 ARG N . . 0.532 0.050 . . . . . 5330 1 
+      22 . 1 1  32  32 LYS N . . 0.528 0.028 . . . . . 5330 1 
+      23 . 1 1  35  35 ASN N . . 0.561 0.071 . . . . . 5330 1 
+      24 . 1 1  37  37 LEU N . . 0.602 0.030 . . . . . 5330 1 
+      25 . 1 1  40  40 ASP N . . 0.555 0.043 . . . . . 5330 1 
+      26 . 1 1  41  41 LYS N . . 0.608 0.084 . . . . . 5330 1 
+      27 . 1 1  42  42 GLU N . . 0.603 0.032 . . . . . 5330 1 
+      28 . 1 1  43  43 ILE N . . 0.592 0.028 . . . . . 5330 1 
+      29 . 1 1  45  45 GLN N . . 0.552 0.024 . . . . . 5330 1 
+      30 . 1 1  46  46 ASP N . . 0.601 0.013 . . . . . 5330 1 
+      31 . 1 1  47  47 GLY N . . 0.627 0.037 . . . . . 5330 1 
+      32 . 1 1  48  48 ASP N . . 0.531 0.019 . . . . . 5330 1 
+      33 . 1 1  49  49 HIS N . . 0.585 0.030 . . . . . 5330 1 
+      34 . 1 1  50  50 MET N . . 0.575 0.034 . . . . . 5330 1 
+      35 . 1 1  51  51 ILE N . . 0.615 0.078 . . . . . 5330 1 
+      36 . 1 1  53  53 ARG N . . 0.552 0.041 . . . . . 5330 1 
+      37 . 1 1  56  56 SER N . . 0.564 0.037 . . . . . 5330 1 
+      38 . 1 1  60  60 ASN N . . 0.718 0.090 . . . . . 5330 1 
+      39 . 1 1  63  63 MET N . . 0.525 0.088 . . . . . 5330 1 
+      40 . 1 1  65  65 PHE N . . 0.552 0.023 . . . . . 5330 1 
+      41 . 1 1  66  66 GLN N . . 0.580 0.028 . . . . . 5330 1 
+      42 . 1 1  68  68 GLY N . . 0.571 0.037 . . . . . 5330 1 
+      43 . 1 1  69  69 LYS N . . 0.548 0.020 . . . . . 5330 1 
+      44 . 1 1  70  70 GLU N . . 0.613 0.026 . . . . . 5330 1 
+      45 . 1 1  71  71 PHE N . . 0.532 0.024 . . . . . 5330 1 
+      46 . 1 1  72  72 GLU N . . 0.629 0.036 . . . . . 5330 1 
+      47 . 1 1  78  78 ILE N . . 0.711 0.092 . . . . . 5330 1 
+      48 . 1 1  79  79 ASP N . . 0.740 0.080 . . . . . 5330 1 
+      49 . 1 1  82  82 LYS N . . 0.541 0.046 . . . . . 5330 1 
+      50 . 1 1  84  84 MET N . . 0.639 0.038 . . . . . 5330 1 
+      51 . 1 1  86  86 THR N . . 0.525 0.031 . . . . . 5330 1 
+      52 . 1 1  87  87 VAL N . . 0.564 0.022 . . . . . 5330 1 
+      53 . 1 1  88  88 SER N . . 0.582 0.020 . . . . . 5330 1 
+      54 . 1 1  89  89 TRP N . . 0.639 0.052 . . . . . 5330 1 
+      55 . 1 1  90  90 ASP N . . 0.625 0.071 . . . . . 5330 1 
+      56 . 1 1  91  91 GLY N . . 0.583 0.028 . . . . . 5330 1 
+      57 . 1 1  92  92 ASP N . . 0.579 0.055 . . . . . 5330 1 
+      58 . 1 1  93  93 LYS N . . 0.574 0.060 . . . . . 5330 1 
+      59 . 1 1  94  94 LEU N . . 0.560 0.054 . . . . . 5330 1 
+      60 . 1 1  95  95 GLN N . . 0.543 0.043 . . . . . 5330 1 
+      61 . 1 1  97  97 VAL N . . 0.582 0.032 . . . . . 5330 1 
+      62 . 1 1  98  98 GLN N . . 0.557 0.040 . . . . . 5330 1 
+      63 . 1 1 101 101 GLU N . . 0.539 0.008 . . . . . 5330 1 
+      64 . 1 1 103 103 GLU N . . 0.622 0.022 . . . . . 5330 1 
+      65 . 1 1 104 104 GLY N . . 0.613 0.023 . . . . . 5330 1 
+      66 . 1 1 105 105 ARG N . . 0.548 0.029 . . . . . 5330 1 
+      67 . 1 1 106 106 GLY N . . 0.519 0.049 . . . . . 5330 1 
+      68 . 1 1 107 107 TRP N . . 0.646 0.083 . . . . . 5330 1 
+      69 . 1 1 108 108 THR N . . 0.564 0.049 . . . . . 5330 1 
+      70 . 1 1 109 109 GLN N . . 0.530 0.018 . . . . . 5330 1 
+      71 . 1 1 110 110 TRP N . . 0.552 0.068 . . . . . 5330 1 
+      72 . 1 1 111 111 ILE N . . 0.595 0.065 . . . . . 5330 1 
+      73 . 1 1 113 113 GLY N . . 0.565 0.021 . . . . . 5330 1 
+      74 . 1 1 114 114 ASP N . . 0.566 0.021 . . . . . 5330 1 
+      75 . 1 1 115 115 GLU N . . 0.548 0.013 . . . . . 5330 1 
+      76 . 1 1 117 117 HIS N . . 0.557 0.018 . . . . . 5330 1 
+      77 . 1 1 118 118 LEU N . . 0.607 0.031 . . . . . 5330 1 
+      78 . 1 1 119 119 GLU N . . 0.651 0.084 . . . . . 5330 1 
+      79 . 1 1 120 120 MET N . . 0.684 0.111 . . . . . 5330 1 
+      80 . 1 1 121 121 ARG N . . 0.602 0.068 . . . . . 5330 1 
+      81 . 1 1 122 122 ALA N . . 0.607 0.031 . . . . . 5330 1 
+      82 . 1 1 123 123 GLU N . . 0.541 0.034 . . . . . 5330 1 
+      83 . 1 1 124 124 GLY N . . 0.556 0.015 . . . . . 5330 1 
+      84 . 1 1 125 125 VAL N . . 0.533 0.012 . . . . . 5330 1 
+      85 . 1 1 126 126 THR N . . 0.547 0.024 . . . . . 5330 1 
+      86 . 1 1 128 128 LYS N . . 0.579 0.035 . . . . . 5330 1 
+      87 . 1 1 131 131 PHE N . . 0.582 0.037 . . . . . 5330 1 
+      88 . 1 1 132 132 LYS N . . 0.563 0.022 . . . . . 5330 1 
+      89 . 1 1 135 135 HIS N . . 0.598 0.025 . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+save_15N_T1_600
+   _Heteronucl_T1_list.Sf_category                   heteronucl_T1_relaxation
+   _Heteronucl_T1_list.Sf_framecode                  15N_T1_600
+   _Heteronucl_T1_list.Entry_ID                      5330
+   _Heteronucl_T1_list.ID                            2
+   _Heteronucl_T1_list.Sample_condition_list_ID      1
+   _Heteronucl_T1_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_T1_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T1_list.T1_coherence_type             Nz
+   _Heteronucl_T1_list.T1_val_units                  s
+   _Heteronucl_T1_list.Details                       .
+   _Heteronucl_T1_list.Text_data_format              .
+   _Heteronucl_T1_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T1_experiment.Experiment_ID
+      _Heteronucl_T1_experiment.Experiment_name
+      _Heteronucl_T1_experiment.Sample_ID
+      _Heteronucl_T1_experiment.Sample_label
+      _Heteronucl_T1_experiment.Sample_state
+      _Heteronucl_T1_experiment.Entry_ID
+      _Heteronucl_T1_experiment.Heteronucl_T1_list_ID
+
+      . . 1 $sample_1 . 5330 2 
+
+   stop_
+
+   loop_
+      _T1.ID
+      _T1.Assembly_atom_ID
+      _T1.Entity_assembly_ID
+      _T1.Entity_ID
+      _T1.Comp_index_ID
+      _T1.Seq_ID
+      _T1.Comp_ID
+      _T1.Atom_ID
+      _T1.Atom_type
+      _T1.Atom_isotope_number
+      _T1.Val
+      _T1.Val_err
+      _T1.Resonance_ID
+      _T1.Auth_entity_assembly_ID
+      _T1.Auth_seq_ID
+      _T1.Auth_comp_ID
+      _T1.Auth_atom_ID
+      _T1.Entry_ID
+      _T1.Heteronucl_T1_list_ID
+
+       1 . 1 1   3   3 VAL N . . 0.666 0.063 . . . . . 5330 2 
+       2 . 1 1   4   4 ASP N . . 0.654 0.056 . . . . . 5330 2 
+       3 . 1 1   5   5 PHE N . . 0.789 0.120 . . . . . 5330 2 
+       4 . 1 1   6   6 ASN N . . 0.773 0.054 . . . . . 5330 2 
+       5 . 1 1   7   7 GLY N . . 0.654 0.017 . . . . . 5330 2 
+       6 . 1 1   8   8 TYR N . . 0.679 0.030 . . . . . 5330 2 
+       7 . 1 1   9   9 TRP N . . 0.647 0.030 . . . . . 5330 2 
+       8 . 1 1  10  10 LYS N . . 0.682 0.032 . . . . . 5330 2 
+       9 . 1 1  13  13 SER N . . 0.704 0.015 . . . . . 5330 2 
+      10 . 1 1  14  14 ASN N . . 0.704 0.025 . . . . . 5330 2 
+      11 . 1 1  16  16 ASN N . . 0.658 0.024 . . . . . 5330 2 
+      12 . 1 1  17  17 PHE N . . 0.570 0.049 . . . . . 5330 2 
+      13 . 1 1  18  18 GLU N . . 0.794 0.049 . . . . . 5330 2 
+      14 . 1 1  19  19 GLU N . . 0.776 0.085 . . . . . 5330 2 
+      15 . 1 1  20  20 TYR N . . 0.731 0.036 . . . . . 5330 2 
+      16 . 1 1  21  21 LEU N . . 0.714 0.080 . . . . . 5330 2 
+      17 . 1 1  23  23 ALA N . . 0.661 0.035 . . . . . 5330 2 
+      18 . 1 1  24  24 LEU N . . 0.706 0.048 . . . . . 5330 2 
+      19 . 1 1  25  25 ASP N . . 0.627 0.073 . . . . . 5330 2 
+      20 . 1 1  29  29 ALA N . . 0.628 0.009 . . . . . 5330 2 
+      21 . 1 1  31  31 ARG N . . 0.593 0.051 . . . . . 5330 2 
+      22 . 1 1  32  32 LYS N . . 0.651 0.043 . . . . . 5330 2 
+      23 . 1 1  37  37 LEU N . . 0.654 0.023 . . . . . 5330 2 
+      24 . 1 1  42  42 GLU N . . 0.766 0.047 . . . . . 5330 2 
+      25 . 1 1  43  43 ILE N . . 0.671 0.020 . . . . . 5330 2 
+      26 . 1 1  45  45 GLN N . . 0.643 0.036 . . . . . 5330 2 
+      27 . 1 1  46  46 ASP N . . 0.694 0.024 . . . . . 5330 2 
+      28 . 1 1  47  47 GLY N . . 0.667 0.041 . . . . . 5330 2 
+      29 . 1 1  49  49 HIS N . . 0.797 0.033 . . . . . 5330 2 
+      30 . 1 1  50  50 MET N . . 0.665 0.050 . . . . . 5330 2 
+      31 . 1 1  51  51 ILE N . . 0.728 0.033 . . . . . 5330 2 
+      32 . 1 1  53  53 ARG N . . 0.700 0.048 . . . . . 5330 2 
+      33 . 1 1  56  56 SER N . . 0.617 0.065 . . . . . 5330 2 
+      34 . 1 1  65  65 PHE N . . 0.730 0.087 . . . . . 5330 2 
+      35 . 1 1  66  66 GLN N . . 0.678 0.031 . . . . . 5330 2 
+      36 . 1 1  68  68 GLY N . . 0.711 0.035 . . . . . 5330 2 
+      37 . 1 1  69  69 LYS N . . 0.675 0.029 . . . . . 5330 2 
+      38 . 1 1  70  70 GLU N . . 0.686 0.038 . . . . . 5330 2 
+      39 . 1 1  71  71 PHE N . . 0.612 0.026 . . . . . 5330 2 
+      40 . 1 1  72  72 GLU N . . 0.683 0.018 . . . . . 5330 2 
+      41 . 1 1  78  78 ILE N . . 0.885 0.093 . . . . . 5330 2 
+      42 . 1 1  79  79 ASP N . . 0.723 0.067 . . . . . 5330 2 
+      43 . 1 1  82  82 LYS N . . 0.654 0.006 . . . . . 5330 2 
+      44 . 1 1  84  84 MET N . . 0.699 0.038 . . . . . 5330 2 
+      45 . 1 1  86  86 THR N . . 0.688 0.022 . . . . . 5330 2 
+      46 . 1 1  87  87 VAL N . . 0.717 0.022 . . . . . 5330 2 
+      47 . 1 1  88  88 SER N . . 0.715 0.020 . . . . . 5330 2 
+      48 . 1 1  89  89 TRP N . . 0.824 0.060 . . . . . 5330 2 
+      49 . 1 1  90  90 ASP N . . 0.698 0.107 . . . . . 5330 2 
+      50 . 1 1  91  91 GLY N . . 0.707 0.043 . . . . . 5330 2 
+      51 . 1 1  92  92 ASP N . . 0.729 0.063 . . . . . 5330 2 
+      52 . 1 1  93  93 LYS N . . 0.695 0.055 . . . . . 5330 2 
+      53 . 1 1  95  95 GLN N . . 0.733 0.053 . . . . . 5330 2 
+      54 . 1 1  97  97 VAL N . . 0.656 0.045 . . . . . 5330 2 
+      55 . 1 1  98  98 GLN N . . 0.710 0.021 . . . . . 5330 2 
+      56 . 1 1 101 101 GLU N . . 0.646 0.094 . . . . . 5330 2 
+      57 . 1 1 103 103 GLU N . . 0.707 0.028 . . . . . 5330 2 
+      58 . 1 1 104 104 GLY N . . 0.704 0.010 . . . . . 5330 2 
+      59 . 1 1 105 105 ARG N . . 0.682 0.123 . . . . . 5330 2 
+      60 . 1 1 106 106 GLY N . . 0.725 0.139 . . . . . 5330 2 
+      61 . 1 1 107 107 TRP N . . 0.754 0.093 . . . . . 5330 2 
+      62 . 1 1 108 108 THR N . . 0.745 0.054 . . . . . 5330 2 
+      63 . 1 1 109 109 GLN N . . 0.720 0.049 . . . . . 5330 2 
+      64 . 1 1 110 110 TRP N . . 0.740 0.028 . . . . . 5330 2 
+      65 . 1 1 111 111 ILE N . . 0.671 0.062 . . . . . 5330 2 
+      66 . 1 1 113 113 GLY N . . 0.698 0.040 . . . . . 5330 2 
+      67 . 1 1 114 114 ASP N . . 0.718 0.020 . . . . . 5330 2 
+      68 . 1 1 115 115 GLU N . . 0.639 0.022 . . . . . 5330 2 
+      69 . 1 1 117 117 HIS N . . 0.661 0.028 . . . . . 5330 2 
+      70 . 1 1 118 118 LEU N . . 0.757 0.048 . . . . . 5330 2 
+      71 . 1 1 119 119 GLU N . . 0.696 0.032 . . . . . 5330 2 
+      72 . 1 1 120 120 MET N . . 0.711 0.072 . . . . . 5330 2 
+      73 . 1 1 121 121 ARG N . . 0.757 0.040 . . . . . 5330 2 
+      74 . 1 1 122 122 ALA N . . 0.673 0.055 . . . . . 5330 2 
+      75 . 1 1 123 123 GLU N . . 0.624 0.028 . . . . . 5330 2 
+      76 . 1 1 124 124 GLY N . . 0.660 0.029 . . . . . 5330 2 
+      77 . 1 1 125 125 VAL N . . 0.660 0.011 . . . . . 5330 2 
+      78 . 1 1 126 126 THR N . . 0.664 0.015 . . . . . 5330 2 
+      79 . 1 1 128 128 LYS N . . 0.710 0.053 . . . . . 5330 2 
+      80 . 1 1 131 131 PHE N . . 0.684 0.059 . . . . . 5330 2 
+      81 . 1 1 132 132 LYS N . . 0.644 0.027 . . . . . 5330 2 
+      82 . 1 1 135 135 HIS N . . 0.841 0.021 . . . . . 5330 2 
+
+   stop_
+
+save_
+
+
+    ########################################
+    #  Heteronuclear T2 relaxation values  #
+    ########################################
+
+save_15N_T2_500
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  15N_T2_500
+   _Heteronucl_T2_list.Entry_ID                      5330
+   _Heteronucl_T2_list.ID                            1
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     500
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_1 . 5330 1 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1   3   3 VAL N . . 0.171 0.021 . . . . . . . 5330 1 
+       2 . 1 1   4   4 ASP N . . 0.104 0.008 . . . . . . . 5330 1 
+       3 . 1 1   5   5 PHE N . . 0.101 0.010 . . . . . . . 5330 1 
+       4 . 1 1   6   6 ASN N . . 0.095 0.003 . . . . . . . 5330 1 
+       5 . 1 1   7   7 GLY N . . 0.104 0.004 . . . . . . . 5330 1 
+       6 . 1 1   8   8 TYR N . . 0.108 0.006 . . . . . . . 5330 1 
+       7 . 1 1   9   9 TRP N . . 0.101 0.015 . . . . . . . 5330 1 
+       8 . 1 1  10  10 LYS N . . 0.102 0.007 . . . . . . . 5330 1 
+       9 . 1 1  13  13 SER N . . 0.104 0.003 . . . . . . . 5330 1 
+      10 . 1 1  14  14 ASN N . . 0.099 0.006 . . . . . . . 5330 1 
+      11 . 1 1  16  16 ASN N . . 0.108 0.007 . . . . . . . 5330 1 
+      12 . 1 1  17  17 PHE N . . 0.104 0.007 . . . . . . . 5330 1 
+      13 . 1 1  18  18 GLU N . . 0.081 0.004 . . . . . . . 5330 1 
+      14 . 1 1  19  19 GLU N . . 0.094 0.011 . . . . . . . 5330 1 
+      15 . 1 1  20  20 TYR N . . 0.113 0.004 . . . . . . . 5330 1 
+      16 . 1 1  21  21 LEU N . . 0.091 0.007 . . . . . . . 5330 1 
+      17 . 1 1  23  23 ALA N . . 0.089 0.004 . . . . . . . 5330 1 
+      18 . 1 1  24  24 LEU N . . 0.090 0.006 . . . . . . . 5330 1 
+      19 . 1 1  29  29 ALA N . . 0.099 0.004 . . . . . . . 5330 1 
+      20 . 1 1  31  31 ARG N . . 0.095 0.012 . . . . . . . 5330 1 
+      21 . 1 1  32  32 LYS N . . 0.104 0.010 . . . . . . . 5330 1 
+      22 . 1 1  35  35 ASN N . . 0.100 0.015 . . . . . . . 5330 1 
+      23 . 1 1  37  37 LEU N . . 0.109 0.006 . . . . . . . 5330 1 
+      24 . 1 1  40  40 ASP N . . 0.113 0.014 . . . . . . . 5330 1 
+      25 . 1 1  42  42 GLU N . . 0.094 0.003 . . . . . . . 5330 1 
+      26 . 1 1  43  43 ILE N . . 0.100 0.007 . . . . . . . 5330 1 
+      27 . 1 1  45  45 GLN N . . 0.105 0.007 . . . . . . . 5330 1 
+      28 . 1 1  46  46 ASP N . . 0.099 0.005 . . . . . . . 5330 1 
+      29 . 1 1  47  47 GLY N . . 0.113 0.007 . . . . . . . 5330 1 
+      30 . 1 1  49  49 HIS N . . 0.085 0.004 . . . . . . . 5330 1 
+      31 . 1 1  50  50 MET N . . 0.108 0.008 . . . . . . . 5330 1 
+      32 . 1 1  51  51 ILE N . . 0.089 0.005 . . . . . . . 5330 1 
+      33 . 1 1  53  53 ARG N . . 0.095 0.003 . . . . . . . 5330 1 
+      34 . 1 1  56  56 SER N . . 0.107 0.010 . . . . . . . 5330 1 
+      35 . 1 1  65  65 PHE N . . 0.099 0.006 . . . . . . . 5330 1 
+      36 . 1 1  66  66 GLN N . . 0.102 0.003 . . . . . . . 5330 1 
+      37 . 1 1  68  68 GLY N . . 0.099 0.008 . . . . . . . 5330 1 
+      38 . 1 1  69  69 LYS N . . 0.104 0.007 . . . . . . . 5330 1 
+      39 . 1 1  70  70 GLU N . . 0.100 0.004 . . . . . . . 5330 1 
+      40 . 1 1  71  71 PHE N . . 0.098 0.006 . . . . . . . 5330 1 
+      41 . 1 1  72  72 GLU N . . 0.099 0.004 . . . . . . . 5330 1 
+      42 . 1 1  79  79 ASP N . . 0.102 0.011 . . . . . . . 5330 1 
+      43 . 1 1  82  82 LYS N . . 0.085 0.009 . . . . . . . 5330 1 
+      44 . 1 1  84  84 MET N . . 0.101 0.006 . . . . . . . 5330 1 
+      45 . 1 1  86  86 THR N . . 0.104 0.005 . . . . . . . 5330 1 
+      46 . 1 1  88  88 SER N . . 0.100 0.003 . . . . . . . 5330 1 
+      47 . 1 1  89  89 TRP N . . 0.100 0.009 . . . . . . . 5330 1 
+      48 . 1 1  90  90 ASP N . . 0.106 0.009 . . . . . . . 5330 1 
+      49 . 1 1  91  91 GLY N . . 0.112 0.010 . . . . . . . 5330 1 
+      50 . 1 1  92  92 ASP N . . 0.115 0.012 . . . . . . . 5330 1 
+      51 . 1 1  93  93 LYS N . . 0.108 0.010 . . . . . . . 5330 1 
+      52 . 1 1  95  95 GLN N . . 0.111 0.012 . . . . . . . 5330 1 
+      53 . 1 1  97  97 VAL N . . 0.099 0.006 . . . . . . . 5330 1 
+      54 . 1 1  98  98 GLN N . . 0.110 0.011 . . . . . . . 5330 1 
+      55 . 1 1 101 101 GLU N . . 0.124 0.021 . . . . . . . 5330 1 
+      56 . 1 1 103 103 GLU N . . 0.094 0.004 . . . . . . . 5330 1 
+      57 . 1 1 104 104 GLY N . . 0.105 0.003 . . . . . . . 5330 1 
+      58 . 1 1 105 105 ARG N . . 0.093 0.008 . . . . . . . 5330 1 
+      59 . 1 1 106 106 GLY N . . 0.089 0.009 . . . . . . . 5330 1 
+      60 . 1 1 107 107 TRP N . . 0.085 0.012 . . . . . . . 5330 1 
+      61 . 1 1 108 108 THR N . . 0.098 0.006 . . . . . . . 5330 1 
+      62 . 1 1 109 109 GLN N . . 0.095 0.004 . . . . . . . 5330 1 
+      63 . 1 1 110 110 TRP N . . 0.101 0.018 . . . . . . . 5330 1 
+      64 . 1 1 111 111 ILE N . . 0.091 0.015 . . . . . . . 5330 1 
+      65 . 1 1 113 113 GLY N . . 0.102 0.003 . . . . . . . 5330 1 
+      66 . 1 1 114 114 ASP N . . 0.087 0.004 . . . . . . . 5330 1 
+      67 . 1 1 115 115 GLU N . . 0.104 0.004 . . . . . . . 5330 1 
+      68 . 1 1 117 117 HIS N . . 0.088 0.007 . . . . . . . 5330 1 
+      69 . 1 1 118 118 LEU N . . 0.085 0.008 . . . . . . . 5330 1 
+      70 . 1 1 119 119 GLU N . . 0.090 0.009 . . . . . . . 5330 1 
+      71 . 1 1 120 120 MET N . . 0.097 0.009 . . . . . . . 5330 1 
+      72 . 1 1 121 121 ARG N . . 0.093 0.008 . . . . . . . 5330 1 
+      73 . 1 1 122 122 ALA N . . 0.093 0.004 . . . . . . . 5330 1 
+      74 . 1 1 123 123 GLU N . . 0.101 0.005 . . . . . . . 5330 1 
+      75 . 1 1 124 124 GLY N . . 0.100 0.003 . . . . . . . 5330 1 
+      76 . 1 1 125 125 VAL N . . 0.104 0.003 . . . . . . . 5330 1 
+      77 . 1 1 126 126 THR N . . 0.108 0.003 . . . . . . . 5330 1 
+      78 . 1 1 128 128 LYS N . . 0.087 0.008 . . . . . . . 5330 1 
+      79 . 1 1 131 131 PHE N . . 0.112 0.017 . . . . . . . 5330 1 
+      80 . 1 1 132 132 LYS N . . 0.096 0.009 . . . . . . . 5330 1 
+      81 . 1 1 135 135 HIS N . . 0.136 0.004 . . . . . . . 5330 1 
+
+   stop_
+
+save_
+
+
+save_15N_T2_600
+   _Heteronucl_T2_list.Sf_category                   heteronucl_T2_relaxation
+   _Heteronucl_T2_list.Sf_framecode                  15N_T2_600
+   _Heteronucl_T2_list.Entry_ID                      5330
+   _Heteronucl_T2_list.ID                            2
+   _Heteronucl_T2_list.Sample_condition_list_ID      1
+   _Heteronucl_T2_list.Sample_condition_list_label  $cond_set_1
+   _Heteronucl_T2_list.Temp_calibration_method       .
+   _Heteronucl_T2_list.Temp_control_method           .
+   _Heteronucl_T2_list.Spectrometer_frequency_1H     600
+   _Heteronucl_T2_list.T2_coherence_type             Nx
+   _Heteronucl_T2_list.T2_val_units                  s
+   _Heteronucl_T2_list.Rex_units                     .
+   _Heteronucl_T2_list.Details                       .
+   _Heteronucl_T2_list.Text_data_format              .
+   _Heteronucl_T2_list.Text_data                     .
+
+   loop_
+      _Heteronucl_T2_experiment.Experiment_ID
+      _Heteronucl_T2_experiment.Experiment_name
+      _Heteronucl_T2_experiment.Sample_ID
+      _Heteronucl_T2_experiment.Sample_label
+      _Heteronucl_T2_experiment.Sample_state
+      _Heteronucl_T2_experiment.Entry_ID
+      _Heteronucl_T2_experiment.Heteronucl_T2_list_ID
+
+      . . 1 $sample_1 . 5330 2 
+
+   stop_
+
+   loop_
+      _T2.ID
+      _T2.Assembly_atom_ID
+      _T2.Entity_assembly_ID
+      _T2.Entity_ID
+      _T2.Comp_index_ID
+      _T2.Seq_ID
+      _T2.Comp_ID
+      _T2.Atom_ID
+      _T2.Atom_type
+      _T2.Atom_isotope_number
+      _T2.T2_val
+      _T2.T2_val_err
+      _T2.Rex_val
+      _T2.Rex_err
+      _T2.Resonance_ID
+      _T2.Auth_entity_assembly_ID
+      _T2.Auth_seq_ID
+      _T2.Auth_comp_ID
+      _T2.Auth_atom_ID
+      _T2.Entry_ID
+      _T2.Heteronucl_T2_list_ID
+
+       1 . 1 1   3   3 VAL N . . 0.155 0.023 . . . . . . . 5330 2 
+       2 . 1 1   4   4 ASP N . . 0.102 0.012 . . . . . . . 5330 2 
+       3 . 1 1   5   5 PHE N . . 0.101 0.013 . . . . . . . 5330 2 
+       4 . 1 1   6   6 ASN N . . 0.092 0.005 . . . . . . . 5330 2 
+       5 . 1 1   7   7 GLY N . . 0.099 0.006 . . . . . . . 5330 2 
+       6 . 1 1   8   8 TYR N . . 0.086 0.006 . . . . . . . 5330 2 
+       7 . 1 1   9   9 TRP N . . 0.084 0.007 . . . . . . . 5330 2 
+       8 . 1 1  10  10 LYS N . . 0.093 0.006 . . . . . . . 5330 2 
+       9 . 1 1  13  13 SER N . . 0.097 0.004 . . . . . . . 5330 2 
+      10 . 1 1  14  14 ASN N . . 0.088 0.003 . . . . . . . 5330 2 
+      11 . 1 1  16  16 ASN N . . 0.095 0.004 . . . . . . . 5330 2 
+      12 . 1 1  17  17 PHE N . . 0.090 0.007 . . . . . . . 5330 2 
+      13 . 1 1  18  18 GLU N . . 0.085 0.007 . . . . . . . 5330 2 
+      14 . 1 1  19  19 GLU N . . 0.089 0.006 . . . . . . . 5330 2 
+      15 . 1 1  20  20 TYR N . . 0.095 0.011 . . . . . . . 5330 2 
+      16 . 1 1  21  21 LEU N . . 0.089 0.008 . . . . . . . 5330 2 
+      17 . 1 1  23  23 ALA N . . 0.083 0.007 . . . . . . . 5330 2 
+      18 . 1 1  24  24 LEU N . . 0.082 0.008 . . . . . . . 5330 2 
+      19 . 1 1  31  31 ARG N . . 0.095 0.016 . . . . . . . 5330 2 
+      20 . 1 1  32  32 LYS N . . 0.089 0.011 . . . . . . . 5330 2 
+      21 . 1 1  37  37 LEU N . . 0.094 0.005 . . . . . . . 5330 2 
+      22 . 1 1  42  42 GLU N . . 0.082 0.005 . . . . . . . 5330 2 
+      23 . 1 1  43  43 ILE N . . 0.092 0.005 . . . . . . . 5330 2 
+      24 . 1 1  45  45 GLN N . . 0.091 0.007 . . . . . . . 5330 2 
+      25 . 1 1  46  46 ASP N . . 0.095 0.002 . . . . . . . 5330 2 
+      26 . 1 1  47  47 GLY N . . 0.112 0.010 . . . . . . . 5330 2 
+      27 . 1 1  48  48 ASP N . . 0.094 0.006 . . . . . . . 5330 2 
+      28 . 1 1  50  50 MET N . . 0.106 0.014 . . . . . . . 5330 2 
+      29 . 1 1  53  53 ARG N . . 0.086 0.009 . . . . . . . 5330 2 
+      30 . 1 1  65  65 PHE N . . 0.083 0.009 . . . . . . . 5330 2 
+      31 . 1 1  66  66 GLN N . . 0.092 0.004 . . . . . . . 5330 2 
+      32 . 1 1  68  68 GLY N . . 0.090 0.005 . . . . . . . 5330 2 
+      33 . 1 1  69  69 LYS N . . 0.104 0.004 . . . . . . . 5330 2 
+      34 . 1 1  70  70 GLU N . . 0.086 0.005 . . . . . . . 5330 2 
+      35 . 1 1  71  71 PHE N . . 0.091 0.006 . . . . . . . 5330 2 
+      36 . 1 1  72  72 GLU N . . 0.089 0.003 . . . . . . . 5330 2 
+      37 . 1 1  84  84 MET N . . 0.103 0.017 . . . . . . . 5330 2 
+      38 . 1 1  86  86 THR N . . 0.100 0.007 . . . . . . . 5330 2 
+      39 . 1 1  87  87 VAL N . . 0.092 0.010 . . . . . . . 5330 2 
+      40 . 1 1  88  88 SER N . . 0.094 0.004 . . . . . . . 5330 2 
+      41 . 1 1  89  89 TRP N . . 0.086 0.007 . . . . . . . 5330 2 
+      42 . 1 1  90  90 ASP N . . 0.107 0.013 . . . . . . . 5330 2 
+      43 . 1 1  91  91 GLY N . . 0.103 0.007 . . . . . . . 5330 2 
+      44 . 1 1  92  92 ASP N . . 0.119 0.007 . . . . . . . 5330 2 
+      45 . 1 1  93  93 LYS N . . 0.101 0.009 . . . . . . . 5330 2 
+      46 . 1 1  94  94 LEU N . . 0.087 0.013 . . . . . . . 5330 2 
+      47 . 1 1  95  95 GLN N . . 0.102 0.008 . . . . . . . 5330 2 
+      48 . 1 1  97  97 VAL N . . 0.091 0.008 . . . . . . . 5330 2 
+      49 . 1 1  98  98 GLN N . . 0.101 0.006 . . . . . . . 5330 2 
+      50 . 1 1 101 101 GLU N . . 0.091 0.009 . . . . . . . 5330 2 
+      51 . 1 1 104 104 GLY N . . 0.091 0.004 . . . . . . . 5330 2 
+      52 . 1 1 106 106 GLY N . . 0.081 0.018 . . . . . . . 5330 2 
+      53 . 1 1 108 108 THR N . . 0.098 0.010 . . . . . . . 5330 2 
+      54 . 1 1 109 109 GLN N . . 0.094 0.008 . . . . . . . 5330 2 
+      55 . 1 1 110 110 TRP N . . 0.103 0.017 . . . . . . . 5330 2 
+      56 . 1 1 113 113 GLY N . . 0.100 0.003 . . . . . . . 5330 2 
+      57 . 1 1 114 114 ASP N . . 0.078 0.003 . . . . . . . 5330 2 
+      58 . 1 1 115 115 GLU N . . 0.089 0.003 . . . . . . . 5330 2 
+      59 . 1 1 117 117 HIS N . . 0.086 0.004 . . . . . . . 5330 2 
+      60 . 1 1 118 118 LEU N . . 0.083 0.008 . . . . . . . 5330 2 
+      61 . 1 1 119 119 GLU N . . 0.085 0.007 . . . . . . . 5330 2 
+      62 . 1 1 120 120 MET N . . 0.085 0.019 . . . . . . . 5330 2 
+      63 . 1 1 121 121 ARG N . . 0.088 0.007 . . . . . . . 5330 2 
+      64 . 1 1 122 122 ALA N . . 0.086 0.012 . . . . . . . 5330 2 
+      65 . 1 1 123 123 GLU N . . 0.088 0.005 . . . . . . . 5330 2 
+      66 . 1 1 124 124 GLY N . . 0.093 0.005 . . . . . . . 5330 2 
+      67 . 1 1 125 125 VAL N . . 0.094 0.003 . . . . . . . 5330 2 
+      68 . 1 1 126 126 THR N . . 0.097 0.003 . . . . . . . 5330 2 
+      69 . 1 1 128 128 LYS N . . 0.086 0.008 . . . . . . . 5330 2 
+      70 . 1 1 131 131 PHE N . . 0.103 0.017 . . . . . . . 5330 2 
+      71 . 1 1 132 132 LYS N . . 0.091 0.005 . . . . . . . 5330 2 
+
+   stop_
+
+save_
+
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_S2
+   _Order_parameter_list.Sf_category                   order_parameters
+   _Order_parameter_list.Sf_framecode                  S2
+   _Order_parameter_list.Entry_ID                      5330
+   _Order_parameter_list.ID                            1
+   _Order_parameter_list.Sample_condition_list_ID      1
+   _Order_parameter_list.Sample_condition_list_label  $cond_set_1
+   _Order_parameter_list.Tau_e_val_units               ps
+   _Order_parameter_list.Tau_f_val_units               .
+   _Order_parameter_list.Tau_s_val_units               .
+   _Order_parameter_list.Rex_field_strength            .
+   _Order_parameter_list.Rex_val_units                 .
+   _Order_parameter_list.Details                       .
+   _Order_parameter_list.Text_data_format              .
+   _Order_parameter_list.Text_data                     .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+      . . 1 $sample_1 . 5330 1 
+
+   stop_
+
+   loop_
+      _Order_parameter_software.Software_ID
+      _Order_parameter_software.Software_label
+      _Order_parameter_software.Method_ID
+      _Order_parameter_software.Method_label
+      _Order_parameter_software.Entry_ID
+      _Order_parameter_software.Order_parameter_list_ID
+
+      . $ModelFree . . 5330 1 
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+       1 . 1 1   3   3 VAL N . . 0.576 0.059 400.000  385.980 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       2 . 1 1   4   4 ASP N . . 0.859 0.030  61.050    0.000 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       3 . 1 1   5   5 PHE N . . 0.843 0.053  29.299   25.496 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       4 . 1 1   6   6 ASN N . . 0.785 0.035    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       5 . 1 1   7   7 GLY N . . 0.870 0.017  43.381   26.993 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       6 . 1 1   8   8 TYR N . . 0.847 0.022  29.590   22.983 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       7 . 1 1   9   9 TRP N . . 0.872 0.025  21.950   27.859 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       8 . 1 1  10  10 LYS N . . 0.872 0.027    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+       9 . 1 1  13  13 SER N . . 0.787 0.012  22.053   15.092 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      10 . 1 1  14  14 ASN N . . 0.830 0.020    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      11 . 1 1  16  16 ASN N . . 0.872 0.020    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      12 . 1 1  17  17 PHE N . . 0.896 0.032 117.063   68.245 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      13 . 1 1  18  18 GLU N . . 0.820 0.035    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      14 . 1 1  19  19 GLU N . . 0.710 0.043  14.769   10.619 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      15 . 1 1  20  20 TYR N . . 0.815 0.021    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      16 . 1 1  21  21 LEU N . . 0.825 0.049    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      17 . 1 1  23  23 ALA N . . 0.875 0.025    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      18 . 1 1  24  24 LEU N . . 0.777 0.028    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      19 . 1 1  25  25 ASP N . . 0.842 0.028    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      20 . 1 1  29  29 ALA N . . 0.907 0.016 108.283   42.530 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      21 . 1 1  31  31 ARG N . . 0.943 0.051  61.585   92.163 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      22 . 1 1  32  32 LYS N . . 0.876 0.033 131.356   71.342 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      23 . 1 1  35  35 ASN N . . 0.867 0.085    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      24 . 1 1  37  37 LEU N . . 0.872 0.020    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      25 . 1 1  40  40 ASP N . . 0.839 0.055    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      26 . 1 1  41  41 LYS N . . 0.784 0.108    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      27 . 1 1  42  42 GLU N . . 0.791 0.031    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      28 . 1 1  43  43 ILE N . . 0.885 0.019    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      29 . 1 1  45  45 GLN N . . 0.889 0.025    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      30 . 1 1  46  46 ASP N . . 0.816 0.015    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      31 . 1 1  47  47 GLY N . . 0.805 0.027    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      32 . 1 1  48  48 ASP N . . 0.900 0.028    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      33 . 1 1  49  49 HIS N . . 0.785 0.025    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      34 . 1 1  50  50 MET N . . 0.847 0.032    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      35 . 1 1  51  51 ILE N . . 0.832 0.036    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      36 . 1 1  53  53 ARG N . . 0.923 0.025    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      37 . 1 1  56  56 SER N . . 0.848 0.041  55.111   35.537 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      38 . 1 1  60  60 ASN N . . 0.684 0.041    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      39 . 1 1  63  63 MET N . . 0.908 0.152    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      40 . 1 1  65  65 PHE N . . 0.883 0.027    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      41 . 1 1  66  66 GLN N . . 0.882 0.018    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      42 . 1 1  68  68 GLY N . . 0.884 0.026    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      43 . 1 1  69  69 LYS N . . 0.862 0.019    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      44 . 1 1  70  70 GLU N . . 0.810 0.027    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      45 . 1 1  71  71 PHE N . . 0.939 0.023    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      46 . 1 1  72  72 GLU N . . 0.861 0.021    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      47 . 1 1  78  78 ILE N . . 0.683 0.056    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      48 . 1 1  79  79 ASP N . . 0.733 0.052    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      49 . 1 1  82  82 LYS N . . 0.891 0.011 127.354   22.880 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      50 . 1 1  84  84 MET N . . 0.827 0.027    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      51 . 1 1  86  86 THR N . . 0.880 0.020    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      52 . 1 1  87  87 VAL N . . 0.853 0.020    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      53 . 1 1  88  88 SER N . . 0.840 0.018    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      54 . 1 1  89  89 TRP N . . 0.742 0.040    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      55 . 1 1  90  90 ASP N . . 0.814 0.046    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      56 . 1 1  91  91 GLY N . . 0.826 0.026   6.848   19.659 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      57 . 1 1  92  92 ASP N . . 0.751 0.030  30.914   14.051 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      58 . 1 1  93  93 LYS N . . 0.849 0.038    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      59 . 1 1  94  94 LEU N . . 0.876 0.071  29.669   35.189 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      60 . 1 1  95  95 GLN N . . 0.841 0.035    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      61 . 1 1  97  97 VAL N . . 0.879 0.029    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      62 . 1 1  98  98 GLN N . . 0.855 0.021    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      63 . 1 1 101 101 GLU N . . 0.858 0.016  72.331   26.503 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      64 . 1 1 103 103 GLU N . . 0.781 0.023  36.728   15.205 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      65 . 1 1 104 104 GLY N . . 0.859 0.010    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      66 . 1 1 105 105 ARG N . . 0.890 0.039    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      67 . 1 1 106 106 GLY N . . 0.901 0.076    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      68 . 1 1 107 107 TRP N . . 0.773 0.069    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      69 . 1 1 108 108 THR N . . 0.866 0.034    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      70 . 1 1 109 109 GLN N . . 0.905 0.021    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      71 . 1 1 110 110 TRP N . . 0.823 0.031  14.290   19.188 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      72 . 1 1 111 111 ILE N . . 0.874 0.057    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      73 . 1 1 113 113 GLY N . . 0.862 0.015    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      74 . 1 1 114 114 ASP N . . 0.848 0.019    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      75 . 1 1 115 115 GLU N . . 0.901 0.013    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      76 . 1 1 117 117 HIS N . . 0.881 0.023    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      77 . 1 1 118 118 LEU N . . 0.795 0.031    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      78 . 1 1 119 119 GLU N . . 0.857 0.037    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      79 . 1 1 120 120 MET N . . 0.774 0.067  36.206   19.724 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      80 . 1 1 121 121 ARG N . . 0.806 0.038    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      81 . 1 1 122 122 ALA N . . 0.813 0.035    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      82 . 1 1 123 123 GLU N . . 0.930 0.024    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      83 . 1 1 124 124 GLY N . . 0.881 0.017  19.510   29.644 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      84 . 1 1 125 125 VAL N . . 0.894 0.011  34.956   16.003 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      85 . 1 1 126 126 THR N . . 0.882 0.013    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      86 . 1 1 128 128 LYS N . . 0.855 0.036  70.372   43.911 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      87 . 1 1 131 131 PHE N . . 0.837 0.039    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      88 . 1 1 132 132 LYS N . . 0.900 0.022    .        .    . . . . . . . . . . . . . . . . . . . . . 5330 1 
+      89 . 1 1 135 135 HIS N . . 0.671 0.076 400.000 1525.026 . . . . . . . . . . . . . . . . . . . . . 5330 1 
+
+   stop_
+
+save_
+
