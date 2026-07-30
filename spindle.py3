@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+SPIN Dynamics Learning Ensemble
 Deep Learning Analysis of 15N Relaxation Data
 
 This script takes experimental R1, R2, and NOE data and uses an ensemble 
@@ -10,11 +11,12 @@ Features:
 - Automated "Bad Data" Detection (Ambiguity Index)
 - Conformational Entropy Estimation
 - Multi-Field Support
+- Back-calculation of experimental fits
 
 Usage:
-    python predict_experimental_data.py3 data.txt --field 850 --out results_ubiquitin
+    spindle.py3 -i data.txt -f 600 -models models -o results
 
-Input Format (Space separated text file):
+Input Format for data.txt (Space separated text file):
     # Residue  R1      R2      NOE
     1          1.2     12.5    0.78
     2          1.3     11.8    0.82
@@ -28,6 +30,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import entropy
 from spindle_calibrations import CALIBRATIONS, MULTIPLIERS
+from relaxation_rates import (
+        orig_sp_den,
+        longitudinal_relaxation_rate_total,
+        transverse_relaxation_rate_total,
+        nuclear_overhauser_effect
+        )
 
 # --- CONSTANTS & CONFIG ---
 # Force CPU for inference (often faster for small batches & more stable for end-users)
@@ -183,6 +191,112 @@ def generate_dashboard(residues, predictions, errors, s2_amb, taue_amb, rex_amb,
     plt.tight_layout()
     plt.savefig(f"{output_prefix}_dashboard.{file_format}", format=file_format, dpi=300)
     print(f"Dashboard saved to {output_prefix}_dashboard.{file_format}")
+    plt.close()
+
+def write_nef_format(residues, s2, s2_err, taue, taue_err, rex, rex_err, tauc, output_prefix):
+    """
+    Writes predicted Model-Free parameters to an NMR Exchange Format (NEF) compliant file.
+    Follows STAR/NEF loop structures for easy BMRB deposition and software interoperability.
+    """
+    out_file = f"{output_prefix}_predictions.nef"
+    
+    with open(out_file, 'w') as f:
+        # Data block header
+        f.write("data_spindle_predictions\n\n")
+        
+        # Save frame for Model-Free parameters
+        f.write("save_spindle_model_free\n")
+        f.write("   _nef_model_free.sf_category   model_free\n")
+        f.write(f"   _nef_model_free.global_tauc   {tauc:.3f}\n\n")
+        
+        # Define the data loop (columns)
+        f.write("   loop_\n")
+        f.write("      _nef_model_free_item.residue_seq_code\n")
+        f.write("      _nef_model_free_item.s2_value\n")
+        f.write("      _nef_model_free_item.s2_value_error\n")
+        f.write("      _nef_model_free_item.te_value\n")
+        f.write("      _nef_model_free_item.te_value_error\n")
+        f.write("      _nef_model_free_item.rex_value\n")
+        f.write("      _nef_model_free_item.rex_value_error\n\n")
+        
+        # Populate the data rows
+        for i, res in enumerate(residues):
+            f.write(f"      {res:<5} {s2[i]:<10.4f} {s2_err[i]:<10.4f} "
+                    f"{taue[i]:<10.2f} {taue_err[i]:<10.2f} "
+                    f"{rex[i]:<10.3f} {rex_err[i]:<10.3f}\n")
+        
+        f.write("   stop_\n")
+        f.write("save_\n")
+        
+    print(f"NEF formatted predictions saved to {out_file}")
+
+def back_calculate_rates(field_mhz, s2, taue_ps, rex, tauc_ns):
+    """Calculates theoretical R1, R2, and NOE from Model-Free parameters."""
+    # Physical Constants
+    mu0 = 4 * np.pi * 1e-7
+    h_bar = 1.054571817e-34
+    gyroP = 267.522e6
+    gyroN = -27.126e6
+    r_NH = 1.02e-10
+    csa = -162e-6 # Assumed 15N chemical shift anisotropy
+
+    # Field-dependent constants
+    OmeH = field_mhz * 1e6 * 2 * np.pi
+    OmeN = OmeH * (gyroN / gyroP)
+    
+    d_const = (mu0 / (4 * np.pi)) * (gyroP * gyroN * h_bar) / (r_NH**3)
+    d_const_sq = d_const**2
+    c_const_sq = ((csa * OmeN)**2) / 3.0
+
+    # Convert parameters to standard SI units
+    tauC = tauc_ns * 1e-9
+    tauS = taue_ps * 1e-12
+    S2s = s2
+    S2f = np.ones_like(S2s) # Modelfree typically assumes S2f = 1 when only mapping S2 overall
+
+    # Calculate rates
+    calc_r1 = longitudinal_relaxation_rate_total(orig_sp_den, tauC, S2s, S2f, tauS, OmeH, OmeN, d_const_sq, c_const_sq)
+    calc_r2 = transverse_relaxation_rate_total(orig_sp_den, tauC, S2s, S2f, tauS, rex, OmeH, OmeN, d_const_sq, c_const_sq)
+    calc_noe = nuclear_overhauser_effect(orig_sp_den, tauC, S2s, S2f, tauS, OmeH, OmeN, d_const_sq, c_const_sq)
+
+    return calc_r1, calc_r2, calc_noe
+
+def plot_experimental_fits(residues, exp_data, calc_r1, calc_r2, calc_noe, output_prefix, file_format):
+    """Plots Experimental vs Back-calculated R1, R2, and NOE."""
+    fig, axes = plt.subplots(3, 1, figsize=(10, 12), sharex=True)
+    
+    exp_r1 = exp_data[:, 0]
+    exp_r2 = exp_data[:, 1]
+    exp_noe = exp_data[:, 2]
+
+    # Handle masked/missing experimental data (-99.0) by replacing with NaN for plotting
+    exp_r1 = np.where(exp_r1 == -99.0, np.nan, exp_r1)
+    exp_r2 = np.where(exp_r2 == -99.0, np.nan, exp_r2)
+    exp_noe = np.where(exp_noe == -99.0, np.nan, exp_noe)
+
+    # R1 Panel
+    axes[0].plot(residues, calc_r1, 'b-', label='Calculated SPINDLE Fit', linewidth=2)
+    axes[0].scatter(residues, exp_r1, c='k', label='Experimental Data', s=20, zorder=3)
+    axes[0].set_ylabel(r"$R_1$ ($s^{-1}$)")
+    axes[0].legend(loc='upper right')
+    axes[0].set_title("Experimental vs Back-Calculated Relaxation Rates")
+    
+    # R2 Panel
+    axes[1].plot(residues, calc_r2, 'r-', label='Calculated SPINDLE Fit', linewidth=2)
+    axes[1].scatter(residues, exp_r2, c='k', label='Experimental Data', s=20, zorder=3)
+    axes[1].set_ylabel(r"$R_2$ ($s^{-1}$)")
+    
+    # NOE Panel
+    axes[2].plot(residues, calc_noe, 'g-', label='Calculated SPINDLE Fit', linewidth=2)
+    axes[2].scatter(residues, exp_noe, c='k', label='Experimental Data', s=20, zorder=3)
+    axes[2].set_ylabel(r"hetNOE ($\{^1\text{H}\}\text{--}^{15}\text{N}$)")
+    axes[2].set_xlabel("Residue Index")
+
+    plt.tight_layout()
+    out_file = f"{output_prefix}_fits.{file_format}"
+    plt.savefig(out_file, format=file_format, dpi=300)
+    print(f"Experimental fits plot saved to {out_file}")
+    plt.close()
 
 def extract_attention_weights(models, input_data):
     """
@@ -329,7 +443,6 @@ def main():
     models = load_ensemble(args.field, args.model_dir)
     
     # 3. Run Inference
-    # Data shape needs to be (1, N_res, 3) for the model
     input_tensor = np.expand_dims(data, axis=0).astype(np.float32)
     print("Running ensemble inference...")
 
@@ -353,8 +466,6 @@ def main():
     tauc_std = tauc_std / calib['TAUC']['slope'] * error_mult['TAUC']['mult']
     
     # 5. Apply Calibration (Bias Correction)
-    #local_corrected_mean, local_corrected_err = apply_calibration(local_mean, local_err, calib, error_mult)
-    # Calculate Mean and Uncertainty (Std Dev)
     local_corrected_mean = np.mean(local_preds, axis=0) # Shape: (N_res, 3)
     local_corrected_err  = np.std(local_preds, axis=0)
     local_corrected_mean[:, 0] = local_corrected_mean[:, 0] * 1000.0
@@ -386,7 +497,7 @@ def main():
     taue_ambiguous = np.array(taue_ambiguous)
     rex_ambiguous = np.array(rex_ambiguous)
 
-    # 7. Save Results to CSV with expanded quality tracking
+    # 7. Save Results to CSV and NEF
     out_csv = f"{args.out}_results.csv"
     print(f"Global tau_c: {tauc_mean:.2f} ± {tauc_std:.2f} ns")
     
@@ -401,13 +512,35 @@ def main():
                     f"{entropy_vals[i]:.3f},"
                     f"{tauc_mean:.3f}\n")
     print(f"Results saved to {out_csv}")
+
+    # Generate NEF Output for BMRB Deposition
+    write_nef_format(
+        residues,
+        local_corrected_mean[:, 1], local_corrected_err[:, 1], # S2
+        local_corrected_mean[:, 0], local_corrected_err[:, 0], # tauE
+        local_corrected_mean[:, 2], local_corrected_err[:, 2], # Rex
+        tauc_mean,
+        args.out
+    )
     
-    # 8. Generate Dashboard with decoupled flags passed through
+    # 8. Generate Dashboard
     generate_dashboard(residues, local_corrected_mean, local_corrected_err,
                        s2_ambiguous, taue_ambiguous, rex_ambiguous, tauc_mean,
                        args.out, args.file_format)
 
-    # 9. (Optional) Run Explainable AI Analysis
+    # 9. Generate Fits Plot
+    print("Back-calculating relaxation rates for fit assessment...")
+    calc_r1, calc_r2, calc_noe = back_calculate_rates(
+        args.field,
+        local_corrected_mean[:, 1], # S2
+        local_corrected_mean[:, 0], # tauE
+        local_corrected_mean[:, 2], # Rex
+        tauc_mean                   # Global tauC
+    )
+    
+    plot_experimental_fits(residues, data, calc_r1, calc_r2, calc_noe, args.out, args.file_format)    
+
+    # 10. (Optional) Run Explainable AI Analysis
     if args.explain:
         # Note: We use the *calibrated* values for S2 and Rex to plot against attention
         att_weights = extract_attention_weights(models, input_tensor)
