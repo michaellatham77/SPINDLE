@@ -35,7 +35,7 @@ The network takes a variable-length sequence (length $L$) of relaxation paramete
 git clone https://github.com/michaellatham77/SPINDLE.git
 cd SPINDLE
 ```
-### 2. Clone the Repository
+### 2. Set up virtual environment
 ```
 python3 -m venv spindle
 source spindle/bin/activate  # On Windows use: venv\Scripts\activate
@@ -62,9 +62,10 @@ Run SPINDLE on a sample dataset using the pre-trained weights for your specific 
     -m models \
     -p pdf
 ```
+For explainability (i.e., attention scores) mapped on to predicted $S^2$ and $R_{ex}$ add ```-e``` argument to the above command.
 
 ## Running SPINDLE via Juypter notebook
-
+Coming soon!
 
 
 ## Repository Structure
