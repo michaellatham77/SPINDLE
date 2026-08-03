@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.10+](https://img.shields.io/badge/TensorFlow-2.10+-orange.svg)](https://tensorflow.org)
-[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41592--000--00000--0-blue)](https://doi.org)
+[![DOI](https://img.shields.io/badge/DOI-10.64898%2F2026.07.31.742133-blue)](https://www.biorxiv.org/content/10.64898/2026.07.31.742133v1)
 
-**SPINDLE** (**SPIN** **D**ynamics **L**earning **E**nsemble) is a multitask Bidirectional LSTM network with Multi-Head Self-Attention designed to rapidly predict Model-Free NMR relaxation parameters directly from backbone experimental data ($R_1$, $R_2$, and $\{^1\text{H}\}\text{--}^{15}\text{N}$ NOE) collected at a single static magnetic field.
+**SPINDLE** (**SPIN** dynamics from **D**eep **L**earning **E**nsemble) is a multitask Bidirectional LSTM network with Multi-Head Self-Attention designed to rapidly predict Model-Free NMR relaxation parameters directly from backbone experimental data ($R_1$, $R_2$, and $\{^1\text{H}\}\text{--}^{15}\text{N}$ NOE) collected at a single static magnetic field.
 
 ---
 
@@ -96,12 +96,12 @@ SPINDLE/
 
 If you use SPINDLE in your research, please cite our manuscript:
 ```bibtex
-@article{[],
-    title={},
-    author{[Olivia Krise and Michael P Latham]},
-    journal={[]},
-    year={[2026]},
-    doi={}
+@article{krise2026,
+    title={SPINDLE: Unlocking protein dynamics from single-field NMR relaxation at a using a deep learning ensemble},
+    author{Olivia E Krise and Michael P Latham},
+    journal={bioRxiv},
+    year={2026},
+    doi={https://doi.org/10.64898/2026.07.31.742133}
 }
 ```
 ## Contact and Support
