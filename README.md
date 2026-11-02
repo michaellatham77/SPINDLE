@@ -4,6 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.10+](https://img.shields.io/badge/TensorFlow-2.10+-orange.svg)](https://tensorflow.org)
 [![DOI](https://img.shields.io/badge/DOI-10.64898%2F2026.07.31.742133-blue)](https://www.biorxiv.org/content/10.64898/2026.07.31.742133v1)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/milatham/SPINDLE/blob/main/SPINDLE.ipynb)
 
 **SPINDLE** (**SPIN** dynamics from **D**eep **L**earning **E**nsemble) is a multitask Bidirectional LSTM network with Multi-Head Self-Attention designed to rapidly predict Model-Free NMR relaxation parameters directly from backbone experimental data ($R_1$, $R_2$, and $\{^1\text{H}\}\text{--}^{15}\text{N}$ NOE) collected at a single static magnetic field.
 
@@ -28,7 +29,14 @@ The network takes a variable-length sequence (length $L$) of relaxation paramete
 
 ---
 
-## Installation
+## Cloud Execution (Recommended)
+The easiest way to use SPINDLE is through Google Colab. The cloud notebook automatically provisions a stable environment and fetches the required neural network weights directly from the [milatham/SPINDLE Hugging Face repository](https://huggingface.co/milatham/SPINDLE). 
+
+Simply click the **Open in Colab** badge at the top of this README, upload your data, and execute the cells.
+
+---
+
+## Local Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -63,10 +71,6 @@ Run SPINDLE on a sample dataset using the pre-trained weights for your specific 
     -p pdf
 ```
 For explainability (i.e., attention scores) mapped on to predicted $S^2$ and $R_{ex}$ add ```-e``` argument to the above command.
-
-## Running SPINDLE via Juypter notebook
-Coming soon!
-
 
 ## Repository Structure
 ```Plaintext
