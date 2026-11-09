@@ -5,7 +5,6 @@
 [![TensorFlow 2.10+](https://img.shields.io/badge/TensorFlow-2.10+-orange.svg)](https://tensorflow.org)
 [![DOI](https://img.shields.io/badge/DOI-10.64898%2F2026.07.31.742133-blue)](https://www.biorxiv.org/content/10.64898/2026.07.31.742133v1)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/milatham/SPINDLE/blob/main/SPINDLE.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/milatham/SPINDLE/blob/main/SPINDLE.ipynb)
 
 **SPINDLE** (**SPIN** dynamics from **D**eep **L**earning **E**nsemble) is a multitask Bidirectional LSTM network with Multi-Head Self-Attention designed to rapidly predict Model-Free NMR relaxation parameters directly from backbone experimental data ($R_1$, $R_2$, and $\{^1\text{H}\}\text{--}^{15}\text{N}$ NOE) collected at a single static magnetic field.
 
